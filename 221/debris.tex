@@ -1,0 +1,141 @@
+\section{Using limit properties to show a limit does \emph{not} exist}
+The limit properties tell us how to prove that certain limits exist (and
+how to compute them).  Although it is perhaps not so obvious at first
+sight, they also allow you to prove that certain limits do not exist.  
+This section shows a few examples of how to do this.  These examples
+have one thing in common, namely they involve \emph{indirect reasoning},
+or, \emph{proof by contradiction}.  This means that in all these examples
+where we want to show that a certain limit $\lim_{x\to a} f(x)$ cannot
+exist, we begin by saying ``well, suppose that the limit actually did
+exist, and suppose it is $\lim_{xto a} f(x) = L$'';  we then use the
+limit properties and after some reasoning arrive at a conclusion which
+we know is blatantly false (e.g.~``$0=1$'').  
+A correct reasoning which leads to a false conclusion must have
+started from a false assumption.  The only assumption we made was that
+$\lim_{x\to a} f(x)$ exists, and this assumption must therefore have
+been wrong.
+
+
+\subsection{Trying to divide by zero using a limit}%
+\label{sec:xinverse-atzero-nolimit}%
+The expression $1/0$ is not defined, but someone could try to give it
+a meaning by computing
+\[
+\lim_{x\to0}\frac1x.
+\]
+After all that's what we did in Chapter 2, equation
+\eqref{eq:tangent-slope-found}, when we computed the slope of the
+tangent to a graph: we wanted to compute $\frac00$, and since $0/0$ is
+not defined we replaced the fraction by a limit.  That worked and
+allowed us to find the slope of the tangent to a parabola and later on
+to other curves.  So now we ask: can you define $1/0$ by computing the
+limit $\lim_{x\to0} 1/x$?
+
+It turns out the answer is ``no'' because the limit does not exist.
+Here are two reasons:
+
+It is common wisdom that if you divide by a small number you get a large
+number, so as $x\searrow 0$ the quotient $1/x$ will not be able to stay
+close to any particular finite number, and the limit can't exist.
+
+``Common wisdom'' is not always a reliable tool in mathematical proofs, so
+here is a better argument.  The limit can't exist, because that would
+contradict the limit properties $(P_1)\cdots(P_6)$.  Namely, suppose that
+there were an number $L$ such that
+\[
+\lim_{x\to0} \frac 1 x = L.
+\]
+Then the limit property $(P_5)$ would imply that
+\[
+\lim_{x\to0}\bigl(\frac 1x\cdot x \bigr) = \bigl(\lim_{x\to0}\frac
+1x\bigr)\cdot \bigl(\lim_{x\to0} x\bigr) = L\cdot 0 =0.
+\]
+On the other hand $\frac 1x \cdot x =1$ so the above limit should be 1!  A
+number can't be both 0 and 1 at the same time, so we have a
+contradiction. The assumption that $\lim_{x\to0}1/x$ exists is to blame, so
+it must go.
+
+\subsection{Another Example}
+Does the limit
+\begin{equation}
+  \label{eq:03nolimit-bycontradiction}
+  \lim_{x\to 0} \frac 1x-x
+\end{equation}
+exist? 
+
+In \S~\ref{sec:xinverse-atzero-nolimit} we saw that the first term
+($1/x$) has no limit at $x=0$. We know that the second term ($-x$) does have
+a limit.  Therefore we could guess that the combination will not have
+a limit:  ``the $1/x$ goes to $\pm\infty$, and the $x$ term is too
+small to change that.''  To replace the guess by a watertight proof
+using the limit properties, we argue by contradiction:
+
+Let's suppose that what we want to prove is actually not true: in this
+case, let's suppose that the limit in \eqref{eq:03nolimit-bycontradiction} does
+exist.  
+
+If you assume the limit \eqref{eq:03nolimit-bycontradiction} exists,
+then, since we know $\lim_{x\to0}x=0$ exists, the limit properties
+tell us that
+\[
+L=
+\lim_{x\to 0} \bigl(\frac1x-x +x\bigr) 
+=\lim_{x\to  0} \bigl(\frac1x-x\bigr) + \lim_{x\to 0} x
+\]
+should also exist.  But
+\[
+L=\lim_{x\to 0} \bigl(\frac1x-x +x\bigr) 
+=\lim_{x\to  0} \frac1x
+\]
+and we know that this limit does \emph{not} exist
+(\S\ref{sec:xinverse-atzero-nolimit} above).  
+That's our contradiction:  we have a limit $L$ which both exists and does
+not exist.  That  can't be, so our assumption in the beginning, namely
+that the limit \eqref{eq:03nolimit-bycontradiction} exists, must be wrong.
+
+
+\subsection{Limits at $\infty$ that don't exist}%
+\label{ex:lim-at-infty-that-fails}%
+If you let $x$ go to $\infty$, then $x$ will not get ``closer and closer''
+to any particular number $L$, so it seems reasonable to guess that
+\[
+\lim_{x\to\infty}x\text{ does not exist.}
+\]
+You can prove this from the limit definition using an $\varepsilon$, and
+there is also an easier indirect proof like the one we did above in
+\S\ref{sec:xinverse-atzero-nolimit}.  You are
+asked to provide it in exercise \ref{ex:limx-dne}.
+Assuming that you've done exercise \ref{ex:limx-dne}, and that
+we can now be sure that $\lim_{x\to\infty} x$ really does not exist,
+we can also compute the limits of rational functions as $x\to\infty$
+in the case we didn't do before in
+\S\ref{sec:lim-at-infty-of-rationalfunction}.
+
+Let's consider
+\[
+L=\lim_{x\to\infty} \frac{x^2+2x-1}{x+2}.
+\]
+Once again we factor the highest occurring powers of $x$ from
+numerator and denominator,
+\[
+L=\lim_{x\to\infty}\frac{x^2}{x}\;\frac{1+2/x-1/x^2}{1+2/x}
+=\lim_{x\to\infty}x\; \frac{1+2/x-1/x^2}{1+2/x}.
+\]
+The limit properties would let us write this as
+\[
+L=
+\Bigl(\lim_{x\to\infty} \lim_{x\to\infty}x\Bigr) \times
+\Bigl(\lim_{x\to\infty} \frac{1+2/x-1/x^2}{1+2/x}\Bigr)
+\]
+if only both limits existed.  But the first limit, $\lim_{x\to\infty}
+x$ doesn't exist, so we're not allowed to use the limit properties in
+this way.  We have to reason indirectly -- here goes:
+
+Suppose the limit $L$ exists.  Then the following limit should also
+exist:
+\[
+L\times \lim_{x\to\infty} \frac{1+2/x}{1+2/x-1/x^2}
+=\lim_{x\to\infty}x\; \frac{1+2/x-1/x^2}{1+2/x} \frac{1+2/x}{1+2/x-1/x^2}.  
+=\lim_{x\to\infty}x.
+\]
+

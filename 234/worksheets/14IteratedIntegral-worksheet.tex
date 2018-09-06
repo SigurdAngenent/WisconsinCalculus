@@ -1,0 +1,143 @@
+\documentclass[11pt]{amsart}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{url}
+\usepackage{eucal}
+
+
+\newcommand\version{0.9}
+\newcommand\semester{Fall 2009}
+\input{free-macros234.tex}
+
+\begin{document}
+\hrule
+
+\vspace{3pt}\noindent
+Math 234 \hfill \semester%
+\vspace{3pt}\noindent
+\hrule
+\bigskip
+\begin{center}
+  \bfseries Iterated Integrals
+\end{center}
+\bigskip
+
+An iterated integral is an expression of this form:
+\[
+\int_a^b\Bigl\{\int_{c(x)}^{d(x)} f(x, y) \; dy \Bigr\}dx
+\]
+Usually the big braces ``$\{$'' and ``$\}$'' are omitted and the
+iterated integral is written as
+\[
+\int_a^b\int_{c(x)}^{d(x)} f(x, y) \; dy\; dx.
+\]
+The ``inner integral'' is with respect to $y$, and there the
+$x$ variable is to be considered ``frozen.''
+\vfill
+
+\problem Compute these iterated integrals: % {{{2
+\bigskip
+
+\subprob $\DS \int_0^1 \int_0^4 x \;dy\; dx$ % {{{3
+
+\answer
+2
+\endanswer
+
+\subprob $\DS \int_0^1 \int_0^4 x \;dx\; dy$ % {{{3
+
+\answer
+8
+\endanswer
+
+\subprob $\DS \int_{-1}^1 \int_0^{x^2} \; dy\;  dx$ % {{{3
+\answer
+$2/3$
+\endanswer
+
+\subprob $\DS \int_0^1 \int _0^y \frac{\sin y}{y}\; dx\; dy$ % {{{3
+\answer
+$\DS \int_0^\pi \int _0^y \frac{\sin y}{y}\; dx\; dy
+=
+\int_0^\pi \frac{\sin y}{y} \cdot y \; dy = \int_0^\pi \sin y \; dy =
+2$.
+\endanswer
+
+\vfill
+
+\problem What is wrong with the iterated integral % {{{2
+$\DS\int_x^1 \Bigl\{\int_0^1 \sin(\pi x) dx \Bigr\}dy$? 
+
+Is the answer a number -- does it depend on $x$ or $y$?
+\answer
+Once you compute the inner integral
+\[
+\int_0^1 \sin(\pi x) dx  = \left[ -\cos\pi x \right]_{x=0}^1
+=-\cos \pi - (-\cos 0) = 2,
+\]
+you get 
+\[
+\int_x^1 \Bigl\{\int_0^1 \sin(\pi x) dx \Bigr\}dy
+=\int_x^1 2dy = \left[ 2y \right]_{y=x}^1 = 2(1-x).
+\]
+The result depends on $x$.  The $x$ in the answer and the two $x$-es
+in the inner integral refer to different quantities.  This is at best
+confusing, and should really never be done.
+\endanswer
+
+\vfill
+
+\problem Is the following true or false? % {{{2
+\begin{center}
+  \textit{For any two functions $f(x)$ and $g(y)$ one has}
+\end{center}
+\[
+\int_0^1 \int_0^2 f(x) g(y) \; dx\; dy
+= 
+\int_0^1 f(x) \; dx\; \times\; 
+\int_0^2 g(y)\; dy\; .
+\]
+Explain your answer (if you claim ``true'' give a proof, if you claim
+``false'' give a counterexample.)
+\answer
+This is almost true, but in fact false.  The correct statement which
+looks like the one in the problem is
+\begin{center}
+  \textit{For any two functions $f(x)$ and $g(y)$ one has}
+\end{center}
+\[
+\int_0^1 \int_0^2 f(x) g(y) \; dx\; dy
+= 
+\int_0^2 f(x) \; dx\; \times\; 
+\int_0^1 g(y)\; dy\; .
+\]
+(what's the difference?  Look at the integration bounds!)
+To give a counterexample for the statement in the problem, almost any
+two functions $f$ and $g$ will do, as long as $f$ is not a constant multiple of
+$g$.  For instance, if you choose $f(x) = x$, $g(y)=1$, then you get
+\[
+\int_0^1 \int_0^2 f(x) g(y) \; dx\; dy= \int_0^1\int_0^2 xdx dy = 2.
+\]
+but
+\[
+\int_0^1 f(x) \; dx\; \times\; 
+\int_0^2 g(y)\; dy
+=
+\int_0^1 x \; dx\; \times\; 
+\int_0^2  dy
+=
+\frac{1}{2}\times2 = 1.
+\]
+\endanswer
+
+\newpage
+\immediate\closeout\ans
+\begin{center}
+  \bfseries Answers
+\end{center}
+
+\bigskip
+\begin{trivlist}
+\input answersANDhints
+\end{trivlist}
+\end{document}

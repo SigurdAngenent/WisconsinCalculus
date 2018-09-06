@@ -1,0 +1,222 @@
+
+\project{Limits}
+\section{Purpose of this project}
+
+We will explore how limits can be used to solve interesting problems,
+some of which were ``paradoxes'' for thousands of years before
+calculus came to the rescue.  In the next chapter of the notes, we
+will see how limits can be used to formally define a notion of a
+``derivative.''  In this project, we will use the limit for something
+else: trying to figure out distances traveled and areas under curves
+(which will later be called an \textit{integral}).  This project is
+theoretical in nature.  However, students who put time into trying to
+fully understand the concepts involved will surely be rewarded for
+their efforts!
+
+\section{Overview}
+
+While the concept of the ``limit'' may seem hard to grasp, it is not
+an exaggeration to say that it is \textit{the} conceptual breakthrough
+that allowed for calculus to be developed (and, hence, all the nice
+things that followed: air travel, mp3 players, etc.).  As we have
+already seen, the limit is the necessary concept required to define a
+derivative.  However, there is another object in calculus, the
+\textit{integral}, that will be defined in the coming chapters and
+that relies on the concept of a limit as well.  This project will
+include our first computation of an integral, though we will not
+formally make this connection until later in the semester.  We will
+also point out how our computation of an integral is related to an
+ancient paradox.
+
+\section{A (seeming?) paradox}
+
+The following is a version of a paradox usually attributed to the
+Greek philosopher Zeno\footnote{See, for example,
+  \url{http://en.wikipedia.org/wiki/Zeno's_paradoxes}.}: \vspace{.1in}
+
+\noindent Imagine that a person is walking towards a wall that is
+currently one mile away.  It seems that this person should have no
+trouble walking to the wall.  However, we will consider a different
+way to think about how much distance this person must travel to reach
+the wall:
+\begin{enumerate}%[(i.)]
+\item The person must walk half to the wall, yielding a total distance
+  of 1/2 mile.  This leaves 1/2 mile to go.
+\item The person must walk one half of the remaining 1/2 mile.  This
+  leaves 1/4 mile to go.
+\item The person must walk one half of the remaining 1/4 mile.  This
+  leaves 1/8 mile to go.
+  \[\vdots\]
+\end{enumerate}
+Therefore, we have broken the interval of one mile down into an
+infinite number of finite pieces of length
+\[
+1/2, \quad 1/4,\quad 1/8,\quad 1/16,\quad etc.,
+\]
+and so the total distance that must be traveled must be infinity!
+Hence, \textit{the person should never reach the wall!}  Another way
+to put this is that the requirement of walking a mile has been broken
+into an infinite number of tasks (walking half of the remaining
+distance over and over again), and this should be impossible.
+
+\subsection{A resolution}
+
+If the above argument does not sit well with you, then you have good
+intuition.  Our resolution of the ``paradox'' rests on limits at
+infinity (page 29 of the notes).  We will let $f(n)$ denote the
+distance traveled by our wanderer after completion of the first $n$
+``tasks'' as described in the section above.  Thus, we see
+\begin{align*}
+  f(1) &= \frac{1}{2}\\[1ex]
+  f(2) &= \frac{1}{2} + \frac{1}{4}  = \frac{3}{4}\\[1ex]
+  f(3) &=  \frac{1}{2} + \frac{1}{4}  + \frac{1}{8} = \frac{3}{4} + \frac{1}{8} = \frac{7}{8}\\[1ex]
+  &\vdots\\[1ex]
+  f(n) &= \frac{1}{2} + \frac{1}{4} + \cdots + \frac{1}{2^n} =
+  \frac{2^n - 1}{2^n} = 1 - \frac{1}{2^n}.
+\end{align*}
+Therefore, using the Limit Property (P4) on page 39 of the text, with the
+conclusion of Example 5.5 on page 37, we have that
+\[
+\lim_{n \to \infty} f(n) = \lim_{n\to \infty} \left(1 -
+  \frac{1}{2^n}\right) = 1 - \lim_{n \to \infty} \frac{1}{2^n} = 1.
+\]
+Thus, even with the perspective of breaking the interval up into an
+infinite number of intervals, we arrive at the (reasonable) conclusion
+that the total distance traveled is one mile.
+
+\section{Area under a triangle}
+
+We now turn to a seemingly disparate topic: what is the area of a
+triangle?  More specifically, consider the graph of the function $f(x)
+= x$ on the interval $[0,1]$.  The space between the $x$-axis and
+$f(x)$ for $x\in [0,1]$ makes a triangle and we want to know the area.
+We will solve this problem in two ways.  The first is using simple
+geometry, and will be familiar to everyone.  The second uses limits
+and is a precursor to the much deeper idea of \textit{integration}
+that you will be exposed to later in the course.
+
+\vspace{.2in}
+
+\noindent \textbf{Solution 1.}  The triangle has height equal to one,
+and a base of size one.  Hence, the area of the triangle is
+\[
+\frac{1}{2} \cdot \text{base} \times \text{height} = \frac{1}{2}.
+\]
+
+\vspace{.1in}
+
+\noindent \textbf{Solution 2.} Limits commonly arise when we wish to
+make an approximation precise.  This is what we will do here.  More
+precisely, we will make a series of approximations, with the $n$th
+approximation denote by $A(n)$.  We will only assume that we know how
+to compute the area of rectangle.
+
+For $n \in \{1,2,3,\dots\}$, we will break the interval $[0,1]$ up
+into $n$ equally spaced intervals.  That is,
+\begin{enumerate}
+\item For $n = 1$, there is only one interval, $[0,1]$.
+\item For $n = 2$, there are two intervals, $[0,1/2]$ and $[1/2,1]$.
+\item For $n = 3$, there are three intervals, $[0,1/3]$, $[1/3,2/3]$
+  and $[2/3,1]$.
+\item The $n$ intervals for an arbitrary integer $n$ are
+  \[
+  [0,1/n], [1/n,2/n], \dots, [(n-1)/n, 1].
+  \]
+\end{enumerate}
+Now, we will approximate the area of the space between the graph of
+$f(x)$ and the $x$-axis on each subinterval,
+\[
+[i/n,(i+1)/n],
+\]
+by the area of a rectangle, which we know how to compute.  Since $f(x)
+= x$ for all $x$, we know that
+\[
+f(i/n) = i/n
+\]
+and we can approximate the area of the $i$th subinterval by
+\[
+f(i/n)\times \frac{1}{n} = \frac{i}{n} \frac{1}{n} = \frac{i}{n^2}.
+\]
+Adding up all these areas then yields the approximation (note that the
+first interval is always being evaluated at the left endpoint, or
+zero)
+\[
+A(n) = \sum_{i = 0}^{n-1} \frac{i}{n^2} = 0\times \frac{1}{n^2} +
+1\times \frac{1}{n^2} + 2 \times \frac{1}{n^2} + \cdots + (n-1)
+\frac{1}{n^2}.
+\]
+Note that $n$ is fixed in the above sum!
+
+\section{Problems}
+\problemfont
+\problem Draw a detailed picture of the preceding argument.  More
+specifically, for $n = 3, 4$, and $5$,
+
+\subprob Plot $f(x) = x$ on the interval $[0,1]$.
+
+\subprob Break the interval up into $n$ evenly spaced subintervals.
+
+\subprob Show the area of the rectangles being computed.
+
+\subprob Compute the approximate area for each $n\in \{3,4,5\}$.
+
+\problem Let $m$ be an arbitrary integer.  We will compute
+\[
+1 + 2 + \cdots + m.
+\]
+To do so, let $S(m)$ be the (unknown) sum and add the following
+vertically:
+\[
+\begin{array}[h]{c*{11}{@{}c}}
+  &1& +& 2 &+& \cdots& + &(m-1)& +&  m &\;=\;& S(m)\\
+ \rule[-6pt]{0pt}{14pt}
+ & m& +& (m - 1)& +& \cdots& + &2& + &1 & = &S(m)\\
+ \cline{2-12}
+ \rule{0pt}{14pt}
+  \implies& (m+1)& +& (m + 1)& +& \cdots&+& (m+1)& +& (m+1) &=& 2S(m)
+\end{array}
+\]
+Conclude that
+\[
+S(m) = \frac{m(m+1)}{2}.
+\]
+
+
+\problem
+Show that
+\[
+A(n) = \frac{n - 1}{2n} = \frac{1}{2} - \frac{1}{2n}.
+\]
+where $A(n)$ is the approximate to the area of the triangle after
+breaking $[0,1]$ into $n$ subintervals.  Conclude that
+\[
+\lim_{n \to \infty} A(n) = \frac{1}{2}.
+\]
+
+\noproblemfont
+\bigskip
+
+\section*{Report Instructions}
+Write a few paragraphs describing Zeno's paradox and its resolution.
+In particular, note that the results from the class notes (page 29)
+allowed us to conclude that
+\[
+\lim_{n \to \infty} \frac{1}{n} = 0,
+\]
+whereas we used that
+\[
+\lim_{n \to \infty} \frac{1}{2^n} = 0.
+\]
+Why is this okay to do?  Explain.
+
+Write a few paragraphs describing how to compute the area of a
+triangle.  Be sure to include solutions to all of the exercises.  Note
+especially that the second method of computing the area is much harder
+than the first.  However, what if the function we were approximating,
+$f$, where not a straight line, but had a ``curve'' to it (like a sine
+function)?  Say a few words on how one may hope to find the area
+between its plot and the $x$-axis.  Note that you \textit{could not}
+simply resort to using a straight geometric argument like we could for
+the triangle.  We will formalize this method (and call it the
+\textit{definite integral}) in later chapters.
+

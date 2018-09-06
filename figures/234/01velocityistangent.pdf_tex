@@ -1,0 +1,60 @@
+%% Creator: Inkscape inkscape 0.48.2, www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file '01velocityistangent.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{109.33094482bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,1.26910437)%
+    \put(0,0){\includegraphics[width=\unitlength]{01velocityistangent.pdf}}%
+    \put(0.67325898,0.87541137){\color[rgb]{0,0,0}\rotatebox{-25.09609357}{\makebox(0,0)[b]{\smash{Δx}}}}%
+    \put(0.16250086,1.18552647){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{v = dx/dt}}}%
+    \put(0.63962393,0.60034943){\color[rgb]{0,0,0}\rotatebox{47.27528342}{\makebox(0,0)[b]{\smash{x(t)}}}}%
+    \put(0.44832356,0.71732604){\color[rgb]{0,0,0}\rotatebox{68.61633235}{\makebox(0,0)[b]{\smash{x(t+Δt)}}}}%
+    \put(0.88122406,0.90511308){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{X(t)}}}%
+    \put(0.38365221,0.36363783){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{O}}}%
+  \end{picture}%
+\endgroup%

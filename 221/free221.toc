@@ -1,0 +1,327 @@
+\contentsline {chapter}{\tocchapter {Chapter}{1}{Numbers and Functions}}{8}{chapter.1}
+\contentsline {section}{\tocsection {}{1}{Numbers}}{8}{section.1.1}
+\contentsline {subsection}{\tocsubsection {}{1.1}{Different kinds of numbers}}{8}{subsection.1.1.1}
+\contentsline {subsection}{\tocsubsection {}{1.2}{A reason to believe in $\sqrt 2$}}{8}{subsection.1.1.2}
+\contentsline {subsection}{\tocsubsection {}{1.3}{Decimals}}{9}{subsection.1.1.3}
+\contentsline {subsection}{\tocsubsection {}{1.4}{Why are real numbers called real? }}{9}{subsection.1.1.4}
+\contentsline {subsection}{\tocsubsection {}{1.5}{Reasons not to believe in $\infty $}}{10}{subsection.1.1.5}
+\contentsline {subsection}{\tocsubsection {}{1.6}{The real number line and intervals}}{10}{subsection.1.1.6}
+\contentsline {subsection}{\tocsubsection {}{1.7}{Set notation}}{11}{subsection.1.1.7}
+\contentsline {section}{\tocsection {}{2}{Problems}}{12}{section.1.2}
+\contentsline {section}{\tocsection {}{3}{Functions}}{13}{section.1.3}
+\contentsline {subsection}{\tocsubsection {}{3.1}{Dependence}}{13}{subsection.1.3.1}
+\contentsline {subsection}{\tocsubsection {}{3.2}{Definition}}{13}{subsection.1.3.2}
+\contentsline {subsection}{\tocsubsection {}{3.3}{Graphing a function}}{13}{subsection.1.3.3}
+\contentsline {subsection}{\tocsubsection {}{3.4}{Linear functions}}{13}{subsection.1.3.4}
+\contentsline {subsection}{\tocsubsection {}{3.5}{Domain and ``biggest possible domain.'' }}{14}{subsection.1.3.5}
+\contentsline {subsection}{\tocsubsection {}{3.6}{Example -- find the domain and range of $f(x) = 1/x^2$}}{15}{subsection.1.3.6}
+\contentsline {subsection}{\tocsubsection {}{3.7}{Functions in ``real life''}}{15}{subsection.1.3.7}
+\contentsline {subsection}{\tocsubsection {}{3.8}{The Vertical Line Property}}{16}{subsection.1.3.8}
+\contentsline {subsection}{\tocsubsection {}{3.9}{Example -- a cubic function}}{16}{subsection.1.3.9}
+\contentsline {subsection}{\tocsubsection {}{3.10}{Example -- a circle is not a graph of a function $y=f(x)$}}{16}{subsection.1.3.10}
+\contentsline {section}{\tocsection {}{4}{Implicit functions}}{16}{section.1.4}
+\contentsline {subsection}{\tocsubsection {}{4.1}{Example}}{16}{subsection.1.4.1}
+\contentsline {subsection}{\tocsubsection {}{4.2}{Another example: domain of an implicitly defined function}}{17}{subsection.1.4.2}
+\contentsline {subsection}{\tocsubsection {}{4.3}{Example: the equation alone does not determine the function}}{17}{subsection.1.4.3}
+\contentsline {subsection}{\tocsubsection {}{4.4}{Why and when do we use implicit functions? Three examples}}{18}{subsection.1.4.4}
+\contentsline {section}{\tocsection {}{5}{Inverse functions}}{19}{section.1.5}
+\contentsline {subsection}{\tocsubsection {}{5.1}{Example -- inverse of a linear function}}{19}{subsection.1.5.1}
+\contentsline {subsection}{\tocsubsection {}{5.2}{Example -- inverse of $f(x) = x^2$}}{20}{subsection.1.5.2}
+\contentsline {subsection}{\tocsubsection {}{5.3}{Example -- inverse of $x^2$, again}}{20}{subsection.1.5.3}
+\contentsline {section}{\tocsection {}{6}{Inverse trigonometric functions}}{20}{section.1.6}
+\contentsline {section}{\tocsection {}{7}{Problems}}{22}{section.1.7}
+\contentsline {chapter}{\tocchapter {Chapter}{2}{Derivatives (1)}}{24}{chapter.2}
+\contentsline {section}{\tocsection {}{1}{The tangent line to a curve}}{24}{section.2.1}
+\contentsline {section}{\tocsection {}{2}{An example -- tangent to a parabola}}{25}{section.2.2}
+\contentsline {section}{\tocsection {}{3}{Instantaneous velocity}}{26}{section.2.3}
+\contentsline {section}{\tocsection {}{4}{Rates of change}}{27}{section.2.4}
+\contentsline {section}{\tocsection {}{5}{Examples of rates of change}}{27}{section.2.5}
+\contentsline {subsection}{\tocsubsection {}{5.1}{Acceleration as the rate at which velocity changes}}{27}{subsection.2.5.1}
+\contentsline {subsection}{\tocsubsection {}{5.2}{Reaction rates}}{28}{subsection.2.5.2}
+\contentsline {section}{\tocsection {}{6}{Problems}}{29}{section.2.6}
+\contentsline {chapter}{\tocchapter {Chapter}{3}{Limits and Continuous Functions}}{32}{chapter.3}
+\contentsline {section}{\tocsection {}{1}{Informal definition of limits}}{32}{section.3.1}
+\contentsline {subsection}{\tocsubsection {}{1.1}{Definition of limit (1st attempt)}}{32}{subsection.3.1.1}
+\contentsline {subsection}{\tocsubsection {}{1.2}{Example}}{33}{subsection.3.1.2}
+\contentsline {subsection}{\tocsubsection {}{1.3}{A complaint}}{33}{subsection.3.1.3}
+\contentsline {subsection}{\tocsubsection {}{1.4}{Example: substituting numbers to guess a limit}}{33}{subsection.3.1.4}
+\contentsline {subsection}{\tocsubsection {}{1.5}{Example: substituting numbers can suggest the wrong answer}}{34}{subsection.3.1.5}
+\contentsline {section}{\tocsection {}{2}{Problems}}{34}{section.3.2}
+\contentsline {section}{\tocsection {}{3}{The formal, authoritative, definition of limit}}{34}{section.3.3}
+\contentsline {subsection}{\tocsubsection {}{3.1}{Definition of $\qopname \relax m{lim}_{x\to a} f(x) = L$}}{34}{subsection.3.3.1}
+\contentsline {subsection}{\tocsubsection {}{}{Why the absolute values? }}{34}{section*.15}
+\contentsline {subsection}{\tocsubsection {}{}{What are $\varepsilon $ and $\delta $?}}{35}{section*.16}
+\contentsline {subsection}{\tocsubsection {}{3.2}{Show that $\qopname \relax m{lim}_{x\to 5}(2x+1)=11$ . }}{35}{subsection.3.3.2}
+\contentsline {subsection}{\tocsubsection {}{3.3}{The limit $\qopname \relax m{lim}_{x\to 1}x^2 = 1$, the triangle inequality, and the ``don't choose $\delta >1$'' trick}}{35}{subsection.3.3.3}
+\contentsline {subsection}{\tocsubsection {}{3.4}{Show that $\qopname \relax m{lim}_{x\to 4}1/x = 1/4$}}{37}{subsection.3.3.4}
+\contentsline {section}{\tocsection {}{4}{Problems}}{38}{section.3.4}
+\contentsline {section}{\tocsection {}{5}{Variations on the limit theme}}{39}{section.3.5}
+\contentsline {subsection}{\tocsubsection {}{5.1}{Left and right limits. }}{39}{subsection.3.5.1}
+\contentsline {subsection}{\tocsubsection {}{5.2}{Definition of right-limits}}{39}{subsection.3.5.2}
+\contentsline {subsection}{\tocsubsection {}{5.3}{Definition of left-limits}}{39}{subsection.3.5.3}
+\contentsline {subsection}{\tocsubsection {}{5.4}{Theorem}}{39}{subsection.3.5.4}
+\contentsline {subsection}{\tocsubsection {}{5.5}{Limits at infinity}}{39}{subsection.3.5.5}
+\contentsline {subsection}{\tocsubsection {}{5.6}{Example -- Limit of $1/x$}}{40}{subsection.3.5.6}
+\contentsline {section}{\tocsection {}{6}{Properties of the Limit}}{41}{section.3.6}
+\contentsline {section}{\tocsection {}{7}{Examples of limit computations}}{42}{section.3.7}
+\contentsline {subsection}{\tocsubsection {}{7.1}{Find $\qopname \relax m{lim}_{x\to 2}x^2$}}{42}{subsection.3.7.1}
+\contentsline {subsection}{\tocsubsection {}{7.2}{Try the examples \ref {ex:limit-by-sub-good} and \ref {ex:limit-by-sub-bad} using the limit properties}}{42}{subsection.3.7.2}
+\contentsline {subsection}{\tocsubsection {}{7.3}{Example -- Find $\qopname \relax m{lim}_{x\to 2}\sqrt x$}}{43}{subsection.3.7.3}
+\contentsline {subsection}{\tocsubsection {}{7.4}{Example -- The derivative of $\sqrt x$ at $x=2$}}{43}{subsection.3.7.4}
+\contentsline {subsection}{\tocsubsection {}{7.5}{Limit as $x\to \infty $ of Rational Functions}}{43}{subsection.3.7.5}
+\contentsline {subsection}{\tocsubsection {}{7.6}{Another example with a rational function}}{44}{subsection.3.7.6}
+\contentsline {section}{\tocsection {}{8}{When limits fail to exist}}{44}{section.3.8}
+\contentsline {subsection}{\tocsubsection {}{8.1}{Definition}}{44}{subsection.3.8.1}
+\contentsline {subsection}{\tocsubsection {}{8.2}{The sign function near $x=0$}}{45}{subsection.3.8.2}
+\contentsline {subsection}{\tocsubsection {}{8.3}{The example of the backward sine}}{45}{subsection.3.8.3}
+\contentsline {subsection}{\tocsubsection {}{8.4}{Limit properties for limits that don't exist}}{46}{subsection.3.8.4}
+\contentsline {subsection}{\tocsubsection {}{}{Theorem}}{46}{section*.31}
+\contentsline {section}{\tocsection {}{9}{Limits that equal $\infty $}}{46}{section.3.9}
+\contentsline {subsection}{\tocsubsection {}{9.1}{The limit of $1/x$ at $x=0$}}{46}{subsection.3.9.1}
+\contentsline {subsection}{\tocsubsection {}{9.2}{Trouble with infinite limits}}{47}{subsection.3.9.2}
+\contentsline {subsection}{\tocsubsection {}{9.3}{Limit as $x\to \infty $ of rational functions, again}}{47}{subsection.3.9.3}
+\contentsline {section}{\tocsection {}{10}{What's in a name? -- Free Variables and Dummy variables}}{48}{section.3.10}
+\contentsline {section}{\tocsection {}{11}{Limits and Inequalities}}{49}{section.3.11}
+\contentsline {subsection}{\tocsubsection {}{11.1}{Theorem}}{49}{subsection.3.11.1}
+\contentsline {subsection}{\tocsubsection {}{11.2}{The Sandwich Theorem}}{49}{subsection.3.11.2}
+\contentsline {subsection}{\tocsubsection {}{11.3}{Example: a Backward Cosine Sandwich. }}{49}{subsection.3.11.3}
+\contentsline {section}{\tocsection {}{12}{Continuity}}{50}{section.3.12}
+\contentsline {subsection}{\tocsubsection {}{12.1}{Definition}}{50}{subsection.3.12.1}
+\contentsline {subsection}{\tocsubsection {}{12.2}{Example. A polynomial that is continuous}}{50}{subsection.3.12.2}
+\contentsline {subsection}{\tocsubsection {}{12.3}{Example. Rational functions are continuous wherever they are defined}}{51}{subsection.3.12.3}
+\contentsline {subsection}{\tocsubsection {}{12.4}{Example of a discontinuous function}}{51}{subsection.3.12.4}
+\contentsline {subsection}{\tocsubsection {}{12.5}{Definition}}{51}{subsection.3.12.5}
+\contentsline {subsection}{\tocsubsection {}{12.6}{Removable discontinuities}}{51}{subsection.3.12.6}
+\contentsline {section}{\tocsection {}{13}{Substitution in Limits}}{52}{section.3.13}
+\contentsline {subsection}{\tocsubsection {}{13.1}{Theorem}}{52}{subsection.3.13.1}
+\contentsline {subsection}{\tocsubsection {}{13.2}{Example: compute $\qopname \relax m{lim}_{x\to 3}\sqrt {x^3-3x^2+2}$}}{52}{subsection.3.13.2}
+\contentsline {section}{\tocsection {}{14}{Problems}}{53}{section.3.14}
+\contentsline {section}{\tocsection {}{15}{Two Limits in Trigonometry}}{54}{section.3.15}
+\contentsline {subsection}{\tocsubsection {}{}{Theorem}}{54}{section*.33}
+\contentsline {subsection}{\tocsubsection {}{15.1}{The Cosine counterpart of \textup {\hbox {\mathsurround \z@ \normalfont (\ignorespaces \ref {eq:03trig-limit}\unskip \@@italiccorr )}}}}{55}{subsection.3.15.1}
+\contentsline {subsection}{\tocsubsection {}{15.2}{The Sine and Cosine of a small angle}}{56}{subsection.3.15.2}
+\contentsline {subsection}{\tocsubsection {}{15.3}{Another example of a removable discontinuity}}{56}{subsection.3.15.3}
+\contentsline {section}{\tocsection {}{16}{Problems}}{56}{section.3.16}
+\contentsline {section}{\tocsection {}{17}{Asymptotes}}{57}{section.3.17}
+\contentsline {subsection}{\tocsubsection {}{17.1}{Vertical Asymptotes}}{57}{subsection.3.17.1}
+\contentsline {subsection}{\tocsubsection {}{17.2}{Horizontal Asymptotes}}{57}{subsection.3.17.2}
+\contentsline {subsection}{\tocsubsection {}{17.3}{Slanted Asymptotes}}{58}{subsection.3.17.3}
+\contentsline {subsection}{\tocsubsection {}{17.4}{Asymptotic slope and intercept}}{58}{subsection.3.17.4}
+\contentsline {subsection}{\tocsubsection {}{17.5}{Example}}{58}{subsection.3.17.5}
+\contentsline {subsection}{\tocsubsection {}{17.6}{Example}}{59}{subsection.3.17.6}
+\contentsline {section}{\tocsection {}{18}{Problems}}{59}{section.3.18}
+\contentsline {chapter}{\tocchapter {Chapter}{4}{Derivatives (2)}}{61}{chapter.4}
+\contentsline {section}{\tocsection {}{1}{Derivatives Defined}}{61}{section.4.1}
+\contentsline {subsection}{\tocsubsection {}{1.1}{Definition}}{61}{subsection.4.1.1}
+\contentsline {subsection}{\tocsubsection {}{1.2}{Other notations}}{61}{subsection.4.1.2}
+\contentsline {section}{\tocsection {}{2}{Direct computation of derivatives}}{62}{section.4.2}
+\contentsline {subsection}{\tocsubsection {}{2.1}{Example -- The derivative of $f(x)= x^2$ is $f'(x) = 2x$ . }}{62}{subsection.4.2.1}
+\contentsline {subsection}{\tocsubsection {}{2.2}{The derivative of $g(x) = x$ is $g'(x) =1$}}{63}{subsection.4.2.2}
+\contentsline {subsection}{\tocsubsection {}{2.3}{The derivative of any constant function is zero}}{63}{subsection.4.2.3}
+\contentsline {subsection}{\tocsubsection {}{2.4}{Derivative of $x^n$ for $n=1, 2, 3, \ldots $}}{63}{subsection.4.2.4}
+\contentsline {section}{\tocsection {}{3}{Differentiable implies Continuous}}{64}{section.4.3}
+\contentsline {subsection}{\tocsubsection {}{3.1}{Theorem. }}{64}{subsection.4.3.1}
+\contentsline {section}{\tocsection {}{4}{Some non-differentiable functions}}{64}{section.4.4}
+\contentsline {subsection}{\tocsubsection {}{4.1}{A graph with a corner. }}{64}{subsection.4.4.1}
+\contentsline {subsection}{\tocsubsection {}{4.2}{A graph with a cusp. }}{65}{subsection.4.4.2}
+\contentsline {subsection}{\tocsubsection {}{4.3}{A graph with absolutely no tangents, {\bfseries \itshape anywhere}. }}{65}{subsection.4.4.3}
+\contentsline {section}{\tocsection {}{5}{Problems}}{65}{section.4.5}
+\contentsline {section}{\tocsection {}{6}{The Differentiation Rules}}{66}{section.4.6}
+\contentsline {subsection}{\tocsubsection {}{6.1}{Sum, Product, and Quotient Rules}}{66}{subsection.4.6.1}
+\contentsline {subsection}{\tocsubsection {}{6.2}{Proof of the Sum Rule}}{67}{subsection.4.6.2}
+\contentsline {subsection}{\tocsubsection {}{6.3}{Proof of the Product Rule}}{67}{subsection.4.6.3}
+\contentsline {subsection}{\tocsubsection {}{6.4}{Proof of the Quotient Rule}}{68}{subsection.4.6.4}
+\contentsline {subsection}{\tocsubsection {}{6.5}{A shorter, but not quite perfect derivation of the Quotient Rule}}{68}{subsection.4.6.5}
+\contentsline {subsection}{\tocsubsection {}{6.6}{Differentiating a constant multiple of a function}}{68}{subsection.4.6.6}
+\contentsline {subsection}{\tocsubsection {}{6.7}{Picture of the Product Rule}}{69}{subsection.4.6.7}
+\contentsline {section}{\tocsection {}{7}{Differentiating powers of functions}}{69}{section.4.7}
+\contentsline {subsection}{\tocsubsection {}{7.1}{Product rule with more than one factor}}{69}{subsection.4.7.1}
+\contentsline {subsection}{\tocsubsection {}{7.2}{The Power rule}}{70}{subsection.4.7.2}
+\contentsline {subsection}{\tocsubsection {}{7.3}{The Power Rule for Negative Integer Exponents}}{70}{subsection.4.7.3}
+\contentsline {subsection}{\tocsubsection {}{7.4}{The Power Rule for Rational Exponents}}{70}{subsection.4.7.4}
+\contentsline {subsection}{\tocsubsection {}{7.5}{Derivative of $x^n$ for integer $n$}}{71}{subsection.4.7.5}
+\contentsline {subsection}{\tocsubsection {}{7.6}{Example -- differentiate a polynomial}}{71}{subsection.4.7.6}
+\contentsline {subsection}{\tocsubsection {}{7.7}{Example -- differentiate a rational function}}{71}{subsection.4.7.7}
+\contentsline {subsection}{\tocsubsection {}{7.8}{Derivative of the square root}}{71}{subsection.4.7.8}
+\contentsline {section}{\tocsection {}{8}{Problems}}{71}{section.4.8}
+\contentsline {section}{\tocsection {}{9}{Higher Derivatives}}{72}{section.4.9}
+\contentsline {subsection}{\tocsubsection {}{9.1}{The derivative of a function is a function}}{72}{subsection.4.9.1}
+\contentsline {subsection}{\tocsubsection {}{9.2}{Two examples}}{73}{subsection.4.9.2}
+\contentsline {subsection}{\tocsubsection {}{9.3}{Operator notation}}{73}{subsection.4.9.3}
+\contentsline {section}{\tocsection {}{10}{Problems}}{73}{section.4.10}
+\contentsline {section}{\tocsection {}{11}{Differentiating trigonometric functions}}{74}{section.4.11}
+\contentsline {subsection}{\tocsubsection {}{11.1}{The derivative of $\qopname \relax o{sin}x$}}{74}{subsection.4.11.1}
+\contentsline {section}{\tocsection {}{12}{Problems}}{75}{section.4.12}
+\contentsline {section}{\tocsection {}{13}{The Chain Rule}}{76}{section.4.13}
+\contentsline {subsection}{\tocsubsection {}{13.1}{Composition of functions}}{76}{subsection.4.13.1}
+\contentsline {subsection}{\tocsubsection {}{13.2}{Example}}{76}{subsection.4.13.2}
+\contentsline {subsection}{\tocsubsection {}{13.3}{Theorem (Chain Rule)}}{77}{subsection.4.13.3}
+\contentsline {subsection}{\tocsubsection {}{13.4}{First proof of the Chain Rule (using Leibniz notation)}}{78}{subsection.4.13.4}
+\contentsline {subsection}{\tocsubsection {}{13.5}{Second proof of the Chain Rule}}{78}{subsection.4.13.5}
+\contentsline {subsection}{\tocsubsection {}{13.6}{Using the Chain Rule -- first example}}{79}{subsection.4.13.6}
+\contentsline {subsection}{\tocsubsection {}{13.7}{Example where we need the Chain Rule}}{80}{subsection.4.13.7}
+\contentsline {subsection}{\tocsubsection {}{13.8}{The Power Rule and the Chain Rule}}{80}{subsection.4.13.8}
+\contentsline {subsection}{\tocsubsection {}{13.9}{A more complicated example}}{80}{subsection.4.13.9}
+\contentsline {subsection}{\tocsubsection {}{13.10}{Related Rates -- the volume of an inflating balloon}}{81}{subsection.4.13.10}
+\contentsline {subsection}{\tocsubsection {}{13.11}{The Chain Rule and composing more than two functions}}{82}{subsection.4.13.11}
+\contentsline {subsection}{\tocsubsection {}{13.12}{Example--the three step chain rule using Leibniz' notation}}{82}{subsection.4.13.12}
+\contentsline {section}{\tocsection {}{14}{Problems}}{83}{section.4.14}
+\contentsline {section}{\tocsection {}{15}{Implicit differentiation}}{84}{section.4.15}
+\contentsline {subsection}{\tocsubsection {}{15.1}{The recipe}}{84}{subsection.4.15.1}
+\contentsline {subsection}{\tocsubsection {}{15.2}{Dealing with equations of the form $F_1(x,y) = F_2(x, y)$}}{85}{subsection.4.15.2}
+\contentsline {subsection}{\tocsubsection {}{15.3}{Example -- Derivative of $\sqrt [4]{1-x^4}$}}{85}{subsection.4.15.3}
+\contentsline {subsection}{\tocsubsection {}{15.4}{Another example}}{86}{subsection.4.15.4}
+\contentsline {subsection}{\tocsubsection {}{15.5}{Theorem -- The Derivatives of Inverse Trigonometric Functions}}{87}{subsection.4.15.5}
+\contentsline {section}{\tocsection {}{16}{Problems}}{87}{section.4.16}
+\contentsline {section}{\tocsection {}{17}{Problems on Related Rates}}{88}{section.4.17}
+\contentsline {chapter}{\tocchapter {Chapter}{5}{Graph Sketching and Max-Min Problems}}{91}{chapter.5}
+\contentsline {section}{\tocsection {}{1}{Tangent and Normal lines to a graph}}{91}{section.5.1}
+\contentsline {section}{\tocsection {}{2}{The Intermediate Value Theorem}}{91}{section.5.2}
+\contentsline {subsection}{\tocsubsection {}{2.1}{Intermediate Value Theorem}}{92}{subsection.5.2.1}
+\contentsline {subsection}{\tocsubsection {}{2.2}{Example -- Square root of 2}}{92}{subsection.5.2.2}
+\contentsline {subsection}{\tocsubsection {}{2.3}{Example -- The equation $2\theta +\qopname \relax o{sin}\theta =\pi $}}{93}{subsection.5.2.3}
+\contentsline {subsection}{\tocsubsection {}{2.4}{Example -- ``Solving $1/x=0$''}}{93}{subsection.5.2.4}
+\contentsline {section}{\tocsection {}{3}{Problems}}{93}{section.5.3}
+\contentsline {section}{\tocsection {}{4}{Finding sign changes of a function}}{94}{section.5.4}
+\contentsline {subsection}{\tocsubsection {}{4.1}{Theorem}}{94}{subsection.5.4.1}
+\contentsline {subsection}{\tocsubsection {}{4.2}{Example}}{94}{subsection.5.4.2}
+\contentsline {section}{\tocsection {}{5}{Increasing and decreasing functions}}{94}{section.5.5}
+\contentsline {subsection}{\tocsubsection {}{5.1}{Theorem}}{95}{subsection.5.5.1}
+\contentsline {subsection}{\tocsubsection {}{5.2}{Theorem}}{95}{subsection.5.5.2}
+\contentsline {subsection}{\tocsubsection {}{5.3}{The Mean Value Theorem}}{96}{subsection.5.5.3}
+\contentsline {section}{\tocsection {}{6}{Examples}}{97}{section.5.6}
+\contentsline {subsection}{\tocsubsection {}{6.1}{Example: the parabola $y=x^2$}}{97}{subsection.5.6.1}
+\contentsline {subsection}{\tocsubsection {}{6.2}{Example: the hyperbola $ y=1/x $}}{97}{subsection.5.6.2}
+\contentsline {subsection}{\tocsubsection {}{6.3}{Graph of a cubic function}}{98}{subsection.5.6.3}
+\contentsline {subsection}{\tocsubsection {}{6.4}{A function whose tangent turns up and down infinitely often near the origin}}{99}{subsection.5.6.4}
+\contentsline {section}{\tocsection {}{7}{Maxima and Minima}}{100}{section.5.7}
+\contentsline {subsection}{\tocsubsection {}{7.1}{How to find local maxima and minima}}{100}{subsection.5.7.1}
+\contentsline {subsection}{\tocsubsection {}{7.2}{Theorem}}{100}{subsection.5.7.2}
+\contentsline {subsection}{\tocsubsection {}{7.3}{How to tell if a stationary point is a maximum, a minimum, or neither}}{101}{subsection.5.7.3}
+\contentsline {subsection}{\tocsubsection {}{7.4}{Theorem}}{101}{subsection.5.7.4}
+\contentsline {subsection}{\tocsubsection {}{7.5}{Example -- local maxima and minima of $f(x) = x^3-3x$}}{102}{subsection.5.7.5}
+\contentsline {subsection}{\tocsubsection {}{7.6}{A stationary point that is neither a maximum nor a minimum}}{102}{subsection.5.7.6}
+\contentsline {section}{\tocsection {}{8}{Must a function always have a maximum?}}{102}{section.5.8}
+\contentsline {subsection}{\tocsubsection {}{8.1}{Theorem}}{102}{subsection.5.8.1}
+\contentsline {section}{\tocsection {}{9}{Examples -- functions with and without maxima or minima}}{102}{section.5.9}
+\contentsline {subsection}{\tocsubsection {}{9.1}{Question: }}{102}{subsection.5.9.1}
+\contentsline {subsection}{\tocsubsection {}{}{Answer: }}{103}{section*.51}
+\contentsline {subsection}{\tocsubsection {}{9.2}{Question: }}{103}{subsection.5.9.2}
+\contentsline {subsection}{\tocsubsection {}{}{Answer: }}{103}{section*.52}
+\contentsline {subsubsection}{\tocsubsubsection {}{}{Why did Theorem \ref {thm:max-min-exist} fail this time? }}{103}{section*.53}
+\contentsline {section}{\tocsection {}{10}{General method for sketching the graph of a function}}{103}{section.5.10}
+\contentsline {subsection}{\tocsubsection {}{10.1}{Example -- the graph of a rational function}}{104}{subsection.5.10.1}
+\contentsline {section}{\tocsection {}{11}{Convexity, Concavity and the Second Derivative}}{105}{section.5.11}
+\contentsline {subsection}{\tocsubsection {}{11.1}{Definition}}{105}{subsection.5.11.1}
+\contentsline {subsection}{\tocsubsection {}{11.2}{Theorem (convexity and concavity from the second derivative)}}{106}{subsection.5.11.2}
+\contentsline {subsection}{\tocsubsection {}{11.3}{Definition}}{106}{subsection.5.11.3}
+\contentsline {subsection}{\tocsubsection {}{11.4}{The chords of convex graphs}}{106}{subsection.5.11.4}
+\contentsline {subsection}{\tocsubsection {}{}{Theorem}}{106}{section*.56}
+\contentsline {subsection}{\tocsubsection {}{11.5}{Example -- the cubic function $f(x) = x^3-3x$}}{106}{subsection.5.11.5}
+\contentsline {subsection}{\tocsubsection {}{11.6}{The Second Derivative Test}}{106}{subsection.5.11.6}
+\contentsline {subsection}{\tocsubsection {}{11.7}{Theorem}}{106}{subsection.5.11.7}
+\contentsline {subsection}{\tocsubsection {}{11.8}{Example -- $f(x) = x^3-3x$, again}}{107}{subsection.5.11.8}
+\contentsline {subsection}{\tocsubsection {}{11.9}{When the second derivative test doesn't work}}{107}{subsection.5.11.9}
+\contentsline {section}{\tocsection {}{12}{Problems}}{107}{section.5.12}
+\contentsline {section}{\tocsection {}{13}{Applied Optimization}}{109}{section.5.13}
+\contentsline {subsection}{\tocsubsection {}{13.1}{Example -- The rectangle with largest area and given perimeter}}{110}{subsection.5.13.1}
+\contentsline {section}{\tocsection {}{14}{Problems}}{110}{section.5.14}
+\contentsline {section}{\tocsection {}{15}{Parametrized Curves}}{113}{section.5.15}
+\contentsline {subsection}{\tocsubsection {}{15.1}{Example: steady motion along a straight line}}{113}{subsection.5.15.1}
+\contentsline {subsection}{\tocsubsection {}{15.2}{Example: steady motion along a circle}}{114}{subsection.5.15.2}
+\contentsline {subsection}{\tocsubsection {}{15.3}{Example: motion on a graph}}{114}{subsection.5.15.3}
+\contentsline {subsection}{\tocsubsection {}{15.4}{General motion in the plane}}{115}{subsection.5.15.4}
+\contentsline {subsection}{\tocsubsection {}{15.5}{Slope of the tangent line}}{115}{subsection.5.15.5}
+\contentsline {subsection}{\tocsubsection {}{15.6}{The curvature of a curve}}{116}{subsection.5.15.6}
+\contentsline {subsection}{\tocsubsection {}{15.7}{A formula for the curvature of a parametrized curve}}{117}{subsection.5.15.7}
+\contentsline {subsection}{\tocsubsection {}{15.8}{The radius of curvature and the osculating circle}}{118}{subsection.5.15.8}
+\contentsline {section}{\tocsection {}{16}{Problems}}{119}{section.5.16}
+\contentsline {section}{\tocsection {}{17}{l'Hopital's rule}}{119}{section.5.17}
+\contentsline {subsection}{\tocsubsection {}{17.1}{Theorem}}{119}{subsection.5.17.1}
+\contentsline {subsection}{\tocsubsection {}{17.2}{The reason why l'Hopital's rule works}}{120}{subsection.5.17.2}
+\contentsline {subsection}{\tocsubsection {}{17.3}{Examples of how to use l'Hopital's rule}}{120}{subsection.5.17.3}
+\contentsline {subsection}{\tocsubsection {}{17.4}{Examples of repeated use of l'Hopital's rule}}{121}{subsection.5.17.4}
+\contentsline {section}{\tocsection {}{18}{Problems}}{121}{section.5.18}
+\contentsline {chapter}{\tocchapter {Chapter}{6}{Exponentials and Logarithms (naturally)}}{123}{chapter.6}
+\contentsline {section}{\tocsection {}{1}{Exponents}}{123}{section.6.1}
+\contentsline {subsection}{\tocsubsection {}{1.1}{The trouble with powers of negative numbers. }}{124}{subsection.6.1.1}
+\contentsline {section}{\tocsection {}{2}{Logarithms}}{125}{section.6.2}
+\contentsline {section}{\tocsection {}{3}{Properties of logarithms}}{125}{section.6.3}
+\contentsline {section}{\tocsection {}{4}{Graphs of exponential functions and logarithms}}{126}{section.6.4}
+\contentsline {section}{\tocsection {}{5}{The derivative of $a^x$ and the definition of $e$}}{126}{section.6.5}
+\contentsline {section}{\tocsection {}{6}{Derivatives of Logarithms}}{128}{section.6.6}
+\contentsline {section}{\tocsection {}{7}{Limits involving exponentials and logarithms}}{129}{section.6.7}
+\contentsline {subsection}{\tocsubsection {}{7.1}{Theorem}}{129}{subsection.6.7.1}
+\contentsline {subsection}{\tocsubsection {}{7.2}{Related limits}}{129}{subsection.6.7.2}
+\contentsline {section}{\tocsection {}{8}{Exponential growth and decay}}{130}{section.6.8}
+\contentsline {subsection}{\tocsubsection {}{8.1}{Absolute and relative growth rates}}{130}{subsection.6.8.1}
+\contentsline {subsection}{\tocsubsection {}{8.2}{Theorem on constant relative growth}}{130}{subsection.6.8.2}
+\contentsline {subsection}{\tocsubsection {}{8.3}{Examples of constant relative growth or decay}}{131}{subsection.6.8.3}
+\contentsline {subsection}{\tocsubsection {}{8.4}{Half time and doubling time. }}{132}{subsection.6.8.4}
+\contentsline {subsection}{\tocsubsection {}{8.5}{Determining $X_0$ and $k$. }}{132}{subsection.6.8.5}
+\contentsline {section}{\tocsection {}{9}{Problems}}{132}{section.6.9}
+\contentsline {chapter}{\tocchapter {Chapter}{7}{The Integral}}{136}{chapter.7}
+\contentsline {section}{\tocsection {}{1}{Area under a Graph}}{136}{section.7.1}
+\contentsline {subsection}{\tocsubsection {}{1.1}{Definition}}{137}{subsection.7.1.1}
+\contentsline {section}{\tocsection {}{2}{When $f$ changes its sign}}{138}{section.7.2}
+\contentsline {section}{\tocsection {}{3}{The Fundamental Theorem of Calculus}}{138}{section.7.3}
+\contentsline {subsection}{\tocsubsection {}{3.1}{Definition}}{138}{subsection.7.3.1}
+\contentsline {subsection}{\tocsubsection {}{3.2}{Theorem}}{139}{subsection.7.3.2}
+\contentsline {subsection}{\tocsubsection {}{3.3}{Terminology}}{139}{subsection.7.3.3}
+\contentsline {section}{\tocsection {}{4}{Summation notation}}{139}{section.7.4}
+\contentsline {section}{\tocsection {}{5}{Problems}}{140}{section.7.5}
+\contentsline {section}{\tocsection {}{6}{The indefinite integral}}{142}{section.7.6}
+\contentsline {subsection}{\tocsubsection {}{6.1}{About ``$+C$''}}{142}{subsection.7.6.1}
+\contentsline {subsection}{\tocsubsection {}{}{Theorem}}{142}{section*.69}
+\contentsline {subsection}{\tocsubsection {}{6.2}{You can always check the answer}}{143}{subsection.7.6.2}
+\contentsline {section}{\tocsection {}{7}{Properties of the Integral}}{143}{section.7.7}
+\contentsline {subsection}{\tocsubsection {}{7.1}{Theorem}}{145}{subsection.7.7.1}
+\contentsline {subsection}{\tocsubsection {}{7.2}{When the upper integration bound is less than the lower bound}}{146}{subsection.7.7.2}
+\contentsline {section}{\tocsection {}{8}{The definite integral as a function of its integration bounds}}{146}{section.7.8}
+\contentsline {subsection}{\tocsubsection {}{8.1}{A function defined by an integral}}{146}{subsection.7.8.1}
+\contentsline {subsection}{\tocsubsection {}{8.2}{How do you differentiate a function that is defined by an integral?}}{147}{subsection.7.8.2}
+\contentsline {section}{\tocsection {}{9}{Substitution in Integrals}}{147}{section.7.9}
+\contentsline {subsection}{\tocsubsection {}{9.1}{Example}}{147}{subsection.7.9.1}
+\contentsline {subsection}{\tocsubsection {}{9.2}{Leibniz notation for substitution}}{148}{subsection.7.9.2}
+\contentsline {subsection}{\tocsubsection {}{9.3}{Substitution for definite integrals}}{148}{subsection.7.9.3}
+\contentsline {subsection}{\tocsubsection {}{9.4}{Example of substitution in a definite integral}}{149}{subsection.7.9.4}
+\contentsline {section}{\tocsection {}{10}{Problems}}{149}{section.7.10}
+\contentsline {chapter}{\tocchapter {Chapter}{8}{Applications of the integral}}{154}{chapter.8}
+\contentsline {section}{\tocsection {}{1}{Areas between graphs}}{154}{section.8.1}
+\contentsline {subsection}{\tocsubsection {}{1.1}{The problem}}{154}{subsection.8.1.1}
+\contentsline {subsection}{\tocsubsection {}{1.2}{Derivation using Riemann sums}}{154}{subsection.8.1.2}
+\contentsline {subsection}{\tocsubsection {}{1.3}{Summary of the derivation}}{155}{subsection.8.1.3}
+\contentsline {subsection}{\tocsubsection {}{1.4}{Leibniz' derivation}}{155}{subsection.8.1.4}
+\contentsline {section}{\tocsection {}{2}{Problems}}{156}{section.8.2}
+\contentsline {section}{\tocsection {}{3}{Cavalieri's principle and volumes of solids}}{156}{section.8.3}
+\contentsline {subsection}{\tocsubsection {}{3.1}{Example -- Volume of a pyramid}}{156}{subsection.8.3.1}
+\contentsline {subsection}{\tocsubsection {}{3.2}{Computing volumes by slicing -- the general case}}{158}{subsection.8.3.2}
+\contentsline {subsection}{\tocsubsection {}{3.3}{Cavalieri's principle}}{159}{figure.caption.75}
+\contentsline {subsection}{\tocsubsection {}{3.4}{Solids of revolution}}{159}{subsection.8.3.4}
+\contentsline {subsection}{\tocsubsection {}{3.5}{Volume of a sphere}}{159}{subsection.8.3.5}
+\contentsline {subsection}{\tocsubsection {}{3.6}{Volume of a solid with a core removed -- the method of ``washers.''}}{161}{subsection.8.3.6}
+\contentsline {section}{\tocsection {}{4}{Three examples of volume computations of solids of revolution}}{161}{section.8.4}
+\contentsline {subsection}{\tocsubsection {}{4.1}{Problem 1: Revolve $\EuScript {R}$ around the $y$-axis}}{161}{subsection.8.4.1}
+\contentsline {subsection}{\tocsubsection {}{4.2}{Problem 2: Revolve $\EuScript {R}$ around the line $x=-1$}}{162}{subsection.8.4.2}
+\contentsline {subsection}{\tocsubsection {}{4.3}{Problem 3: Revolve $\EuScript {R}$ around the line $y=2$}}{163}{subsection.8.4.3}
+\contentsline {section}{\tocsection {}{5}{Volumes by cylindrical shells}}{164}{section.8.5}
+\contentsline {subsection}{\tocsubsection {}{5.1}{Example -- The solid obtained by rotating $\EuScript {R}$ about the $y$-axis, again}}{165}{subsection.8.5.1}
+\contentsline {section}{\tocsection {}{6}{Problems}}{165}{section.8.6}
+\contentsline {section}{\tocsection {}{7}{Distance from velocity}}{166}{section.8.7}
+\contentsline {subsection}{\tocsubsection {}{7.1}{Motion along a line}}{166}{subsection.8.7.1}
+\contentsline {subsection}{\tocsubsection {}{7.2}{The return of the dummy}}{168}{subsection.8.7.2}
+\contentsline {subsection}{\tocsubsection {}{7.3}{Motion along a curve in the plane}}{168}{subsection.8.7.3}
+\contentsline {section}{\tocsection {}{8}{The arclength of a curve}}{169}{section.8.8}
+\contentsline {subsection}{\tocsubsection {}{8.1}{The circumference of a circle}}{169}{subsection.8.8.1}
+\contentsline {subsection}{\tocsubsection {}{8.2}{The length of the graph of a function $y=f(x)$}}{170}{subsection.8.8.2}
+\contentsline {subsection}{\tocsubsection {}{8.3}{Arclength of a parabola}}{170}{subsection.8.8.3}
+\contentsline {subsection}{\tocsubsection {}{8.4}{Arclength of the graph of the sine function}}{170}{subsection.8.8.4}
+\contentsline {section}{\tocsection {}{9}{Problems}}{171}{section.8.9}
+\contentsline {section}{\tocsection {}{10}{Velocity from acceleration}}{171}{section.8.10}
+\contentsline {subsection}{\tocsubsection {}{10.1}{Free fall in a constant gravitational field}}{172}{subsection.8.10.1}
+\contentsline {section}{\tocsection {}{11}{Work done by a force}}{172}{section.8.11}
+\contentsline {subsection}{\tocsubsection {}{11.1}{Work as an integral}}{172}{subsection.8.11.1}
+\contentsline {subsection}{\tocsubsection {}{11.2}{Kinetic energy}}{173}{subsection.8.11.2}
+\contentsline {section}{\tocsection {}{12}{Problems}}{174}{section.8.12}
+\contentsline {chapter}{\tocchapter {Chapter}{}{Answers and Hints}}{176}{chapter*.86}
+\contentsline {chapter}{\tocchapter {Chapter}{9}{GNU Free Documentation License}}{193}{chapter.9}

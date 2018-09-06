@@ -1,0 +1,64 @@
+%% Creator: Inkscape inkscape 0.48.2, www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file '05motion-on-a-curve2.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{360bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.44444444)%
+    \put(0,0){\includegraphics[width=\unitlength]{05motion-on-a-curve2.pdf}}%
+    \put(0.25802275,0.12628173){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\alpha$}}}%
+    \put(0.16090988,0.1170954){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$P$}}}%
+    \put(0.66534851,0.08258857){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\Delta x$}}}%
+    \put(0.83330953,0.20600749){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\Delta y$}}}%
+    \put(0.65371324,0.21849799){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\Delta s$}}}%
+    \put(0.63843764,0.12844943){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\alpha$}}}%
+    \put(0.4809099,0.13042873){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{time$=t$}}}%
+    \put(0.22310233,2.19926913){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{                     zoom in}}}%
+    \put(0.78313212,0.32153984){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{time$=t+\Delta t$}}}%
+    \put(0.31272091,0.29506564){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{{\itshape zoom in}}}}%
+  \end{picture}%
+\endgroup%

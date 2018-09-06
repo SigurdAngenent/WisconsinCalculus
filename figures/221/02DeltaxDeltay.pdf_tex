@@ -1,0 +1,59 @@
+%% Creator: Inkscape inkscape 0.48.1, www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file '02DeltaxDeltay.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+
+\begingroup
+  \makeatletter
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}
+    \renewcommand\color[2][]{}%
+  }
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}
+    \renewcommand\transparent[1]{}%
+  }
+  \providecommand\rotatebox[2]{#2}
+  \ifx\svgwidth\undefined
+    \setlength{\unitlength}{354.90002441pt}
+  \else
+    \setlength{\unitlength}{\svgwidth}
+  \fi
+  \global\let\svgwidth\undefined
+  \makeatother
+  \begin{picture}(1,0.62138538)%
+    \put(0,0){\includegraphics[width=\unitlength]{02DeltaxDeltay.pdf}}%
+    \put(0.25830718,0.0585371){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{1}}}%
+    \put(0.06253006,0.25757722){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{1}}}%
+    \put(0.32846064,0.0585371){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{x}}}%
+    \put(0.05845137,0.40930445){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{x2}}}%
+    \put(0.28674378,0.23604989){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Δx}}}%
+    \put(0.33633523,0.33523275){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Δy = x2-1}}}%
+    \put(0.19861762,0.16671787){\color[rgb]{0,0,0}\rotatebox{55.74462834}{\makebox(0,0)[lb]{\smash{y=x2}}}}%
+    \put(0.30725147,0.42480351){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Q}}}%
+    \put(0.25422847,0.27797067){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{P}}}%
+    \put(0.50690332,0.44224125){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.49966956\unitlength}\raggedright \\ \\ To find the slope of the tangent at P(1,1) pick another point Q (x, x\\ 2) on the parabola and compute the slope m\\ PQ of the line connecting P and Q.\\ \\ Then let Q approach P and see what happens to the slope m\\ PQ.\end{minipage}}}%
+    \put(0.50690332,0.41992199){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Finding the slope of the tangent at P}}}%
+  \end{picture}%
+\endgroup

@@ -1,0 +1,55 @@
+\documentclass{amsbook}
+
+\input ../preamble
+\input ../free-macros
+\input ../gans.tex
+
+\newcommand\version{0.9.2}
+\newcommand\semester{Fall 2018}
+
+%%\includeonly{%%
+%%00frontmatter,
+%%11VectorGeometry,
+%%12ParametricCurves,
+%%13Functions,
+%%20Derivatives,
+%%30Optimization,
+%%40Integrals,
+%%50vectorcalc
+%%}
+%%  }}}
+
+\setcounter{tocdepth}{1}
+
+\begin{document}
+
+\graphicspath{ %%
+  {../figures/}
+  {../figures/234/}
+  {../figures/222/}}
+
+\include{00frontmatter}
+\setlength{\parskip}{3pt plus 3pt}
+\include{11VectorGeometry}
+\include{12ParametricCurves}
+\include{13Functions}
+\include{20Derivatives}
+\include{30Optimization}
+\include{40Integrals}
+\include{50vectorcalc}
+
+\immediate\closeout\ans
+
+
+\chapter*{Math 234 -- Answers and Hints}
+\footnotesize
+\begin{list}{}{\setlength{\leftmargin}{0pt}}\sffamily\footnotesize
+\input answersANDhints
+\end{list}
+
+%%%%%%%%%%  GNU FDL  %%%%%%%%%%%%%%%
+\input ../gfdl
+
+\end{document}
+
+% vim: fdm=expr fdc=3

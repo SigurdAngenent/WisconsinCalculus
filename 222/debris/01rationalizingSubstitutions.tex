@@ -1,0 +1,189 @@
+
+
+\begin{center}
+  \textbf{Rationalizing Substitutions}
+\end{center}
+
+Recall that a rational function is the ratio of two polynomials.
+
+\problem Prove that the family of rational functions is closed under
+taking sums, products, quotients (except do not divide
+by the zero polynomial), and compositions.
+
+\bigskip
+
+To integrate rational functions of $x$ and $\sqrt{1+x^2}$
+one may do a trigonometric substitution, e.g.,
+$x=\tan(\theta)$ and $1+\tan^2(\theta)=\sec^2(\theta)$.
+This turns the problem into a trig integral.
+Or one could use $1+\sinh^2(t)=\cosh^2(t)$ and convert
+the problem into a rational function of $e^t$.
+
+Another technique which works is to use the parameterization
+of the hyperbola by rational functions:
+
+\[ x=\frac12(t-\frac1t) \qquad y=\frac12(t+\frac1t)\]
+
+\problem Show that $y^2-x^2=1$ and hence
+$y=\sqrt{1+x^2}$.
+
+Use this to rationalize the
+integrals, i.e, make them into an
+integral of a rational function of $t$.
+You do not need to integrate the rational function.
+
+\problem \(\DS \int \sqrt{1+x^2}\, \dd x  \)
+%  \answer \( \DS \int \sqrt{1+x^2}\, \dd x  =
+%  \DS \int \sqrt{1+x^2}\,(\frac{dx}{dt})\; \dd t =
+%  \DS \int y \,(\frac{dx}{dt})\; \dd t =
+%  \DS \frac14 \int (t+\frac1t)(1+\frac1{t^2})\, \dd t  =
+%  \DS \int \frac{(t^2+1)^2}{4t^3}\, \dd t  \) 
+%  \endanswer
+
+\answer
+\( \DS \int \sqrt{1+x^2}\, \dd x  =
+\DS \int \frac{(t^2+1)^2}{4t^3}\, \dd t  \) 
+\endanswer
+
+\problem \(\DS \int \frac{x^4}{\sqrt{1+x^2}}\, \dd x  \)
+
+\problem \(\DS \int \frac{\dd s}{\sqrt{s^2 + 2s +3}}\)
+
+\problem Show
+that $t=x+y=x+\sqrt{1+x^2}$.
+\par\noindent Hence if
+\[\int g(x)\;dx=\int f(t)\;dt =F(t)+C\] then
+\[\int g(x)\;dx = F(x+\sqrt{1-x^2})+C.\]
+
+\bigskip
+
+\problem Note that $x=\sqrt{y^2-1}$.
+Show that $t$ is a function of $y$.
+
+\answer
+$t=\sqrt{y^2-1}+y$
+%$t=x+y=\sqrt{y^2-1}+y$
+\endanswer
+
+Express these integrals as integrals of
+rational functions of $t$.
+
+\problem \(\DS \int \frac{\dd y}{(y^2-1)^{1/2}} \)
+
+\answer
+%   \[\frac{dy}{dt}=\frac12(1-\frac1{\;t^2})=\frac{x}{t}\]
+%   \[ \DS \int \frac{\dd y}{(y^2-1)^{1/2}} =
+%   \int (\frac{1}{x})\frac{dy}{dt}\;dt=
+%   \DS \int \frac1t \;dt
+%   \]
+\[ \DS \int \frac{\dd y}{(y^2-1)^{1/2}} =
+\DS \int \frac1t \;dt
+\]
+\endanswer
+
+\problem \(\DS \int \frac{y^4}{(y^2 -1)^{1/2}}\, \dd y  \)
+
+\problem \(\DS \int \frac{s^4\, \dd s }{(s^2 -36)^{3/2}} \)
+
+\problem \(\DS \int \frac{\dd s}{(s^2+2s)^{1/2}} \)
+
+
+\problem Note that $1=(\frac{x}y)^2+(\frac1{y})^2$.
+What substitution would rationalize
+integrands which have $\sqrt{1-z^2}$ in them?
+Show how to write $t$ as a function of $z$.
+
+\answer
+\[z=\frac1{y}\]
+\[t=\sqrt{y^2-1}+y=\sqrt{(\frac1z)^2-1}+\frac1z\]
+\endanswer
+
+Express these integrals as integrals of
+rational functions of $t$.
+
+\problem \(\DS \int \sqrt{1-z^2}\, \dd z  \)
+
+\answer
+%  \[
+%    \DS \int \sqrt{1-z^2}\,\; \dd z=
+%    \DS \int (\frac{x}y)(-\frac1{\;y^2}){\frac{x}t}\;dt=
+%    \DS -\int \frac{x^2}{ty^3}\;dt=
+%    \DS \int \frac{(\frac12(t-\frac1t))^2}{t(\frac12(t+\frac1t))^3} \;dt
+%  \]
+\[
+\DS \int \sqrt{1-z^2}\,\; \dd z=
+\DS \int \frac{2(t^2-1)^2}{(t^2+1)^3} \;dt
+\]
+\endanswer
+\problem \(\DS \int \frac{ \dd z }{\sqrt{1-z^2}}\, \)
+
+\answer
+\[\DS \int \frac{ \dd z }{\sqrt{1-z^2}} =
+\DS \int \frac{-2 \;\dd t }{\;\;1+t^2}\]
+\endanswer
+
+\problem \(\DS \int \frac{z^2}{\sqrt{1-z^2}}\, \dd z  \)
+
+\problem \(\DS \int \frac{s^4}{(36-s^2)^{3/2}} \, \dd s\)
+
+\problem \(\DS \int \frac{\dd s}{(s+5)\sqrt{s^2 + 5s}}\)
+
+
+
+\bigskip
+
+\begin{center}
+  \textbf{Integrating a rational function of Sine and Cosine}
+\end{center}
+\[
+\int R(\sin(\theta),\, \cos(\theta))\; d\theta
+\]
+
+
+
+\bigskip
+Examples of such integrals are:
+\[
+\int \frac{(\cos\theta)^2-(\cos\theta)(\sin\theta)+1}
+{(\cos\theta)^2+(\sin\theta)^3+
+(\cos\theta)+1}\; d \theta
+\]
+or
+\[
+\int \frac{(\sin\theta)^3(\cos\theta) + (\cos\theta) +(\sin\theta) + 1}
+{(\cos\theta)^2(\sin\theta)^3-(\cos\theta)}\; d \theta
+\]
+
+The goal of the following problems is to show that such integrals
+can be rationalized, not to integrate the rational function.
+
+\problem Substitute $z=\sin(\theta)$ and express $\int
+R(\sin(\theta), \cos(\theta))\;d\theta$ as a rational function of $z$ and
+$\sqrt{1-z^2}$.
+
+\answer
+$\cos(\theta)=\sqrt{1-z^2}$ and
+$d\theta =\frac{dz}{\sqrt{1-z^2}}$, therefore
+\[
+\int r(sin(\theta),cos(\theta))\; d\theta=\int
+\frac{r(z,\sqrt{1-z^2})}{\sqrt{1-z^2}}\;dz
+\]
+\endanswer
+
+\problem Express it as rational function of $t$.
+
+\answer
+\[\int\frac{r(\frac1y,\frac{x}y)}{\frac{x}y}\;(\frac{-1}{\;\;y^2})
+(\frac{dy}{dt})\;dt\]
+where
+\[ x=\frac12(t-\frac1t) \qquad y=\frac12(t+\frac1t)
+\qquad \frac{dy}{dt}=\frac12(1-\frac1{t^2})\]
+\endanswer
+
+\problem Express $t$ as a function of $\theta$.
+
+\answer
+\[
+t=\sqrt{(\frac1z)^2-1}+\frac1z \qquad \mbox{ where } z=\sin(\theta)
+\]
+\endanswer

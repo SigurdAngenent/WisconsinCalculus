@@ -1,0 +1,54 @@
+%% Creator: Inkscape inkscape 0.48.1, www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file '06cycloid-force.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+
+\begingroup
+  \makeatletter
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}
+    \renewcommand\color[2][]{}%
+  }
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}
+    \renewcommand\transparent[1]{}%
+  }
+  \providecommand\rotatebox[2]{#2}
+  \ifx\svgwidth\undefined
+    \setlength{\unitlength}{172.56523438pt}
+  \else
+    \setlength{\unitlength}{\svgwidth}
+  \fi
+  \global\let\svgwidth\undefined
+  \makeatother
+  \begin{picture}(1,0.78342974)%
+    \put(0,0){\includegraphics[width=\unitlength]{06cycloid-force.pdf}}%
+    \put(0.45158875,0.03597956){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$A$}}}%
+    \put(0.12168232,0.04206789){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$O$}}}%
+    \put(0.12140359,0.26499954){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$X$}}}%
+    \put(0.29548927,0.33737362){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\va$}}}%
+    \put(0.37244054,0.2265184){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\omega  t$}}}%
+    \put(0.49572909,0.39519062){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$C$}}}%
+  \end{picture}%
+\endgroup

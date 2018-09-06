@@ -1,0 +1,39 @@
+// ------------------------------
+//  Demo for curves on a surface
+// ------------------------------ 
+
+//  fix rotation
+
+rot_x=0.1;
+rot_y=0;
+rot_z=0;
+
+//  fix surface properties
+
+surface_red  =240;
+surface_green=220;
+surface_blue =0;
+
+transparence=60;
+
+antialiasing=4;
+
+//  fix light
+
+illumination= ambient_light+
+              diffuse_light+
+              reflected_light+
+              transmitted_light;
+
+//  the formula 
+
+surface=z-x^2+x^3/4-y^2;
+
+//  draw it
+
+clear_screen;
+draw_surface;
+
+surface2=z;
+transparence=100;
+draw_surface;

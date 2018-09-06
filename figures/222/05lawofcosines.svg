@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Creator: fig2dev Version 3.2 Patchlevel 5a -->
+
+<!-- CreationDate: Thu Jun 24 19:28:54 2010 -->
+
+<!-- Magnification: 1.000 -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="2.3in"
+   height="1.8in"
+   viewBox="-1042 -228 2749 2193"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.47 r22583"
+   sodipodi:docname="05lawofcosines.svg">
+  <metadata
+     id="metadata58">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs56">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 81 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="207 : 81 : 1"
+       inkscape:persp3d-origin="103.5 : 54 : 1"
+       id="perspective60" />
+    <inkscape:perspective
+       id="perspective2898"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective2898-3"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective2898-0"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective2941"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+  </defs>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1050"
+     inkscape:window-height="629"
+     id="namedview54"
+     showgrid="false"
+     inkscape:zoom="1.8703704"
+     inkscape:cx="94.143564"
+     inkscape:cy="81"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg2" />
+  <path
+     id="path6"
+     d="M -150,1350 A 642,642 0 0 0 -338,853"
+     style="fill:none;stroke:#000000;stroke-width:7;stroke-linecap:round" />
+  <polygon
+     id="polygon8"
+     style="fill:#000000;stroke:#000000;stroke-width:7;stroke-miterlimit:8"
+     points="-311,909 -303,888 -281,881 -281,881 -330,860 " />
+  <polygon
+     id="polygon10"
+     style="fill:none;stroke:#000000;stroke-width:7;stroke-linecap:round;stroke-linejoin:round"
+     points="600,0 -900,1350 -900,1350 1200,1350 " />
+  <polyline
+     id="polyline12"
+     style="fill:none;stroke:#000000;stroke-width:7;stroke-linecap:round;stroke-linejoin:round"
+     points="600,0 600,1350 " />
+  <rect
+     id="rect14"
+     style="fill:none;stroke:#000000;stroke-width:7;stroke-linecap:round;stroke-linejoin:round"
+     rx="0"
+     height="75"
+     width="75"
+     y="1275"
+     x="525" />
+  <polyline
+     id="polyline16"
+     style="fill:none;stroke:#000000;stroke-width:7;stroke-linecap:round;stroke-linejoin:round"
+     points="-861,1800 1161,1800 " />
+  <polygon
+     id="polygon18"
+     style="fill:#000000;stroke:#000000;stroke-width:7;stroke-miterlimit:8"
+     points="1156,1779 1166,1800 1156,1820 1156,1820 1205,1800 " />
+  <polygon
+     id="polygon20"
+     style="fill:#000000;stroke:#000000;stroke-width:7;stroke-miterlimit:8"
+     points="-855,1820 -865,1800 -855,1779 -855,1779 -904,1800 " />
+  <polyline
+     id="polyline22"
+     style="fill:none;stroke:#000000;stroke-width:7;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:10, 30"
+     points="-900,1350 -900,1950 " />
+  <polyline
+     id="polyline24"
+     style="fill:none;stroke:#000000;stroke-width:7;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:10, 30"
+     points="1200,1350 1200,1950 " />
+  <text
+     style="font-size:162.44444275px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke-width:0.02500006in;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Linux Libertine;-inkscape-font-specification:Linux Libertine Italic"
+     id="text26"
+     font-size="144"
+     font-weight="normal"
+     font-style="normal"
+     y="1082.1881"
+     x="-151.9505"
+     xml:space="preserve"
+     sodipodi:linespacing="125%">θ</text>
+  <text
+     style="font-size:162.44444444px;font-style:italic;font-weight:normal;text-anchor:start;fill:#000000;stroke-width:0.02500000000000000in;font-family:Linux Libertine;-inkscape-font-specification:Linux Libertine Italic;font-stretch:normal;font-variant:normal;text-align:start;writing-mode:lr;line-height:125%"
+     id="text28"
+     font-size="144"
+     font-weight="normal"
+     font-style="normal"
+     y="560"
+     x="-196"
+     xml:space="preserve"
+     sodipodi:linespacing="125%">b</text>
+  <text
+     style="font-size:162.44444275px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke-width:0.02500006in;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Linux Libertine;-inkscape-font-specification:Linux Libertine Italic"
+     id="text30"
+     font-size="144"
+     font-weight="normal"
+     font-style="normal"
+     y="1544.9146"
+     x="-403.29626"
+     xml:space="preserve"
+     sodipodi:linespacing="125%">b <tspan
+   style="font-style:normal"
+   id="tspan2927">cos</tspan>θ</text>
+  <text
+     style="font-size:162.44444444px;font-style:italic;font-weight:normal;text-anchor:start;fill:#000000;stroke-width:0.02500006in;font-family:Linux Libertine;font-variant:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;color:#000000;fill-opacity:1;fill-rule:nonzero;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;-inkscape-font-specification:Linux Libertine Italic"
+     id="text36"
+     font-size="144"
+     font-weight="normal"
+     font-style="normal"
+     y="602"
+     x="980"
+     xml:space="preserve">c</text>
+  <text
+     style="font-size:162.44444444px;font-style:italic;font-weight:normal;text-anchor:start;fill:#000000;stroke-width:0.02500006in;font-family:Linux Libertine;font-variant:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;color:#000000;fill-opacity:1;fill-rule:nonzero;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;-inkscape-font-specification:Linux Libertine Italic"
+     id="text38"
+     font-size="144"
+     font-weight="normal"
+     font-style="normal"
+     y="1302"
+     x="-1027"
+     xml:space="preserve">O</text>
+  <text
+     style="font-size:162.44444444px;font-style:italic;font-weight:normal;text-anchor:start;fill:#000000;stroke-width:0.02500006in;font-family:Linux Libertine;font-variant:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;color:#000000;fill-opacity:1;fill-rule:nonzero;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;-inkscape-font-specification:Linux Libertine Italic"
+     id="text40"
+     font-size="144"
+     font-weight="normal"
+     font-style="normal"
+     y="1318"
+     x="1268"
+     xml:space="preserve">A</text>
+  <text
+     style="font-size:162.44444444px;font-style:italic;font-weight:normal;text-anchor:start;fill:#000000;stroke-width:0.02500006in;font-family:Linux Libertine;font-variant:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;color:#000000;fill-opacity:1;fill-rule:nonzero;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;-inkscape-font-specification:Linux Libertine Italic"
+     id="text42"
+     font-size="144"
+     font-weight="normal"
+     font-style="normal"
+     y="-78"
+     x="646"
+     xml:space="preserve">B</text>
+  <rect
+     style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.00184679000000000in;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+     id="rect2841"
+     width="11.762376"
+     height="13.366337"
+     x="87.683167"
+     y="144.35643"
+     transform="matrix(13.537037,0,0,13.537037,-1068.5833,-228)" />
+  <text
+     style="font-size:162.44444275px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke-width:0.02500006in;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Linux Libertine;-inkscape-font-specification:Linux Libertine Italic"
+     id="text46"
+     font-size="144"
+     font-weight="normal"
+     font-style="normal"
+     y="1841.7036"
+     x="150"
+     xml:space="preserve"
+     sodipodi:linespacing="125%">a</text>
+  <circle
+     sodipodi:ry="18"
+     sodipodi:rx="18"
+     sodipodi:cy="0"
+     sodipodi:cx="600"
+     id="circle48"
+     style="fill:#ffffff;stroke:#000000;stroke-width:7"
+     r="18"
+     cy="0"
+     cx="600" />
+  <circle
+     sodipodi:ry="18"
+     sodipodi:rx="18"
+     sodipodi:cy="1350"
+     sodipodi:cx="-900"
+     id="circle50"
+     style="fill:#ffffff;stroke:#000000;stroke-width:7"
+     r="18"
+     cy="1350"
+     cx="-900" />
+  <circle
+     sodipodi:ry="18"
+     sodipodi:rx="18"
+     sodipodi:cy="1350"
+     sodipodi:cx="1200"
+     id="circle52"
+     style="fill:#ffffff;stroke:#000000;stroke-width:7"
+     r="18"
+     cy="1350"
+     cx="1200" />
+  <text
+     sodipodi:linespacing="125%"
+     xml:space="preserve"
+     x="-942.5647"
+     y="559.97559"
+     font-style="normal"
+     font-weight="normal"
+     font-size="144"
+     id="text2929"
+     style="font-size:162.44444275px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke-width:0.02500006in;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Linux Libertine;-inkscape-font-specification:Linux Libertine Italic"
+     transform="matrix(0,-1,1,0,0,0)">b <tspan
+   id="tspan2931"
+   style="font-style:normal">sin</tspan>θ</text>
+  <text
+     style="font-size:162.44444275px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke-width:0.02500006in;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Linux Libertine;-inkscape-font-specification:Linux Libertine Italic"
+     id="text30-0"
+     font-size="144"
+     font-weight="normal"
+     font-style="normal"
+     y="1544.9146"
+     x="603.79779"
+     xml:space="preserve"
+     sodipodi:linespacing="125%"
+     dx="-7.2376237 7.2376237 7.2376237">a−b <tspan
+   style="font-style:normal"
+   id="tspan2927-8">cos</tspan>θ</text>
+</svg>

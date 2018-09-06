@@ -1,0 +1,54 @@
+%% Creator: Inkscape inkscape 0.48.1, www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file '06rose.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+
+\begingroup
+  \makeatletter
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}
+    \renewcommand\color[2][]{}%
+  }
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}
+    \renewcommand\transparent[1]{}%
+  }
+  \providecommand\rotatebox[2]{#2}
+  \ifx\svgwidth\undefined
+    \setlength{\unitlength}{237.22988281pt}
+  \else
+    \setlength{\unitlength}{\svgwidth}
+  \fi
+  \global\let\svgwidth\undefined
+  \makeatother
+  \begin{picture}(1,0.37577162)%
+    \put(0,0){\includegraphics[width=\unitlength]{06rose.pdf}}%
+    \put(0.41579511,0.34164437){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$t=-1$}}}%
+    \put(0.60464161,0.34164437){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$t=0$}}}%
+    \put(0.76650951,0.34164437){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$t=1$}}}%
+    \put(0.00900392,0.27477424){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{sign of $x_1'(t)$}}}%
+    \put(0.00900392,0.15337309){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{sign of $x_2'(t)$}}}%
+    \put(0.00900392,0.04546091){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{direction of $\vx'(t)$}}}%
+  \end{picture}%
+\endgroup

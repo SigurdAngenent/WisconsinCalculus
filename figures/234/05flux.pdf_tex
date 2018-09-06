@@ -1,0 +1,70 @@
+%% Creator: Inkscape inkscape 0.48.2, www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file '05flux.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{380.54777832bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.5002572)%
+    \put(0,0){\includegraphics[width=\unitlength]{05flux.pdf}}%
+    \put(0.09128535,0.22980607){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\cC$}}}%
+    \put(0.10704314,0.44982676){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\vT$}}}%
+    \put(0.23351119,0.4266893){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$-\vN$}}}%
+    \put(0.52214845,0.39424842){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\cC$}}}%
+    \put(0.701556,0.31068709){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\vv \Delta t$}}}%
+    \put(0.64683607,0.37536262){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\vv \Delta t$}}}%
+    \put(0.57298017,0.43520586){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\vv \Delta t$}}}%
+    \put(0.37185435,0.46270982){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\vv \Delta t$}}}%
+    \put(-0.02582074,0.1975245){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.27382708\unitlength}\centering \dfnt The unit tangent\\ and a choice\\of unit normals \end{minipage}}}%
+    \put(0.39326628,0.07572129){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\Delta s$}}}%
+    \put(0.38713976,0.20101){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\vN$}}}%
+    \put(0.44184114,0.1197248){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\vv \Delta t$}}}%
+    \put(0.55299714,0.15568238){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\dfnt Area $=\vN\dpp\vv \Delta t\Delta s$}}}%
+    \put(0.33347817,0.37722946){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.2914853\unitlength}\centering \dfnt Water flowing across\\ the curve $\cC$\end{minipage}}}%
+    \put(0.01928818,0.30816423){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\vN$}}}%
+    \put(0.61521253,0.01584646){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\cC$}}}%
+  \end{picture}%
+\endgroup%

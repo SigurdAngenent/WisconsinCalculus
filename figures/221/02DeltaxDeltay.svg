@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="434.61575"
+   height="200.15625"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.1 r9760"
+   sodipodi:docname="02DeltaxDeltay.png">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2.8331786"
+     inkscape:cx="201.93752"
+     inkscape:cy="118.64177"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="969"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     showguides="true">
+    <inkscape:grid
+       type="xygrid"
+       id="grid2985"
+       empspacing="20"
+       visible="true"
+       enabled="true"
+       snapvisiblegridlinesonly="true" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-20,-832.20592)"
+     style="display:inline">
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 20,260 160,0"
+       id="path2987"
+       inkscape:connector-curvature="0"
+       transform="translate(0,752.36217)" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 40,280 40,87.099526"
+       id="path2991"
+       inkscape:connector-curvature="0"
+       transform="translate(0,752.36217)"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 40,260 c 40,0 60,-40 80,-80 20,-40 40,-100 40,-100"
+       id="path2994"
+       inkscape:connector-curvature="0"
+       transform="translate(0,752.36217)" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="arrow"
+     transform="translate(-0.5,-40.343749)">
+    <path
+       style="fill:none;stroke:#008000;stroke-width:1.60000002;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 128.2448,74.031191 c -6.83365,19.81758 -11.6172,30.751419 -17.08412,43.279769"
+       id="path3127"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:#008000;stroke:#008000;stroke-width:1.60000002;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 111.46088,107.95565 c 0,3.38249 -1.77178,12.40244 -1.77178,12.40244 0,0 5.95962,-7.89246 8.69782,-9.34209 -5.4764,-0.80536 -6.92604,-3.06035 -6.92604,-3.06035 z"
+       id="path3129"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccc" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="Layer#1"
+     style="display:inline"
+     transform="translate(-20,-79.843749)">
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.30000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 120,260 0,-80 -80,0"
+       id="path2999"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.30000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 147.64777,259.83112 0,-145.83836 -107.840774,0"
+       id="path3001"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#ff0000;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="M 147.23764,180 120,180"
+       id="path3003"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Linux Biolinum O;-inkscape-font-specification:Linux Biolinum O"
+       x="114.71653"
+       y="273.22076"
+       id="text3773"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3775"
+         x="114.71653"
+         y="273.22076">1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Linux Biolinum O;-inkscape-font-specification:Linux Biolinum O"
+       x="27.864899"
+       y="184.92159"
+       id="text3777"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3779"
+         x="27.864899"
+         y="184.92159">1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Linux Biolinum O;-inkscape-font-specification:Linux Biolinum O"
+       x="145.83836"
+       y="273.22076"
+       id="text3781"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3783"
+         x="145.83836"
+         y="273.22076">x</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Linux Biolinum O;-inkscape-font-specification:Linux Biolinum O"
+       x="26.055489"
+       y="117.61159"
+       id="text3785"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3787"
+         x="26.055489"
+         y="117.61159">x<tspan
+   style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;baseline-shift:super;font-family:Linux Biolinum O;-inkscape-font-specification:Linux Biolinum O"
+   id="tspan3789">2</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Linux Biolinum O;-inkscape-font-specification:Linux Biolinum O"
+       x="127.33172"
+       y="194.47165"
+       id="text3791"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3793"
+         x="127.33172"
+         y="194.47165">Δx</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text3795"
+       y="150.47165"
+       x="149.33173"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Linux Biolinum O;-inkscape-font-specification:Linux Biolinum O"
+       xml:space="preserve"><tspan
+         y="150.47165"
+         x="149.33173"
+         id="tspan3797"
+         sodipodi:role="line">Δy = x<tspan
+   style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;baseline-shift:super;color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Linux Biolinum O;-inkscape-font-specification:Linux Biolinum O"
+   id="tspan3799">2</tspan>-1</tspan></text>
+    <path
+       style="color:#000000;fill:none;stroke:#ff0000;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       d="m 147.68154,179.64536 0,-65.11943"
+       id="path3801"
+       inkscape:connector-curvature="0" />
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Linux Biolinum O;-inkscape-font-specification:Linux Biolinum O"
+       x="-136.49324"
+       y="199.70842"
+       id="text3826"
+       sodipodi:linespacing="125%"
+       transform="matrix(0.56288242,-0.82653698,0.82653698,0.56288242,0,0)"
+       inkscape:transform-center-x="7.0111198"><tspan
+         sodipodi:role="line"
+         id="tspan3828"
+         x="-136.49324"
+         y="199.70842">y=x<tspan
+   style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;baseline-shift:super;font-family:Linux Biolinum O;-inkscape-font-specification:Linux Biolinum O"
+   id="tspan3830">2</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Linux Biolinum;-inkscape-font-specification:Linux Biolinum"
+       x="136.42944"
+       y="110.73582"
+       id="text3832"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3834"
+         x="136.42944"
+         y="110.73582">Q</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Linux Biolinum;-inkscape-font-specification:Linux Biolinum"
+       x="112.90711"
+       y="175.87454"
+       id="text3836"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3838"
+         x="112.90711"
+         y="175.87454">P</tspan></text>
+    <path
+       sodipodi:type="arc"
+       style="color:#000000;fill:#ffffff;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="path3840"
+       sodipodi:cx="147.71196"
+       sodipodi:cy="113.96865"
+       sodipodi:rx="1.919168"
+       sodipodi:ry="1.919168"
+       d="m 149.63113,113.96865 c 0,1.05993 -0.85924,1.91917 -1.91917,1.91917 -1.05993,0 -1.91917,-0.85924 -1.91917,-1.91917 0,-1.05993 0.85924,-1.91917 1.91917,-1.91917 1.05992,0 1.91916,0.85924 1.91917,1.91916"
+       sodipodi:start="0"
+       sodipodi:end="6.28318"
+       sodipodi:open="true" />
+    <path
+       sodipodi:open="true"
+       sodipodi:end="6.28318"
+       sodipodi:start="0"
+       d="m 149.63113,113.96865 c 0,1.05993 -0.85924,1.91917 -1.91917,1.91917 -1.05993,0 -1.91917,-0.85924 -1.91917,-1.91917 0,-1.05993 0.85924,-1.91917 1.91917,-1.91917 1.05992,0 1.91916,0.85924 1.91917,1.91916"
+       sodipodi:ry="1.919168"
+       sodipodi:rx="1.919168"
+       sodipodi:cy="113.96865"
+       sodipodi:cx="147.71196"
+       id="path3842"
+       style="color:#000000;fill:#ffffff;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       sodipodi:type="arc"
+       transform="translate(-27.773824,65.728589)" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3014"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial Unicode MS;-inkscape-font-specification:Arial Unicode MS"><flowRegion
+         id="flowRegion3016"><rect
+           id="rect3018"
+           width="232"
+           height="127"
+           x="225"
+           y="110" /></flowRegion><flowPara
+         id="flowPara3020" /></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3022"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial Unicode MS;-inkscape-font-specification:Arial Unicode MS"><flowRegion
+         id="flowRegion3024"><rect
+           id="rect3026"
+           width="228"
+           height="205"
+           x="235"
+           y="84" /></flowRegion><flowPara
+         id="flowPara3028" /></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3030"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Linux Biolinum;-inkscape-font-specification:Linux Biolinum"
+       transform="translate(-5,23)"><flowRegion
+         id="flowRegion3032"><rect
+           id="rect3034"
+           width="221.66592"
+           height="147.06065"
+           x="230"
+           y="80"
+           style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Linux Biolinum;-inkscape-font-specification:Linux Biolinum" /></flowRegion><flowPara
+         id="flowPara3036" /><flowPara
+         id="flowPara3038" /><flowPara
+         id="flowPara3042"
+         style="font-size:12px;font-family:Linux Biolinum O;-inkscape-font-specification:Linux Biolinum O">To find the slope of the tangent at P(1,1) pick another point Q (x, x<flowSpan
+   style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;baseline-shift:super;font-family:Linux Biolinum O;-inkscape-font-specification:Linux Biolinum O"
+   id="flowSpan3046">2</flowSpan>) on the parabola and compute the slope m<flowSpan
+   style="font-size:12px;baseline-shift:sub;font-family:Linux Biolinum O;-inkscape-font-specification:Linux Biolinum O"
+   id="flowSpan3114">PQ</flowSpan> of the line connecting P and Q.</flowPara><flowPara
+         id="flowPara3116"
+         style="font-size:12px;font-family:Linux Biolinum O;-inkscape-font-specification:Linux Biolinum O" /><flowPara
+         id="flowPara3118"
+         style="font-size:12px;font-family:Linux Biolinum O;-inkscape-font-specification:Linux Biolinum O">Then let Q approach P and see what happens to the slope m<flowSpan
+   style="font-size:12px;baseline-shift:sub;font-family:Linux Biolinum O;-inkscape-font-specification:Linux Biolinum O"
+   id="flowSpan3124">PQ</flowSpan>.</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3048"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial Unicode MS;-inkscape-font-specification:Arial Unicode MS"><flowRegion
+         id="flowRegion3050"><rect
+           id="rect3052"
+           width="104.6518"
+           height="82.731491"
+           x="220.97087"
+           y="68.422531" /></flowRegion><flowPara
+         id="flowPara3054" /></flowRoot>    <text
+       xml:space="preserve"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial Unicode MS;-inkscape-font-specification:Arial Unicode MS"
+       x="225"
+       y="112.90138"
+       id="text3902"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3904"
+         x="225"
+         y="112.90138"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Linux Biolinum O;-inkscape-font-specification:Linux Biolinum O">Finding the slope of the tangent at P</tspan></text>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3042"
+       style="font-size:12px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       transform="translate(0.125,23.527179)"><flowRegion
+         id="flowRegion3044"><rect
+           id="rect3046"
+           width="112.65616"
+           height="79.200699"
+           x="219.16743"
+           y="109.75031" /></flowRegion><flowPara
+         id="flowPara3048"></flowPara></flowRoot>  </g>
+</svg>

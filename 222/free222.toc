@@ -1,0 +1,270 @@
+\contentsline {chapter}{\tocchapter {Chapter}{1}{Methods of Integration}}{9}{chapter.1}
+\contentsline {section}{\tocsection {}{1}{Definite and indefinite integrals}}{9}{section.1.1}
+\contentsline {subsection}{\tocsubsection {}{1.1}{Definition}}{9}{subsection.1.1.1}
+\contentsline {section}{\tocsection {}{2}{Problems}}{11}{section.1.2}
+\contentsline {section}{\tocsection {}{3}{First trick: using the double angle formulas}}{11}{section.1.3}
+\contentsline {subsection}{\tocsubsection {}{3.1}{The double angle formulas}}{11}{subsection.1.3.1}
+\contentsline {subsubsection}{\tocsubsubsection {}{3.1.1}{Example}}{11}{subsubsection.1.3.1.1}
+\contentsline {subsubsection}{\tocsubsubsection {}{3.1.2}{A more complicated example}}{12}{subsubsection.1.3.1.2}
+\contentsline {subsubsection}{\tocsubsubsection {}{3.1.3}{Example without the double angle trick}}{12}{subsubsection.1.3.1.3}
+\contentsline {section}{\tocsection {}{4}{Problems}}{12}{section.1.4}
+\contentsline {section}{\tocsection {}{5}{Integration by Parts}}{14}{section.1.5}
+\contentsline {subsection}{\tocsubsection {}{5.1}{The product rule and integration by parts}}{14}{subsection.1.5.1}
+\contentsline {subsection}{\tocsubsection {}{5.2}{An Example -- Integrating by parts once}}{14}{subsection.1.5.2}
+\contentsline {subsection}{\tocsubsection {}{5.3}{Another example}}{14}{subsection.1.5.3}
+\contentsline {subsection}{\tocsubsection {}{5.4}{Example -- Repeated Integration by Parts}}{15}{subsection.1.5.4}
+\contentsline {subsection}{\tocsubsection {}{5.5}{Another example of repeated integration by parts}}{15}{subsection.1.5.5}
+\contentsline {subsection}{\tocsubsection {}{5.6}{Example -- sometimes the factor $G'(x)$ is invisible}}{15}{subsection.1.5.6}
+\contentsline {subsection}{\tocsubsection {}{5.7}{An example where we get the original integral back}}{16}{subsection.1.5.7}
+\contentsline {section}{\tocsection {}{6}{Reduction Formulas}}{16}{section.1.6}
+\contentsline {subsection}{\tocsubsection {}{6.1}{First example of a reduction formula}}{17}{subsection.1.6.1}
+\contentsline {subsection}{\tocsubsection {}{6.2}{Reduction formula requiring two partial integrations}}{18}{subsection.1.6.2}
+\contentsline {subsection}{\tocsubsection {}{6.3}{A reduction formula where you have to solve for $I_n$}}{18}{subsection.1.6.3}
+\contentsline {subsection}{\tocsubsection {}{6.4}{A reduction formula that will come in handy later}}{19}{subsection.1.6.4}
+\contentsline {section}{\tocsection {}{7}{Problems}}{20}{section.1.7}
+\contentsline {section}{\tocsection {}{8}{Partial Fraction Expansion}}{21}{section.1.8}
+\contentsline {subsection}{\tocsubsection {}{8.1}{Reduce to a proper rational function}}{21}{subsection.1.8.1}
+\contentsline {subsection}{\tocsubsection {}{8.2}{Example}}{22}{subsection.1.8.2}
+\contentsline {subsection}{\tocsubsection {}{8.3}{Partial Fraction Expansion: The Easy Case}}{22}{subsection.1.8.3}
+\contentsline {subsection}{\tocsubsection {}{8.4}{Previous Example continued}}{23}{subsection.1.8.4}
+\contentsline {subsection}{\tocsubsection {}{8.5}{Partial Fraction Expansion: The General Case}}{24}{subsection.1.8.5}
+\contentsline {subsection}{\tocsubsection {}{8.6}{Example}}{24}{subsection.1.8.6}
+\contentsline {subsection}{\tocsubsection {}{8.7}{A complicated example}}{25}{subsection.1.8.7}
+\contentsline {subsection}{\tocsubsection {}{8.8}{After the partial fraction decomposition}}{25}{subsection.1.8.8}
+\contentsline {section}{\tocsection {}{9}{Problems}}{26}{section.1.9}
+\contentsline {section}{\tocsection {}{10}{Substitutions for integrals containing the expression $\sqrt {ax^2+bx+c}$}}{27}{section.1.10}
+\contentsline {subsection}{\tocsubsection {}{10.1}{Integrals involving $\sqrt {ax+b}$}}{28}{subsection.1.10.1}
+\contentsline {subsubsection}{\tocsubsubsection {}{10.1.1}{Example}}{28}{subsubsection.1.10.1.1}
+\contentsline {subsubsection}{\tocsubsubsection {}{10.1.2}{Another example}}{28}{subsubsection.1.10.1.2}
+\contentsline {subsection}{\tocsubsection {}{10.2}{Integrals containing $\sqrt {1-x^2}$}}{29}{subsection.1.10.2}
+\contentsline {subsubsection}{\tocsubsubsection {}{10.2.1}{Example}}{29}{subsubsection.1.10.2.1}
+\contentsline {subsubsection}{\tocsubsubsection {}{10.2.2}{Example: sometimes you don't have to do a trig substitution}}{30}{subsubsection.1.10.2.2}
+\contentsline {subsection}{\tocsubsection {}{10.3}{Integrals containing $\sqrt {a^2-x^2}$}}{30}{subsection.1.10.3}
+\contentsline {subsubsection}{\tocsubsubsection {}{10.3.1}{Example}}{30}{subsubsection.1.10.3.1}
+\contentsline {subsection}{\tocsubsection {}{10.4}{Integrals containing $\sqrt {x^2-a^2}$ or $\sqrt {a^2+x^2}$}}{31}{subsection.1.10.4}
+\contentsline {subsubsection}{\tocsubsubsection {}{10.4.1}{Example -- turn the integral $\DOTSI \intop \ilimits@ _2^4 \sqrt {x^2-4}\tmspace +\thickmuskip {.2777em} \mathrm {d}x$ into a trigonometric integral}}{31}{subsubsection.1.10.4.1}
+\contentsline {section}{\tocsection {}{11}{Rational substitution for integrals containing $\sqrt {x^2-a^2}$ or $\sqrt {a^2+x^2}$}}{32}{section.1.11}
+\contentsline {subsection}{\tocsubsection {}{11.1}{The functions $U(t)$ and $V(t)$}}{32}{subsection.1.11.1}
+\contentsline {subsubsection}{\tocsubsubsection {}{11.1.1}{Example \S \nonbreakingspace \ref {sec:01area-under-hyperbola} again}}{32}{subsubsection.1.11.1.1}
+\contentsline {subsubsection}{\tocsubsubsection {}{11.1.2}{An example with $\sqrt {1+x^2}$}}{34}{subsubsection.1.11.1.2}
+\contentsline {section}{\tocsection {}{12}{Simplifying $\sqrt {ax^2+bx+c}$ by completing the square}}{35}{section.1.12}
+\contentsline {subsection}{\tocsubsection {}{12.1}{Example}}{35}{subsection.1.12.1}
+\contentsline {subsection}{\tocsubsection {}{12.2}{Example}}{36}{subsection.1.12.2}
+\contentsline {subsection}{\tocsubsection {}{12.3}{Example}}{36}{subsection.1.12.3}
+\contentsline {section}{\tocsection {}{13}{Problems}}{37}{section.1.13}
+\contentsline {section}{\tocsection {}{14}{Chapter summary}}{37}{section.1.14}
+\contentsline {section}{\tocsection {}{15}{Mixed Integration Problems}}{38}{section.1.15}
+\contentsline {chapter}{\tocchapter {Chapter}{2}{Proper and Improper Integrals}}{41}{chapter.2}
+\contentsline {section}{\tocsection {}{1}{Typical examples of improper integrals}}{41}{section.2.1}
+\contentsline {subsection}{\tocsubsection {}{1.1}{Integral on an unbounded interval}}{41}{subsection.2.1.1}
+\contentsline {subsection}{\tocsubsection {}{1.2}{Second example on an unbounded interval}}{42}{subsection.2.1.2}
+\contentsline {subsection}{\tocsubsection {}{1.3}{An improper integral on a finite interval}}{43}{subsection.2.1.3}
+\contentsline {subsection}{\tocsubsection {}{1.4}{A doubly improper integral}}{43}{subsection.2.1.4}
+\contentsline {subsection}{\tocsubsection {}{1.5}{Another doubly improper integral}}{44}{subsection.2.1.5}
+\contentsline {section}{\tocsection {}{2}{Summary: how to compute an improper integral}}{44}{section.2.2}
+\contentsline {subsection}{\tocsubsection {}{2.1}{How to compute an improper integral on an unbounded interval}}{44}{subsection.2.2.1}
+\contentsline {subsection}{\tocsubsection {}{2.2}{How to compute an improper integral of an unbounded function}}{44}{subsection.2.2.2}
+\contentsline {subsection}{\tocsubsection {}{2.3}{Doubly improper integrals}}{45}{subsection.2.2.3}
+\contentsline {section}{\tocsection {}{3}{More examples}}{45}{section.2.3}
+\contentsline {subsection}{\tocsubsection {}{3.1}{Area under an exponential}}{45}{subsection.2.3.1}
+\contentsline {subsection}{\tocsubsection {}{3.2}{Improper integrals involving $x^{-p}$}}{46}{subsection.2.3.2}
+\contentsline {section}{\tocsection {}{4}{Problems}}{47}{section.2.4}
+\contentsline {section}{\tocsection {}{5}{Estimating improper integrals}}{48}{section.2.5}
+\contentsline {subsubsection}{\tocsubsubsection {}{}{Integral of a positive function}}{49}{section*.9}
+\contentsline {subsubsection}{\tocsubsubsection {}{}{Comparison with easier integrals}}{49}{section*.10}
+\contentsline {subsubsection}{\tocsubsubsection {}{}{Only the tail matters}}{49}{section*.11}
+\contentsline {subsection}{\tocsubsection {}{5.1}{Improper integrals of positive functions}}{49}{subsection.2.5.1}
+\contentsline {subsubsection}{\tocsubsubsection {}{5.1.1}{Theorem}}{50}{subsubsection.2.5.1.1}
+\contentsline {subsubsection}{\tocsubsubsection {}{5.1.2}{Example - integral to infinity of the cosine}}{50}{subsubsection.2.5.1.2}
+\contentsline {subsection}{\tocsubsection {}{5.2}{Comparison Theorem for Improper Integrals}}{50}{subsection.2.5.2}
+\contentsline {subsubsection}{\tocsubsubsection {}{5.2.1}{Example}}{50}{subsubsection.2.5.2.1}
+\contentsline {subsubsection}{\tocsubsubsection {}{5.2.2}{Second example}}{52}{subsubsection.2.5.2.2}
+\contentsline {subsection}{\tocsubsection {}{5.3}{The Tail Theorem}}{53}{subsection.2.5.3}
+\contentsline {subsubsection}{\tocsubsubsection {}{5.3.1}{Example}}{53}{subsubsection.2.5.3.1}
+\contentsline {subsubsection}{\tocsubsubsection {}{5.3.2}{The area under the bell curve}}{53}{subsubsection.2.5.3.2}
+\contentsline {section}{\tocsection {}{6}{Problems}}{55}{section.2.6}
+\contentsline {chapter}{\tocchapter {Chapter}{3}{First order differential Equations}}{57}{chapter.3}
+\contentsline {section}{\tocsection {}{1}{What is a Differential Equation?}}{57}{section.3.1}
+\contentsline {section}{\tocsection {}{2}{Two basic examples}}{57}{section.3.2}
+\contentsline {subsection}{\tocsubsection {}{2.1}{Equations where the RHS does not contain $y$}}{57}{subsection.3.2.1}
+\contentsline {subsection}{\tocsubsection {}{2.2}{The exponential growth example}}{58}{subsection.3.2.2}
+\contentsline {subsection}{\tocsubsection {}{2.3}{Summary}}{58}{subsection.3.2.3}
+\contentsline {section}{\tocsection {}{3}{First Order Separable Equations}}{59}{section.3.3}
+\contentsline {subsection}{\tocsubsection {}{3.1}{Solution method for separable equations}}{59}{subsection.3.3.1}
+\contentsline {subsubsection}{\tocsubsubsection {}{}{Determining the constant}}{60}{section*.13}
+\contentsline {subsection}{\tocsubsection {}{3.2}{A snag: }}{60}{subsection.3.3.2}
+\contentsline {subsection}{\tocsubsection {}{3.3}{Example}}{60}{subsection.3.3.3}
+\contentsline {subsection}{\tocsubsection {}{3.4}{Example: the snag in action}}{60}{subsection.3.3.4}
+\contentsline {section}{\tocsection {}{4}{Problems}}{60}{section.3.4}
+\contentsline {section}{\tocsection {}{5}{First Order Linear Equations}}{61}{section.3.5}
+\contentsline {subsection}{\tocsubsection {}{5.1}{The Integrating Factor}}{61}{subsection.3.5.1}
+\contentsline {subsection}{\tocsubsection {}{5.2}{An example}}{62}{subsection.3.5.2}
+\contentsline {subsubsection}{\tocsubsubsection {}{}{Solution}}{62}{section*.14}
+\contentsline {section}{\tocsection {}{6}{Problems}}{63}{section.3.6}
+\contentsline {section}{\tocsection {}{7}{Direction Fields}}{64}{section.3.7}
+\contentsline {section}{\tocsection {}{8}{Euler's method}}{65}{section.3.8}
+\contentsline {subsection}{\tocsubsection {}{8.1}{The idea behind the method}}{65}{subsection.3.8.1}
+\contentsline {subsection}{\tocsubsection {}{8.2}{Setting up the computation}}{66}{subsection.3.8.2}
+\contentsline {section}{\tocsection {}{9}{Problems}}{67}{section.3.9}
+\contentsline {section}{\tocsection {}{10}{Applications of Differential Equations}}{67}{section.3.10}
+\contentsline {subsection}{\tocsubsection {}{10.1}{Example: carbon dating}}{67}{subsection.3.10.1}
+\contentsline {subsection}{\tocsubsection {}{10.2}{Example: dating a leaky bucket}}{68}{subsection.3.10.2}
+\contentsline {subsubsection}{\tocsubsubsection {}{}{The snag appears again}}{69}{section*.18}
+\contentsline {subsection}{\tocsubsection {}{10.3}{Heat transfer}}{69}{subsection.3.10.3}
+\contentsline {subsection}{\tocsubsection {}{10.4}{Mixing problems}}{70}{subsection.3.10.4}
+\contentsline {subsubsection}{\tocsubsubsection {}{}{Problem:}}{70}{section*.19}
+\contentsline {subsubsection}{\tocsubsubsection {}{}{Solution:}}{70}{section*.20}
+\contentsline {section}{\tocsection {}{11}{Problems}}{70}{section.3.11}
+\contentsline {chapter}{\tocchapter {Chapter}{4}{Taylor's Formula}}{73}{chapter.4}
+\contentsline {section}{\tocsection {}{1}{Taylor Polynomials}}{73}{section.4.1}
+\contentsline {subsection}{\tocsubsection {}{1.1}{Definition}}{73}{subsection.4.1.1}
+\contentsline {subsection}{\tocsubsection {}{1.2}{Theorem}}{73}{subsection.4.1.2}
+\contentsline {section}{\tocsection {}{2}{Examples}}{74}{section.4.2}
+\contentsline {subsection}{\tocsubsection {}{2.1}{Taylor polynomials of order zero and one}}{74}{subsection.4.2.1}
+\contentsline {subsection}{\tocsubsection {}{2.2}{Example: Compute the Taylor polynomials of degree 0, 1 and 2 of $f (x)=e^x$ at $a=0$, and plot them}}{75}{subsection.4.2.2}
+\contentsline {subsection}{\tocsubsection {}{2.3}{Example: Find the Taylor polynomials of $f (x)=\qopname \relax o{sin}x$}}{76}{subsection.4.2.3}
+\contentsline {subsection}{\tocsubsection {}{2.4}{Example: compute the Taylor polynomials of degree two and three of $f(x) = 1+x+x^2+x^3$ at $a=3$}}{77}{subsection.4.2.4}
+\contentsline {subsubsection}{\tocsubsubsection {}{}{Solution: }}{77}{section*.24}
+\contentsline {section}{\tocsection {}{3}{Some special Taylor polynomials}}{78}{section.4.3}
+\contentsline {section}{\tocsection {}{4}{Problems}}{79}{section.4.4}
+\contentsline {section}{\tocsection {}{5}{The Remainder Term}}{80}{section.4.5}
+\contentsline {subsection}{\tocsubsection {}{5.1}{Definition}}{80}{subsection.4.5.1}
+\contentsline {subsection}{\tocsubsection {}{5.2}{Example}}{80}{subsection.4.5.2}
+\contentsline {subsection}{\tocsubsection {}{5.3}{An unusual example, in which there {\bfseries \itshape is\tmspace +\thinmuskip {.1667em}} a simple formula for $R_nf(x)$}}{81}{subsection.4.5.3}
+\contentsline {subsection}{\tocsubsection {}{5.4}{Another unusual, but important example where we can compute $R_nf(x)$}}{81}{subsection.4.5.4}
+\contentsline {section}{\tocsection {}{6}{Lagrange's Formula for the Remainder Term}}{82}{section.4.6}
+\contentsline {subsection}{\tocsubsection {}{6.1}{Theorem}}{82}{subsection.4.6.1}
+\contentsline {subsection}{\tocsubsection {}{6.2}{Estimate of remainder term}}{82}{subsection.4.6.2}
+\contentsline {subsection}{\tocsubsection {}{6.3}{How to compute $e$ in a few decimal places}}{82}{subsection.4.6.3}
+\contentsline {subsection}{\tocsubsection {}{6.4}{Error in the approximation $\qopname \relax o{sin}x\approx x$}}{83}{subsection.4.6.4}
+\contentsline {subsubsection}{\tocsubsubsection {}{6.4.1}{Question: how big is the error in this approximation?}}{83}{subsubsection.4.6.4.1}
+\contentsline {subsubsection}{\tocsubsubsection {}{6.4.2}{Question: How small must we choose $x$ to be sure that the approximation $\qopname \relax o{sin}x\approx x$ isn't off by more than $1$\% ?}}{83}{subsubsection.4.6.4.2}
+\contentsline {section}{\tocsection {}{7}{Problems}}{84}{section.4.7}
+\contentsline {section}{\tocsection {}{8}{The limit as $x\to 0$, keeping $n$ fixed }}{84}{section.4.8}
+\contentsline {subsection}{\tocsubsection {}{8.1}{Little-oh}}{84}{subsection.4.8.1}
+\contentsline {subsection}{\tocsubsection {}{8.2}{Theorem}}{84}{subsection.4.8.2}
+\contentsline {subsection}{\tocsubsection {}{8.3}{Definition}}{85}{subsection.4.8.3}
+\contentsline {subsection}{\tocsubsection {}{8.4}{Example: prove one of these little-oh rules}}{85}{subsection.4.8.4}
+\contentsline {subsection}{\tocsubsection {}{8.5}{Can we see that $x^3=o (x^2)$ by looking at the graphs of these functions?}}{85}{subsection.4.8.5}
+\contentsline {subsection}{\tocsubsection {}{8.6}{Example: Little-oh arithmetic is a little funny}}{86}{subsection.4.8.6}
+\contentsline {subsection}{\tocsubsection {}{8.7}{Computations with Taylor polynomials}}{87}{subsection.4.8.7}
+\contentsline {subsection}{\tocsubsection {}{8.8}{Theorem}}{87}{subsection.4.8.8}
+\contentsline {subsection}{\tocsubsection {}{8.9}{How \textit {NOT} to compute the Taylor polynomial of degree 12 of $f(x)=1/ (1+x^2)$}}{87}{subsection.4.8.9}
+\contentsline {subsection}{\tocsubsection {}{8.10}{A much easier approach to finding the Taylor polynomial of \textbf {any} degree of $f(x)=1/ (1+x^2)$}}{88}{subsection.4.8.10}
+\contentsline {subsection}{\tocsubsection {}{8.11}{Example of multiplication of Taylor polynomials}}{88}{subsection.4.8.11}
+\contentsline {subsection}{\tocsubsection {}{8.12}{Taylor's formula and Fibonacci numbers}}{89}{subsection.4.8.12}
+\contentsline {subsection}{\tocsubsection {}{8.13}{More about the Fibonacci numbers}}{90}{subsection.4.8.13}
+\contentsline {section}{\tocsection {}{9}{Problems}}{91}{section.4.9}
+\contentsline {section}{\tocsection {}{10}{Differentiating and Integrating Taylor polynomials}}{92}{section.4.10}
+\contentsline {subsection}{\tocsubsection {}{10.1}{Theorem}}{92}{subsection.4.10.1}
+\contentsline {subsection}{\tocsubsection {}{10.2}{Example: Taylor polynomial of $(1-x)^{-2}$}}{93}{subsection.4.10.2}
+\contentsline {subsection}{\tocsubsection {}{10.3}{Example: Taylor polynomials of $\qopname \relax o{arctan}x$}}{93}{subsection.4.10.3}
+\contentsline {section}{\tocsection {}{11}{Problems on Integrals and Taylor Expansions}}{93}{section.4.11}
+\contentsline {section}{\tocsection {}{12}{Proof of Theorem \ref {thm:fisg-to-order-n}}}{94}{section.4.12}
+\contentsline {subsection}{\tocsubsection {}{12.1}{Lemma}}{94}{subsection.4.12.1}
+\contentsline {section}{\tocsection {}{13}{Proof of Lagrange's formula for the remainder}}{95}{section.4.13}
+\contentsline {chapter}{\tocchapter {Chapter}{5}{Sequences and Series}}{97}{chapter.5}
+\contentsline {section}{\tocsection {}{1}{Introduction}}{97}{section.5.1}
+\contentsline {subsection}{\tocsubsection {}{1.1}{A different point of view on Taylor expansions}}{97}{subsection.5.1.1}
+\contentsline {subsection}{\tocsubsection {}{1.2}{Some sums with infinitely many terms}}{97}{subsection.5.1.2}
+\contentsline {section}{\tocsection {}{2}{Sequences}}{99}{section.5.2}
+\contentsline {subsection}{\tocsubsection {}{2.1}{Examples of sequences}}{99}{subsection.5.2.1}
+\contentsline {subsection}{\tocsubsection {}{2.2}{Definition}}{99}{subsection.5.2.2}
+\contentsline {subsection}{\tocsubsection {}{2.3}{Example: $\displaystyle \qopname \relax m{lim}_{n\to \infty } \genfrac {}{}{}01n=0$}}{99}{subsection.5.2.3}
+\contentsline {subsection}{\tocsubsection {}{2.4}{Example: $\displaystyle \qopname \relax m{lim}_{n\to \infty } a^n=0$ if $|a|<1$}}{100}{subsection.5.2.4}
+\contentsline {subsubsection}{\tocsubsubsection {}{}{The case $|a|\geq 1$ (without proof)}}{100}{section*.30}
+\contentsline {subsection}{\tocsubsection {}{2.5}{Theorem}}{100}{subsection.5.2.5}
+\contentsline {subsection}{\tocsubsection {}{2.6}{Sandwich theorem}}{100}{subsection.5.2.6}
+\contentsline {subsection}{\tocsubsection {}{2.7}{Theorem}}{100}{subsection.5.2.7}
+\contentsline {subsection}{\tocsubsection {}{2.8}{Example}}{101}{subsection.5.2.8}
+\contentsline {subsection}{\tocsubsection {}{2.9}{Limits of rational functions}}{101}{subsection.5.2.9}
+\contentsline {subsection}{\tocsubsection {}{2.10}{Example. Application of the Sandwich theorem. }}{101}{subsection.5.2.10}
+\contentsline {subsubsection}{\tocsubsubsection {}{}{Method 1: }}{101}{section*.31}
+\contentsline {subsubsection}{\tocsubsubsection {}{}{Method 2: }}{101}{section*.32}
+\contentsline {subsection}{\tocsubsection {}{2.11}{Example: factorial beats any exponential}}{101}{subsection.5.2.11}
+\contentsline {section}{\tocsection {}{3}{Problems on Limits of Sequences}}{102}{section.5.3}
+\contentsline {section}{\tocsection {}{4}{Series}}{102}{section.5.4}
+\contentsline {subsection}{\tocsubsection {}{4.1}{Definitions}}{102}{subsection.5.4.1}
+\contentsline {subsection}{\tocsubsection {}{4.2}{Examples}}{103}{subsection.5.4.2}
+\contentsline {subsubsection}{\tocsubsubsection {}{}{The geometric series}}{103}{section*.33}
+\contentsline {subsubsection}{\tocsubsubsection {}{}{Telescoping series}}{103}{section*.34}
+\contentsline {subsection}{\tocsubsection {}{4.3}{Properties of series}}{104}{subsection.5.4.3}
+\contentsline {subsection}{\tocsubsection {}{4.4}{Theorem}}{104}{subsection.5.4.4}
+\contentsline {subsubsection}{\tocsubsubsection {}{}{Rearranging terms in a series}}{104}{section*.35}
+\contentsline {section}{\tocsection {}{5}{Convergence of Taylor Series}}{105}{section.5.5}
+\contentsline {subsection}{\tocsubsection {}{5.1}{The \textsc {Geometric series} converges for $-1<x<1$}}{105}{subsection.5.5.1}
+\contentsline {subsection}{\tocsubsection {}{5.2}{Convergence of the exponential Taylor series}}{106}{subsection.5.5.2}
+\contentsline {subsection}{\tocsubsection {}{5.3}{The day that all Chemistry stood still}}{106}{subsection.5.5.3}
+\contentsline {section}{\tocsection {}{6}{Problems on Convergence of Taylor Series}}{107}{section.5.6}
+\contentsline {section}{\tocsection {}{7}{Leibniz' formulas for $\qopname \relax o{ln}2$ and $\pi /4$}}{108}{section.5.7}
+\contentsline {section}{\tocsection {}{8}{Problems}}{109}{section.5.8}
+\contentsline {chapter}{\tocchapter {Chapter}{6}{Vectors}}{111}{chapter.6}
+\contentsline {section}{\tocsection {}{1}{Introduction to vectors}}{111}{section.6.1}
+\contentsline {subsection}{\tocsubsection {}{1.1}{Definition}}{111}{subsection.6.1.1}
+\contentsline {subsection}{\tocsubsection {}{1.2}{Basic arithmetic of vectors}}{111}{subsection.6.1.2}
+\contentsline {subsection}{\tocsubsection {}{1.3}{Some GOOD examples. }}{112}{subsection.6.1.3}
+\contentsline {subsection}{\tocsubsection {}{1.4}{Two very, very, BAD examples. }}{112}{subsection.6.1.4}
+\contentsline {subsection}{\tocsubsection {}{1.5}{Algebraic properties of vector addition and multiplication}}{112}{subsection.6.1.5}
+\contentsline {subsubsection}{\tocsubsubsection {}{}{Prove (\ref {eq:vector-addition-cmttve})}}{113}{section*.37}
+\contentsline {subsection}{\tocsubsection {}{1.6}{Example}}{113}{subsection.6.1.6}
+\contentsline {subsubsection}{\tocsubsubsection {}{1.6.1}{Problem}}{113}{subsubsection.6.1.6.1}
+\contentsline {subsubsection}{\tocsubsubsection {}{1.6.2}{Problem}}{113}{subsubsection.6.1.6.2}
+\contentsline {section}{\tocsection {}{2}{Geometric description of vectors}}{113}{section.6.2}
+\contentsline {subsection}{\tocsubsection {}{2.1}{Definition}}{114}{subsection.6.2.1}
+\contentsline {subsection}{\tocsubsection {}{2.2}{Example}}{115}{subsection.6.2.2}
+\contentsline {subsection}{\tocsubsection {}{2.3}{Example}}{115}{subsection.6.2.3}
+\contentsline {subsection}{\tocsubsection {}{2.4}{Geometric interpretation of vector addition and multiplication}}{115}{subsection.6.2.4}
+\contentsline {subsection}{\tocsubsection {}{2.5}{Example}}{116}{subsection.6.2.5}
+\contentsline {section}{\tocsection {}{3}{Parametric equations for lines and planes}}{116}{section.6.3}
+\contentsline {subsection}{\tocsubsection {}{3.1}{Example}}{117}{subsection.6.3.1}
+\contentsline {subsection}{\tocsubsection {}{3.2}{Midpoint of a line segment. }}{117}{subsection.6.3.2}
+\contentsline {section}{\tocsection {}{4}{Vector Bases}}{118}{section.6.4}
+\contentsline {subsection}{\tocsubsection {}{4.1}{The Standard Basis Vectors}}{118}{subsection.6.4.1}
+\contentsline {subsection}{\tocsubsection {}{4.2}{A Basis of Vectors (in general)*}}{118}{subsection.6.4.2}
+\contentsline {subsection}{\tocsubsection {}{4.3}{Definition}}{118}{subsection.6.4.3}
+\contentsline {subsection}{\tocsubsection {}{4.4}{Definition}}{119}{subsection.6.4.4}
+\contentsline {section}{\tocsection {}{5}{Dot Product}}{119}{section.6.5}
+\contentsline {subsection}{\tocsubsection {}{5.1}{Definition}}{119}{subsection.6.5.1}
+\contentsline {subsection}{\tocsubsection {}{5.2}{Algebraic properties of the dot product}}{119}{subsection.6.5.2}
+\contentsline {subsection}{\tocsubsection {}{5.3}{Example}}{119}{subsection.6.5.3}
+\contentsline {subsection}{\tocsubsection {}{5.4}{The diagonals of a parallelogram}}{119}{subsection.6.5.4}
+\contentsline {subsection}{\tocsubsection {}{5.5}{Theorem}}{120}{subsection.6.5.5}
+\contentsline {subsection}{\tocsubsection {}{5.6}{The dot product and the angle between two vectors}}{120}{figure.caption.45}
+\contentsline {subsection}{\tocsubsection {}{5.7}{Theorem}}{120}{subsection.6.5.7}
+\contentsline {subsection}{\tocsubsection {}{5.8}{Orthogonal projection of one vector onto another}}{121}{subsection.6.5.8}
+\contentsline {subsection}{\tocsubsection {}{5.9}{Defining equations of lines}}{122}{subsection.6.5.9}
+\contentsline {subsection}{\tocsubsection {}{5.10}{Line through one point and perpendicular to another line}}{122}{subsection.6.5.10}
+\contentsline {subsection}{\tocsubsection {}{5.11}{Distance to a line}}{123}{subsection.6.5.11}
+\contentsline {subsection}{\tocsubsection {}{5.12}{Defining equation of a plane}}{124}{subsection.6.5.12}
+\contentsline {subsection}{\tocsubsection {}{5.13}{Example}}{125}{subsection.6.5.13}
+\contentsline {subsection}{\tocsubsection {}{5.14}{Example continued}}{125}{subsection.6.5.14}
+\contentsline {subsection}{\tocsubsection {}{5.15}{Where does the line through the points $B (2,0,0)$ and $C (0,1,2)$ intersect the plane $\EuScript {P}$ from example \ref {ex:defining-eqn-plane}?}}{126}{subsection.6.5.15}
+\contentsline {section}{\tocsection {}{6}{Cross Product}}{127}{section.6.6}
+\contentsline {subsection}{\tocsubsection {}{6.1}{Algebraic definition of the cross product}}{127}{subsection.6.6.1}
+\contentsline {subsection}{\tocsubsection {}{6.2}{Definition}}{127}{subsection.6.6.2}
+\contentsline {subsection}{\tocsubsection {}{6.3}{Example}}{127}{subsection.6.6.3}
+\contentsline {subsection}{\tocsubsection {}{6.4}{Example}}{127}{subsection.6.6.4}
+\contentsline {subsection}{\tocsubsection {}{6.5}{Algebraic properties of the cross product}}{127}{subsection.6.6.5}
+\contentsline {subsection}{\tocsubsection {}{6.6}{Ways to compute the cross product}}{128}{subsection.6.6.6}
+\contentsline {subsection}{\tocsubsection {}{6.7}{Example}}{128}{subsection.6.6.7}
+\contentsline {subsection}{\tocsubsection {}{6.8}{The triple product and determinants}}{128}{subsection.6.6.8}
+\contentsline {subsection}{\tocsubsection {}{6.9}{Definition}}{128}{subsection.6.6.9}
+\contentsline {subsection}{\tocsubsection {}{6.10}{Theorem}}{129}{subsection.6.6.10}
+\contentsline {subsection}{\tocsubsection {}{6.11}{Geometric description of the cross product}}{129}{subsection.6.6.11}
+\contentsline {subsection}{\tocsubsection {}{6.12}{Theorem}}{130}{subsection.6.6.12}
+\contentsline {subsection}{\tocsubsection {}{6.13}{Theorem}}{130}{subsection.6.6.13}
+\contentsline {section}{\tocsection {}{7}{A few applications of the cross product}}{131}{section.6.7}
+\contentsline {subsection}{\tocsubsection {}{7.1}{Area of a parallelogram}}{131}{subsection.6.7.1}
+\contentsline {subsection}{\tocsubsection {}{7.2}{Example}}{131}{subsection.6.7.2}
+\contentsline {subsection}{\tocsubsection {}{7.3}{Finding the normal to a plane}}{132}{subsection.6.7.3}
+\contentsline {subsection}{\tocsubsection {}{7.4}{Example}}{132}{subsection.6.7.4}
+\contentsline {subsection}{\tocsubsection {}{7.5}{Volume of a parallelepiped}}{133}{subsection.6.7.5}
+\contentsline {section}{\tocsection {}{8}{Notation}}{133}{section.6.8}
+\contentsline {subsection}{\tocsubsection {}{}{Common abuses of notation that should be avoided}}{134}{section*.54}
+\contentsline {section}{\tocsection {}{9}{Problems--Computing and drawing vectors}}{135}{section.6.9}
+\contentsline {section}{\tocsection {}{10}{Problems--Parametric equations for a line}}{137}{section.6.10}
+\contentsline {section}{\tocsection {}{11}{Problems--Orthogonal decomposition\\of one vector with respect to another}}{137}{section.6.11}
+\contentsline {section}{\tocsection {}{12}{Problems--The dot product}}{138}{section.6.12}
+\contentsline {section}{\tocsection {}{13}{Problems--The cross product}}{138}{section.6.13}
+\contentsline {chapter}{\tocchapter {Chapter}{7}{Answers, Solutions, and Hints}}{141}{chapter.7}
+\contentsline {chapter}{\tocchapter {Chapter}{8}{GNU Free Documentation License}}{159}{chapter.8}

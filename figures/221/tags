@@ -1,0 +1,11 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Pmat	09pyramid.py	/^Pmat=[[0.8, -0.2],$/;"	v
+T	09pyramid.py	/^T=[0.2, 0.3, 1]$/;"	v
+base	09pyramid.py	/^base=[[0,0,0], [1,0,0], [1,1,0], [0,1,0], [0,0,0]]$/;"	v
+drawslice	09pyramid.py	/^def drawslice(h, linetozaxis='YES'):$/;"	f
+proj	09pyramid.py	/^def proj(X):  #linear projection of R^3 onto R^2 $/;"	f

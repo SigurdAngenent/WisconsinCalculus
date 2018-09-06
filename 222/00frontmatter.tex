@@ -1,0 +1,154 @@
+%!TEX root =  free222.tex
+%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%             THE TITLE PAGE
+\null
+\includegraphics[width=0.2\textwidth]{UW_logo.png}
+\vfill
+
+
+\begin{flushright}
+  \Huge\bfseries\sffamily%
+  MATH 222 \\
+  \rmfamily
+  \mdseries\itshape Second Semester \\
+  Calculus\\[1in]
+  \large \semester
+\end{flushright}
+
+\vfill
+\begin{flushright}
+\textsf{Typeset:\today}
+\end{flushright}
+
+\newpage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{center}
+  \bfseries\sffamily Math 222 -- 2nd Semester Calculus \\
+  Lecture notes version \version\ (\semester)
+\end{center}
+
+\noindent This is a self contained set of lecture notes for Math 222. The
+notes were written by Sigurd Angenent, as part ot the MIU calculus project.
+Some problems were contributed by A.Miller.
+
+
+The \LaTeX\ files, as well as the \textsc{Inkscape} and \textsc{Octave} files
+which were used to produce these notes are available at the following web
+site
+\begin{center}
+\url{http://www.math.wisc.edu/~angenent/MIU-calculus}
+\end{center}
+They are meant to be freely available for non-commercial use, in the sense
+that ``free software'' is free. More precisely:
+
+\bigskip
+
+\begin{center}
+  \framebox{
+  \begin{minipage}[b]{4.5in}\raggedright\footnotesize
+    Copyright (c) 2012 Sigurd B. Angenent.  Permission is granted to
+    copy, distribute and/or modify this document under the terms of
+    the GNU Free Documentation License, Version 1.2 or any later
+    version published by the Free Software Foundation; with no
+    Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts.
+    A copy of the license is included in the section entitled "GNU
+    Free Documentation License".
+  \end{minipage}
+  }
+\end{center}
+
+
+\sffamily\footnotesize
+%\begin{multicols}{2}
+    \tableofcontents
+%\end{multicols}
+\rmfamily\normalsize
+
+%  section{The table of integrals}
+
+\begin{table}[bt]
+  \centering\sffamily
+  \color{darkbluegreen}%
+  \rule[6pt]{\textwidth}{2pt}
+  \begin{tabular}{r@{\,$=$\,}lr@{$\,=\,$}lp{36pt}}
+      $\displaystyle f(x)$&
+    $\displaystyle \frac{dF(x)} {dx} $ &
+    $\displaystyle  \int f(x)\, d x  $&
+    $\displaystyle  F(x)+C $ &
+    \\[3ex]
+    \midrule
+    $\displaystyle (n+1)x^n $&
+    $\displaystyle  \frac{dx^{n+1}} {dx}$ &
+    $\displaystyle \int x^{n}\, d x  $&
+    $\displaystyle   \frac{x^{n+1}}{n+1}+C$ &
+    $n\neq -1$\\[3ex]
+    $\displaystyle \frac{1}{x} $&
+    $\displaystyle  \frac{d \ln |x|}{dx} $&
+    $\displaystyle \int \frac{1}{x}\, d x $&
+    $\displaystyle  \ln |x| +C $&
+    absolute values!!\\[3ex]
+    $\displaystyle e^x $&
+    $\displaystyle  \frac{de^x} {dx}$ &
+    $\displaystyle \int e^x\, dx $&
+    $\displaystyle  e^x +C$& \\[3ex]
+    $\displaystyle -\sin x $&
+    $\displaystyle  \frac{d \cos x}{dx}$&
+    $\displaystyle \int \sin x\, d x  $&
+    $\displaystyle   -\cos x+C$\\[3ex]
+    $\displaystyle  \cos x  $&
+    $\displaystyle  \frac{d  \sin x}{dx}$&
+    $\displaystyle \int \cos x\, d x  $&
+    $\displaystyle   \sin x+C$\\[3ex]
+    $\displaystyle  \tan x  $&
+    $\displaystyle  -\frac{d \ln |\cos x|}{dx}$ &
+    $\displaystyle \int \tan x $&
+    $\displaystyle  -\ln |\cos x|+C$ &
+    absolute values!!\\[3ex]
+    $\displaystyle  \frac{1}{1+x^{2}} $&
+    $\displaystyle   \frac{d \arctan x}{dx}$&
+    $\displaystyle \int \frac{1}{1+x^{2}}\, d x  $&
+    $\displaystyle   \arctan x+C$\\[3ex]
+    $\displaystyle  \frac{1}{\sqrt{1-x^{2}}} $&
+    $\displaystyle  \frac{d\arcsin x}{dx} $&
+    $\displaystyle \int \frac{1}{\sqrt{1-x^{2}}}\, d x  $&
+    $\displaystyle   \arcsin x+C $\\[3ex]
+    $\displaystyle  f(x) + g(x) $&
+    $\displaystyle  \frac{d F(x) + G(x)} {dx}$&
+    $\displaystyle \int \{f(x)+g(x)\} \,dx $&
+    $\displaystyle   F(x)+G(x)+C $&
+    \\[3ex]
+    $\displaystyle  cf(x) $&
+    $\displaystyle  \frac{d\, cF(x)} {dx}$&
+    $\displaystyle \int cf(x) \,dx $&
+    $\displaystyle   cF(x)+C $&
+    \\[3ex]
+      $\displaystyle F\frac{dG}{dx}$&
+      $\displaystyle \frac{dFG}{dx}-\frac{dF}{dx}G$&
+      $\displaystyle \int FG'\,dx$&
+      $\displaystyle FG-\int F'G\,dx$\\[3ex]
+  \end{tabular}
+  \smallskip
+  \rule[1pt]{\textwidth}{0.3pt}
+
+  To find derivatives and integrals involving $a^x$ instead of $e^x$ use
+  $a = e^{\ln a}$,\\
+  and thus $a^{x} = e^{x\ln a}$, to rewrite all exponentials as $e^{\ldots}$.
+  \smallskip
+
+  The following integral is also useful, but not as important as the
+  ones above:
+  \[
+  \int \frac{ d x}{\cos x} = \frac12 \ln\frac{1+\sin x}{1-\sin x} +C
+  \text{ for }\cos x\neq 0.
+  \]
+  \rule[6pt]{\textwidth}{2pt}
+  \caption{The list of the standard integrals everyone should know}
+  \label{tbl:standard-integrals}
+\end{table}
+
+
+%%% Local Variables: 
+%%% mode: latex
+%%% TeX-master: "free222"
+%%% End: 

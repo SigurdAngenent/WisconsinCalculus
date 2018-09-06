@@ -1,0 +1,100 @@
+\documentclass{amsbook}
+
+\input ../preamble
+\input ../free-macros
+\input ../gans.tex
+
+\begin{document}
+\begin{center}
+  \Large\color{badgerred}
+  Three proofs of the converse to Clairaut's theorem
+\end{center}
+\bigskip 
+
+If $P(x,y)$ and $Q(x,y)$ are two functions on a convex domain that satisfy 
+\[
+\pdd Qx = \pdd Py \tag{$\star$}
+\]
+then there is a function $f(x,y)	$ whose partial derivatives are
+\[
+ \pdd fx = P(x,y) \text{ and } \pdd fy = Q(x,y). 
+\]
+
+\section{First proof -- differentiating under the integral}
+We claim that the function given by
+\[
+f(x,y) = \int_0^x P(u, 0) du + \int_0^y Q(x, v) dv
+\tag{\dag}
+\]
+does the trick.
+
+To verify this we compute the partial derivatives of this function.  The $y$ derivative follows directly from the fundamental theorem of calculus:
+\begin{align*}
+f_y(x, y) &= \pdd{}y \left\{ \int_0^x P(u, 0) du + \int_0^y Q(x, v) dv \right\}\\
+&= 0+\pdd{}y \int_0^y Q(x, v) dv\\
+&= Q(x, y).
+\end{align*}
+For the $x$-derivative we argue as follows:
+\begin{align*}
+f_x(x, y) &= P(x,0) + \pdd{}x  \int_0^y Q(x, v) dv &\carefulnow \\
+&= P(x,0) + \int_0^y Q_x(x, v) dv &\carefulnow\\
+&= P(x,0) + \int_0^y P_y(x, v) dv \\
+&= P(x,0) + \bigl[P(x, y) - P(x, 0)\bigr] \\
+&= P(x, y).
+\end{align*}
+To go from the first to the second line in this computation we used
+\[
+  \pdd{}x  \int_0^y Q(x, v) dv = \int_0^y \pdd Qx(x, v) dv,
+\]
+which is known as ``differentiating under the integral.''  This is justified, but the proof that differentiating under the integral is allowed is not simple.
+
+\section{Second proof -- switching a double integral}
+Our second proof starts again with the claim that 
+\[
+ f(x,y) = \int_0^x P(u, 0) du + \int_0^y Q(x, v) dv 
+\]
+is the function we are looking for.  The $y$ derivative again follows as in the first proof. To compute the $x$ derivative we use a double integral to rewrite our definition of $f(x,y)$ as follows
+\begin{align*}
+f(x, y) &=\int_0^x P(u, 0) du + \int_0^y Q(x, v) dv \\
+&= \int_0^x P(u,0)du + \int_0^y \left\{Q(0, v) dv + \int_0^x \pdd Qx(u,v) du\right\} dv \\
+&= \int_0^x P(u,0)du + \int_0^y Q(0, v) dv + \int_0^y\int_0^x \pdd Py(u,v) du\, dv  &\text{\dfnt(switch order}\\
+&= \int_0^x P(u,0)du + \int_0^y Q(0, v) dv + \int_0^x\int_0^y \pdd Py(u,v) dv\, du  &\text{\dfnt of integration)}\\
+&= \int_0^x P(u,0)du + \int_0^y Q(0, v) dv + \int_0^x\int_0^y \bigl[ P(u,v)\bigr]_{v=0}^y du\\
+&= \int_0^x P(u,0)du + \int_0^y Q(0, v) dv + \int_0^x\int_0^y  \bigl[P(u,y)-P(u,0)\bigr] du \\
+&= \int_0^x P(u,y)du + \int_0^y Q(0, v) dv . 
+\end{align*}
+This new form is easy to differentiate with respect to $x$:
+\[
+ \pdd fx = 
+ \pdd{}x\left\{ \int_0^x P(u,y)du + \int_0^y Q(0, v) dv
+ \right\} 
+ =P(x,y).
+\]
+
+\section{The third proof -- using Green's theorem}
+Our last proof also rewrites the definition of $f(x,y)$ to make it easier to differentiate with respect to $x$.  By applying Green's theorem to the rectangle 
+\[
+\cR = \{ (u,v) : 0\leq u\leq x, 0\leq v\leq y\}
+\]
+we get 
+\[
+\oint_\cC P(x, y)dx+Q(x, y)dy
+=\liint_\cR \left\{\pdd Qx-\pdd Py\right\} dA
+=0
+\]
+where $\cC$ is the counterclockwise traversed boundary of the rectangle $\cR$.  Parametrizing the edges of $\cR$ we find that the line integral is
+\begin{multline*}
+\oint_\cC P(x, y)dx+Q(x, y)dy\\
+=\int_0^x P(u,0)du + \int_0^y Q(x, v)dv - \int_0^x P(u, y) du - \int_0^y Q(0, v)dv.
+\end{multline*}
+Therefore we have
+\[
+  f(x,y) 
+  = \int_0^x P(u,0)du + \int_0^y Q(x, v)dv = \int_0^x P(u, y) du + \int_0^y Q(0, v)dv.
+\]
+To find $f_x$ we differentiate the second form, and to find $f_y$ we differentiate the first.
+\end{document}
+
+
+
+

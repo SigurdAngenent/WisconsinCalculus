@@ -1,0 +1,65 @@
+%% Creator: Inkscape inkscape 0.48.2, www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file '05mvt-proof.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{360bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.6)%
+    \put(0,0){\includegraphics[width=\unitlength]{05mvt-proof.pdf}}%
+    \put(-0.03242839,0.18389625){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$y=f(x)$}}}%
+    \put(0.76836158,0.05422557){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$c$}}}%
+    \put(0.91502821,0.05422557){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$c'$}}}%
+    \put(0.26613936,0.08978113){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$b$}}}%
+    \put(0.03140704,0.13316583){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$A$}}}%
+    \put(0.28768843,0.29020101){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$B$}}}%
+    \put(0.01927663,0.40772546){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\mvtprooftextone}}}%
+    \put(0.17336683,0.14882192){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\mvtproofthechord}}}%
+    \put(0.33919596,0.40587379){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\mvtprooftexttwo}}}%
+    \put(0.71697374,0.34365157){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\mvtprooftextthree}}}%
+    \put(0.04613936,0.08533668){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$a$}}}%
+  \end{picture}%
+\endgroup%

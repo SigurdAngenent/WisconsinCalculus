@@ -1,0 +1,45 @@
+%
+%  Common preamble for math 221, 222 and 234 texts.
+%
+% Time-stamp: Mon Jun 10 13:01:50 2013
+%
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{eucal}
+\usepackage{bm}     % for bold math
+\usepackage[h]{../esvect} % for better looking arrows--use the included
+                          % esvect.sty, not the standard esvect!
+\usepackage{manfnt} % for ``danger'' symbols
+\usepackage{cancel} % to cancel terms in a summation
+\usepackage{graphicx,color}
+%For the on-line version include this:
+\definecolor{limegreen}{rgb}{0.196,0.804,0.196}%[ 50,205, 50]
+\definecolor{darkgreen}{rgb}{0.0,0.5,0.0}
+\definecolor{darkbluegreen}{rgb}{0,0.3,0.6}
+\definecolor{badgerred}{rgb}{0.715,0.004,0.004}
+\usepackage{url,hyperref}
+\hypersetup{colorlinks, 
+            citecolor=black,
+            filecolor=black,
+            linkcolor=blue,
+            urlcolor=darkgreen,
+            bookmarksopen=false,
+            pdftex}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage[font=small,labelfont={bf,sf,color=darkbluegreen},
+            textfont={sf,color=darkbluegreen},margin=0em]{caption}
+\usepackage{multicol}    %  two columns for problem sections
+\usepackage{booktabs}
+%\usepackage{answers}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%  As of 2014 the texlive distribution contains the libertine package, 
+%  which allows us to typeset the document in libertine fonts without 
+%  using xelatex, and without having to download the fonts.
+\usepackage{libertine}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\setlength{\columnsep}{36pt}
+\setcounter{tocdepth}{2}
+%\numberwithin{equation}{subsection}
+\numberwithin{section}{chapter}
+
+

@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Creator: fig2dev Version 3.2 Patchlevel 5 -->
+<!-- CreationDate: Wed Dec 17 18:45:08 2008 -->
+<!-- Magnification: 1.000 -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1.4in"
+   height="1.8in"
+   viewBox="-462 -737 1728 2185"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.46"
+   sodipodi:docname="04spring-with-weight.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape">
+  <metadata
+     id="metadata47">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs45">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 81 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="126 : 81 : 1"
+       inkscape:persp3d-origin="63 : 54 : 1"
+       id="perspective49" />
+  </defs>
+  <sodipodi:namedview
+     inkscape:window-height="756"
+     inkscape:window-width="1232"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     guidetolerance="10.0"
+     gridtolerance="10.0"
+     objecttolerance="10.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base"
+     showgrid="false"
+     inkscape:zoom="3.0740741"
+     inkscape:cx="110.98193"
+     inkscape:cy="81"
+     inkscape:window-x="0"
+     inkscape:window-y="22"
+     inkscape:current-layer="svg2" />
+  <polyline
+     id="polyline6"
+     style="stroke:#000000;stroke-width:7;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:20, 20"
+     points="0,1050 1200,1050 " />
+  <polyline
+     id="polyline8"
+     style="stroke:#000000;stroke-width:7;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:20, 20"
+     points="0,-450 1200,-450 " />
+  <text
+     style="font-size:120px;font-style:italic;font-weight:normal;text-anchor:start;fill:#000000;stroke:#000000;stroke-width:0.025in;font-family:AvantGarde"
+     id="text10"
+     font-size="120"
+     font-weight="normal"
+     font-style="italic"
+     y="1095"
+     x="-247"
+     xml:space="preserve">m</text>
+  <polyline
+     id="polyline12"
+     style="fill:#7f7f7f;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:bevel"
+     points="-450,-450 -448,-450 -444,-450 -436,-450 -423,-450 -405,-450 -381,-450 -351,-450 -315,-450 -273,-450 -226,-450 -174,-450 -118,-450 -60,-450 0,-450 60,-450 118,-450 174,-450 226,-450 273,-450 315,-450 351,-450 381,-450 405,-450 423,-450 436,-450 444,-450 448,-450 450,-450 448,-453 445,-459 438,-470 429,-486 417,-505 403,-527 388,-549 372,-572 356,-594 340,-613 324,-631 309,-647 293,-660 277,-672 261,-683 243,-692 225,-700 207,-707 188,-712 168,-718 147,-722 125,-727 101,-730 77,-733 52,-735 26,-736 0,-736 -26,-736 -52,-735 -77,-733 -101,-730 -125,-727 -147,-722 -168,-718 -188,-712 -207,-707 -225,-700 -243,-692 -261,-683 -277,-672 -293,-660 -309,-647 -324,-631 -340,-613 -356,-594 -372,-572 -388,-549 -403,-527 -417,-505 -429,-486 -438,-470 -445,-459 -448,-453 -450,-450 " />
+  <polyline
+     id="polyline14"
+     style="stroke:#000000;stroke-width:7;stroke-linecap:butt;stroke-linejoin:miter"
+     points="-450,-450 450,-450 " />
+  <polyline
+     id="polyline16"
+     style="stroke:#000000;stroke-width:6.99428570999999977;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1;fill:none;stroke-miterlimit:4;stroke-dasharray:none"
+     points="0,-450 0,-300 -150,-225 150,-150 -150,-75 150,0 -150,75 150,150 -150,225 150,300 -150,375 150,450 0,525 0,1050 " />
+  <text
+     style="font-size:84px;font-style:italic;font-weight:normal;text-anchor:start;fill:#000000;stroke:#000000;stroke-width:0.025in;font-family:AvantGarde"
+     id="text18"
+     font-size="84"
+     font-weight="normal"
+     font-style="italic"
+     y="869"
+     x="126"
+     xml:space="preserve">spring</text>
+  <text
+     style="font-size:84px;font-style:italic;font-weight:normal;text-anchor:start;fill:#000000;stroke:#000000;stroke-width:0.025in;font-family:AvantGarde"
+     id="text20"
+     font-size="84"
+     font-weight="normal"
+     font-style="italic"
+     y="1393"
+     x="125"
+     xml:space="preserve">gravity</text>
+  <text
+     style="font-size:137.14285714px;font-style:italic;font-weight:300;text-anchor:start;fill:#000000;stroke:#000000;stroke-width:0.02500000000000000in;font-family:Helvetica Neue;-inkscape-font-specification:Helvetica Neue Light Italic;font-stretch:normal;font-variant:normal;text-align:start;writing-mode:lr;line-height:125%"
+     id="text22"
+     font-size="120"
+     font-weight="normal"
+     font-style="italic"
+     y="300"
+     x="975"
+     xml:space="preserve"
+     sodipodi:linespacing="125%">y(t)</text>
+  <polyline
+     id="polyline24"
+     style="stroke:#000000;stroke-width:15;stroke-linecap:round;stroke-linejoin:miter"
+     points="0,1050 0,839 " />
+  <polygon
+     id="polygon26"
+     style="fill:#000000;stroke:#000000;stroke-width:7;stroke-linejoin:round"
+     points="45,842 0,730 -45,842 0,820 45,842 "
+     transform="translate(0,27.428571)" />
+  <polyline
+     id="polyline28"
+     style="stroke:#000000;stroke-width:15;stroke-linecap:round;stroke-linejoin:miter"
+     points="0,1050 0,1260 " />
+  <polygon
+     id="polygon30"
+     style="fill:#000000;stroke:#000000;stroke-width:6.99428558;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+     points="-45,1257 0,1370 45,1257 0,1280 -45,1257 "
+     transform="translate(0,-27.428571)" />
+  <polyline
+     id="polyline32"
+     style="stroke:#000000;stroke-width:7;stroke-linecap:round;stroke-linejoin:miter;stroke-dasharray:60, 60"
+     points="904,-357 904,963 " />
+  <polygon
+     id="polygon34"
+     style="fill:#ffffff;stroke:#000000;stroke-width:7;stroke-linejoin:round"
+     points="859,945 904,1058 949,945 904,968 859,945 " />
+  <polygon
+     id="polygon36"
+     style="fill:#ffffff;stroke:#000000;stroke-width:7;stroke-linejoin:round"
+     points="949,-338 904,-451 859,-338 904,-361 949,-338 " />
+  <text
+     style="font-size:120px;font-style:italic;font-weight:normal;text-anchor:start;fill:#000000;stroke:#000000;stroke-width:0.025in;font-family:AvantGarde"
+     id="text38"
+     font-size="120"
+     font-weight="normal"
+     font-style="italic"
+     y="825"
+     x="75"
+     xml:space="preserve">F</text>
+  <text
+     style="font-size:120px;font-style:italic;font-weight:normal;text-anchor:start;fill:#000000;stroke:#000000;stroke-width:0.025in;font-family:AvantGarde"
+     id="text40"
+     font-size="120"
+     font-weight="normal"
+     font-style="italic"
+     y="1350"
+     x="75"
+     xml:space="preserve">F</text>
+  <circle
+     sodipodi:ry="48"
+     sodipodi:rx="48"
+     sodipodi:cy="1050"
+     sodipodi:cx="0"
+     id="circle42"
+     style="fill:#008f8f;stroke:#000000;stroke-width:0"
+     r="48"
+     cy="1050"
+     cx="0" />
+</svg>

@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="537.2431"
+   height="186.10904"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.48.2 r9819"
+   version="1.0"
+   sodipodi:docname="01openANDclosed.pdf"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape">
+  <defs
+     id="defs4">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       id="perspective10" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     gridtolerance="10000"
+     guidetolerance="10"
+     objecttolerance="10"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.8033333"
+     inkscape:cx="301.50731"
+     inkscape:cy="150"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1254"
+     inkscape:window-height="756"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0">
+    <inkscape:grid
+       type="xygrid"
+       id="grid3199"
+       visible="true"
+       enabled="true" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     style="display:inline"
+     transform="translate(-23.756836,-46.825537)">
+    <g
+       id="g3173"
+       transform="translate(-64.325323,1.9429071)">
+      <g
+         id="g3157">
+        <path
+           style="fill:#9d9d9d;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.85130113"
+           d="M 140.85028,45.471349 C 119.50093,46.580406 91.371729,61.656265 88.724584,82.07024 C 86.158233,101.86116 119.22366,108.13309 111.46026,120.88725 C 103.69686,133.64141 78.743068,180.22181 99.815157,167.46765 C 120.88725,154.71349 134.75046,151.94085 134.75046,151.94085 L 144.17745,166.3586 L 155.82255,139.18669 L 180.22181,156.37708 C 180.22181,156.37708 206.83919,142.51386 189.6488,127.54159 C 172.45841,112.56932 144.73198,108.68762 143.62292,96.487985 C 142.51386,84.288355 164.14048,73.197782 164.14048,63.770795 C 164.14048,54.343808 162.75269,44.333562 140.85028,45.471349 z"
+           id="path2383"
+           sodipodi:nodetypes="csssccccsssz" />
+        <path
+           style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="M 136.96857,60.998152 C 138.12437,53.938971 112.56932,72.643253 112.01479,81.515712 C 111.46026,90.38817 114.55056,103.63562 119.77819,101.47874 C 131.09132,96.811027 135.80168,68.125068 136.96857,60.998152 z"
+           id="path2385"
+           sodipodi:nodetypes="cssz" />
+      </g>
+    </g>
+    <g
+       id="g3178"
+       transform="translate(74.83779,1.9429071)"
+       style="stroke:none">
+      <path
+         sodipodi:nodetypes="csssccccsssz"
+         id="path3180"
+         d="M 140.85028,45.471349 C 119.50093,46.580406 91.371729,61.656265 88.724584,82.07024 C 86.158233,101.86116 119.22366,108.13309 111.46026,120.88725 C 103.69686,133.64141 78.743068,180.22181 99.815157,167.46765 C 120.88725,154.71349 134.75046,151.94085 134.75046,151.94085 L 144.17745,166.3586 L 155.82255,139.18669 L 180.22181,156.37708 C 180.22181,156.37708 206.83919,142.51386 189.6488,127.54159 C 172.45841,112.56932 144.73198,108.68762 143.62292,96.487985 C 142.51386,84.288355 164.14048,73.197782 164.14048,63.770795 C 164.14048,54.343808 162.75269,44.333562 140.85028,45.471349 z"
+         style="fill:#9d9d9d;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.85130113" />
+      <path
+         sodipodi:nodetypes="cssz"
+         id="path3182"
+         d="M 136.96857,60.998152 C 138.12437,53.938971 112.56932,72.643253 112.01479,81.515712 C 111.46026,90.38817 114.55056,103.63562 119.77819,101.47874 C 131.09132,96.811027 135.80168,68.125068 136.96857,60.998152 z"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    </g>
+    <g
+       id="g3192"
+       transform="translate(-124.66465,6.3204956)">
+      <path
+         sodipodi:nodetypes="csssccccsssz"
+         id="path3186"
+         d="M 470.74768,41.093762 C 449.39833,42.202819 421.26913,57.278678 418.62198,77.692653 C 416.05563,97.483573 449.12106,103.7555 441.35766,116.50966 C 433.59426,129.26382 408.64047,175.84422 429.71256,163.09006 C 450.78465,150.3359 464.64786,147.56326 464.64786,147.56326 L 474.07485,161.98101 L 485.71995,134.8091 L 510.11921,151.99949 C 510.11921,151.99949 536.73659,138.13627 519.5462,123.164 C 502.35581,108.19173 474.62938,104.31003 473.52032,92.110398 C 472.41126,79.910768 494.03788,68.820195 494.03788,59.393208 C 494.03788,49.966221 492.65009,39.955975 470.74768,41.093762 z"
+         style="fill:#9d9d9d;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.85130113" />
+      <path
+         sodipodi:nodetypes="cssz"
+         id="path3188"
+         d="M 466.86597,56.620565 C 468.02177,49.561384 442.46672,68.265666 441.91219,77.138125 C 441.35766,86.010583 444.44796,99.258033 449.67559,97.101153 C 460.98872,92.43344 465.69908,63.747481 466.86597,56.620565 z"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    </g>
+    <g
+       id="g3208"
+       transform="translate(0,-12)">
+      <path
+         d="m 560,120 c 0,33.13708 -26.86292,60 -60,60 -33.13708,0 -60,-26.86292 -60,-60 0,-33.137085 26.86292,-60 60,-60 33.13708,0 60,26.862915 60,60 z"
+         sodipodi:ry="60"
+         sodipodi:rx="60"
+         sodipodi:cy="120"
+         sodipodi:cx="500"
+         id="path3201"
+         style="opacity:1;fill:#9d9d9d;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:3, 3;stroke-dashoffset:0;stroke-opacity:0.85130113;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         sodipodi:type="arc" />
+      <path
+         sodipodi:open="true"
+         sodipodi:end="3.9105983"
+         sodipodi:start="0"
+         transform="matrix(1.0909086,0,0,1.0909089,-45.454314,-10.909073)"
+         d="m 555,120 c 0,30.37566 -24.62434,55 -55,55 -30.37566,0 -55,-24.62434 -55,-55 0,-14.27474 5.54991,-27.990293 15.47686,-38.248157"
+         sodipodi:ry="55"
+         sodipodi:rx="55"
+         sodipodi:cy="120"
+         sodipodi:cx="500"
+         id="path3205"
+         style="opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.83333397;stroke-linecap:round;stroke-linejoin:round;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.85130113;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         sodipodi:type="arc" />
+    </g>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3212"
+       style="font-size:9px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr;text-anchor:middle;fill:#204a87;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Linux Biolinum O;-inkscape-font-specification:Linux Biolinum O Italic"
+       transform="translate(-2.6328089,0)"><flowRegion
+         id="flowRegion3214"><rect
+           id="rect3216"
+           width="98.151573"
+           height="92.051758"
+           x="31.053604"
+           y="186.87616"
+           style="font-size:9px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr;text-anchor:middle;font-family:Linux Biolinum O;-inkscape-font-specification:Linux Biolinum O Italic;fill:#204a87" /></flowRegion><flowPara
+         id="flowPara3218">Closed,</flowPara><flowPara
+         id="flowPara3220">boundary is</flowPara><flowPara
+         id="flowPara3222">included</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3224"
+       style="font-size:9px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr;text-anchor:middle;fill:#204a87;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:Linux Biolinum O;-inkscape-font-specification:Linux Biolinum O Italic"
+       transform="translate(136.11771,-2.1222066)"><flowRegion
+         id="flowRegion3226"><rect
+           id="rect3228"
+           width="98.151573"
+           height="92.051758"
+           x="31.053604"
+           y="186.87616"
+           style="font-size:9px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr;text-anchor:middle;font-family:Linux Biolinum O;-inkscape-font-specification:Linux Biolinum O Italic;fill:#204a87" /></flowRegion><flowPara
+         id="flowPara3230">Open,</flowPara><flowPara
+         id="flowPara3260">no point on</flowPara><flowPara
+         id="flowPara3232">the boundary</flowPara><flowPara
+         id="flowPara3234">is included</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3236"
+       style="font-size:9px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr;text-anchor:middle;fill:#204a87;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:Linux Biolinum O;-inkscape-font-specification:Linux Biolinum O Italic"
+       transform="translate(267.4404,-4.8948498)"><flowRegion
+         id="flowRegion3238"><rect
+           id="rect3240"
+           width="98.151573"
+           height="92.051758"
+           x="31.053604"
+           y="186.87616"
+           style="font-size:9px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr;text-anchor:middle;font-family:Linux Biolinum O;-inkscape-font-specification:Linux Biolinum O Italic;fill:#204a87" /></flowRegion><flowPara
+         id="flowPara3242">Neither open nor closed, part of the</flowPara><flowPara
+         id="flowPara3246">boundary is included,</flowPara><flowPara
+         id="flowPara3272">another part is not</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3274"
+       style="font-size:9px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr;text-anchor:middle;fill:#204a87;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:Linux Biolinum O;-inkscape-font-specification:Linux Biolinum O Italic"
+       transform="translate(420.20116,-3.2684852)"><flowRegion
+         id="flowRegion3276"><rect
+           id="rect3278"
+           width="98.151573"
+           height="92.051758"
+           x="31.053604"
+           y="186.87616"
+           style="font-size:9px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr;text-anchor:middle;font-family:Linux Biolinum O;-inkscape-font-specification:Linux Biolinum O Italic;fill:#204a87" /></flowRegion><flowPara
+         id="flowPara3280">Neither open nor closed, part of the</flowPara><flowPara
+         id="flowPara3282">boundary is included,</flowPara><flowPara
+         id="flowPara3284">another part is not</flowPara></flowRoot>  </g>
+</svg>

@@ -1,0 +1,254 @@
+
+
+
+
+\project{Models for the dynamics of populations}
+
+\section{Purpose of this project}
+
+We will build mathematical models for the rates of change of different
+populations from first principle arguments.  We will see that the same
+mathematical model can be used to describe such disparate things as
+populations of living organisms and chemical concentrations.
+
+\section{Malthusian Population Growth}
+
+Consider a population living in isolation with an abundance of
+resources.  Let $P(t)$ denote the size of the population at some time,
+$t$.  Note that $P(0)$ is the size of the population at time zero
+(where we can define ``time zero'' to be whenever we want: 0 A.D.,
+January 1st 2012, yesterday, etc.).  We now make the
+\textit{assumption} that for any small $h>0$, representing a small
+window of time, the growth of the population from time $t$ to time
+$t+h$ should be proportional to both
+\begin{enumerate}
+\item the size of the population, and
+\item the size of $h$.
+\end{enumerate}
+Mathematically, we assume that
+\begin{equation}\label{main:eq}
+  P(t+h) \approx P(t) + \lambda P(t) h,
+\end{equation}
+for some $\lambda >0$ (the constant of proportionality).  Rearranging
+terms yields
+\begin{equation}\label{eq:main2}
+  \frac{P(t+h)-P(t)}{h} \approx \lambda P(t).
+\end{equation}
+The term $\lambda$ can often be approximated from experimental data
+(How?  The project for Chapter 6 will explain this in detail.).  Note
+that the right hand side of equation \eqref{eq:main2} does not depend
+upon $h$.  Further, the above is assumed to hold for \textit{all}
+$h>0$, and so letting $h$ get very small we see that the left hand
+side is well approximated by the derivative of $P$ at $t$ (see page 20
+of the notes):
+\[
+P'(t) = \lim_{h \to 0}\frac{P(t+h)-P(t)}{h}.
+\]
+Thus, we are led to the conclusion that the rate of change of $P(t)$
+equals $\lambda P(t)$ for some $\lambda > 0$.  Mathematically, we have
+that $P$ satisfies the {\em differential equation}
+\begin{equation*}
+  P'(t) = \lambda P(t).
+\end{equation*}
+Note that this conclusion was reached logically from our assumptions
+above, which we consider to be our ``first principles'' for this
+model.  If you do not believe one of the assumptions holds for a
+particular population, then you can not trust the conclusion!
+
+We will not consider how to solve differential equations here (you
+will see these again in Math 222), however we observe that the above
+equation makes a startling claim:
+
+
+\begin{center}
+  {\em the population will increase without bound forever!}
+\end{center}
+
+Let's see why by returning to equation \eqref{main:eq}.  For ease, we
+suppose that $P(0) = 1$, $\lambda = 1$, and we take $h = 1/2$.  Using
+these values, fill in the following chart:
+
+\begin{center}
+  \begin{tabular}{|c|c|}
+    \hline
+    $t$ & $P_{1/2}(t)$\\ \hline
+    0 & 1.00 \\ \hline
+    0.5 & 1.50  \\ \hline
+    1.0 & 2.25 \\ \hline
+    1.5 & \\ \hline
+    2.0 & \\ \hline
+    2.5 & \\ \hline
+    3.0 & \\ \hline
+  \end{tabular}
+\end{center}
+where we are writing $P_{1/2}(t)$ for the size of the population since
+we are explicitly choosing an $h$ of size $1/2$.  Note that the
+population is not just growing, but the {\em rate} at which the
+population is growing is even increasing.
+
+\section{Problems}
+
+\problemfont
+\problem
+Make a similar chart as that above with $h = 1/4$.  That is,
+calculate $P_{1/4}(t)$ for $t \in \{0,0.25, 0.5, 0.75, \dots,
+3.0\}$. How do the solutions $P_{1/4}(t)$ and $P_{1/2}(t)$ compare
+for
+\[
+t \in \{0.5, 1, 1.5, 2, 2.5, 3.0\}?
+\]
+Why do you think this is happening?
+\noproblemfont
+
+\section{The Logistic Growth Model}
+
+The fact that the previous model predicts continued growth, without
+bound, is a serious shortcoming for many reasonable situations.  For
+example, if there is a limited amount of natural resources,
+unsustained growth is clearly not realistic.  The following twist on
+the previous model fixes the problem.
+
+We still consider a small time window $[t,t+h]$ and ask how the
+population changes over that time period.  Now we make the following
+assumptions:
+\begin{enumerate}
+\item There is a ``carrying capacity'' $K>0$ such that if $X(t) > K$,
+  the population should decrease and if $X(t) < K$, then the
+  population should increase.
+\item The further from $K$ the population is, the stronger the
+  gain/decrease.
+\end{enumerate}
+
+One such model satisfying these reasonable ideas is
+\begin{equation}\label{eq:Logistic}
+  X(t + h) \approx X(t) + \lambda X(t)\left(1 - \frac{X(t)}{K}\right) h.
+\end{equation}
+Similarly to the Malthusian model, the associated {\em differential
+equation} satisfied by $X$ is
+\begin{equation}\label{eq:logistic_ode}
+  X'(t) = \lambda X(t) \left(1 - \frac{X(t)}{K}\right).
+\end{equation}
+The model described here is called the {\em logistical growth
+model}.
+
+Returning to equation \eqref{eq:Logistic}, complete the following
+charts for the different $X(0)$ assuming that $\lambda = 1$, $K = 4$,
+and $h = 0.5$.
+
+\begin{center}
+  \begin{tabular}{|c|c|}
+    \hline
+    $t$ & $X(t)$\\ \hline
+    0 & 1.00   \\ \hline
+    0.5 & 1.375   \\ \hline
+    1.0 & 1.826  \\ \hline
+    1.5 &\\ \hline
+    2.0 & \\ \hline
+    2.5 & \\ \hline
+    3.0 & \\ \hline
+  \end{tabular}\qquad 
+  \begin{tabular}{|c|c|}
+    \hline
+    $t$ & $X(t)$\\ \hline
+    0 & 7.00  \\ \hline
+    0.5 & 4.375  \\ \hline
+    1.0 & 4.170 \\ \hline
+    1.5 &\\ \hline
+    2.0 & \\ \hline
+    2.5 & \\ \hline
+    3.0 & \\ \hline
+  \end{tabular}
+\end{center}
+
+What do you think each $X(t)$ converge to for larger and larger $t$?
+
+
+
+\bigskip
+
+\problemfont
+\problem What do you think each $X(t)$ converge to for larger and
+larger $t$?  Why?
+
+\problem More generally, consider $X(t)$ that satisfies
+\eqref{eq:logistic_ode} for some $\lambda> 0$ and $K>0$.  What is the
+sign of $X'(t)$ when $X(t) > K$?  What about when $X(t) < K$?  Using
+these facts, argue what will happen to $X(t)$ as $t$ gets very large.
+Try to be persuasive.  (Note: proving this predicted behavior is a
+subject for a future mathematic course on \textit{dynamical systems}.)
+
+\problem Check that that if $X$ satisfies \eqref{eq:Logistic}, then it
+satisfies the assumptions $(a)$ and $(b)$ above.
+
+\problem If $X$ satisfies \eqref{eq:Logistic} for all $h>0$, why
+should it satisfy the differential equation \eqref{eq:logistic_ode}?
+
+\noproblemfont
+\bigskip
+
+
+\section{Chemistry}
+
+We now change topics and consider the chemical reaction
+\begin{equation*}
+  A + B \to 2A.
+\end{equation*}
+Compare this with the chemical reaction found on page 21 of the notes.
+Note that every time the above chemical reaction occurs, we gain a
+molecule of $A$ and lose a molecule of $B$.  This implies that the
+total number of molecules, $A + B$, is {\em conserved}.  Thus, if
+$[A](t)$ and $[B](t)$ represent the concentration of $A$ and $B$ at
+time $t$, then
+\[
+[A](t) + [B](t) = M
+\]
+implying
+\begin{equation}\label{eq:noB}
+  [B](t) = M-[A](t).
+\end{equation}
+We now make the following assumptions, which are our {\em first
+principles}. The number of times the reaction happens in the the
+time window $[t,t+h]$ is proportional to
+\begin{enumerate}
+\item the product of $[A]$ and $[B]$, and
+\item the size of $h$.
+\end{enumerate}
+
+\section{Problems}
+
+\problemfont
+\problem\label{ex:first_princ_chem} Use the first principles above to
+find a difference equation, similar to \eqref{eq:Logistic}, for
+$[A](t)$.  Note that, due to \eqref{eq:noB}, $[B](t)$ should not
+appear in the equation.
+%Thus, letting $\kappa>0$ denote the constant of proportionality,
+\begin{align*}
+  [A](t+h) = [A](t)
+  +% \kappa [A](t)[B](t) = [A](t) + \kappa [A](t)(M - [A](t)).
+\end{align*}
+
+
+\problem Using your result from Exercise \ref{ex:first_princ_chem},
+derive a differential equation for $[A](t)$:
+% \[
+%	[A](t+h) = [A](t) + \frac{\kappa}{M} [A](t)\left(1 -
+%   \frac{[A](t)}{M}\right).
+% \]
+% Solving similarly as before,
+\[
+\frac{d[A](t)}{dt}
+=% \frac{\kappa}{M} [A](t)\left(1 - \frac{[A](t)}{M}\right),
+\]
+Compare the differential equation to \eqref{eq:logistic_ode}.
+\noproblemfont
+
+\bigskip
+
+\section*{Report Instructions} Using complete sentences, write a few
+paragraphs summarizing the project.  Next, write up your solutions to
+all of the exercises.  Be sure to include all pertinent information
+from the project itself.  That is, a reader should be able to sit down
+with only your report and be able to understand what you are doing,
+and the conclusions you have drawn.
+
+

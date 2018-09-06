@@ -1,0 +1,980 @@
+% Time-stamp: Thu Jan 10 11:35:37 2013
+\chapter{Sequences and Series}
+\section{Introduction} %{{{1
+
+\subsection{A different point of view on Taylor expansions} %{{{2
+In the previous chapter we saw that certain functions, like $e^x$ can be
+approximated by computing their Taylor expansions,
+\begin{align*}
+  e^x &= 1+x+R_1(x)\\
+  e^x &= 1+x+ \frac{x^2}{2!} +R_2(x)\\
+  e^x &= 1+x+ \frac{x^2}{2!} + \frac{x^3}{3!} +R_3(x)\\
+  &\vdots\\
+  e^x &= 1+x+ \frac{x^2}{2!} + \frac{x^3}{3!} + \cdots + \frac{x^n}{n!} + R_n(x).
+\end{align*}
+We found a formula for the ``remainder'' or ``error in the approximation''
+$R_n(x)$, and for fixed $n$ we considered the rate at which this error vanishes
+when $x\to0$.  In this chapter we consider a fixed value of $x$ and let
+$n\to\infty$.  If the remainder term $R_n$ gets smaller and eventually goes to
+zero when $n\to\infty$, then we could say that
+\begin{equation}
+  e^x = 1+x+ \frac{x^2}{2!} + \frac{x^3}{3!} + \cdots + \frac{x^n}{n!} + \cdots
+  \label{eq:ex-series}
+\end{equation}
+where the $\cdots$ indicate that we are adding \emph{infinitely many terms.}
+For instance, if $x=1$ then the above formula would say that 
+\begin{equation}
+  e = 1+\frac{1}{1!} + \frac{1}{2!} + \frac{1}{3!} + \cdots + \frac{1}{n!} + \cdots
+  \label{eq:e1-series}
+\end{equation}
+In other words the number $e$ can be written as the sum of infinitely many
+fractions.  There are many other formulas like this, e.g.~Leibniz' formula for
+$\pi/4$,
+\begin{equation}
+  \frac{\pi}{4} = 1-\frac{1}{3} +\frac{1}{5}-\frac{1}{7}+\cdots
+  \label{eq:pi-fourth-series}
+\end{equation}
+which we get by setting $x=1$ in the Taylor expansion for $\arctan x$.
+
+Such sums with infinitely many terms are called ``series'' and it turns out
+their applications go far beyond the pretty formulas for famous numbers like
+\eqref{eq:e1-series} or \eqref{eq:pi-fourth-series}.   
+
+
+\subsection{Some sums with infinitely many terms} %{{{2
+Before we start using infinite sums we should take a good look at what it means
+to ``add infinitely many numbers.''  It is not at all clear that this concept is
+well defined.  For example, the sum
+\[
+  1+1+1+1+\cdots
+\]
+clearly becomes larger and larger as we keep on adding more terms.  Adding
+infinitely many ones together should give us an infinitely large sum.  So we
+might like to say that
+\[
+  1+1+1+1+\cdots = \infty.
+\]
+Since we do not know what $\infty$ is (``$\infty$ is not a number''), the sum
+$1+1+1+\cdots$ is not defined, or ``does not exist.''
+
+This may seem straightforward and it looks like this is the only possible way
+to consider the sum $1+1+\cdots$.  The following sum is trickier:
+\[
+  1-1+1-1+1-1+1-1+1 \cdots
+\]
+If we group the terms like this
+\[
+(1-1)+(1-1)+(1-1)+(1-1)+\cdots
+\]
+then $1-1=0$ tells us that the sum should be
+\begin{equation}
+  (1-1)+(1-1)+(1-1)+(1-1)+\cdots = 0+0+0+\cdots = 0.
+  \label{eq:win-dollar-spend-dollar-is-zero}
+\end{equation}
+On the other hand, if we group the terms according to
+\[
+  1~\underbrace{-1+1}_{=0}~\underbrace{-1+1}_{=0}~\underbrace{-1+1}_{=0}~-\cdots
+\]
+and we get
+\begin{gather}
+  1~\underbrace{-1+1}_{}~\underbrace{-1+1}_{}~\underbrace{-1+1}_{}~-\cdots
+  = 1+0+0+0+\cdots = 1.
+  \label{eq:win-dollar-spend-dollar-is-one}
+\end{gather}
+Look carefully at \eqref{eq:win-dollar-spend-dollar-is-zero} and
+\eqref{eq:win-dollar-spend-dollar-is-one}:  depending on how we group the terms
+the sum can be either $0$ or $1$!
+Clearly the infinite sum $1-1+1-1+1-\cdots$ does not make a lot of sense.
+
+Apparently things that we always do with finite sums, like rearranging the
+terms, or changing the order in which we add the terms, do not work for infinite
+sums.
+
+We are left with the question \textit{which infinite sums can we add?}  Our
+approach will be to think of an infinite sum as the limit of finite sums.  For
+example, to add the sum \eqref{eq:e1-series} we consider the results of adding
+the first few terms:
+\begin{align*}
+  1&=1\\
+  1+\frac{1}{1!}&=2\\
+  1+\frac{1}{1!}+\frac{1}{2!}&=2.5\\
+  1+\frac{1}{1!}+\frac{1}{2!}+\frac{1}{3!}&=2.666\ldots\\
+  1+\frac{1}{1!}+\frac{1}{2!}+\frac{1}{3!}+\frac{1}{4!}&=2.7083333\ldots\\
+  1+\frac{1}{1!}+\frac{1}{2!}+\frac{1}{3!}+\frac{1}{4!}+\frac{1}{5!}&=2.716666\ldots
+\end{align*}
+We see that as we include more terms in the sum its value appears to get closer
+to a specific value.  This is how we will interpret ``the sum of infinitely many
+numbers'': the whole sum is the limit for $n\to\infty$ of what we get by adding
+the first $n$ terms.
+More precisely, if we write $s_n$ for the sum of the first $n$ terms in an
+infinite sum, then we will define the entire sum to be $\lim_{n\to\infty} s_n$.  
+The next two sections go into the details of these definitions.
+First we discuss ``the limit for $n\to\infty$'' of
+certain quantities like $s_n$ (which we will call ``sequences'').  The
+discussion is similar to that of limits of functions $\lim_{x\to a}f(x)$, except
+that now the variable $x$ is replaced by a variable $n$ that only takes integer
+values.  Once we have a better understanding of limits of sequences, we return
+to infinite sums in Section~\ref{sec:series}.
+
+\section{Sequences} %{{{1
+\label{sec:limit-ntoi-keeping}
+\label{sec:sequ-their-limits}
+
+We shall call a \emph{sequence} any ordered sequence of numbers $a_1, a_2,
+a_3, \ldots$.  For each positive integer $n$ we have to specify a number
+$a_n$.  It sometimes helps to think of a sequence as a function $a = a(n)$ whose
+domain consists only of the integers $\{1, 2, 3, 4, \ldots\}$, and for which we
+use subscript notation $a_n$ instead of the more common notation $a(n)$ for functions.
+
+\subsection{Examples of sequences} %{{{2
+~\null
+
+
+\begin{center}
+  \begin{tabular}{lr}
+    \toprule
+    \textbf{definition} &\textbf{first few numbers in the sequence}\\\midrule
+    \rule[-6pt]{0pt}{18pt}
+    $a_n=n  $ &
+    $ 1, 2, 3, 4, \dots $ \\
+    \rule[-6pt]{0pt}{18pt}
+    $b_n=0 $ &
+    $ 0,0,0,0, \ldots $ \\
+    \rule[-6pt]{0pt}{18pt}
+    $c_n=\frac1n$ &
+    $ \tfrac11,\tfrac12,\tfrac13,\tfrac14,\ldots $ \\
+    \rule[-12pt]{0pt}{18pt}
+    $d_n=\left(-\tfrac{1}{3}\right)^n$ &
+    $  -\tfrac13, \tfrac19, -\tfrac1{27}, \tfrac1{81},\ldots $ \\
+    \rule[-18pt]{0pt}{18pt}
+    $E_n= 1+\dfrac1{1!}+\dfrac1{2!}+\dfrac1{3!}+\cdots+\dfrac1{n!}  $ &
+    $1, 2,  2\tfrac12, 2\tfrac23, 2\tfrac{17}{24},  2\tfrac{43}{60},\ldots $ \\
+    \rule[-12pt]{0pt}{18pt}
+    $S_n=x-\dfrac{x^3}{3!}  +\cdots+
+    (-1)^n\dfrac{x^{2n+1}}{(2n+1)!}  $ &
+    $ x, x-\dfrac{x^3}{3!},x-\dfrac{x^3}{3!}+\dfrac{x^5}{5!},\ldots $ \\
+    \bottomrule
+  \end{tabular}
+  \medskip
+\end{center}
+The last two sequences are derived from the Taylor polynomials of $e^x$ (at
+$x=1$) and $\sin x$ (at any $x$). The last example $S_n$ really is a sequence of
+functions, i.e.~the $n^{\rm th}$ number in the sequence depends on $x$.
+
+\begin{definition}
+  A sequence of numbers $(a_n)_{n=1}^\infty$ converges to a limit $L$, if
+  for every $\epsilon>0$ there is a number $N_\epsilon$ such that for all
+  $n> N_\epsilon$ one has
+  \[
+  \left|a_n-L\right|<\epsilon.
+  \]
+  One writes
+  \[
+  \lim_{n\toi} a_n = L
+  \]
+\end{definition}
+
+\subsection{Example: $\DS\lim_{n\to\infty} \dfrac1n=0$} %{{{2
+
+The sequence $c_n=1/n$ converges to $0$. To prove this let $\epsilon>0$ be
+given. We have to find an $N_\epsilon$ such that
+\[
+|c_n|<\epsilon \text{ for all } n>N_\epsilon.
+\]
+The $c_n$ are all positive, so $|c_n|=c_n$, and hence
+\[
+|c_n|<\epsilon \iff \frac1n<\epsilon \iff n>\frac1\epsilon,
+\]
+which prompts us to choose $N_\epsilon=1/\epsilon$. The calculation we just
+did shows that if $n>\frac1\epsilon=N_\epsilon$, then
+$|c_n|<\epsilon$. That means that $\lim_{n\toi} c_n =0$.
+
+\subsection{Example: $\DS\lim_{n\to\infty} a^n=0$ if $|a|<1$} %{{{2
+
+As in the previous example one can show that $\lim_{n\to\infty} 2^{-n}=0$, and more
+generally, that for any constant $a$ with $-1<a<1$ one has
+\[
+\lim_{n\to\infty} a^n = 0.
+\]
+Indeed,
+\[
+|a^n|=|a|^n = e^{n\ln|a|}<\epsilon
+\]
+holds if and only if
+\[
+n\ln |a|<\ln\epsilon.
+\]
+Since $|a|<1$ we have $\ln |a|<0$ so that dividing by $\ln|a|$ reverses the
+inequality, with result
+\[
+|a^n|<\epsilon \iff n>\frac{\ln \epsilon}{\ln|a|}
+\]
+The choice $N_\epsilon = (\ln \epsilon)/ (\ln|a|)$ therefore guarantees
+that $|a^n|<\epsilon$ whenever $n>N_\epsilon$.
+
+\subsubsection*{The case $|a|\geq 1$ (without proof)}
+If $a>1$ then the quantity $a^n$ grows larger with increasing $n$, and the limit
+$\lim_{n\to\infty}a^n$ does not exist.  
+
+When $a\leq -1$ then the sequence of numbers $1, a, a^2, a^3, \ldots$ flip-flops
+between positive and negative numbers, while the absolute value $|a^n| = |a|^n$
+either becomes infinitely large (when $a<-1$), or else remains exactly equal to
+$1$ (when $a=-1$).  In either case the limit $\lim_{n\to\infty} a^n$ does not
+exist.  
+
+Finally, if $a=+1$, then the sequence $1, a, a^2, \ldots$ is very simple,
+namely, $a^n=1$ for all $n$.  Clearly in this case $\lim_{n\to\infty}a^n =
+\lim_{n\to\infty} 1 = 1$.
+
+One can show that the operation of taking limits of sequences obeys the
+same rules as taking limits of functions.
+\begin{theorem}
+  If
+  \[
+  \lim_{n\toi}a_n = A \text{ and } \lim_{n\toi} b_n =B,
+  \]
+  then one has
+  \begin{align*}
+    \lim_{n\toi} a_n \pm b_n &= A\pm B \\
+    \lim_{n\toi} a_n  b_n &= A B \\
+    \lim_{n\toi} \frac{a_n}{ b_n} &= \frac{A}{ B}\quad\text{ (assuming
+    $B\neq0$).}
+  \end{align*}
+\end{theorem}
+
+The so-called ``sandwich theorem'' for ordinary limits also applies to
+limits of sequences.  Namely, one has
+\begin{theorem}
+  [Sandwich theorem] If $a_n$ is a sequence which satisfies
+  $b_n<a_n<c_n$ for all $n$, and if $\lim_{n\to\infty} b_n=\lim_{n\to\infty} c_n=0$, then
+  $\lim_{n\to\infty} a_n=0$.
+\end{theorem}
+\medskip
+
+Finally, one can show this:
+\begin{theorem} If $f(x)$ is a function which is continuous at $x=A$, and
+  $a_n$ is a sequence which converges to $A$, then
+  \[
+  \lim_{n\toi}f (a_n) = f\left(\lim_{n\toi}a_n\right) = f(A).
+  \]
+\end{theorem}
+\subsection{Example} Since $\lim_{n\to\infty} 1/n=0$ and since $f(x)=\cos %{{{2
+x$ is continuous at $x=0$ we have
+\[
+\lim_{n\to\infty} \cos\frac1n 
+= \cos\Bigl(\lim_{n\to\infty}\frac{1}{n}\Bigr)
+= \cos 0 
+= 1.
+\]
+
+\subsection{Limits of rational functions} %{{{2
+You can compute the limit of any rational function of $n$ by dividing
+numerator and denominator by the highest occurring power of $n$.  Here is
+an example:
+\[
+\lim_{n\to\infty} \frac{2n^2-1}{n^2+3n}
+=\lim_{n\to\infty} \frac{2-\left(\frac1n\right)^2}{1+3\cdot\frac1n}
+=\frac{2-0^2}{1+3\cdot 0^2}
+=2.
+\]
+
+\subsection{Example. Application of the Sandwich theorem. } %{{{2
+We show that $\lim_{n\to\infty} \frac1{\sqrt{n^2+1}}=0$ in two different
+ways.
+
+\subsubsection*{Method 1: } Since $\sqrt{n^2+1}>\sqrt{n^2}=n$ we have
+\[
+0<\frac1{\sqrt{n^2+1}} <\frac1n.
+\]
+The sequences ``$0$'' and $\frac1n$ both go to zero, so the Sandwich
+theorem implies that $1/\sqrt{n^2+1}$ also goes to zero.
+
+\subsubsection*{Method 2: } Divide numerator and denominator both by $n$ to get
+\[
+a_n = \frac{1/n}{\sqrt{1+ (1/n)^2}} = f\left(\frac1n\right), \quad\text{ where
+}f(x) = \frac x{\sqrt{1+x^2}}.
+\]
+Since $f(x)$ is continuous at $x=0$, and since $\frac1n\to0$ as $n\toi$, we
+conclude that $a_n$ converges to $0$. You could write the computation like
+this:
+\[
+\lim_{n\to\infty} a_n 
+=\lim_{n\to\infty} f(\tfrac1n) =
+f\bigl(\lim_{n\to\infty}\tfrac1n\bigr) = f(0) = 0 
+\qquad
+\bigl(
+\parbox{1in}{\footnotesize\sffamily\centering we would have to\\ say what $f$ is}
+\bigr)
+\]
+or like this:
+\[
+\lim_{n\to\infty} a_n =
+\lim_{n\to\infty} \frac{1/n}{\sqrt{1+ (1/n)^2}} =
+\frac{\lim_{n\to\infty} 1/n}{\sqrt{\lim_{n\to\infty} 1+ (1/n)^2}} =
+\frac{0}{\sqrt{1+0^2}} = 0.
+\]
+
+\subsection{Example: factorial beats any exponential} Factorials show up in %{{{2
+Taylor's formula, so it is useful to know that $n!$ goes to infinity much
+faster than $2^n$ or $3^n$ or $100^n$, or any $x^n$.  In this example we'll
+show that 
+\begin{equation}
+  \lim_{n\to\infty} \frac{x^n}{n!} =0
+  \text{ for any real number } x.
+  \label{eq:03factorial-beats-exp}
+\end{equation}
+If $|x|\leq 1$ then this is easy, for we would have $|x^n|\leq1$ for all
+$n\geq 0$ and thus
+\[
+\left|\frac{x^n}{n!}\right|\leq \frac 1{n!}  =\frac
+1{1\cdot\underbrace{2\cdot3\cdots (n-1)\cdot n}_{n-1\text{ factors} }} \leq
+\frac 1 {1\cdot\underbrace{2\cdot2\cdots2\cdot2}_{n-1\text{ factors} }}
+=\frac1{2^{n-1}}.
+\]
+Written without the absolute values this says
+\[
+-\Bigl(\frac12\Bigr)^{n-1} \leq \frac{x^n}{n!} 
+\leq \Bigl(\frac{1}{2}\Bigr)^{n-1}.
+\]
+Both $(1/2)^{n-1}$ and $-(1/2)^{n-1}$ go to $0$ as $n\to\infty$, so
+the Sandwich Theorem applies and tells us that
+\eqref{eq:03factorial-beats-exp} is true, at least when $|x|\leq 1$.
+
+If $|x|>1$ then we need a slightly longer argument.
+For arbitrary $x$ we first choose an integer $N\geq 2x$. Then for all
+$n\geq N$ one has
+\begin{align*}
+  \frac{x^n}{n!}  &\leq\frac{|x|\cdot|x|\cdots|x|\cdot|x|} {
+  1\cdot2\cdot3\cdots n}
+  &\text{use $|x|\leq \frac N2$}\\
+  &\leq\frac{N\cdot N\cdot N\cdots N\cdot N} { 1\cdot2\cdot3\cdots n}
+  \left(\frac12\right)^n
+\end{align*}
+Split fraction into two parts, one containing the first $N$ factors from
+both numerator and denominator, the other the remaining factors:
+\[
+\underbrace{\frac{N}1\cdot \frac N2\cdot \frac N3 \cdots \frac
+NN}_{=N^N/N!}  \cdot\frac N{N+1}\cdots\frac Nn =\frac{N^N}{N!}\cdot
+\underbrace{\frac{N}{N+1}}_{<1}\cdot \underbrace{\frac{ N}{N+2}}_{<1}\cdots
+\underbrace{\frac{N}{n}}_{<1} \leq \frac{N^N}{N!}
+\]
+Hence we have
+\[
+\left|\frac{x^n}{n!}\right| \leq \frac{N^N}{N!}\left(\frac12\right)^{n}
+\]
+if $2|x|\leq N$ and $n\geq N$.
+
+Here everything is independent of $n$, except for the last factor
+$(\frac12)^{n}$ which causes the whole thing to converge to zero as
+$n\toi$.
+
+
+\section{Problems on Limits of Sequences} %{{{1
+\problemfont %{{{3
+\begin{multicols}{2}
+
+Compute the following limits:
+
+\problem \(\DS \limntoi \frac n{2n-3} \) %{{{3
+\answer %{{{3
+$1/2$
+\endanswer
+
+\problem \(\DS \limntoi \frac{n^2}{2n-3} \) %{{{3
+\answer %{{{3
+Does not exist (or ``$+\infty$'')
+\endanswer
+
+\problem \(\DS \limntoi \frac{n^2}{2n^2+n-3}\) %{{{3
+\answer %{{{3
+$1/2$
+\endanswer
+
+\problem \(\DS \limntoi \frac{2^n+1}{1-2^n}\) %{{{3
+\answer %{{{3
+$-1$
+\endanswer
+
+\problem \(\DS \limntoi \frac{2^n+1}{1-3^n}\) %{{{3
+\answer %{{{3
+$0$
+\endanswer
+
+\problem \(\DS \limntoi \frac{e^n+1}{1-2^n}\) %{{{3
+\answer %{{{3
+Does not exist (or ``$-\infty$'') because $e>2$.
+\endanswer
+
+\problem \(\DS \limntoi \frac{n^2}{(1.01)^n}\) %{{{3
+\answer %{{{3
+$0$.
+\endanswer
+
+\problem \(\DS \limntoi \frac{1000^n}{n!}\) %{{{3
+\answer %{{{3
+$0$.
+\endanswer
+
+\problem \(\DS \limntoi \frac{n!+1}{(n+1)!}\) %{{{3
+\answer %{{{3
+$0$ (write the limit as $ \limntoi \frac{n!+1}{(n+1)!} =\limntoi
+\frac{n!}{(n+1)!} + \limntoi \frac{1}{(n+1)!} = \limntoi \frac{1}{n+1}
++ \limntoi \frac{1}{(n+1)!}$).
+\endanswer
+
+\problem \groupproblem  Compute \(\DS\limntoi \frac{(n!)^2}{(2n)!}\) [Hint: write out %{{{3
+all the factors in numerator and denominator.]
+
+\problem \groupproblem  Let $f_n$ be the $n$th Fibonacci number. Compute %{{{3
+\[
+\limntoi \frac{f_n}{f_{n-1}}
+\]
+\answer %{{{3
+Use the explicit formula (\ref{eq:fibonacci-explicit}) from Example
+\ref{ex:fibonacci-2}.  The answer is the Golden Ratio $\phi$.
+\endanswer
+\end{multicols}
+\noproblemfont
+
+\section{Series} %{{{1
+\label{sec:series}
+
+\subsection{Definitions} %{{{2
+A \emph{series} is an infinite sum:
+\[
+  a_1+a_2+a_3+\cdots = \sum_{k=1}^\infty a_k.
+\]
+The numbers $a_1, a_2, \ldots$ are the terms of the sum.  The result of adding
+the first $n$ terms, 
+\[
+  s_n = a_1+a_2+\cdots + a_n
+\]
+is called the \emph{$n^{\rm th}$ partial sum.}
+The partial sums form themselves a sequence: $s_1, s_2, s_3, \ldots$ obtained by adding
+one extra term each time.  Our plan, formulated in the beginning of this
+chapter, was to say that we have added the entire series provided we can take
+the limit of the partial sums $s_n$.  
+Thus, by definition, we say \itshape%
+the series converges to a number $S$, which we call the \emph{sum of the series,} if
+$\lim_{n\to\infty} s_n$ exists, and if
+\[
+  S = \lim_{n\to\infty} s_n
+\]
+i.e.~if
+\[
+  S = \lim_{n\to\infty}  a_1+a_2+\cdots + a_n.
+\]\upshape%
+If the limit does not exist, then we say the series \emph{diverges.}
+If the limit does exist, then we write either
+\[
+  S = a_1+a_2+a_3+\cdots 
+\]
+or
+\[
+  S = \sum_{k=1}^\infty a_k.
+\]
+
+\subsection{Examples}  %{{{2
+It is difficult to find precise formulas for the partial sums $s_n$ that
+different series can produce, and this limits the number of series that we can add
+``from scratch.''  In this section we present the few examples where some
+algebraic trick allows us to simplify the sum that defines $s_n$ and then to
+take the limit of $s_n$ as $n\to\infty$.
+\subsubsection*{The geometric series}
+The geometric sum formula is one formula that lets us add partial sums of a
+particular series. For example, it tells us that
+\[
+  1 +\bigl(\tfrac12\bigr) + \bigl(\tfrac12\bigr)^2 + \bigl(\tfrac12\bigr)^3 + 
+  \cdots +
+  \bigl(\tfrac12\bigr)^n = \frac{1 - \bigl(\frac{1}{2}\bigr)^{n+1} }{1-\frac12}
+  = 2\Bigl(1-\frac1{2^{n+1}}\Bigr)
+  =2 - \frac1{2^n}.
+\]
+Since $\lim_{n\to\infty} \frac{1}{2^{n}} = 0$, we find
+\[
+  1 + \tfrac12 + \tfrac14 + \tfrac 18 +\tfrac1{16} + \cdots  = 2.
+\]
+
+\subsubsection*{Telescoping series}  It turns out that
+\[
+  \frac{1}{1\cdot2} + \frac{1}{2\cdot 3} + \frac{1}{3\cdot 4} + \cdots
+  +\frac{1}{n(n+1)}+ \cdots =1.
+\]
+There is a trick that allows us to compute the $n^{\rm th}$
+partial sum.  The trick begins with the miraculous observation that
+\[
+  \frac{1}{n(n+1)} = \frac{1}{n} - \frac{1}{n+1}. 
+\]
+This allows us to rewrite the $n^{\rm th}$ partial sum as
+\begin{align*}
+  s_n 
+  & = \frac{1}{1\cdot2} + \frac{1}{2\cdot 3} + \frac{1}{3\cdot 4} + \cdots +\frac{1}{n(n+1)}\\
+  & = \bigl(\frac11 - \frac12\bigr) + \bigl(\frac12 - \frac13\bigr) + \bigl(\frac13 - \frac14\bigr) + \cdots + \bigl(\frac1n - \frac1{n+1}\bigr) \\
+  &= \frac 11 ~ \underbrace{-\frac12+\frac12}_{=0} ~ \underbrace{-\frac13+\frac13}_{=0} +\cdots ~\underbrace{-\frac1n+\frac1n}_{=0} -\frac1{n+1}\\
+  &= 1 - \frac1{n+1}.
+\end{align*}
+This sum is called ``telescoping'' because in the last step of the computation almost all terms cancel and the whole sum collapses like a telescope
+to just two terms.
+
+Once we have the formula for $s_n$ it is easy to compute the sum:
+\begin{align*}
+  S &= \frac{1}{1\cdot2} + \frac{1}{2\cdot 3} + \frac{1}{3\cdot 4} + \cdots \\
+  &= \lim_{n\to\infty} \frac{1}{1\cdot2} + \frac{1}{2\cdot 3} + \frac{1}{3\cdot
+  4} + \cdots + \frac1{n(n+1)} \\
+  &= \lim_{n\to\infty} 1- \frac{1}{n+1}\\
+  &= 1.
+\end{align*}
+
+
+\subsection{Properties of series} %{{{2
+Just with limits, derivatives, integrals and sequences there are a number of
+properties that make it easier to work with series.
+\begin{theorem}
+  If the two series 
+  \[
+    A= \sum _{k=1}^\infty a_k = a_1+a_2+a_3+\cdots \quad \text{and} \quad 
+    B= \sum _{k=1}^\infty b_k = b_1+b_2+b_3+\cdots 
+  \]
+  both converge, then so does the series
+  \[
+    \sum_{k=1}^{\infty} \bigl( a_k+b_k \bigr)
+    = (a_1+b_1) + (a_2+b_2) + (a_3+b_3) + \cdots.
+  \]
+  Moreover, one has
+  \begin{equation}
+    \sum_{k=1}^{\infty} \bigl( a_k+b_k \bigr) = A + B,\qquad \text{i.e.}\quad
+    \sum_{k=1}^{\infty} \bigl( a_k+b_k \bigr)
+    = \sum_{k=1}^{\infty} a_k  +  \sum_{k=1}^{\infty} b_k .
+    \label{eq:sum-of-series-is-series-of-sums}
+  \end{equation}
+  If $c$ is any constant then
+  \[
+     ca_1 + ca_2 + ca_3 + \cdots = c \bigl(a_1+a_2+a_3+\cdots\bigr)
+     \quad\text{i.e.}\quad
+     \sum_{k=1}^\infty ca_k = c\sum_{k=1}^\infty a_k.
+  \]
+\end{theorem}
+
+Another way to write equation \eqref{eq:sum-of-series-is-series-of-sums} is
+\begin{multline*}
+  (a_1+b_1) + (a_2+b_2) + (a_3+b_3) + \cdots \\
+  =
+  \bigl( a_1+a_2+a_3+\cdots \bigr) + 
+  \bigl( b_1+b_2+b_3+\cdots \bigr).
+\end{multline*}
+
+\subsubsection*{Rearranging terms in a series}
+Note that to get the left hand side from the right hand side we have to switch
+around infinitely many terms!
+This may not seem very surprising, but it turns out that if one digs deeper into
+the subject of series, examples of series show up where switching infinitely
+many terms around actually changes the sum.  
+
+A simplest example of this is the sum $1 - 1 + 1 - 1\ldots$ from the
+introduction.  Here we could first try to add all the positive terms
+($1+1+1+\cdots$ ) and then the negative terms ($-1-1-1\cdots$), and finally
+combine them:
+\[
+  1-1+1-1+1-1 = \bigl(1+1+1+\cdots\bigr) + \bigl(-1-1-1\cdots\bigr) = \infty - \infty ?
+\]
+This clearly does not make a lot of sense.
+But, since the series in this example does not converge, that was perhaps to be
+expected.  
+
+The following example however presents a convergent series whose sum changes if
+one rearranges the terms.  If we take Leibniz' formula for $\ln 2$ (obtained
+from the Taylor expansion for $\ln(1+x)$; see \S\ref{sec:Leibniz-formulas}
+below),
+\begin{equation}
+  {\color{blue}1}
+  {\color{red}-\frac12}
+  {\color{blue}+\frac13}
+  {\color{red}-\frac14}
+  {\color{blue}+\frac15}
+  {\color{red}-\frac16}+\cdots = \ln 2
+\end{equation}
+and rearrange the terms so that we add two positive terms and then one negative
+term at a time we get
+\begin{equation}
+  {\color{blue}1+\frac13}
+  {\color{red}-\frac12}
+  {\color{blue}+\frac15+\frac17}
+  {\color{red}-\frac14}
+  {\color{blue}+\frac19+\frac1{11}}
+  {\color{red}- \frac16}
+  +\cdots = \frac32\ln 2
+\end{equation}
+This fact is not obvious;  the explanation would take us beyond the scope of
+this course, although it does not require any ideas that a student in math 222
+would not be familiar with.
+%%Studying those that can or cannot corresponds to higher level math class, like
+%%Math 521.
+
+\section{Convergence of Taylor Series} %{{{1
+\label{sec:conv-tayl-seri}
+We now return to the study of Taylor series and their convergence.
+
+Let $y=f(x)$ be some function defined on an interval $a<x<b$ containing $0$.
+For any number $x$ the function defines a series
+\begin{equation}
+  f(0) + f'(0)x + \frac{f''(0)}{2!}x^2 + \frac{f^{(3)}(0)}{3!} x^3 + \cdots
+\end{equation}
+which is called the Taylor series of $f$.  This raises two questions:
+\begin{itemize}
+\item Does the Taylor series converge?
+\item If the Taylor series converges, then what is its sum?
+\end{itemize}
+Since each different choice of $x$ leads to a different series, the answer to
+these questions depends on $x$.
+
+There is no easy and general criterion that we could apply to a given function
+$f(x)$ to find out if its Taylor series converges for any particular $x$
+(except $x=0$ -- what does the Taylor series look like when we set $x=0$?).  On
+the other hand, it turns out that for many functions the Taylor series does
+converge to $f(x)$ for all $x$ in some interval $-\rho<x<\rho$.  In this section
+we will check this for two examples: the ``geometric series'' and the
+exponential function.
+
+But first, before we do the examples, a word about how we will prove that Taylor
+series converges: instead of taking the limit of the $T_nf(x)$ as $n\toi$, we
+are usually better off looking at the remainder term.  Since $T_nf(x) =
+f(x)-R_nf(x)$ we have
+\[
+\lim_{n\to\infty} T_nf(x) =f(x) \iff \lim_{n\to\infty} R_nf(x) = 0
+\]
+So, to check that the Taylor series of $f(x)$ converges to $f(x)$ we must
+show that the remainder term $R_nf(x)$ goes to zero as $n\toi$.
+
+\subsection{The \textsc{Geometric series} converges for $-1<x<1$} %{{{2
+If $f(x)=1/(1-x)$ then by the formula for the Geometric Sum we have
+\begin{align*}
+  f(x) &= \frac1{1-x} \\
+  &=\frac{1-x^{n+1}+x^{n+1}}{1-x}\\
+  &=1+x+x^2+\cdots+x^n+\frac{x^{n+1}}{1-x} \\
+  &=T_nf(x)+\frac{x^{n+1}}{1-x}.
+\end{align*}
+We are not dividing by zero since $|x|<1$ so that $1-x\neq0$. The remainder
+term is
+\[
+R_nf(x) = \frac{x^{n+1}}{1-x}.
+\]
+Since $|x|<1$ we have
+\[
+\lim_{n\to\infty} |R_nf(x)|=\lim_{n\to\infty} \frac{|x|^{n+1}}{|1-x|}
+=\frac{\DS\lim_{n\to\infty}|x|^{n+1}}{|1-x|} =\frac0{|1-x|} =0.
+\]
+
+Thus we have shown that the series converges for all $-1<x<1$, i.e.
+\[
+\frac1{1-x} = \lim_{n\to\infty} \left\{1+x+x^2+\cdots+x^n \right\} =
+1+x+x^2+x^3+\cdots = \sum_{k=0}^\infty x^k.
+\]
+
+
+\subsection{Convergence of the exponential Taylor series} %{{{2
+Let $f(x)= e^x$. It turns out the Taylor series of $e^x$ converges to $e^x$
+for every value of $x$. Here's why: we had found that
+\[
+T_ne^x = 1+ x+\frac{x^2}{2!}+\cdots+\frac{x^n}{n!},
+\]
+and by Lagrange's formula the remainder is given by
+\[
+R_ne^x = e^\xi \frac{x^{n+1}}{(n+1)!},
+\]
+where $\xi $ is some number between $0$ and $x$.
+
+If $x>0$ then $0<\xi<x$ so that $e^\xi\leq e^x$; if $x<0$ then $x<\xi<0$
+implies that $e^\xi<e^0=1$. Either way one has $e^\xi\leq e^{|x|}$, and
+thus
+\[
+|R_ne^x|\leq e^{|x|}\frac{|x|^{n+1}}{(n+1)!}.
+\]
+We have shown before that $\lim_{n\to\infty} x^{n+1}/ (n+1)!=0$, so the Sandwich
+theorem again implies that $\lim_{n\to\infty} |R_ne^x|=0$.
+
+Conclusion:
+\[
+e^x =\lim_{n\to\infty} \left\{
+1+x+\frac{x^2}{2!}+\cdots+\frac{x^n}{n!}\right\} =
+1+x+\frac{x^2}{2!}+\frac{x^3}{3!}+\frac{x^4}{4!}+\cdots 
+\]
+
+
+
+Do Taylor series always converge?  And if the series of some function
+$y=f(x)$ converges, must it then converge to $f(x)$?  Although the Taylor
+series of almost any function we run into will converge to the function itself, the
+following example shows that it doesn't have to be so.
+
+\subsection{The day that all Chemistry stood still} %{{{2
+\label{ex:nochemistry}
+The rate at which a chemical reaction ``A$\to$B'' proceeds depends among
+other things on the temperature at which the reaction is taking place.
+This dependence is described by the \emph{Arrhenius law} which states that
+the rate at which a reaction takes place is proportional to
+\[
+f(T) = e^{-\frac{\Delta E}{kT}}
+\]
+where $\Delta E$ is the amount of energy involved in each reaction, $k$ is
+Boltzmann's constant, and $T$ is the temperature in degrees Kelvin.  If we
+ignore the constants $\Delta E$ and $k$ (i.e.\ if we set $\Delta E/k$ equal to one
+by choosing the right units) then the reaction rate is proportional to
+\[
+f(T) = e^{-1/T}.
+\]
+If we have to deal with reactions at low temperatures we might be
+inclined to replace this function with its Taylor series at $T=0$, or at
+least the first non-zero term in this series.  If we were to do this we
+would be in for a surprise.  To see what happens, let's look at the
+following function,
+\[
+f(x) =
+\begin{cases}
+  e^{-1/x} & x>0 \\ 0 &x\le 0
+\end{cases}
+\]
+This function goes to zero \emph{very} quickly as $x\to0$.  In fact one has
+\[
+\lim_{x\searrow0}\frac{f(x)}{x^n} = \lim_{x\searrow0}\frac{e^{-1/x}}{x^n} =
+\lim_{t\to\infty} t^n e^{-t} = 0.  \hspace{1in}\text{\small (set $t=1/x$)}
+\]
+This implies
+\[
+f(x) = o(x^n) \quad (x\to0)
+\]
+\emph{for any} $n=1, 2, 3\ldots$.  As $x\to0$, this function vanishes
+faster than any power of $x$.
+\begin{figure}[ht]\color{badgerred}
+  \centering \input ../figures/222/02nochemistry.tex
+  \color{black}
+  \caption{An innocent looking function with an unexpected Taylor series.
+  See example \ref{ex:nochemistry} which shows that even when a Taylor
+  series of some function $f$ converges we can't be sure that it
+  converges to $f$ -- it could converge to a different function.}
+  \label{fig:nochemistry}
+\end{figure}
+
+If we try to compute the Taylor series of $f$ we need its derivatives at
+$x=0$ of all orders.  These can be computed (not easily), and the result
+turns out to be that \emph{all derivatives of $f$ vanish at $x=0$,}
+\[
+f(0) = f'(0) = f''(0) = f^{(3)}(0) = \cdots = 0.
+\]
+The Taylor series of $f$ is therefore
+\[
+T_\infty f(x) = 0 + 0\cdot x + 0\cdot \frac{x^2}{2!}  + 0\cdot
+\frac{x^3}{3!}  +\cdots = 0.
+\]
+Clearly this series converges (all terms are zero, after all), but instead
+of converging to the function $f(x)$ we started with, it converges to the
+function $g(x) = 0$.
+
+What does this mean for the chemical reaction rates and Arrhenius' law?  We
+wanted to ``simplify'' the Arrhenius law by computing the Taylor series of
+$f(T)$ at $T=0$, but we have just seen that all terms in this series are
+zero.  Therefore replacing the Arrhenius reaction rate by its Taylor series
+at $T=0$ has the effect of setting all reaction rates equal to zero.
+
+\section{Problems on Convergence of Taylor Series} %{{{1
+
+\begin{multicols}{2}
+\problem Prove that the Taylor series for $f (x) = \cos x$ converges to %{{{3
+$f(x)$ for all real numbers $x$ (by showing that the remainder term goes
+to zero as $n\toi$).
+\answer The remainder term $R_n(x)$ is equal to %{{{3
+$\frac {f^{(n)}(\zeta_n)}{n!}x^n$ for some $\zeta_n$.
+For either the cosine or sine and any $n$ and $\zeta$
+we have $|{f^{(n)}(\zeta)}|\leq 1$.  So
+$|R_n(x)|\leq \frac{\;|x|^n}{n!}$. But we know
+$\lim_{n\to\infty} \frac{|x|^n}{n!} =0$ and hence
+$\lim_{n\to\infty} R_n(x) =0$.
+\endanswer
+
+
+\problem Prove that the Taylor series for \(g(x) = \sin(2x) \) converges %{{{3
+to $g(x)$ for all real numbers $x$ .
+\answer\def\soc{\mathrm{soc}}% %{{{3
+The $k^{\rm th}$ derivative of $g(x) = \sin(2x)$ is $g^{(k)}(x) = \pm
+2^k \soc(2x)$.  Here $\soc(\theta)$ is either $\sin \theta$ or $\cos
+\theta$, depending on $k$.  Therefore $k^{\rm th}$ remainder term is
+bounded by
+\[
+|R_k[\sin 2x]| \leq \frac{|g^{(k+1)}(c)|} {(k+1)!}|x|^{k+1} =\frac
+{2^{k+1}|x|^{k+1}}{(k+1)!} |\soc (2x)| \leq \frac{|2x|^{k+1}} {(k+1)!}.
+\]
+Since $\lim_{k\toi} \frac{|2x|^{k+1}} {(k+1)!} = 0$ we can use the
+Sandwich Theorem and conclude that $\lim_{k\toi}R_k[g(x)] = 0$, so the
+Taylor series of $g$ converges for every $x$.
+\endanswer
+
+\problem Prove that the Taylor series for \(h(x) = \cosh(x)\) converges %{{{3
+to $h(x)$ for all real numbers $x$ .
+
+\problem Prove that the Taylor series for \(k(x) = e^{2x+3} \) converges %{{{3
+to $k(x)$ for all real numbers $x$ .
+
+\problem Prove that the Taylor series for \(\ell(x) = %{{{3
+\cos\bigl(x-\frac{\pi}{7}\bigr)\) converges to $\ell(x)$ for all real
+numbers $x$.
+
+\problem \groupproblem  If the Taylor series of a function $y=f(x)$ converges for all %{{{3
+$x$, does it have to converge to $f(x)$, or could it converge to some
+other function?
+\answer %{{{3
+Read the example in \S\ref{ex:nochemistry}.
+\endanswer
+
+\problem For which real numbers $x$ does the Taylor series of $f(x) = %{{{3
+\dfrac1{1-x}$ converge to $f(x)$?
+\answer %{{{3
+$-1 < x <1$.
+\endanswer
+
+\problem For which real numbers $x$ does the Taylor series of $f(x) = %{{{3
+\dfrac1{1-x^2}$ converge to $f(x)$?  (hint: a substitution may help.)
+\answer %{{{3
+$-1<x<1$.
+\endanswer
+
+\problem For which real numbers $x$ does the Taylor series of $f(x) = %{{{3
+\dfrac1{1+x^2}$ converge to $f(x)$?
+\answer %{{{3
+$-1 < x < 1$.
+\endanswer
+
+\problem For which real numbers $x$ does the Taylor series of $f(x) = %{{{3
+\dfrac1{3+2x}$ converge to $f(x)$?
+\answer %{{{3
+$-\frac 32 < x < \frac 32$.  Write $f(x)$ as $f(x) = \frac 13 \frac
+1{1-(-\frac23x)}$ and use the Geometric Series.
+\endanswer
+
+\problem %{{{3
+For which real numbers $x$ does the Taylor series of
+$f(x)=\frac{1}{2-5x}$ converge to $f(x)$?
+\answer $|x|<2/5$  %{{{3
+\endanswer
+
+\problem \groupproblem  For which real numbers $x$ does the Taylor series of $f(x) = %{{{3
+\dfrac1{2-x-x^2}$ converge to $f(x)$?  (hint: use \textsc{pfd} and the
+Geometric Series to find the remainder term.)
+
+\problem Show that the Taylor series for $f (x)=\ln (1+x)$ converges when %{{{3
+$-1<x<1$ by integrating the Geometric Series
+\begin{multline*}
+  \frac{1}{1+t} = 1 - t + t^2 - t^3 + \cdots \\
+  + (-1)^nt^n + (-1)^{n+1}\frac{t^{n+1}}{1+t}
+\end{multline*}
+from $t=0$ to $t=x$. (See \S\ref{sec:Leibniz-formulas}.)
+
+\problem Show that the Taylor series for $f(x)=e^{-x^2}$ converges for %{{{3
+all real numbers $x$. (Set $t=-x^2$ in the Taylor series with remainder
+for $e^t$.)
+
+\problem Show that the Taylor series for $f(x)=\sin(x^4)$ converges for %{{{3
+all real numbers $x$. (Set $t=x^4$ in the Taylor series with remainder
+for $\sin t$.)
+
+\problem Show that the Taylor series for $f(x) = 1/(1+x^3)$ converges %{{{3
+whenever $-1<x<1$ (Use the \textsc{Geometric Series}.)
+
+\problem For which $x$ does the Taylor series of $f(x)=2/ (1+4x^2)$ %{{{3
+converge? (Again, use the \textsc{Geometric Series}.)
+
+
+\end{multicols}
+\noproblemfont
+
+\section{Leibniz' formulas for $\ln 2$ and $\pi/4$} %{{{1
+\label{sec:Leibniz-formulas}
+Leibniz showed that
+\[
+\frac11-\frac12+\frac13-\frac14+\frac15-\cdots = \ln 2
+\]
+and
+\[
+\frac11-\frac13+\frac15-\frac17+\frac19-\cdots = \frac\pi4
+\]
+Both formulas arise by setting $x=1$ in the Taylor series for
+\begin{align*}
+  \ln (1+x) &= x-\frac{x^2}2+\frac{x^3}3+\frac{x^4}4-\cdots \\
+  \arctan x &= x-\frac{x^3}3+\frac{x^5}5+\frac{x^7}7-\cdots
+\end{align*}
+This is only justified if we show that the series actually converge, which
+we'll do here, at least for the first of these two formulas. The proof of
+the second is similar.  The following is not Leibniz' original proof.
+
+We begin with the geometric sum
+\[
+1-x+x^2-x^3+\cdots+ (-1)^n x^n = \frac1{1+x} +
+\frac{(-1)^{n+1}x^{n+1}}{1+x}
+\]
+Then we integrate both sides from $x=0$ to $x=1$ and get
+\begin{align*}
+  \frac11-\frac12+\frac13-\cdots+(-1)^n\frac1{n+1} &= \int_0^1\frac{\dd
+  x}{1+x}
+  +(-1)^{n+1}\int_0^1\frac{x^{n+1}\dd x}{1+x} \\
+  &=\ln 2 +(-1)^{n+1}\int_0^1\frac{x^{n+1}\dd x}{1+x}
+\end{align*}
+(Use $\int_0^1x^k\dd x=\frac1{k+1}$.)  Instead of computing the last
+integral we estimate it by saying
+\[
+0\leq \frac{x^{n+1}}{1+x}\leq x^{n+1} \implies 0\leq
+\int_0^1\frac{x^{n+1}\dd x}{1+x} \leq \int_0^1x^{n+1}\dd x=\frac1{n+2}
+\]
+Hence
+\[
+\lim_{n\toi} (-1)^{n+1}\int_0^1\frac{x^{n+1}\dd x}{1+x} =0,
+\]
+and we get
+\[
+  \lim_{n\toi}\frac11-\frac12+\frac13-\cdots+(-1)^n\frac1{n+1}
+  =\ln 2+\lim_{n\toi} (-1)^{n+1}\int_0^1\frac{x^{n+1}\dd x}{1+x} 
+  = \ln 2.
+\]
+
+%%Euler proved that
+%%\[
+%%\frac{\pi^2}{6}= 1+\frac14+\frac19+\cdots\frac{1}{n^2}+\cdots .
+%%\]
+
+
+\section{Problems} %{{{1
+\problemfont %{{{3
+\begin{multicols}{2}
+\problem \groupproblem  The error function from statistics is defined by %{{{3
+\[
+\mathrm{erf}(x) = \frac1{\sqrt{\pi}}\int_0^x e^{-t^2/2}\;\dd t
+\]
+\subprob Find the Taylor series of the error function from the Taylor series
+of $f(r)=e^r$ (set $r=-t^2/2$ and integrate).
+
+\subprob Estimate the error term and show that the Taylor series of the error
+function converges for all real $x$.
+
+
+\problem \groupproblem  Prove Leibniz' formula for $\dfrac\pi4$ by mimicking the proof %{{{3
+in section \ref{sec:Leibniz-formulas}. Specifically, find a formula for
+the remainder in :
+\[
+\frac1{1+t^2} = 1-t^2+\cdots+ (-1)^nt^{2n}+ R_{2n}(t)
+\]
+and integrate this from $t=0$ to $t=1$.
+\end{multicols}
+\noproblemfont
+
+%%\section{Power Series} %{{{1
+%%\label{sec:power-series}
+%%
+%%\subsection{Radius of convergence} %{{{2
+%%\label{sec:radius-of-convergence}
+%%
+%%\subsection{Computing with Power Series} %{{{2
+%%\label{sec:computing-power-series}
+
+
+
+%%% Local Variables: 
+%%% mode: latex
+%%% TeX-master: "free222"
+%%% End: 

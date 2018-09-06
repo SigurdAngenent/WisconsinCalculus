@@ -1,0 +1,23 @@
+01gradientANDlevels.py:    print "t=%5f xx=%5f yy=%5f grad=(%5f, %5f)"%(t, xx, yy, grx, gry)
+02localmax.py:print PMAT
+03example-2nd-deriv-test-wires.py:print PMAT
+03helix.py:print PMAT
+03helix-wall.py:print PMAT
+03onion.py:print P(2/sqrt(3.0))
+03osculating.py:print PMAT
+03twotangents.py:print PMAT
+04Doubleint-example.py:print PMAT
+04Doubleint-example1.py:print PMAT
+04Doubleint-example2.py:print PMAT
+04helix.py:print theProjection()
+04helix.py:print theProjection()
+04helix.py:print pr([1,0,0],1)
+04iteratedintegral.py:print PMAT
+04riemannsum.py:print( PMAT )
+04riemannsum-expo.py:print PMAT
+04saddle-sliced.py:print theProjection()
+04saddle-sliced.py:print theProjection()
+04saddle-sliced.py:print pr([1,0,0],1)
+04under_the_helix.py:print PMAT
+04under_the_helix.py:print he[0]
+05helix.py:print he[0]

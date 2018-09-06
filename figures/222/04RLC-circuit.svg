@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Creator: fig2dev Version 3.2 Patchlevel 5 -->
+<!-- CreationDate: Tue Dec 16 17:04:23 2008 -->
+<!-- Magnification: 1.000 -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1.8in"
+   height="1.7in"
+   viewBox="-482 -570 2196 2026"
+   id="svg2516"
+   sodipodi:version="0.32"
+   inkscape:version="0.46"
+   sodipodi:docname="04RLC-circuit.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape">
+  <metadata
+     id="metadata2605">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs2603">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 76.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="162 : 76.5 : 1"
+       inkscape:persp3d-origin="81 : 51 : 1"
+       id="perspective2607" />
+  </defs>
+  <sodipodi:namedview
+     inkscape:window-height="756"
+     inkscape:window-width="1232"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     guidetolerance="10.0"
+     gridtolerance="10.0"
+     objecttolerance="10.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base"
+     showgrid="false"
+     inkscape:zoom="2.3015633"
+     inkscape:cx="36.625234"
+     inkscape:cy="83.62647"
+     inkscape:window-x="32"
+     inkscape:window-y="8"
+     inkscape:current-layer="svg2516" />
+  <text
+     style="font-size:135.55555732px;font-style:italic;font-weight:normal;text-anchor:start;fill:#000000;stroke:#000000;stroke-width:0.02499997in;font-family:Cambria Math;font-variant:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;opacity:1;color:#000000;fill-opacity:1;fill-rule:nonzero;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;-inkscape-font-specification:Cambria Math Italic"
+     id="text2520"
+     font-size="108"
+     font-weight="bold"
+     font-style="italic"
+     y="1087.5181"
+     x="1083.3173"
+     xml:space="preserve">V   =</text>
+  <polyline
+     id="polyline2522"
+     style="stroke:#000000;stroke-width:8.47222222;stroke-linecap:butt;stroke-linejoin:round;stroke-dasharray:25.41666667,25.41666667;stroke-miterlimit:4;stroke-dashoffset:0"
+     points="-450,-112 -450,1387 "
+     transform="translate(33.317269,-37.481928)" />
+  <polygon
+     id="polygon2524"
+     style="fill:#000000;stroke:#000000;stroke-width:6.99969167999999975;stroke-miterlimit:4;stroke-dasharray:none;stroke-linejoin:round;fill-opacity:1"
+     points="-460,1376 -449,1423 -437,1376 -449,1385 -460,1376 "
+     transform="matrix(1.9358923,0,0,2.2554776,455.14727,-1852.8282)" />
+  <polygon
+     id="polygon2526"
+     style="opacity:1;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:7.00095224;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     points="-437,-100 -449,-147 -460,-100 -449,-109 -437,-100 "
+     transform="matrix(1.9064779,0,0,2.5069128,437.7903,206.96785)" />
+  <polyline
+     id="polyline2528"
+     style="stroke:#000000;stroke-width:7;stroke-linecap:butt;stroke-linejoin:round;stroke-dasharray:10, 20"
+     points="1350,863 1350,1387 "
+     transform="translate(33.317269,-37.481928)" />
+  <polygon
+     id="polygon2530"
+     style="fill:#ffffff;stroke:#000000;stroke-width:7"
+     points="1338,1376 1350,1423 1361,1376 1350,1385 1338,1376 "
+     transform="translate(33.317269,-37.481928)" />
+  <polygon
+     id="polygon2532"
+     style="fill:#ffffff;stroke:#000000;stroke-width:7"
+     points="1361,873 1350,827 1338,873 1350,864 1361,873 "
+     transform="translate(33.317269,-37.481928)" />
+  <polyline
+     id="polyline2534"
+     style="stroke:#000000;stroke-width:7;stroke-linecap:butt;stroke-linejoin:round;stroke-dasharray:10, 20"
+     points="1200,788 1200,-113 "
+     transform="translate(33.317269,-37.481928)" />
+  <polygon
+     id="polygon2536"
+     style="fill:#ffffff;stroke:#000000;stroke-width:7"
+     points="1211,-100 1200,-147 1188,-100 1200,-109 1211,-100 "
+     transform="translate(33.317269,-37.481928)" />
+  <polygon
+     id="polygon2538"
+     style="fill:#ffffff;stroke:#000000;stroke-width:7"
+     points="1188,776 1200,823 1211,776 1200,785 1188,776 "
+     transform="translate(33.317269,-37.481928)" />
+  <polyline
+     id="polyline2540"
+     style="stroke:#000000;stroke-width:7;stroke-linecap:butt;stroke-linejoin:round;stroke-dasharray:10, 20"
+     points="-412,-300 712,-300 "
+     transform="translate(33.317269,-37.481928)" />
+  <polygon
+     id="polygon2542"
+     style="fill:#ffffff;stroke:#000000;stroke-width:7"
+     points="701,-287 748,-299 701,-310 710,-299 701,-287 "
+     transform="translate(33.317269,-37.481928)" />
+  <polygon
+     id="polygon2544"
+     style="fill:#ffffff;stroke:#000000;stroke-width:7"
+     points="-400,-310 -447,-299 -400,-287 -409,-299 -400,-310 "
+     transform="translate(33.317269,-37.481928)" />
+  <text
+     style="font-size:135.55555732px;font-style:italic;font-weight:normal;text-anchor:start;fill:#000000;stroke:#000000;stroke-width:0.02499997in;font-family:Cambria Math;font-variant:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;opacity:1;color:#000000;fill-opacity:1;fill-rule:nonzero;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;-inkscape-font-specification:Cambria Math Italic"
+     id="text2546"
+     font-size="108"
+     font-weight="bold"
+     font-style="italic"
+     y="262.51807"
+     x="1308.3173"
+     xml:space="preserve">V</text>
+  <text
+     style="font-size:108.44444444px;font-style:italic;font-weight:normal;text-anchor:start;fill:#000000;stroke:#000000;stroke-width:0.02499997000000000in;font-family:Cambria Math;font-variant:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr;opacity:1;color:#000000;fill-opacity:1;fill-rule:nonzero;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;-inkscape-font-specification:Cambria Math Italic"
+     id="text2548"
+     font-size="108"
+     font-weight="bold"
+     font-style="italic"
+     y="310.40695"
+     x="1356.2062"
+     xml:space="preserve"
+     sodipodi:linespacing="125%">L</text>
+  <text
+     style="font-size:108.44444444px;font-style:italic;font-weight:normal;text-anchor:start;fill:#000000;stroke:#000000;stroke-width:0.02499997000000000in;font-family:Cambria Math;font-variant:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr;opacity:1;color:#000000;fill-opacity:1;fill-rule:nonzero;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;-inkscape-font-specification:Cambria Math Italic"
+     id="text2550"
+     font-size="108"
+     font-weight="bold"
+     font-style="italic"
+     y="-412.48193"
+     x="108.31727"
+     xml:space="preserve"
+     sodipodi:linespacing="125%">C</text>
+  <text
+     style="font-size:135.55555732px;font-style:italic;font-weight:normal;text-anchor:start;fill:#000000;stroke:#000000;stroke-width:0.02499997in;font-family:Cambria Math;font-variant:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;opacity:1;color:#000000;fill-opacity:1;fill-rule:nonzero;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;-inkscape-font-specification:Cambria Math Italic"
+     id="text2552"
+     font-size="108"
+     font-weight="bold"
+     font-style="italic"
+     y="-487.48193"
+     x="33.317268"
+     xml:space="preserve">V</text>
+  <text
+     style="font-size:108.44444444px;font-style:italic;font-weight:normal;text-anchor:start;fill:#000000;stroke:#000000;stroke-width:0.02499997000000000in;font-family:Cambria Math;font-variant:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr;opacity:1;color:#000000;fill-opacity:1;fill-rule:nonzero;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;-inkscape-font-specification:Cambria Math Italic"
+     id="text2554"
+     font-size="108"
+     font-weight="bold"
+     font-style="italic"
+     y="1162.5181"
+     x="1158.3173"
+     xml:space="preserve"
+     sodipodi:linespacing="125%">R</text>
+  <polyline
+     id="polyline2556"
+     style="stroke:#000000;stroke-width:7;stroke-linecap:butt;stroke-linejoin:round"
+     points="750,30 750,-150 "
+     transform="translate(33.317269,-37.481928)" />
+  <polyline
+     id="polyline2558"
+     style="stroke:#000000;stroke-width:7;stroke-linecap:butt;stroke-linejoin:round"
+     points="750,650 750,825 "
+     transform="translate(33.317269,-37.481928)" />
+  <polyline
+     id="polyline2560"
+     style="fill:#000000;stroke:#000000;stroke-width:7;stroke-linecap:butt;stroke-linejoin:round"
+     points="300,-150 750,-150 "
+     transform="translate(33.317269,-37.481928)" />
+  <polyline
+     id="polyline2562"
+     style="stroke:#000000;stroke-width:7;stroke-linecap:butt;stroke-linejoin:round"
+     points="-450,1425 1350,1425 "
+     transform="translate(33.317269,-37.481928)" />
+  <polyline
+     id="polyline2564"
+     style="stroke:#000000;stroke-width:7;stroke-linecap:butt;stroke-linejoin:round"
+     points="-450,-150 -300,-150 "
+     transform="translate(33.317269,-37.481928)" />
+  <text
+     style="font-size:108.44444444px;font-style:italic;font-weight:normal;text-anchor:start;fill:#000000;stroke:#000000;stroke-width:0.02499997000000000in;font-family:Cambria Math;font-variant:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr;opacity:1;color:#000000;fill-opacity:1;fill-rule:nonzero;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;-inkscape-font-specification:Cambria Math Italic"
+     id="text2566"
+     font-size="108"
+     font-weight="bold"
+     font-style="italic"
+     y="1135.407"
+     x="1506.2062"
+     xml:space="preserve"
+     sodipodi:linespacing="125%">out</text>
+  <text
+     style="font-size:135.55555732px;font-style:italic;font-weight:normal;text-anchor:start;fill:#000000;stroke:#000000;stroke-width:0.02499997in;font-family:Cambria Math;font-variant:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;opacity:1;color:#000000;fill-opacity:1;fill-rule:nonzero;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;-inkscape-font-specification:Cambria Math Italic"
+     id="text2568"
+     font-size="108"
+     font-weight="bold"
+     font-style="italic"
+     y="1162.5181"
+     x="558.31726"
+     xml:space="preserve">R</text>
+  <polyline
+     id="polyline2570"
+     style="stroke:#000000;stroke-width:7;stroke-linecap:butt;stroke-linejoin:round"
+     points="750,825 1350,825 "
+     transform="translate(33.317269,-37.481928)" />
+  <text
+     style="font-size:135.55555732px;font-style:italic;font-weight:normal;text-anchor:start;fill:#000000;stroke:#000000;stroke-width:0.02499997in;font-family:Cambria Math;font-variant:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;opacity:1;color:#000000;fill-opacity:1;fill-rule:nonzero;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;-inkscape-font-specification:Cambria Math Italic"
+     id="text2572"
+     font-size="108"
+     font-weight="bold"
+     font-style="italic"
+     y="112.51807"
+     x="108.31727"
+     xml:space="preserve">C</text>
+  <text
+     style="font-size:135.55555732px;font-style:italic;font-weight:normal;text-anchor:start;fill:#000000;stroke:#000000;stroke-width:0.02499997in;font-family:Cambria Math;font-variant:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;opacity:1;color:#000000;fill-opacity:1;fill-rule:nonzero;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;-inkscape-font-specification:Cambria Math Italic"
+     id="text2574"
+     font-size="108"
+     font-weight="bold"
+     font-style="italic"
+     y="337.51807"
+     x="1008.3173"
+     xml:space="preserve">L</text>
+  <text
+     style="font-size:135.55555556px;font-style:italic;font-weight:normal;text-anchor:start;fill:#000000;stroke:#000000;stroke-width:0.02500000000000000in;font-family:Cambria Math;-inkscape-font-specification:Cambria Math Italic;font-stretch:normal;font-variant:normal;text-align:start;writing-mode:lr;line-height:125%"
+     id="text2576"
+     font-size="108"
+     font-weight="bold"
+     font-style="italic"
+     y="712.51807"
+     x="-341.68274"
+     xml:space="preserve"
+     sodipodi:linespacing="125%">V</text>
+  <text
+     style="font-size:108.44444444px;font-style:italic;font-weight:normal;text-anchor:start;fill:#000000;stroke:#000000;stroke-width:0.02499997000000000in;font-family:Cambria Math;font-variant:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr;opacity:1;color:#000000;fill-opacity:1;fill-rule:nonzero;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;-inkscape-font-specification:Cambria Math Italic"
+     id="text2578"
+     font-size="108"
+     font-weight="bold"
+     font-style="italic"
+     y="787.51807"
+     x="-266.68274"
+     xml:space="preserve"
+     sodipodi:linespacing="125%">in</text>
+  <text
+     style="font-size:135.55555732px;font-style:italic;font-weight:normal;text-anchor:start;fill:#000000;stroke:#000000;stroke-width:0.02499997in;font-family:Cambria Math;font-variant:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;opacity:1;color:#000000;fill-opacity:1;fill-rule:nonzero;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;-inkscape-font-specification:Cambria Math Italic"
+     id="text2580"
+     font-size="108"
+     font-weight="bold"
+     font-style="italic"
+     y="1087.5181"
+     x="1458.3173"
+     xml:space="preserve">V</text>
+  <polyline
+     id="polyline2582"
+     style="stroke:#000000;stroke-width:7;stroke-linecap:butt;stroke-linejoin:bevel;fill:none"
+     points="750,30 753,30 759,31 768,33 780,35 793,38 807,42 819,46 831,52 840,59 846,69 849,80 847,93 841,104 835,114 829,122 822,129 816,135 809,141 801,147 792,154 780,162 766,171 750,178 734,183 720,184 708,184 699,183 691,181 685,178 678,176 672,172 666,169 659,165 654,160 652,154 654,148 659,141 666,135 672,130 678,125 685,121 691,117 699,112 708,109 720,105 734,104 750,104 766,107 780,112 792,117 801,121 809,125 816,129 822,133 829,137 835,144 841,153 847,164 849,178 847,192 841,205 835,216 829,224 822,230 816,236 809,241 801,247 792,253 780,261 766,270 750,277 736,281 724,283 713,283 704,283 697,281 690,279 685,277 679,274 674,272 669,269 663,265 658,261 654,257 652,252 654,246 659,239 666,234 672,228 678,224 685,219 691,215 699,211 708,207 720,204 734,202 750,203 766,206 780,211 792,216 801,220 809,224 816,228 822,232 829,237 835,243 841,252 847,263 849,277 847,291 841,304 835,314 829,322 822,329 816,334 809,339 801,345 792,352 780,359 766,368 750,375 734,380 720,381 708,381 699,380 691,378 685,375 678,373 672,369 666,366 659,362 654,357 652,351 654,345 659,338 666,332 672,327 678,322 685,318 691,314 699,309 708,306 720,302 734,301 750,301 766,304 780,309 792,314 801,318 809,322 816,326 822,330 829,334 835,341 841,350 847,361 849,375 847,389 841,402 835,413 829,421 822,427 816,433 809,438 801,444 792,450 780,458 766,467 750,474 736,478 724,480 713,480 704,480 697,478 690,476 685,474 679,471 674,469 669,466 663,462 658,458 654,454 652,449 654,443 659,436 666,431 672,425 678,421 685,416 691,412 699,408 708,404 720,401 734,399 750,400 766,403 780,408 792,413 801,417 809,421 816,425 822,429 829,434 835,440 841,449 847,460 849,474 847,488 841,501 835,511 829,519 822,526 816,531 809,536 801,542 792,549 780,556 766,565 750,572 734,577 720,578 708,578 699,577 691,575 685,572 678,570 672,566 666,563 659,559 654,554 652,548 654,542 659,535 666,529 672,524 678,519 685,515 691,511 699,506 708,503 720,499 734,498 750,498 766,501 780,506 792,511 801,516 809,520 816,524 822,529 829,534 835,541 841,549 847,560 849,572 845,587 837,600 824,611 809,621 793,630 777,638 764,644 755,648 751,650 750,650 "
+     transform="translate(33.317269,-37.481928)" />
+  <polyline
+     id="polyline2584"
+     style="stroke:#000000;stroke-width:7;stroke-linecap:butt;stroke-linejoin:round;fill:none"
+     points="750,1425 750,1280 825,1256 675,1208 825,1160 675,1112 825,1064 675,1016 825,968 675,920 750,896 750,750 "
+     transform="translate(33.317269,-37.481928)" />
+  <path
+     id="path2586"
+     d="M 108.31727,-37.481928 C 62.717603,-73.916032 36.167175,-129.11436 36.167175,-187.48193 C 36.167175,-245.8495 62.717603,-301.04783 108.31727,-337.48193"
+     style="stroke:#000000;stroke-width:7;stroke-linecap:butt;fill:none" />
+  <polyline
+     id="polyline2588"
+     style="stroke:#000000;stroke-width:7;stroke-linecap:butt;stroke-linejoin:round"
+     points="-300,-150 -75,-150 "
+     transform="translate(33.317269,-37.481928)" />
+  <polyline
+     id="polyline2590"
+     style="stroke:#000000;stroke-width:7;stroke-linecap:butt;stroke-linejoin:round"
+     points="-75,0 -75,-300 "
+     transform="translate(33.317269,-37.481928)" />
+  <polyline
+     id="polyline2592"
+     style="stroke:#000000;stroke-width:7;stroke-linecap:butt;stroke-linejoin:round"
+     points="0,-150 300,-150 "
+     transform="translate(33.317269,-37.481928)" />
+  <circle
+     sodipodi:ry="24"
+     sodipodi:rx="24"
+     sodipodi:cy="1425"
+     sodipodi:cx="-450"
+     id="circle2594"
+     style="fill:#ffffff;stroke:#000000;stroke-width:7"
+     r="24"
+     cy="1425"
+     cx="-450"
+     transform="translate(33.317269,-37.481928)" />
+  <circle
+     sodipodi:ry="24"
+     sodipodi:rx="24"
+     sodipodi:cy="1425"
+     sodipodi:cx="1350"
+     id="circle2596"
+     style="fill:#ffffff;stroke:#000000;stroke-width:7"
+     r="24"
+     cy="1425"
+     cx="1350"
+     transform="translate(33.317269,-37.481928)" />
+  <circle
+     sodipodi:ry="24"
+     sodipodi:rx="24"
+     sodipodi:cy="-150"
+     sodipodi:cx="-450"
+     id="circle2598"
+     style="fill:#ffffff;stroke:#000000;stroke-width:7;fill-opacity:1"
+     r="24"
+     cy="-150"
+     cx="-450"
+     transform="translate(33.317274,-37.481928)" />
+  <circle
+     sodipodi:ry="24"
+     sodipodi:rx="24"
+     sodipodi:cy="825"
+     sodipodi:cx="1350"
+     id="circle2600"
+     style="fill:#ffffff;stroke:#000000;stroke-width:7"
+     r="24"
+     cy="825"
+     cx="1350"
+     transform="translate(33.317269,-37.481928)" />
+</svg>

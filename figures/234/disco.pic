@@ -1,0 +1,35 @@
+// ---------------------------
+//  graph of THE discontinuous function
+// ---------------------------
+
+//  image size
+
+height=800;
+width =800;
+
+rot_y=-1.1;
+rot_x=-0.1;
+rot_z=1.57;
+clear_screen;
+
+//surface = z*x^2+z*y^2+3*x^2-3*y^2;
+surface = 64*z*x^2+z*y^6+6*8*x*y^3;
+draw_surface;
+//surface2  = z;
+//draw_surface;
+
+curve_width=0.5;
+plane = z;
+cut_with_plane;
+plane = z-1;
+cut_with_plane;
+plane = z-2;
+cut_with_plane;
+plane = z+1;
+cut_with_plane;
+plane = z+2;
+cut_with_plane;
+plane = x;
+cut_with_plane;
+plane = y;
+cut_with_plane;

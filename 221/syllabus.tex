@@ -1,0 +1,239 @@
+% Time-stamp: Aug 22 11:39 syllabus.tex
+\documentclass{amsproc}
+\begin{document}
+\title{MIU-Math 221 Lecture schedule}
+\maketitle
+The following lecture schedule assumes there are 12 weeks in the semester,
+whereas there are 14 weeks.  This allows time for in-class exams, and time to
+catch up if one falls behind schedule.
+\section*{Week 1}
+\begin{itemize}
+\item Chapter 1. ( things )
+\item What is a number?
+\item Functions
+\item Implicit functions
+\item Inverse functions
+\item Inverse trigonometric functions
+\end{itemize}
+A big  difference between 221 and 275 (honors calculus) is that we do not try to
+give a good description of the real numbers in 221 (no least upper bound axiom).
+Instead we just assume that "everyone knows" what a real number is.  Here we
+point out to the students that there are problems with this attitude, but that
+we will ignore them this semester.  To show some of the problems, you can begin
+by explaining that $\infty$ is not a number.  Then ask the class if they think
+$0.9999\ldots =1$? (i.e.~if infinitely large numbers don't exist, do infinitely
+small numbers such as $1-0.999\ldots$ exist?)
+
+The rest of this chapter ought to be review.  I plan to explain/remind students of what a
+function is, describe implicit and inverse functions, and review the arcsine and
+arctangent.  The inverse trig functions are covered in a course which is a
+prerequisite for math 221, so this should not be new material.  Still, students
+may not know what the graphs of $y=\sin(\arcsin(x))$ and $y = \arcsin(\sin(x))$ look
+like.
+
+
+\section*{Week 2}
+\begin{itemize}
+\item Chapter 2. ( derivs )
+\item The tangent to a curve
+\item An example -- tangent to a parabola
+\item Instantaneous velocity
+\item Rates of change
+\item Examples of rates of change
+\end{itemize}
+We introduce the derivative as a rate of change.  We don't get into the details
+of how to compute derivatives, but this chapter motivates why we need to
+understand limits.
+
+\section*{Week 3}
+\begin{itemize}
+\item Chapter 3. ( limits )
+\item Informal definition of limits
+\item "The formal, authoritative, definition of limit"
+\item Variations on the limit theme
+\item Properties of the Limit
+\item Examples of limit computations
+\item When limits fail to exist
+\item Limits that equal $\infty$
+\item What's in a name? -- Free Variables and Dummy variables
+\item Limits and Inequalities
+\item Continuity
+\item Substitution in Limits
+\end{itemize}
+There is a fair amount of text devoted to the $\varepsilon/\delta$ definition of
+the limit.  Opinions on whether this is useful for the students and on how much
+they will actually learn from this vary.  In other years I have put a fair
+amount of time and energy into this topic, but this year I plan to spend only half a
+(75 minute) lecture on the definition, and skip it otherwise. 
+My current motives for this are that the $\varepsilon/\delta$ definition
+provides an answer to a question most students won't think to ask.  It also
+leads to exam questions that test the students' algebraic skills but not their
+understanding of the $\varepsilon/\delta$ definition.  For instance, if you cover this
+subject, then students should be able to answer the question ``show that
+$\lim_{x\to 1} x^2 \neq 3$.''  I think that would be reasonable in math 275 or
+necessary in math 421, but not here.
+
+Instead of the $\varepsilon/\delta$ definition I do intend to use the limit
+properties, and ask students to derive limits showing step by step how they use
+those properties.
+
+\section*{Week 4}
+\begin{itemize}
+\item Two Limits in Trigonometry
+\item Asymptotes
+\item Chapter 4. ( derivs )
+\item Derivatives Defined
+\item Direct computation of derivatives
+\item Differentiable implies Continuous
+\item Some non-differentiable functions
+\end{itemize}
+The trigonometric limits have a nice proof.  I will briefly describe what
+asymptotes are (they should do the examples themselves for homework and/or in
+discussion.)
+
+The main example of direct computation of derivatives is $dx^n/dx$.  The
+derivation in the text uses the geometric sum formula.  You could also use the
+(first two terms of) the binomial formula.  
+
+There are some examples of non differentiable functions.  I like to mention
+Brownian motion as a continuous but nowhere differentiable function (no proof of
+course) and I like to point out that this kind of ``pathological function''
+actually occurs in physics (Brownian motion) but is also fundamental to
+mathematical finance (there's a link to finance.yahoo.com for the prospective econ
+students the class).
+
+\section*{Week 5}
+\begin{itemize}
+\item The Differentiation Rules
+\item Differentiating powers of functions
+\item Higher Derivatives
+\item Differentiating Trigonometric functions
+\item The Chain Rule
+\item Implicit differentiation
+\end{itemize}
+I would prove the product rule (straight forwardly, and also using the picture
+proof.) For the quotient rule I would give the ``implicit differentiation
+proof.''  It is not completely rigorous, but it has the advantage of being a
+first example of implicit differentiation (while doing the proof I tell them
+that this is an easier case of a method they should be able to use on an exam.)
+
+For the derivative of trig functions I think I'll do the more geometric
+derivation in problem 16 on page 72/73 this year.  It avoids the addition
+formulas, and makes the answer perhaps less mysterious.   On the other hand it
+would be nicer if the students did that problem themselves.
+
+The ``related rate problems'' at the end are important because they force the
+students to relate derivatives to the so-called real world, i.e. they test if
+students can do more than ``use the formulas.''
+
+\section*{Week 6}
+\begin{itemize}
+\item Chapter 5. ( graphsketching )
+\item Tangent and Normal lines to a graph
+\item The Intermediate Value Theorem
+\item Finding sign changes of a function
+\item Increasing and decreasing functions
+\item Examples
+\item Maxima and Minima
+\item Must a function always have a maximum?
+\item Examples -- functions with and without maxima or minima
+\end{itemize}
+Depending on how fast you go, and on how much attention you want to pay to the
+Intermediate and Mean Value Theorems, this could actually be not enough material
+for a whole week.
+On the other hand, the example of the weird function on page 96 shows that
+``$f'(x)>0$'' perhaps doesn't mean all that some people think it means.
+
+\section*{Week 7}
+\begin{itemize}
+\item General method for sketching the graph of a function
+\item Convexity, Concavity and the Second Derivative
+\item Optimization Problems
+\item Parametrized Curves
+\end{itemize}
+Optimization problems are again important to see if students know more than
+``$dx^n/dx=nx^{n-1}$.''  To prove that the graph of a convex function always
+lies below any of its chords you need the Mean value Theorem.  In math 275 I
+would make this exam material.  Here I will explain it in lecture if there is
+time.
+
+The subject of parametrized curves can be shortened if necessary by skipping the
+description of curvature and osculating circle.
+
+\section*{Week 8}
+\begin{itemize}
+\item l'Hopital's rule
+\item Chapter 7. ( expANDlog )
+\item Exponents
+\item Logarithms
+\item Properties of logarithms
+\item Graphs of exponential functions and logarithms
+\item The derivative of $a^x$ and the definition of $e$
+\item Derivatives of Logarithms
+\item Limits involving exponentials and logarithms
+\item Exponential growth and decay
+\end{itemize}
+The proof of l'Hopital's rule (or ``reason why it works'')
+requires the MVT and parametrized curves.  A number of other departments have
+told us they like to use l'Hopital, so it doesn't look good when we send them
+students who don't know the rule.
+
+There are many topics here, but the description of logarithms should be review.
+The derivation of $de^x/dx=e^x$ is rigorous if you are willing to assume that
+$a^x$ is defined for all $x\in\mathbb{R}$ and $a>0$, and if you are willing to
+assume that at least $2^x$ is differentiable at $x=0$.
+
+The topic of exponential growth and decay is important for many reasons:
+exponential growth just shows up very often while $dX/dt = kX$ is the first
+differential equation they run into. They will see more of them in 222.
+
+\section*{Week 9}
+\begin{itemize}
+\item Chapter 8. ( integration )
+\item Area under a Graph
+\item When $f$ changes its sign
+\item The Fundamental Theorem of Calculus
+\item The summation notation
+\item The indefinite integral
+\item Properties of the Integral
+\end{itemize}
+The treatment here is a bit streamlined compared with more traditional
+approaches to the integral that begin with long discourses on finding a formula
+for $1^2+2^2+\cdots+n^2$.  The point of the fundamental theorem is that you
+don't need to do that to find the area under a parabola.
+
+\section*{Week 10}
+\begin{itemize}
+\item The definite integral as a function of its integration bounds
+\item Method of substitution
+\item Chapter 9. ( intapps )
+\item Areas between graphs
+\end{itemize}
+This and the next two weeks seem straightforward.  Students should get a lot of
+practice finding simple antiderivatives.
+The point of the chapter on applications of integrals is to solidify the
+students' intuition for the integral.  A complaint we have heard from
+departments that use a lot of calculus is that their students know how to find
+$\int (x^2+3x) dx$, but they have no idea of the intuitive meaning of the
+integral as a sum of ``infinitely many infinitely small pieces.''
+
+The formulas in the last chapter are less important than their intuitive
+``derivation,''  where derivation does not mean rigorous mathematical proof, but
+rather the simple intuitive arguments that physicists and engineers use to
+reconstruct the formulas.
+
+\section*{Week 11}
+\begin{itemize}
+\item Cavalieri's principle and volumes of solids
+\item Three examples of volume computations of solids of revolution
+\item Volumes by cylindrical shells
+\item Distance from velocity
+\end{itemize}
+
+\section*{Week 12}
+\begin{itemize}
+\item The length of a curve
+\item Velocity from acceleration
+\item Work done by a force
+\end{itemize}
+\end{document}

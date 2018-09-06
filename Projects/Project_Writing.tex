@@ -1,0 +1,73 @@
+\documentclass[12pt]{article}
+
+\usepackage[left=1.0in,right=1.0in,top=1.0in,bottom=1.0in]{geometry}
+
+\usepackage{enumerate,amsmath,amsfonts,amssymb,amsthm,url,framed}
+
+
+\newtheorem{theorem}{Theorem}
+\newtheorem{corollary}{Corollary}
+
+% New environments
+\theoremstyle{definition}
+\newtheorem{example}{Example}
+\newtheorem{definition}{Definition}
+\newtheorem{remark}{Remark}
+% New commands
+\newcommand{\noin}{{\noindent}}
+\def\R{\mathbb{R}}
+\def\Z{\mathbb{Z}}
+\def\E{\mathbb{E}}
+\def\F{\mathcal{F}}
+\def\FF{\mathcal{F}}
+\newcommand\ind[1]{1_{\{#1\}}}
+
+
+\begin{document}
+
+\section*{Math 221: Writing the lab reports}
+\today
+\vspace{.1in}
+
+A lab report is a form of professional communication and should be written as such.  Below are some tips to assist you.  Keep in mind that this is a set of \textit{guidelines}, not a definitive set of rules.  Please see
+\url{https://edisk.fandm.edu/annalisa.crannell/writing_in_math/guide.html}
+for a fuller discussion of how to write clearly.  Below is a relevant excerpt:
+
+\vspace{.1in}
+
+``For most of your life so far, the only kind of writing you've done in math classes has been on homeworks and tests, and for most of your life you've explained your work to people that know more mathematics than you do (that is, to your teachers). But soon, this will change.
+
+Now that you are taking Calculus, you know far more mathematics than the average American has ever learned - indeed, you know more mathematics than most college graduates remember. With each additional mathematics course you take, you further distance yourself from the average person on the street. You may feel like the mathematics you can do is simple and obvious (doesn't everybody know what a function is?), but you can be sure that other people find it bewilderingly complex. It becomes increasingly important, therefore, that you can explain what you're doing to others that might be interested: your parents, your boss, the media.''
+
+\vspace{.1in}
+
+Here are some tips for writing your reports.
+
+\begin{enumerate}
+	\item Your report should be a self-contained narrative;  do not assume the reader has the class handout in hand.  Begin with an introduction that describes the problem that will be addresses in the report.  Then present your results and analysis in a logical order.
+	\item Rather than merely listing a sequence of equations, incporporate the equations into complete sentences that describe your reasoning.  For example, the meaning of 
+	\begin{framed}
+	\begin{align*}
+		x &=0\\
+		f'(x) &= 2x = 2\cdot 0 = 0,
+	\end{align*}
+	\end{framed}
+	\noindent is much less clear to the reader than is
+\begin{framed}
+	\noindent By substituting $x=0$ into the equation
+	\[
+		f'(x) = 2x
+	\]
+	we obtain
+	\[
+		f'(0) = 2\cdot 0 = 0.
+	\]
+	\end{framed}
+	
+	\item Use complete and grammatically correct sentences in your report.  Each member of your group should proofread the report before submitting it.  
+	
+	\item Make sure your pronouns have unambiguous antecedents.  If the reader can not identify the antecedent, that may indicate that you do not understand what you are writing about.
+	\item Clearly define all variables. 
+	\item Put titles on your charts and figures.
+\end{enumerate}
+\end{document}

@@ -1,0 +1,39 @@
+// ---------------------------
+//  graph of the saddle surface
+// ---------------------------
+
+//  image size
+
+height=800;
+width =800;
+
+rot_y=-1.1;
+rot_x=0.6;
+rot_z=1.57;
+clear_screen;
+
+
+surface = z-(x*y)/3;
+draw_surface;
+//surface2  = z;
+//draw_surface;
+
+curve_width=0.5;
+plane = z;
+cut_with_plane;
+plane = x-1;
+cut_with_plane;
+plane = x-2;
+cut_with_plane;
+plane = x+1;
+cut_with_plane;
+plane = x+2;
+cut_with_plane;
+plane = x+3;
+cut_with_plane;
+plane = x+4;
+cut_with_plane;
+plane = x;
+cut_with_plane;
+plane = y;
+cut_with_plane;

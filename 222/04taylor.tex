@@ -1,0 +1,1965 @@
+% Time-stamp : 3/8/2013 9:05:35 AM
+\chapter{Taylor's Formula}%{{{1
+\label{cha:taylor}
+
+\vspace{.25in}
+\begin{center}\color{badgerred}
+  \itshape All continuous functions that vanish at $x=a$\\
+  are approximately equal at $x=a$, \\
+  but some are more approximately equal than others.
+\end{center}
+\vspace{0.25in}
+
+\section{Taylor Polynomials} \label{sec:taylors-formula} Suppose we need to do %{{{1
+some computation with a complicated function $y=f(x)$, and suppose that the only
+values of $x$ we care about are close to some constant $x=a$.  Since polynomials
+are simpler than most other functions, we could then look for a polynomial
+$y=P(x)$ that somehow ``matches'' our function $y=f(x)$ for values of $x$ close
+to $a$.  And we could then replace our function $f$ with the polynomial $P$,
+hoping that the error we make is not too big.  \textit{Which} polynomial we 
+choose depends on when we think a polynomial ``matches'' a function.  In this
+chapter we will say that a polynomial $P$ of degree $n$ matches a function $f$
+at $x=a$ \emph{if $P$ has the same value and the same derivatives of order $1$,
+$2$, \ldots, $n$ at $x=a$ as the function $f$.}  The polynomial that matches a
+given function at some point $x=a$ is the Taylor polynomial of $f$.  It is given
+by the following formula.
+
+
+\begin{definition}
+  The Taylor polynomial of a function $y=f(x)$ of degree $n$ at a point $a$ is
+  the polynomial
+  \begin{equation}
+    \label{eq:taylor-general}
+    T_n^af (x) 
+    = f (a) 
+    +f' (a) (x-a)
+    +\frac{f'' (a)}{2!} (x-a)^2 +\cdots 
+    +\frac{f^{(n)} (a)}{n!} (x-a)^n.
+  \end{equation}
+\end{definition}
+(Recall that $n! = 1\cdot2\cdot3\cdots n$, and by definition $0!=1$.
+\begin{theorem}\label{thm:taylor-of-polynomial}
+  The Taylor polynomial has the following property: it is the only polynomial
+  $P(x)$ of degree $n$ whose value and whose derivatives of orders $1$, $2$,
+  \ldots, and $n$ are the same as those of $f$, i.e.\ it's the only polynomial
+  of degree $n$ for which
+  \[
+  P(a)=f (a), \quad P' (a)=f' (a), \quad P'' (a)=f'' (a),\quad \ldots,\quad
+  P^{(n)} (a) = f^{(n)} (a)
+  \]
+  holds.
+\end{theorem}
+
+\begin{proof} 
+  We do the case $a=0$, for simplicity.  Let $n$ be given, consider a polynomial
+  $P(x)$ of degree $n$, say,
+  \[
+  P(x) = a_0 + a_1 x + a_2 x^2 + a_3 x^3 +\cdots + a_n x^n,
+  \]
+  and let's see what its derivatives look like. They are:
+  \[
+  \begin{array}{cccccccccccccc}
+    P(x)  &=& a_0 & + & a_1x & + & a_2 x^2 & + & a_3x^3 & + &a_4x^4 &+\cdots \\
+    P'(x) &=&     &   & a_1  & + & 2a_2 x  & + & 3a_3x^2& + &4a_4x^3&+\cdots \\
+    P^{(2)}(x)
+    &=&  & & & & 1\cdot2a_2 & + & 2\cdot3a_3x& + &3\cdot4a_4x^2&+\cdots \\
+    P^{(3)}(x)&=&  & & & & & & 1\cdot2\cdot3a_3& + &2\cdot3\cdot4a_4x&+\cdots \\
+    P^{(4)}(x)&=&  & & & & & & & &1\cdot2\cdot3\cdot4a_4&+\cdots 
+  \end{array}
+  \]
+  When we set $x=0$ all the terms that have a positive power of $x$
+  vanish, and we are left with the first entry on each line, i.e.
+  \[
+  P(0) = a_0, \quad P'(0) = a_1, \quad P^{(2)} (0) = 2a_2, \quad P^{(3)}
+  (0) = 2\cdot3a_3, \text { etc.}
+  \]
+  and in general
+  \[
+  P^{(k)} (0) = k! a_k \text{ for }0\leq k\leq n.
+  \]
+  For $k\geq n+1$ the derivatives $P^{(k)} (x)$ all vanish of course, since
+  $P (x)$ is a polynomial of degree $n$.
+
+  Therefore, if we want $P$ to have the same values and derivatives at
+  $x=0$ of orders $1,$,\ldots, $n$ as the function $f$, then we must have
+  $k!a_k = P^{(k)} (0) = f^{(k)} (0)$ for all $k\leq n$. Thus
+  \[
+  a_k = \frac {f^{(k)} (0)}{k!} \quad\text{ for }0\leq k\leq n.
+  \]
+\end{proof}
+
+\section{Examples} %{{{1
+\subsection{Taylor polynomials of order zero and one} %{{{2
+The zeroth order Taylor polynomial of a function $f(x)$ is written as
+$T^a_0f(x)$.  According to the definition \eqref{eq:taylor-general} it is given
+by
+\[
+T_0^af(x) = f(a).
+\]
+It does not depend on $x$ and is just a constant.
+
+The first order Taylor polynomial is
+\[
+T_1^af(x) = f(a) + f'(a) (x-a).
+\]
+The graph of the function 
+\[
+  y= T_1^af(x), \text{ i.e. } y = f(a) + f'(a) (x-a),
+\]
+is the tangent line at $x=a$ to the graph of the function $y=f(x)$.
+The function $y=T_1^af(x)$ is exactly the \textit{linear approximation of
+$f(x)$} for $x$ close to $a$ that was derived in 1st semester calculus.
+
+The Taylor polynomial generalizes this first order approximation by
+providing ``higher order approximations'' to $f$.
+\begin{figure}[t]
+  \centering \input ../figures/222/02Taylor012-0.tex%
+  \input ../figures/222/02Taylor012-1.tex%
+  \input ../figures/222/02Taylor012-2.tex
+  \caption{\textbf{The Taylor polynomials of degree 0, 1 and 2 of $f(x) =
+  e^x$ at $a=0$.}  The zeroth order Taylor polynomial has the right
+  value at $x=0$ but it doesn't know whether or not the function $f$ is
+  increasing at $x=0$.  The first order Taylor polynomial has the right
+  slope at $x=0$, but it doesn't see if the graph of $f$ is curved up or
+  down at $x=0$.  The second order Taylor polynomial also has the right
+  curvature at $x=0$.}
+  \label{fig:02Taylor012}
+\end{figure}
+
+Most of the time we will take $a=0$ in which case we write $T_nf(x)$
+instead of $T_n^af(x)$, and we get a slightly simpler formula
+\begin{equation}
+  \label{eq:taylor-at-zero}
+  T_nf (x) = f (0) + f' (0) x
+  +\frac{f'' (0)}{2!} x^2 +\cdots
+  +\frac{f^{(n)}{(0)}}{n!} x^n.
+\end{equation}
+You will see below that for many functions $f(x)$ the Taylor polynomials
+$T_nf(x)$ give better and better approximations as we add more terms
+(i.e.~as we increase $n$). For this reason the limit when $n\toi$ is often
+considered, which leads to the \textit{infinite sum}
+\[
+\Ti f(x) = f (0) + f' (0) x +\frac{f'' (0)}{2!} x^2+\frac{f'''(0)}{3!} x^3
++\cdots
+\]
+Although we will not try to make sense of the ``sum of infinitely many
+numbers'' at this point, we will return to this question in the next chapter on
+Sequences and Series.
+
+
+
+\begin{figure}[b]
+  \centering \input ../figures/222/02et.tex
+  \caption{The top edge of the shaded region is the graph of $y=e^x$.  The
+  graphs are of the functions $y= 1+x+Cx^2$ for various values of $C$.
+  These graphs all are tangent at $x=0$, but one of the parabolas matches
+  the graph of $y=e^x$ better than any of the others. }
+  \label{fig:exp-taylor}
+\end{figure}
+
+\subsection{Example: Compute the Taylor polynomials of degree 0, 1 and 2 of %{{{2
+$f (x)=e^x$ at $a=0$, and plot them} One has
+\[
+f(x) = e^x \implies f' (x)= e^x \implies f'' (x) = e^x,
+\]
+so that
+\[
+f(0) = 1 , \quad f'(0)=1, \quad f''(0)=1.
+\]
+Therefore the first three Taylor polynomials of $e^x$ at $a=0$ are
+\begin{align*}
+  T_0 f (x) & = 1 \\
+  T_1 f (x) & = 1+x \\
+  T_2 f (x) & = 1+x+\frac12 x^2.
+\end{align*}
+The graphs are found in Figure \ref{fig:02Taylor012}.  
+
+The Taylor polynomial of degree 0, i.e.\ $T_0f(x)=1$ captures the fact that
+$e^x$ by virtue of its continuity does not change very much if $x$ stays
+close to $x=0$.
+
+The Taylor polynomial of degree 1, i.e.\ $T_1f(x)=1+x$ corresponds to the
+tangent line to the graph of $f (x)=e^x$, and so it also captures the fact
+that the function $f(x)$ is increasing near $x=0$.
+
+Clearly $T_1f(x)$ is a better approximation to $e^x$ than $T_0f (x)$.
+
+The graphs of both $y=T_0f (x)$ and $y=T_1f (x)$ are straight lines, while
+the graph of $y=e^x$ is curved (in fact, convex). The second order Taylor
+polynomial captures this convexity. In fact, the graph of $y=T_2f(x)$ is a
+parabola, and since it has the same first and second derivative at $x=0$,
+its curvature is the same as the curvature of the graph of $y=e^x$ at
+$x=0$.  So it seems that $y=T_2f(x) = 1+x+x^2/2$ is an approximation to $y=e^x$
+that beats both $T_0f(x)$ and $T_1f(x)$.
+
+Figure \ref{fig:exp-taylor} shows the graphs of various parabolas that
+have the same tangent line as the graph of $y=e^x$ at $x=0$.  Such parabolas are
+given by $y=1+x+Cx^2$, for arbitrary $C$.  The figure shows that the choice
+$C=\frac12$ leads to the parabola that best matches the graph of $y=e^x$.
+
+\subsection{Example: Find the Taylor polynomials of $f (x)=\sin x$} %{{{2
+
+When we start computing the derivatives of $\sin x$ we find
+\[
+f (x)=\sin x,\quad f' (x)=\cos x, \quad f'' (x)=-\sin x, \quad f^{(3)} (x)
+= -\cos x,
+\]
+and thus
+\[
+f^{(4)}(x) = \sin x.
+\]
+So after four derivatives we're back to where we started, and the
+sequence of derivatives of $\sin x$ cycles through the pattern
+\[
+\sin x,\; \cos x,\; -\sin x,\; -\cos x,\; \sin x,\; \cos x,\; -\sin x,\;
+-\cos x,\; \sin x,\; \ldots
+\]
+on and on. At $x=0$ we then get the following values for the derivatives
+$f^{(j)} (0)$,
+\[
+  \begin{array}{crrrr|rrrr|rc}
+    \toprule
+    j\;  &0 & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8&\cdots \\[1ex]
+    f^{(j)} (0)\; & 0 & 1 & 0 & -1& 0 & 1 & 0 & -1&0&\cdots\\
+    \bottomrule
+  \end{array}
+\]
+This gives the following Taylor polynomials
+\begin{align*}
+  T_0f(x) & = 0 \\
+  T_1f(x) & = x \\
+  T_2f(x) & = x \\
+  T_3f(x) & = x-\frac{x^3}{3!} \\
+  T_4f(x) & = x-\frac{x^3}{3!} \\
+  T_5f(x) & = x-\frac{x^3}{3!}+\frac{x^5}{5!}
+\end{align*}
+Note that since $f^{(2)}(0)=0$ the Taylor polynomials $T_1f (x)$ and $T_2f
+(x)$ are the same! The second order Taylor polynomial in this example is
+really only a polynomial of degree one. In general the Taylor polynomial
+$T_nf(x)$ of any function is a polynomial of degree at most $n$, and this
+example shows that the degree can sometimes be strictly less.
+
+\bigskip
+\begin{figure}[ht]
+  \centering \input ../figures/222/02sint.tex
+  \caption{Taylor polynomials of $f (x)=\sin x$}
+  \label{fig:sin-taylor}
+\end{figure}
+
+
+\subsection{Example: compute the Taylor polynomials of degree two and %{{{2
+three of $f(x) = 1+x+x^2+x^3$ at $a=3$}
+
+\subsubsection*{Solution: } Remember that our notation for the $n^{\rm th}$ degree
+Taylor polynomial of a function $f$ at $a$ is $T_n^af(x)$, and that it is
+defined by \eqref{eq:taylor-general}.
+
+We have
+\[
+f'(x) = 1+2x+3x^2, \quad f''(x) = 2+6x,\quad f'''(x) = 6
+\]
+Therefore $f(3) = 40$, $f'(3) = 34$, $f''(3) = 20$, $f'''(3) = 6$, and thus
+\begin{equation}\label{eq:taylorexample-deg2}
+  T_2^3f(x)= 40 + 34(x-3) + \frac{20}{2!}(x-3)^2
+  = 40 + 34(x-3) + 10(x-3)^2.
+\end{equation}
+Why don't we expand the answer?  You could do this (i.e.\ replace $(x-3)^2$
+by $x^2-6x+9$ throughout and sort the powers of $x$), but as we will see in
+this chapter, the Taylor polynomial $T_n^af(x)$ is used as an approximation
+for $f(x)$ when $x$ is close to $a$.  In this example $T_2^3f(x)$ is to be
+used when $x$ is close to $3$.  If $x-3$ is a small number then the
+successive powers $x-3$, $(x-3)^2$, $(x-3)^3$, \ldots decrease rapidly, and
+so the terms in \eqref{eq:taylorexample-deg2} are arranged in decreasing
+order.
+
+We can also compute the third degree Taylor polynomial. It is
+\begin{align*}
+  T_3^3f(x)
+  &= 40 + 34(x-3) + \frac{20}{2!}(x-3)^2 + \frac{6}{3!} (x-3)^3\\
+  &= 40 + 34(x-3) + 10(x-3)^2 + (x-3)^3.
+\end{align*}
+If we expand this (this takes a little work) we find that
+\[
+40 + 34(x-3) + 10(x-3)^2 + (x-3)^3 = 1+x+x^2+x^3.
+\]
+So the third degree Taylor polynomial is the function $f$ itself!  Why is
+this so?  Because of Theorem \ref{thm:taylor-of-polynomial}!  Both sides in
+the above equation are third degree polynomials, and their derivatives of
+order 0, 1, 2 and 3 are the same at $x=3$, so, since there is only one
+polynomial with this property, they must be the same polynomial.
+
+
+
+\section{Some special Taylor polynomials} \label{sec:some-special-taylor} %{{{1
+Here is a list of functions whose Taylor polynomials are sufficiently
+regular that we can write a formula for the $n^{\rm th}$ term.
+\begin{align*}
+  T_ne^x  &= 1+x+\frac{x^2}{2!}+\frac{x^3}{3!}+\cdots +\frac{x^n}{n!}\\
+  T_{2n+1}\left\{\sin x\right\} &=
+  x-\frac{x^3}{3!}+\frac{x^5}{5!}-\frac{x^7}{7!}+\cdots+
+  (-1)^n\frac{x^{2n+1}}{(2n+1)!} \\
+  T_{2n}\left\{\cos x\right\} &= 1-\frac{x^2}{2!}+\frac{x^4}{4!}-\frac{x^6}{6!}
+  +\cdots+(-1)^n \frac{x^{2n}}{(2n)!} \\
+  T_n\left\{\frac1{1-x}\right\} &=
+  1+x+x^2+x^3+x^4+\cdots +x^n &\text{(Geometric Sum)}\\
+  T_n\left\{\ln(1+x)\right\} & =x-\frac{x^2}{2}+\frac{x^3}3-\frac{x^4}4 +\cdots
+  +(-1)^{n+1}\frac{x^n}{n}
+\end{align*}
+All of these Taylor polynomials can be computed directly from the
+definition, by repeatedly differentiating $f(x)$.
+
+Another function whose Taylor polynomial we should know is $f(x)=(1+x)^a$,
+where $a$ is a constant.  You can compute $T_nf(x)$ directly from the
+definition, and when we do this we find
+\begin{multline}
+  \label{eq:newton-binomial}
+  T_n\{(1+x)^a\} = 1 + ax +\frac{a(a-1)}{1\cdot2} x^2
+  +\frac{a(a-1)(a-2)}{1\cdot2\cdot3} x^3\\
+  +\cdots+\frac{a(a-1)\cdots (a-n+1)}{1\cdot2\cdots n} x^n.
+\end{multline}
+Note that here $a$ is not assumed to be an integer.
+This formula is called \emph{Newton's binomial formula}.  The coefficient
+of $x^n$ is called a \emph{binomial coefficient,} and it is written
+\begin{equation}
+  \label{eq:binom-coeff}
+  \binom an = \frac{a(a-1)\cdots (a-n+1)}{n!}.
+\end{equation}
+When $a$ is an integer $\binom an$ is also called ``$a$ choose $n$.''
+Using this notation equation \eqref{eq:newton-binomial} can be written as
+\[
+  T_n \bigl\{(1+x)^a\bigr\} 
+  = 1 + \binom a1 x+ \binom a2 x^2 + \binom a3 x^3 + \cdots + \binom an x^n.
+\]
+
+Note that we already knew special cases of the binomial formula: when $a$
+is a positive integer the binomial coefficients are just the numbers in
+\emph{Pascal's triangle}.  
+
+\section{Problems} %{{{1
+\problemfont %{{{3
+\begin{multicols}{2}
+\problem Find a second order polynomial (i.e. a quadratic function) %{{{3
+$Q(x)$ such that $Q(7)=43, Q'(7)=19, Q''(7)=11$.
+
+
+\answer %{{{3
+Use Taylor's formula : \( Q(x)= 43+19(x-7)+\frac{11}{2}(x-7)^2 \).
+
+A different, correct, but more laborious (clumsy) solution is to say
+that $Q(x)=Ax^2+Bx+C$,, compute $Q'(x)=2Ax+B$ and $Q''(x)=2A$.  Then
+\[
+Q(7) = 49A + 7B + C = 43,\qquad Q'(7) = 14 A + B = 19,\qquad Q''(7) =
+2A = 11.
+\]
+This implies $A=11/2$, $B=19-14A = 19 - 77 = -58$, and $C= 43 - 7B -
+49A = 179\tfrac12$.
+\endanswer
+
+\problem %{{{3
+Find a second order polynomial
+$p(x)$ such that
+$p(2)=3$, $p^\prime(2)=8$, and $p^{\prime\prime}(2)=-1$.
+
+\answer $p(x)=3+8(x-2)-\frac12 (x-2)^2$ %{{{3
+\endanswer
+
+\problem A Third order polynomial $P(x)$ satisfies $ P(0)=1, P'(0) = %{{{3
+-3, P'' (0)=-8, P'''(0)=24$.  Find $P(x)$.
+
+\problem Let $f(x)=\sqrt{x+25}$.  Find the polynomial $P(x)$ of degree %{{{3
+three such that $P^{(k)}(0)=f^{(k)}(0)$ for $k=0,1,2,3$.
+
+\problem Let $f(x) = 1+x-x^2-x^3$. Compute and graph $T_0f(x)$, %{{{3
+$T_1f(x)$, $T_2f(x)$, $T_3f(x)$, and $T_4f(x)$, as well as $f(x)$
+itself (so, for each of these functions find where they are positive or
+negative, where they are increasing/decreasing, and find the inflection
+points on their graph.)
+
+
+\problem \subprob Find $T_3\sin x$ and $T_5\sin x$. %{{{3
+
+\subprob Graph $T_3\sin x$ and $T_5\sin x$ as well as $y=\sin x$ in one picture.
+(As before, find where these functions are positive or negative, where they are
+increasing/decreasing, and find the inflection points on their graph. This
+problem can\&should be done without a graphing calculator.)
+\[
+  *~*~*
+\]
+\begingroup
+\noindent\color{darkbluegreen}%
+Compute $T^a_0f(x)$, $T^a_1f(x)$ and $T^a_2f(x)$\\ for the following functions.
+\endgroup
+
+\problem $f(x) = x^3$, $a=0$; then for $a=1$ and $a=2$. %{{{3
+
+\problem $f(x) = \dfrac1x$, $a=1$.  Also do $a=2$. %{{{3
+
+\problem $f(x) = \sqrt x$, $a=1$. %{{{3
+
+\problem $f(x) = \ln x$, $a=1$. Also $a=e^2$. %{{{3
+
+\problem $f(x) = \ln\sqrt{x}$, $a=1$. %{{{3
+
+\problem $f(x) = \sin(2x)$, $a=0$, also $a=\pi/4$. %{{{3
+
+\problem $f(x) = \cos(x)$, $a=\pi$. %{{{3
+
+\problem $f(x) = (x-1)^2$, $a=0$, and also $a=1$. %{{{3
+
+\problem $f(x) = \dfrac1{e^x}$, $a=0$. %{{{3
+
+\problem Find the $n$th degree Taylor polynomial $T_n^af(x)$ of the %{{{3
+following functions $f(x)$
+\[
+\begin{array}{ccc}
+  n&a& f(x) \\
+  \midrule
+  2&0 & 1+ x-x^3 \\
+  3&0 & 1+ x-x^3 \\
+  25&0 & 1+x-x^3 \\
+  25&2 & 1+x-x^3 \\
+  2&1 & 1+ x-x^3 \\
+  1 &1 & x^2 \\
+  2 &1 & x^2 \\
+  5&1 & 1/x \\
+  5&0 & {1}/(1+x) \\
+  5&1 & {1}/(1+x) \\
+  5&-\frac12 & {1}/(1+x) \\
+  3&0 & {1}/(1-3x+2x^2)
+\end{array}
+\]
+For which of these combinations $(n, a, f(x))$ is $T_n^af(x)$ the same
+as $f(x)$?
+\[
+*~*~*
+\]
+\begingroup\noindent\color{darkbluegreen}%
+Compute the Taylor series $T_\infty f(t)$ for the following functions
+($\alpha$ is a constant). Give a formula for the coefficient of $x^n$
+in $\Ti f(t)$. (\textit{Be smart. Remember properties of the logarithm,
+definitions of the hyperbolic functions, partial fraction
+decomposition.})
+\endgroup
+
+\problem $\DS e^t $ %{{{3
+\answer %{{{3
+$\Ti e^t = 1+ t + \frac1{2!}t^2+\cdots+\frac1{n!}t^n+\cdots$
+\endanswer
+\problem $\DS e^{\alpha t} $ %{{{3
+\answer %{{{3
+$\Ti e^{\alpha t} = 1+\alpha t +
+\frac{\alpha^2}{2!}t^2+\cdots+\frac{\alpha^n}{n!}t^n+\cdots$
+\endanswer
+\problem $\DS \sin(3t) $ %{{{3
+\answer %{{{3
+$\Ti \sin(3t) = 3t-\frac{3^3}{3!}t^3 +\frac{3^5}{5!}t^5+\cdots
++\frac{(-1)^k3^{2k+1}}{(2k+1)!}t^{2k+1}+\cdots$
+\endanswer
+\problem $\DS \sinh t $ %{{{3
+\answer %{{{3
+$\Ti \sinh t = t+\frac1{3!}t^3+\cdots+\frac1{(2k+1)!}t^{2k+1}+\cdots$
+\endanswer
+\problem $\DS \cosh t $ %{{{3
+\answer %{{{3
+$\Ti \cosh t = 1+\frac1{2!}t^2+\cdots+\frac1{(2k)!}t^{2k}+\cdots$
+\endanswer
+\problem $\DS \frac1{1+2t} $ %{{{3
+\answer %{{{3
+$\Ti \frac1{1+2t} = 1-2t+2^2t^2-\cdots+(-1)^n2^nt^n+\cdots$
+\endanswer
+\problem $\DS \frac3{(2-t)^2} $ %{{{3
+\answer %{{{3
+$\Ti \frac3{(2-t)^2} = \frac3{2^2} +\frac{3\cdot2}{2^3}t +
+\frac{3\cdot3}{2^4}t^2+\frac{3\cdot4}{2^5}t^3
++\cdots+\frac{3\cdot(n+1)}{2^{n+2}}t^n+\cdots$ (note the cancellation
+of factorials)
+\endanswer
+\problem $\DS \ln (1+t) $ %{{{3
+\answer %{{{3
+$\Ti \ln(1+t) =
+t-\frac12t^2+\frac13t^3+\cdots+\frac{(-1)^{n+1}}{n}t^n+\cdots$
+\endanswer
+\problem $\DS \ln(2+2t) $ %{{{3
+\answer %{{{3
+$\Ti \ln(2+2t) =\Ti \ln[ 2\cdot(1+t) ] = \ln2+\ln(1+t) = \ln2
++t-\frac12t^2+\frac13t^3+\cdots+\frac{(-1)^{n+1}}{n}t^n+\cdots $
+\endanswer
+\problem $\DS \ln \sqrt{1+t} $ %{{{3
+\answer %{{{3
+$\Ti \ln\sqrt{1+t} = \Ti\frac12\ln(1+t) =
+\frac12t-\frac14t^2+\frac16t^3+\cdots+\frac{(-1)^{n+1}}{2n}t^n+\cdots
+$
+\endanswer
+\problem $\DS \ln (1+2t)$ %{{{3
+\answer %{{{3
+$\Ti \ln(1+2t) =
+2t-\frac{2^2}2t^2+\frac{2^3}3t^3+\cdots+\frac{(-1)^{n+1}2^n}{n}t^n+\cdots
+$
+\endanswer
+
+%\problem $\DS \ln\bigl\{ (1+t) (1+2t)\bigr\} $ %{{{3
+%\answer %{{{3
+%$\DS\Ti \ln[(1+t)(1+2t)] =\Ti\left[ \ln(1+t) + \ln(1+2t)\right] =$\\
+%$\DS(1+2)t-\frac{1+2^2}2t^2+\frac{1+2^3}3t^3+\cdots+\frac{(-1)^{n+1}(1+2^n)}{n}t^n
+%+\cdots $
+%\endanswer
+
+\problem $\DS \ln\sqrt{\frac{1+t}{1-t}}$ %{{{3
+\answer %{{{3
+$\Ti \ln \surd\bigl(\frac{1+t}{1-t}\bigr) = \Ti\left[
+\frac12\ln(1+t)-\frac12\ln(1-t)\right] = t + \frac13t^3 +
+\frac15t^5 + \cdots + \frac1{2k+1}t^{2k+1} + \cdots$
+\endanswer
+\problem $\DS \frac{1}{1-t^2} \quad\text{[hint:PFD!]}$ %{{{3
+\answer %{{{3
+$\Ti \frac1{1-t^2} = \Ti\left[ \frac{1/2}{1-t}+\frac{1/2}{1+t}
+\right]= 1+t^2+t^4+\cdots+t^{2k}+\cdots$ (we could also substitute
+$x=-t^2$ in the geometric series $1/(1+x) = 1-x+x^2+\cdots$, later in
+this chapter we will use ``little-oh'' to justify this point of
+view.)
+\endanswer
+\problem $\DS \frac t{1-t^2}$ %{{{3
+\answer %{{{3
+$\Ti \frac{t}{1-t^2} = \Ti\left[ \frac{1/2}{1-t}-\frac{1/2}{1+t}
+\right] = t+t^3+t^5+\cdots+t^{2k+1}+\cdots$ (note that this function
+is $t$ times the previous function so we would think its Taylor
+series is just $t$ times the Taylor series of the previous function.
+Again, ``little-oh'' justifies this.)
+\endanswer
+\problem $\DS \sin t + \cos t$ %{{{3
+\answer %{{{3
+The pattern for the $n^{\text{th}}$ derivative repeats every time we
+increase $n$ by 4.  So we indicate the the general terms for $n=4m,
+4m+1, 4m+2$ and $4m+3$:
+\[
+\Ti\left( \sin t+\cos t \right)=
+1+t-\frac1{2!}t^2-\frac1{3!}t^3+\frac1{4!}t^4+\cdots
++\frac{t^{4m}}{(4m)!}+\frac{t^{4m+1}}{(4m+1)!}
+-\frac{t^{4m+2}}{(4m+2)!}-\frac{t^{4m+3}}{(4m+3)!}  +\cdots
+\]
+\endanswer
+\problem $\DS 2\sin t\cos t $ %{{{3
+\answer %{{{3
+Use a double angle formula
+\[
+\Ti\left( 2\sin t\cos t \right) = \sin 2t = 2t -
+\frac{2^3}{3!}t^3+\cdots+\frac{2^{4m+1}}{(4m+1)!}t^{4m+1}
+-\frac{2^{4m+3}}{(4m+3)!}t^{4m+3}+\cdots
+\]
+\endanswer
+\problem $\DS \tan t \text{\quad (3 terms only)} $ %{{{3
+\answer %{{{3
+$T_3\tan t = t +\frac13 t^3 $.  There is no simple general formula
+for the $n^{\text{th}}$ term in the Taylor series for $\tan x$.
+\endanswer
+\problem $\DS 1+t^2-\frac23t^4$ %{{{3
+\answer %{{{3
+$\Ti \left[ 1+t^2-\frac23t^4 \right] =1+t^2-\frac23t^4$
+\endanswer
+\problem $\DS (1+t)^5$ %{{{3
+\answer %{{{3
+$\Ti[(1+t)^5] = 1+5t+10t^2+10t^3+5t^4+t^5$
+\endanswer
+\problem $\DS \sqrt[3]{1+t}$ %{{{3
+\answer %{{{3
+$\Ti\sqrt[3]{1+t} = 1 + \frac{1/3}{1!}t+\frac{(1/3)(1/3-1)}{2!}t^2
++\cdots+\frac{(1/3)(1/3-1)(1/3-2)\cdots(1/3-n+1)}{n!}t^n+\cdots$
+\endanswer
+
+\problem $f(x)=\frac{x^4}{1+4x^2}$, what is $f^{(10)}(0)$? %{{{3
+\answer %{{{3
+$10! \cdot 2^6$
+\endanswer
+
+\problem \groupproblem  Compute the Taylor series of the following two functions %{{{3
+\[
+f(x) = \sin a\cos x+\cos a\sin x
+\]
+and
+\[
+g(x) = \sin (a+x)
+\]
+where $a$ is a constant.
+\answer %{{{3
+Because of the addition formula
+\[
+\sin(\alpha+\beta) = \sin\alpha\cos\beta + \sin\beta\cos\alpha
+\]
+we should get the same answer for $f$ and $g$, since they are the
+same function!
+
+The solution is
+\begin{multline*}
+  \Ti \sin(x+a) =
+  \sin a + \cos(a) x - \frac{\sin a}{2!}x^2 - \frac{\cos a}{3!}x^3+\cdots \\
+  \cdots + \frac{\sin a}{(4n)!}x^{4n} + \frac{\cos
+  a}{(4n+1)!}x^{4n+1} - \frac{\sin a}{(4n+2)!}x^{4n+2} - \frac{\cos
+  a}{(4n+3)!}x^{4n+3}+ \cdots
+\end{multline*}
+\endanswer
+
+\problem \groupproblem  Compute the Taylor series of the following two functions %{{{3
+\[
+h(x) = \cos a\cos x - \sin a\sin x
+\]
+and
+\[
+k(x) = \cos (a+x)
+\]
+where $a$ is a constant.
+
+\problem\label{pblm:Newton-Binomial} \groupproblem  The following questions ask %{{{3
+us to
+rediscover \emph{Newton's Binomial Formula}, which is just the Taylor
+series for $(1+x)^n$.  Newton's formula generalizes the formulas for
+$(a+b)^2$, $(a+b)^3$, etc that we  get using Pascal's triangle. It
+allows non integer exponents which are allowed to be either positive
+and negative.  Reread section \ref{sec:some-special-taylor} before
+doing this problem.
+
+
+\subprob Find the Taylor series of $f(x) = \sqrt{1+x}$ ($= (1+x)^{1/2}$)
+
+
+\subprob Find the coefficient of $x^4$ in the Taylor series of $f(x) =
+(1+x)^{\pi}$ (don't do the arithmetic!)
+
+
+\subprob Let $p$ be any real number. Compute the terms of degree $0$, $1$,
+$2$ and $3$ of the Taylor series of
+\[
+f(x) = (1+x)^p
+\]
+
+
+\subprob Compute the Taylor polynomial of degree $n$ of $f(x) = (1+x)^p$.
+
+
+\subprob Write the result of (d) for the exponents $p=2,3$ and also, for
+$p=-1,-2,-3$ and finally for $p=\frac12$.  The \emph{Binomial Theorem}
+states that this series converges when $|x|<1$.
+
+\end{multicols}
+\noproblemfont
+
+\section{The Remainder Term} \label{sec:Taylor+remainder} The Taylor %{{{1
+polynomial $T_nf(x)$ is almost never exactly equal to $f (x)$, but often it
+is a good approximation, especially if $x$ is small. To see how good the
+approximation is we define the ``error term'' or, ``remainder term.''
+\begin{definition}
+  If $f $ is an $n$ times differentiable function on some interval
+  containing $a$, then
+  \[
+  R_n^af(x) = f(x) - T_n^af(x)
+  \]
+  is called the $n^{\text{th}}$ order remainder (or error) term in the
+  Taylor expansion of $f$.
+\end{definition}
+
+If $a=0$, as will be the case in most examples we do, then we write
+\[
+R_nf(x)=f (x)-T_nf (x).
+\]
+These definitions let us write any function $f(x)$ as ``Taylor polynomial plus
+error,'' i.e.
+\begin{equation}
+  f(x) = \underbrace{T_n^af(x)}_{\text{approximation}}  + 
+  \; \underbrace{R_n^af(x)}_{\text{the error}}
+\end{equation}
+Generally the approximation is something we know how to compute, while we can
+only hope to prove that the remainder is in some sense ``small.''
+
+\subsection{Example} %{{{2
+If $f(x)=\sin x$ then we have found that $T_3f(x)= x-\tfrac16x^3$, so that
+\[
+R_3\{\sin x\} = \sin x -x + \tfrac16x^3.
+\]
+This is a completely correct formula for the remainder term, but it is
+rather useless: there is nothing about this expression that suggests that
+$x-\tfrac16x^3$ is a much better approximation to $\sin x$ than, say,
+$x+\tfrac16x^3$.
+
+The usual situation is that there is no simple formula for the remainder
+term.
+
+\subsection{An unusual example, in which there \emph{is\,} a simple formula for $R_nf(x)$} %{{{2
+Consider $f(x)= 1-x+3\,x^2-15\,x^3$.  Then we find
+\[
+T_2f(x) = 1-x+3\,x^2, \text{ so that } R_2f(x) = f(x)-T_2f(x) = -15\,x^3.
+\]
+Thus
+\[
+  f(x) = \underbrace{1-x+3\,x^2}_{\text{approximation}}
+  - \underbrace{15\,x^3}_{\text{error}}
+\]
+The moral of this example is this: \textit{Given a polynomial $f(x)$ we
+find its $n^{\text{th}}$ degree Taylor polynomial at $a=0$ by taking all terms of
+degree $\leq n$ in $f(x)$; the remainder $R_nf(x)$ then consists of the
+remaining terms.}
+
+\subsection{Another unusual, but important example where we can compute %{{{2
+$R_nf(x)$}
+Consider the function
+\[
+f (x) = \frac 1{1-x}.
+\]
+Then repeated differentiation gives
+\[
+f' (x) = \frac{1}{(1-x)^2},\quad f^{(2)}(x)=\frac{1\cdot2}{(1-x)^3},\quad
+f^{(3)}(x)=\frac{1\cdot2\cdot3}{(1-x)^4},\quad\ldots
+\]
+and thus
+\[
+f^{(n)}(x)=\frac{1\cdot2\cdot3\cdots n}{(1-x)^{n+1}}.
+\]
+Consequently,
+\[
+f^{(n)} (0) = n! \implies \frac{1}{n!}f^{(n)}(0) = 1,
+\]
+and we see that the Taylor polynomials of this function are really simple,
+namely
+\[
+T_nf(x) = 1+x+x^2+x^3+x^4+\cdots+x^n.
+\]
+But this sum should be really familiar: it is just the \emph{Geometric Sum}
+(each term is $x$ times the previous term).  Its sum is given
+by\footnote{Multiply both sides with $1-x$ to verify this, in case we had
+forgotten the formula!}
+\[
+T_nf(x) = 1+x+x^2+x^3+x^4+\cdots+x^n =\frac{1-x^{n+1}}{1-x},
+\]
+which we can rewrite as
+\[
+T_nf(x) = \frac1{1-x} -\frac{x^{n+1}}{1-x} = f(x) -\frac{x^{n+1}}{1-x} .
+\]
+The remainder term therefore is
+\[
+R_nf(x) = f(x) -T_nf(x) =\frac{x^{n+1}}{1-x}.
+\]
+
+
+
+\section{Lagrange's Formula for the Remainder Term} %{{{1
+\label{sec:lagr-form-rema}
+
+
+\begin{theorem}
+  Let $f$ be an $n+1$ times differentiable function on some interval $I$
+  containing $x=0$. Then for every $x$ in the interval $I$ there is a $\xi$
+  between $0$ and $x$ such that
+  \[
+  R_n f(x) = \frac{f^{(n+1)} (\xi)}{(n+1)!}x^{n+1}.
+  \]
+  ($\xi$ between $0$ and $x$ means either $0<\xi<x$ or $x<\xi<0$, depending
+  on the sign of $x$.)
+\end{theorem}
+
+This theorem (including the proof) is similar to the Mean Value
+Theorem. The proof is a bit involved, and is given at the end of this
+chapter.
+
+
+There are calculus textbooks that, after presenting this remainder formula, give
+a whole bunch of problems that ask us to find $\xi$ for given $f$ and $x$.  Such
+problems completely miss the point of Lagrange's formula.  The point is that
+\textit{even though we usually can't compute the mystery point $\xi$ precisely,
+Lagrange's formula for the remainder term allows us to \textbf{estimate} the
+remainder.}
+Here is the most common way to estimate the remainder:
+\begin{theorem}[Estimate of remainder term]
+  If $f$ is an $n+1$ times differentiable function on an interval
+  containing $x=0$, and if we have a constant $M$ such that
+  \begin{equation}
+    \left|f^{(n+1)} (t)\right|\leq M
+    \text{ for all $t$ between $0$ and $x$,} \tag{\dag}
+  \end{equation}
+  then
+  \[
+  |R_nf(x)|\leq \frac {M|x|^{n+1}}{(n+1)!}.
+  \]
+\end{theorem}
+\begin{proof}
+  We don't know what $\xi$ is in Lagrange's formula, but it doesn't matter,
+  for wherever it is, it must lie between $0$ and $x$ so that our
+  assumption $(\dag)$ implies $|f^{(n+1)} (\xi)|\leq M$. Put that in
+  Lagrange's formula and we  get the stated inequality.
+\end{proof}
+
+\subsection{How to compute $e$ in a few decimal places}  %{{{2
+We are used to being able to find decimal approximations to numbers such as
+$e$ (or $e^{0.315\,219}$) by relying on the magic of an electronic calculator or
+computer.  How does a calculator, which in principle only knows how to add,
+subtract, multiply, and divide numbers, compute such numbers?  One way is 
+to use the Taylor expansion with Lagrange's remainder term.  In this section we
+will see how to compute $e$ itself in six decimals.
+
+Consider $f(x)=e^x$. We computed the Taylor polynomials before. If we  set
+$x=1$, then we  get \( e=f(1)=T_nf(1) + R_nf(1)\), and thus, taking $n=8$,
+\[
+e=1+\frac1{1!}+\frac1{2!}+\frac1{3!}+\frac1{4!}
++\frac1{5!}+\frac1{6!}+\frac1{7!}+\frac1{8!}+R_8(1).
+\]
+By Lagrange's formula there is a $\xi$ between $0$ and $1$ such that
+\[
+R_8 (1) = \frac{f^{(9)} (\xi)}{9!} \; 1^9 = \frac{e^\xi}{9!}.
+\]
+(remember: $f(x) = e^x$, so all its derivatives are also $e^x$.)  We don't
+really know where $\xi$ is, but since it lies between $0$ and $1$ we know
+that $1<e^\xi<e$. So the remainder term $R_8 (1)$ is positive and no more
+than $e/9!$. Estimating $e<3$, we find
+\[
+\frac1{9!}<R_8 (1) <\frac3{9!} .
+\]
+Thus we see that
+\[
+1+\frac1{1!}+\frac1{2!}+\frac1{3!}+\cdots+\frac1{7!}+\frac1{8!}+\frac1{9!}
+<e<1+\frac1{1!}+\frac1{2!}+\frac1{3!}+\cdots+\frac1{7!}+\frac1{8!}+\frac3{9!}
+\]
+or, in decimals,
+\[
+2.718\,281\ldots < e < 2.718\,287\ldots
+\]
+
+\subsection{Error in the approximation $\sin x\approx x$} %{{{2
+In many calculations involving $\sin x$ for small values of $x$ one makes
+the simplifying approximation $\sin x\approx x$, justified by the known
+limit
+\[
+\lim_{x\to 0} \frac{\sin x}x =1.
+\]
+\subsubsection{Question:  how big is the error in this approximation?}
+
+To answer this question, we use Lagrange's formula for the remainder term
+again.
+
+Let $f (x)=\sin x$. Then the first degree Taylor polynomial of $f$ is
+\[ T_1f(x) = x. \] The approximation $\sin x\approx x$ is therefore exactly
+what we  get if we  approximate $f (x)=\sin x$ by its first degree Taylor
+polynomial. Lagrange tells us that
+\[
+f(x) = T_1f(x)+R_1f(x), \text{ i.e. } \sin x = x +R_1f(x),
+\]
+where, since $f'' (x) = -\sin x$,
+\[
+R_1f(x) = \frac{f'' (\xi)}{2!}x^2 = -\tfrac12\sin\xi \cdot x^2
+\]
+for some $\xi$ between $0$ and $x$.
+
+As always with Lagrange's remainder term, we don't know where $\xi$ is
+precisely, so we have to estimate the remainder term. The easiest way to do
+this (but not the best: see below) is to say that no matter what $\xi$ is,
+$\sin \xi$ will always be between $-1$ and $1$. Hence the remainder term is
+bounded by
+\[
+\left| R_1f(x)\right| \leq \tfrac12x^2, \leqno{(\P)}
+\]
+and we find that
+\[
+x-\tfrac12x^2 \leq \sin x \leq x+\tfrac12x^2.
+\]
+\subsubsection{Question:  How small must we choose $x$ to be sure that the
+approximation $\sin x\approx x$ isn't off by more than $1$\% ?}
+
+If we want the error to be less than $1$\% of the estimate, then we should
+require $\frac12x^2$ to be less than $1$\% of $|x|$, i.e.
+\[
+\tfrac 12 x^2 <0.01\cdot|x| \Leftrightarrow |x| <0.02
+\]
+So we have shown that, if we  choose $|x|<0.02$, then the error we  make in
+approximating $\sin x$ by just $x$ is no more than $1$\%.
+
+A final comment about this example: the estimate for the error we got here
+can be improved quite a bit in two different ways:
+
+(1) You could notice that one has $|\sin x|\leq x$ for all $x$, so if $\xi$
+is between $0$ and $x$, then $|\sin \xi|\leq |\xi|\leq |x|$, which gives
+us  the estimate
+\[
+\left| R_1f(x) \right| \leq \tfrac12 |x|^3\quad \text{instead of $\tfrac12 x^2$ as
+in $(\P)$}.
+\]
+
+(2) For this particular function the two Taylor polynomials $T_1f(x)$ and
+$T_2f(x)$ are the same (because $f'' (0)=0$). So $T_2f(x) = x$, and we can
+write
+\[
+\sin x = f(x) = x+ R_2f (x),
+\]
+In other words, the error in the approximation $\sin x\approx x$ is also
+given by the \textit{second} order remainder term, which according to
+Lagrange is given by
+\[
+R_2f(x) = \frac{-\cos\xi}{3!}x^3 \quad \stackrel{|\cos
+\xi|\leq1}{\implies}\quad \left|R_2f(x)\right|\leq \tfrac16 |x|^3,
+\]
+which is the best estimate for the error in $\sin x\approx x$ we have so
+far.
+
+
+
+\section{Problems} %{{{1
+%\begin{multicols}{2}
+\problemfont %{{{3
+
+\problem Find the fourth degree Taylor polynomial $T_4\{\cos x\}$ for %{{{3
+the function $f(x)=\cos x$ and estimate the error $|\cos x-T_4\{\cos x\}|$ for
+$|x|<1$.
+\answer %{{{3
+\[
+f(x)=f^{(4)}(x)=\cos x,\qquad f^{(1)}(x)=f^{(5)}(x)= -\sin x,
+\]
+\[
+f^{(2)}(x)=-\cos x, \qquad f^{(3)}(x)=\sin x,
+\]
+so
+\[
+f(0)=f^{(4)}(0)=1, \qquad f^{(1)}(0)=f^{(3)}(0)=0, \qquad f^{(2)}(0)=-1.
+\]
+and hence the fourth degree Taylor polynomial is
+\[
+T_4\{\cos x\}=\sum_{k=0}^4 \frac{f^{(k)}(0)}{k!}x^k
+=1-\frac{x^2}{2!}+\frac{x^4}{4!}.
+\]
+The error is
+\[
+R_4\{\cos x\} = \frac{f^{(5)}(\xi)}{5!}x^5= \frac{(-\sin \xi)}{5!}x^5
+\]
+for some  $\xi$ between $0$ and $x$. As $|\sin \xi|\le 1$ we
+have
+\[
+\biggl|\cos x - \left(1-\frac{x^2}{2!}+\frac{x^4}{4!}\right)\biggr|=
+|R_4(x)|\le \frac{|x^5|}{5!}< \frac{1}{5!}
+\]
+for $|x|<1$.
+
+Remark: Since the fourth and fifth order Taylor polynomial for
+the cosine are the same, it must be that $R_4(x)=R_5(x)$.
+It follows that $\frac{1}{6!}$ is also an upper bound.
+\endanswer
+
+\problem Find the $4$th degree Taylor polynomial $T_4\{\sin x\}$ for the %{{{3
+function $f(x)=\sin x$.  Estimate the error $|\sin x-T_4\{\sin x\}|$ for
+$|x|<1$.
+
+
+
+\problem \label{pblm:cuberoot}(\textit{Computing the cube root of $9$}) %{{{3
+The cube root of $8 =2\times2\times2$ is easy, and $9$ is only one more
+than $8$. So we  could try to compute $\sqrt[3]9$ by viewing it as
+$\sqrt[3]{8+1}$.
+
+\subprob  Let $f(x)=\sqrt[3]{8+x}$.  Find $T_2f(x)$, and estimate the error
+$|\sqrt[3]{9}-T_2f(1)|$.
+\answer %{{{3
+The polynomial is $p(x)=2+\frac1{12}x-\frac1{9\cdot 32}x^2$.
+Then
+\[
+  p(1)\approx 2.07986111
+\]
+and the error satisfies:
+\[
+  |\sqrt[3]9-p(1)|\leq \frac{10}{27}\cdot8^{-\frac83}\cdot\frac1{3!}
+  \approx 0.00024112654321
+\]
+The $\sqrt[3]{9}$ according to a computer is:
+\[
+  \sqrt[3]{9}\approx 2.08008382305
+\]
+\endanswer
+
+
+\subprob Repeat part (\textbf{a}) for ``$n=3$'', i.e.~compute
+$T_3f(x)$ and estimate $ |\sqrt[3]{9}-T_3f(1)| $.
+
+
+% 9.**(1./3)  =  2.08008382305
+% (10./27)*2**(-8)*(1.)/6  =  0.00024112654321
+
+
+\problem %{{{3
+Follow the method of problem \ref{pblm:cuberoot} to compute $\sqrt{10}$:
+
+\subprob Use Taylor's formula with $f(x)=\sqrt{9+x}$, $n=1$, to calculate
+$\sqrt{10}$ approximately. Show that the error is less than $1/216$.
+
+\subprob Repeat with $n=2$. Show that the error is less than $0.0003$.
+
+
+\problem Find the eighth degree Taylor polynomial $T_8f(x)$ about the %{{{3
+point $0$ for the function $f(x)=\cos x$ and estimate the error $|\cos
+x-T_8f(x)|$ for $|x|<1$.
+
+Next, find the ninth degree Taylor polynomial, and estimate $|\cos x -
+T_9f(x)|$ for $|x|\leq 1$.
+
+
+\noproblemfont
+%\end{multicols}
+
+\section{The limit as $x\to0$, keeping $n$ fixed } %{{{1
+
+\subsection{Little-oh} %{{{2
+\label{sec:little-oh}
+
+Lagrange's formula for the remainder term lets us write a function
+$y=f(x)$ that is defined on some interval containing $x=0$, in the
+following way
+\begin{equation}
+  \label{eq:taylor+lagrange}
+  f(x) = f(0) + f'(0)x + \frac{f^{(2)}(0)}{2!} x^2 + \cdots 
+  + \frac{f^{(n)}(0)}{n!} x^n
+  + \frac{f^{(n+1)}(\xi)}{(n+1)!} x^{n+1}
+\end{equation}
+The last term contains the $\xi$ from Lagrange's theorem, which depends on
+$x$, and of which we  only know that it lies between $0$ and $x$.  For many
+purposes it is not necessary to know the last term in this much detail --
+often it is enough to know that ``in some sense'' the last term is the
+smallest term, in particular, as $x\to0$ it is much smaller than $x$, or
+$x^2$, or, \ldots, or $x^n$:
+\begin{theorem}
+  If the $n+1$st derivative $f^{(n+1)}(x)$ is continuous at $x=0$ then the
+  remainder term $R_nf(x) = f^{(n+1)}(\xi)x^{n+1}/(n+1)!$ satisfies
+  \[
+  \lim_{x\to 0} \frac{R_nf(x)}{x^k} = 0
+  \]
+  for any $k=0, 1, 2, \ldots, n$.
+\end{theorem}
+\begin{proof}
+  Since $\xi$ lies between $0$ and $x$, one has $\lim_{x\to
+  0}{f^{(n+1)}(\xi)} = f^{(n+1)}(0)$, and therefore
+  \[
+  \lim_{x\to 0} \frac{R_nf(x)}{x^k} = \lim_{x\to0} f^{(n+1)}(\xi)
+  \frac{x^{n+1}}{x^k} = \lim_{x\to 0} f^{(n+1)}(\xi)\cdot x^{n+1-k} =
+  f^{(n+1)}(0)\cdot 0 = 0.
+  \]
+\end{proof}
+
+So we can rephrase \eqref{eq:taylor+lagrange} by saying
+\[
+f(x) = f(0) + f'(0)x + \frac{f^{(2)}(0)}{2!} x^2 + \cdots +
+\frac{f^{(n)}(0)}{n!} x^n +\text{ remainder}
+\]
+where the remainder is much smaller than $x^n$, $x^{n-1}$, \dots, $x^2$,
+$x$ or $1$.  In order to express the condition that some function is ``much
+smaller than $x^n$,'' at least for very small $x$, Landau introduced the
+following notation which many people find useful.
+
+\begin{definition}
+  ``$o (x^n)$'' is an abbreviation for \underline{\emph{any}} function $h(x)$ that satisfies
+  \[
+  \lim_{x\to0} \frac{h(x)}{x^n} = 0.
+  \]
+\end{definition}%
+One interpretation of ``$h(x) = o(x^n)$'' is that the function $h(x)$ vanishes
+as $x\to0$, and that it goes to zero ``faster than $x^n$.''
+
+The definition says that $o(x^n)$ refers to \emph{any} function with the
+indicated property.  This means that different instances of $o(x^n)$ in a
+formula may refer to different functions of $x$ (just as different $+C$'s in an
+integration may refer to different constants.)  This makes computations with
+little-oh a bit different from the normal algebra that we are used to, as we
+will explain below (\S~\ref{sec:little-oh-weirdness}).  Nevertheless, once we
+have understood this particular point, computations with little-oh are much
+simpler than with the Lagrange remainder term.
+
+
+With the little-oh notation we can rewrite (\ref{eq:taylor+lagrange}) as
+\[
+f(x) = f(0) + f'(0)x + \frac{f^{(2)}(0)}{2!} x^2 + \cdots +
+\frac{f^{(n)}(0)}{n!} x^n + o (x^n).
+\]
+The nice thing about Landau's little-oh is that we  can compute with it, as
+long as we  obey the following (at first sight rather strange) rules that
+will be proved in class
+\begin{align*}
+  x^n\cdot o (x^m) & = o (x^{n+m})  \\
+  o(x^n)\cdot o (x^m) & = o (x^{n+m})  \\
+  x^m &=o(x^n)    &&\text{if $n<m$}\\
+  o (x^n)+ o (x^m ) & = o (x^n)  &&\text{if $n<m$} \\
+  o (Cx^n) &= o (x^n) &&\text{for any constant $C$}
+\end{align*}
+\subsection{Example: prove one of these little-oh rules} %{{{2
+Let's do the first one, i.e.~let's show that $x^n\cdot o (x^m)$ is
+$o(x^{n+m})$ as $x\to0$.
+
+Remember, if someone writes $x^n\cdot o (x^m)$, then the $o (x^m)$ is an
+abbreviation for some function $h(x)$ that satisfies
+$\lim_{x\to0}h(x)/x^m=0$.  So the $x^n\cdot o (x^m)$ we are given here
+really is an abbreviation for $x^nh(x)$. We then have
+\[
+\lim_{x\to0}\frac{x^nh(x)}{x^{n+m}} = \lim_{x\to0}\frac{h(x)}{x^{m}}
+=0,\text{ since } h(x)=o(x^m).
+\]
+
+\subsection{Can we  see that $x^3=o (x^2)$ by looking at the graphs of %{{{2
+these functions?}
+
+A picture is of course never a proof, but have a look at figure
+\ref{fig:stack-of-powers} which shows us the graphs of $y=x$, $x^2$,
+$x^3$, $x^4$, $x^5$ and $x^{10}$.  As we see, when $x$ approaches $0$, the
+graphs of higher powers of $x$ approach the $x$-axis (much?)  faster than
+do the graphs of lower powers.
+\begin{figure}[t]
+  \centering \small \input ../figures/222/02powersOfx.tex \normalsize
+  \caption{\textbf{How the powers stack up.}  All graphs of $y=x^n$ ($n>1$)
+  are tangent to the $x$-axis at the origin.  But the larger the exponent
+  $n$ the ``flatter'' the graph of $y=x^n$ is.}
+  \label{fig:stack-of-powers}
+\end{figure}
+
+You should also have a look at figure \ref{fig:parabola-wins} which
+exhibits the graphs of $y=x^2$, as well as several linear functions $y=Cx$
+(with $C=1$,$\frac12$, $\frac15$ and $\frac1{10}$.) For each of these
+linear functions one has $x^2<Cx$ if $x$ is small enough; \textit{how}
+small is actually small enough depends on $C$. The smaller the constant
+$C$, the closer we  have to keep $x$ to $0$ to be sure that $x^2$ is
+smaller than $Cx$. Nevertheless, no matter how small $C$ is, the parabola
+will eventually always reach the region below the line $y=Cx$.
+\begin{figure}[t]
+  \centering \small \input ../figures/222/02powerBeatsLinear.tex \normalsize
+  \caption{\textbf{$x^2$ is smaller than any multiple of $x$, if $x$ is
+  small enough. } Compare the quadratic function $y=x^2$ with a linear
+  function $y=Cx$.  Their graphs are a parabola and a straight line.
+  Parts of the parabola may lie above the line, but as $x\searrow0$ the
+  parabola will always duck underneath the line.  }
+  \label{fig:parabola-wins}
+\end{figure}
+
+\subsection{Example: Little-oh arithmetic is a little funny} %{{{2
+\label{sec:little-oh-weirdness}
+Both $x^2$ and $x^3$ are functions that are $o (x)$, i.e.
+\[
+x^2=o (x) \quad\text{and}\quad x^3=o (x)
+\]
+Nevertheless $x^2\neq x^3$. So in working with little-oh we are giving up
+on the principle that says that two things that both equal a third object
+must themselves be equal; in other words,~$a=b$ and $b=c$ implies $a=c$,
+but not when we're using little-ohs! We can also put it like this: just
+because two quantities both are much smaller than $x$, they don't have to
+be equal. In particular,
+\begin{center}\color{badgerred}
+  \textbf{we can never cancel little-ohs!!! }
+\end{center}
+In other words, the following is pretty wrong
+\[
+o (x^2)-o (x^2)=0.
+\]
+Why? The two $o (x^2)$'s both refer to functions $h (x)$ that satisfy
+$\lim_{x\to0}h(x)/x^2=0$, but there are many such functions, and the two $o
+(x^2)$'s could be abbreviations for different functions $h(x)$.
+
+Contrast this with the following computation, which at first sight looks
+wrong even though it is actually right:
+\[
+o (x^2)-o (x^2) = o (x^2).
+\]
+In words: if we  subtract two quantities both of which are negligible
+compared to $x^2$ for small $x$ then the result will also be negligible
+compared to $x^2$ for small $x$.
+
+
+
+\subsection{Computations with Taylor polynomials} %{{{2
+\label{sec:comp-with-taylor}
+The following theorem is very useful because it lets us  compute Taylor
+polynomials of a function without differentiating it.
+\begin{theorem}\label{thm:fisg-to-order-n}
+  If $f (x)$ and $g (x)$ are $n+1$ times differentiable functions then
+  \begin{equation}
+    \label{eq:fisg-to-order-n}
+    T_nf(x) = T_ng(x) \iff f(x) = g(x) + o(x^n).
+  \end{equation}
+\end{theorem}%
+In other words, if two functions have the same $n$th degree Taylor
+polynomial, then their difference is much smaller than $x^n$, at least, if
+$x$ is small.
+
+In principle the definition of $T_nf(x)$ lets us  compute as many terms of
+the Taylor polynomial as we  want, but in many (most) examples the
+computations quickly get out of hand. The following example shows what can
+happen.
+
+
+\subsection{How \textit{NOT} to compute the Taylor polynomial of degree 12 %{{{2
+of $f(x)=1/ (1+x^2)$}
+Diligently computing derivatives one by one we  find
+\begin{align*}
+  f(x) &= \frac1{1+x^2} &\text{so }& f(0) = 1 \\
+  f'(x) &= \frac{-2x}{(1+x^2)^2} &\text{so }&f'(0)=0 \\
+  f'' (x)&=\frac{6x^2-2} {(1+x^2)^3} &\text{so }&f''(0) = -2 \\
+  f^{(3)} (x) &= 24 \frac{x-x^3}{(1+x^2)^4}  &\text{so }&f^{(3)}(0) = 0 \\
+  f^{(4)}(x) &= 24\frac{1-10x^2+5x^4}{(1+x^2)^5}
+  &\text{so }&f^{(4)}(0) = 24 = 4! \\
+  f^{(5)}(x) &= 240\frac{-3x+10x^3-3x^5}{(1+x^2)^6}
+  &\text{so }&f^{(4)}(0) = 0  \\
+  f^{(6)}(x) &= -720\frac{-1+21x^2-35x^4+7x^6}{(1+x^2)^7}
+  &\text{so }&f^{(4)}(0) = -720 = -6!  \\
+  \vdots
+\end{align*}
+Here we give up -- can you find $f^{(12)} (x)$?  After a lot of work all we have
+found is
+\[
+T_6\left\{\frac1{1+x^2}\right\} = 1-x^2 + x^4-x^6.
+\]
+By the way,
+\[
+f^{(12)}(x) = 479001600
+\frac{1-78\,x^2+715\,x^4-1716\,x^6+1287\,x^8-286\,x^{10}+13\,x^{12}}
+{(1+x^2)^{13}}
+\]
+and $479001600=12!$.
+
+
+\subsection{A much easier approach to finding the Taylor polynomial of \textbf{any} degree of $f(x)=1/ (1+x^2)$} %{{{2
+Start with the Geometric Series: if $g(t)=1/ (1-t)$ then
+\[
+g(t)=1+t+t^2+t^3+t^4+\cdots+ t^n +o (t^n).
+\]
+Now substitute $t=-x^2$ in this limit,
+\[
+g(-x^2) = 1-x^2+x^4-x^6+\cdots+ (-1)^n x^{2n} +o\left(\left(-x^2\right)^n\right)
+\]
+Since $o\left(\left(-x^2\right)^n\right) = o (x^{2n})$ and
+\[
+g(-x^2) = \frac1{1- (-x^2)}=\frac1{1+x^2},
+\]
+we have found
+\[
+\frac1{1+x^2} = 1-x^2+x^4-x^6+\cdots+ (-1)^n x^{2n} +o (x^{2n})
+\]
+By Theorem (\ref{thm:fisg-to-order-n}) this implies
+\[
+T_{2n}\left\{\frac1{1+x^2}\right\} = 1-x^2+x^4-x^6+\cdots+ (-1)^nx^{2n}.
+\]
+
+
+\subsection{Example of multiplication of Taylor polynomials} %{{{2
+\label{ex:taylor-multiplication}
+Finding the Taylor polynomials of $e^{2x}/ (1+x)$ directly from the definition
+is another recipe for headaches. Instead, we  should exploit our knowledge
+of the Taylor polynomials of both factors $e^{2x}$ and $1/ (1+x)$:
+\begin{align*}
+  e^{2x}
+  & = 1+2x+\frac{2^2x^2}{2!}+\frac{2^3x^3}{3!}+\frac{2^4x^4}{4!}+o (x^4) \\
+  &= 1+2x+2x^2+\frac43x^3+\frac23 x^4+o (x^4) \\
+  \frac1{1+x} &=1-x+x^2-x^3+x^4+o (x^4).
+\end{align*}
+Then multiply these two
+\begin{align*}
+  e^{2x}\cdot\frac1{1+x} &=\left(1+2x+2x^2+\frac43x^3+\frac23 x^4+o
+  (x^4)\right)\cdot
+  \left(1-x+x^2-x^3+x^4+o (x^4)\right) \\
+  &=
+  \begin{array}[t]{ccccccccccc}
+    1&-& x& + &  x^2 & - &  x^3 & + &  x^4 & + & o (x^4) \\
+    &+&2x& - & 2x^2 & + & 2x^3 & - & 2x^4 & + & o (x^4) \\
+    & &  & + & 2x^2 & - & 2x^3 & + & 2x^4 & + & o (x^4) \\
+    & &  &   & & + & \tfrac43x^3 & - & \tfrac43 x^4 & + & o (x^4) \\
+    & &  &   & & & &+&\tfrac23 x^4 & + & o (x^4) \\
+  \end{array}
+  \\
+  &=1+x+x^2+\frac13x^3+\frac13x^4+o (x^4)\quad (x\to0)
+\end{align*}
+We conclude that 
+\[
+  T_4\Bigl[\frac{e^{2x}}{1+x}\Bigr] 
+  =1+x+x^2+\frac13x^3+\frac13x^4.
+\]
+
+\subsection{Taylor's formula and Fibonacci numbers} %{{{2
+\label{ex:fibonacci-1}%
+The Fibonacci numbers are defined as follows: the
+first two are $f_0=1$ and $f_1=1$, and the others are defined by the
+equation
+\[
+\text{\fbox{$f_{n}=f_{n-1}+f_{n-2}$}} \leqno{\text{(Fib)}}
+\]
+So
+\begin{gather*}
+  f_2=f_1+f_0=1+1=2,\\
+  f_3=f_2+f_1=2+1=3,\\
+  f_4=f_3+f_2=3+2=5,\\ \text{ etc.}
+\end{gather*}
+The equation (Fib) lets us  compute the whole sequence of numbers, one by
+one, when we  are given only the first few numbers of the sequence ($f_0$
+and $f_1$ in this case). Such an equation for the elements of a sequence is
+called a \emph{recursion relation}.
+
+Now consider the function
+\[
+f(x) = \frac{1}{1-x-x^2}.
+\]
+Let
+\[
+\Ti f(x) = c_0+c_1x+c_2x^2+c_3x^3+\cdots
+\]
+be its Taylor series.
+
+Due to Lagrange's remainder theorem we  have, for any $n$,
+\[
+\frac{1}{1-x-x^2} = c_0+c_1x+c_2x^2+c_3x^3+\cdots+c_nx^n+o(x^n)\quad
+(x\to0).
+\]
+Multiply both sides with $1-x-x^2$ and we  get
+\begin{align*}
+  1&= (1-x-x^2)\cdot ( c_0+c_1x+c_2x^2+\cdots+c_nx^n+o(x^n)) \qquad (x\to0) \\
+  &=\begin{array}[t]{cccccccccccc}
+    c_0&+&c_1x&+&c_2x^2&+&\cdots&+&c_nx^n    &+&o(x^n)& \\
+    &-&c_0x&-&c_1x^2&-&\cdots&-&c_{n-1}x^n&+&o(x^n)&  \\
+    & & &-&c_0x^2&-&\cdots&-&c_{n-2}x^n&-&o(x^n)& \quad (x\to0)
+  \end{array} \\
+  &= c_0 + (c_1-c_0)x + (c_2-c_1-c_0)x^2 + (c_3-c_2-c_1)x^3 +\cdots \\
+  &\qquad\cdots + (c_n-c_{n-1}-c_{n-2})x^n + o(x^n)\quad (x\to 0)
+\end{align*}
+Compare the coefficients of powers $x^k$ on both sides for $k=0,1,\ldots,n$
+and we  find
+\[
+c_0=1, \quad c_1-c_0 = 0 \implies c_1=c_0=1,\quad c_2-c_1-c_0=0 \implies
+c_2= c_1+c_0 =2 \quad
+\]
+and in general
+\[
+c_n-c_{n-1}-c_{n-2} = 0 \implies c_n = c_{n-1}+c_{n-2}
+\]
+Therefore the coefficients of the Taylor series $\Ti f(x)$ are exactly the
+Fibonacci numbers:
+\[ c_n=f_n \text{ for }n=0,1,2,3,\ldots \] Since it is much easier to
+compute the Fibonacci numbers one by one than it is to compute the
+derivatives of $f(x)=1/ (1-x-x^2)$, this is a better way to compute the
+Taylor series of $f(x)$ than just directly from the definition.
+
+
+\subsection{More about the Fibonacci numbers}\label{ex:fibonacci-2} %{{{2
+
+In this example we'll see a trick that lets us  compute the Taylor series
+of \emph{any rational function}. You already know the trick: find the
+partial fraction decomposition of the given rational function. Ignoring the
+case that we  have quadratic expressions in the denominator, this lets us 
+represent our rational function as a sum of terms of the form
+\[ \frac A{(x-a)^p}. \] These are easy to differentiate any number of
+times, and thus they allow us  to write their Taylor series.
+
+Let's apply this to the function $f(x) = 1/ (1-x-x^2)$ from the example
+\ref{ex:fibonacci-1}. First we factor the denominator.
+\[
+1-x-x^2 = 0\iff x^2+x-1 = 0 \iff x=\frac{-1\pm\sqrt{5}}2.
+\]
+The number
+\[
+  \fibo = \frac{1+\sqrt5}2 \approx 1.618\,033\,988\,749\,89\ldots
+\]
+is called the \emph{Golden Ratio}. It satisfies\footnote{To prove this, use
+\(\DS \frac1\fibo=\frac2{1+\sqrt5}
+=\frac2{1+\sqrt5}\frac{1-\sqrt5}{1-\sqrt5} =\frac{-1+\sqrt5}{2} \). }
+\[
+\fibo+\frac1\fibo = \sqrt5.
+\]
+
+The roots of our polynomial $x^2+x-1$ are therefore
+\[
+x_- = \frac{-1-\sqrt5}2 = -\fibo,\qquad x_+= \frac{-1+\sqrt5}2=\frac1\fibo.
+\]
+and we can factor $1-x-x^2$ as follows
+\[
+1-x-x^2 = - (x^2+x-1) = - (x-x_-) (x-x_+) = -(x-\frac1\fibo) (x+\fibo).
+\]
+So $f (x)$ can be written as
+\[
+f(x) = \frac1{1-x-x^2} =\frac{-1}{(x-\frac1\fibo) (x+\fibo)} =\frac
+A{x-\frac1\fibo} + \frac B{x+\fibo}
+\]
+The Heaviside trick will tell us  what $A$ and $B$ are, namely,
+\[
+A=\frac{-1}{\frac1\fibo+\fibo} = \frac{-1}{\sqrt5}, \qquad B= \frac
+1{\frac1\fibo+\fibo}=\frac1{\sqrt5}
+\]
+The $n$th derivative of $f(x)$ is
+\[
+f^{(n)}(x) = \frac {A( -1)^nn!}{\left(x-\frac1\fibo\right)^{n+1}} + \frac {B(
+-1)^nn!}{\left(x+\fibo\right)^{n+1}}
+\]
+Setting $x=0$ and dividing by $n!$ finally gives us  the coefficient of
+$x^n$ in the Taylor series of $f(x)$. The result is the following formula
+for the $n$th Fibonacci number
+\[
+c_n = \frac{f^{(n)} (0)}{n!}
+  = \frac1{n!}\frac{A( -1)^nn!}{\left (-\frac1\fibo\right)^{n+1}}
+    + \frac{1}{n!}\frac {B( -1)^nn!}{\left(\fibo\right)^{n+1}}
+  = -A\fibo^{n+1} -B \left(-\frac1\fibo\right)^{n+1}
+\]
+Using the values for $A$ and $B$ we  find
+\begin{equation}\label{eq:fibonacci-explicit}
+  \text{\fbox{$\DS
+  f_n=c_n
+  = \frac1{\sqrt5}
+    \left\{ \fibo^{n+1} - \bigl( -\frac1\fibo \bigr)^{n+1} \right\}
+  $}}
+\end{equation}
+
+\section{Problems} %{{{1
+
+\problemfont %{{{3
+\begin{multicols}{2}\noindent
+{\color{darkbluegreen}%
+Are the following statements \textit{True or False?} In mathematics this
+means that we  should either \textit{show that the statement always
+holds} or else \textit{give at least one counterexample,} thereby
+showing that the statement is not always true.}
+
+\problem \(\displaystyle (1+x^2)^2-1 =o(x) \)? %{{{3
+
+\problem \(\displaystyle (1+x^2)^2-1 =o(x^2) \)? %{{{3
+
+\problem \(\displaystyle \sqrt{1+x}-\sqrt{1-x} =o(x)\) ? %{{{3
+
+\problem \(\displaystyle o(x)+o(x) =o(x) \)? %{{{3
+
+\problem \(\displaystyle o(x)-o(x) =o(x) \)? %{{{3
+
+\problem \(\displaystyle o(x)\cdot o(x) =o(x)\) ? %{{{3
+
+\problem \(\displaystyle o(x^2)+o(x) =o(x^2) \)? %{{{3
+
+\problem \(\displaystyle o(x^2)-o(x^2) =o(x^3) \)? %{{{3
+
+\problem \(\displaystyle o(2x) =o(x)\) ? %{{{3
+
+\problem \(\displaystyle o(x)+o(x^2)=o(x) \)? %{{{3
+
+\problem \(\displaystyle o(x)+o(x^2)=o(x^2) \)? %{{{3
+
+\problem \(\displaystyle 1-\cos x =o(x) \)? %{{{3
+
+\bigskip
+\problem  Define \[ %{{{3
+f(x) =
+\begin{cases}
+  e^{-1/{x^2}} & x\neq 0 \\ 0 & x = 0
+\end{cases}
+\]
+This function goes to zero \emph{very} quickly as $x\to0$ but
+is 0 only at 0.   Prove that  $f(x) = o(x^n)$ for every $n$.
+
+\problem For which value(s) of $k$ are the following true (as $x\to0)$? %{{{3
+
+\subprob $\DS\sqrt{1+ x^2} =1+o(x^k)$ 
+
+\subprob $\DS\sqrt[3]{1+ x^2} =1+o(x^k)$ 
+
+\subprob $\DS1-\cos (x^2) =o(x^k)$ 
+
+\subprob $\DS1-\bigl(\cos x\bigr)^2 =o(x^k)$ 
+
+\problem\label{pblm:recurrence} \groupproblem  Let $g_n$ be the coefficient of $x^n$ in %{{{3
+the Taylor series of the function
+\[
+g(x) = \frac1{2-3\,x+x^2}
+\]
+
+\subprob Compute $g_0$ and $g_1$ directly from the definition of the Taylor
+series.
+
+\subprob Show that the recursion relation $g_n = 3g_{n-1}-2g_{n-2}$ holds for
+all $n\geq 2$.
+
+\subprob Compute $g_2$, $g_3$, $g_4$, $g_5$.
+
+\subprob Using a partial fraction decomposition of $g (x)$ find a formula for
+$ g^{(n)}(0)$, and hence for $g_n$.
+\answer %{{{3
+The PFD of $g$ is $\DS g(x) = \frac1{x-2} - \frac1{x-1}$.
+
+$\DS g(x) = \tfrac12 + \bigl(1-\tfrac1{2^2}\bigr) x
++\bigl(1-\tfrac1{2^3}\bigr) x^2 + \cdots +
+\bigl(1-\tfrac1{2^{n+1}}\bigr) x^n + \cdots$.
+
+So $g_n = 1-1/2^{n+1}$ and $g^{(n)}(0)$ is $n!$ times that.
+\endanswer
+\problem Answer the same questions as in the previous problem, for the %{{{3
+functions
+\[
+h(x) = \frac{x}{2-3\,x+x^2}
+\]
+and
+\[
+k(x) = \frac{2-x}{2-3\,x+x^2}.
+\]
+\answer %{{{3
+You could repeat the computations from problem \ref{pblm:recurrence},
+and this would get us  the right answer with the same amount of work.
+In this case we  could instead note that $h(x) = xg(x)$ so that
+\[
+h(x) = \tfrac12x + \bigl(1-\tfrac1{2^2}\bigr) x^2
++\bigl(1-\tfrac1{2^3}\bigr) x^3 + \cdots +
+\bigl(1-\tfrac1{2^{n+1}}\bigr) x^{n+1} + \cdots
+\]
+Therefore $h_n = 1-1/2^n$.
+
+The PFD of $k(x)$ is
+\[
+k(x) = \frac{2-x}{(x-2)(x-1)} \stackrel{\rm cancel!}{=} \frac1{1-x},
+\]
+the Taylor series of $k$ is just the Geometric series.
+\endanswer
+
+\problem Let $h_n$ be the coefficient of $x^n$ in the Taylor series of %{{{3
+\[
+h (x) =\frac{1+x}{2-5x+2x^2}.
+\]
+
+\subprob Find a recursion relation for the $h_n$.
+
+\subprob Compute $h_0$, $h_1$, \ldots, $h_8$.
+
+\subprob Derive a formula for $h_n$ valid for all $n$, by using a partial
+fraction expansion.
+
+\subprob Is $h_{2009}$ more or less than a million? A billion?
+
+
+{\noindent\color{darkbluegreen}%
+\textit{Find the Taylor series for the following functions, by
+substituting, adding, multiplying, applying long division and/or
+differentiating known series for $\frac1{1+x}$, $e^x$, $\sin x$, $\cos
+x$ and $\ln x$.}}
+
+\problem \(\displaystyle e^{at} \) %{{{3
+\answer %{{{3
+\(\DS\Ti e^{at} = 1 + at + \frac{a^2}{2!}t^2 + \cdots +
+\frac{a^n}{n!}t^n+\cdots .\)
+\endanswer
+
+\problem \(\displaystyle e^{1+t}\) %{{{3
+\answer %{{{3
+$e^{1+t} = e\cdot e^t$ so $\Ti e^{1+t} = e + et + \frac e{2!} t^2 +
+\cdots + \frac{e}{n!}t^n + \cdots$
+\endanswer
+\problem \(\displaystyle e^{-t^2}\) %{{{3
+\answer %{{{3
+Substitute $u=-t^2$ in the Taylor series for $e^u$.
+\[
+\Ti e^{-t^2} = 1-t^2+\frac1{2!}t^4-\frac1{3!}t^6+\cdots+
+\frac{(-1)^n}{n!}t^{2n} + \cdots
+\]
+\endanswer
+
+\problem \(\displaystyle \frac{1+t}{1-t} \) %{{{3
+\answer %{{{3
+PFD!  The PFD of $\frac{1+t}{1-t}$ is $\frac{1+t}{1-t} = -1 +
+\frac2{1-t}$.  Remembering the Geometric Series we  get
+\[
+\Ti \frac{1+t}{1-t} = 1 + 2t + 2t^2+2t^3+\cdots +2t^n+\cdots
+\]
+\endanswer
+\problem \(\displaystyle \frac1{1+2t}\) %{{{3
+\answer %{{{3
+Substitute $u=-2t$ in the Geometric Series $1/(1-u)$.  You get
+\[
+\Ti \frac1{1+2t} = 1-2t+2^2t^2-2^3t^3 + \cdots + \cdots + (-1)^n2^n t^n
++\cdots
+\]
+\endanswer
+
+\problem %{{{3
+$$f(x)=\left\{
+\begin{array}{cl}
+\frac{\sin(x)}{x} & \mbox{ if $x\neq 0$} \\ 
+1 & \mbox{ if $x=0$} \\  
+\end{array}\right.$$
+
+\answer $f(x)=1-\frac{x^2}{3!}+ \frac{x^4}{5!}-\cdots$ %{{{3
+$=\sum_{n=0}^\infty \frac{(-1)^n}{(2n+1)!}\;{x^{2n}}$
+\endanswer
+
+\problem \(\displaystyle \frac{\ln (1+x)}{x}\) %{{{3
+\answer %{{{3
+\begin{multline*}
+  \Ti\frac{\ln (1+x)}{x} =
+  \frac{x-\frac12x^2+\frac13x^3+\cdots+(-1)^{n-1}\frac1nx^n+\cdots}{x}\\
+  = 1-\frac12 x +\frac13 x^2 + \cdots + (-1)^{n-1}\frac1nx^{n-1}+\cdots
+\end{multline*}
+\endanswer
+
+\problem \(\displaystyle \frac{e^t}{1-t} \) %{{{3
+\answer %{{{3
+\[
+\Ti \frac{e^t}{1-t} = 1 + 2t + \bigl(1+1+\tfrac1{2!}\bigr)t^2
++\bigl(1+1+\tfrac1{2!}+\tfrac1{3!}\bigr)t^3 +
+\cdots+\bigl(1+1+\tfrac1{2!}+\cdots +\tfrac1{n!}\bigr)t^n+\cdots
+\]
+\endanswer
+\problem\label{pblm:for-the-arcsine} \(\displaystyle\frac1{\sqrt{1-t}}\) %{{{3
+\answer %{{{3
+$1/\sqrt{1-t} = (1-t)^{-1/2}$ so
+\[
+\Ti\frac1{\sqrt{1-t}} = 1 +\tfrac12 t + \frac{\tfrac12 \tfrac32}{1\cdot
+2} t^2 +\frac{\tfrac12 \tfrac32 \tfrac52}{1\cdot 2\cdot 3}t^3+\cdots
+\]
+(be careful with minus signs when you compute the derivatives of
+$(1-t)^{-1/2}$.)
+
+You can make this look nicer if you multiply top and bottom in the
+$n^{\rm th}$ term with $2^n$:
+\[
+\Ti\frac1{\sqrt{1-t}} = 1 + \frac12 t + \frac{1\cdot3}{2\cdot 4}t^2
++\frac{1\cdot3\cdot5}{2\cdot4\cdot6}t^3+\cdots
++\frac{1\cdot3\cdots(2n-1)}{2\cdot4\cdots2n}t^n+\cdots
+\]
+\endanswer
+
+\problem \(\displaystyle\frac1{\sqrt{1-t^2}}\) (recommendation: use the %{{{3
+answer to problem \ref{pblm:for-the-arcsine})
+\answer %{{{3
+\[
+\Ti\frac1{\sqrt{1-t^2}} = 1 + \frac12 t^2 + \frac{1\cdot3}{2\cdot 4}t^4
++\frac{1\cdot3\cdot5}{2\cdot4\cdot6}t^6+\cdots
++\frac{1\cdot3\cdots(2n-1)}{2\cdot4\cdots2n}t^{2n}+\cdots
+\]
+\endanswer
+
+\problem \(\displaystyle \arcsin t\)\\ %{{{3
+(use problem \ref{pblm:for-the-arcsine} again)
+\answer %{{{3
+\[
+\Ti\arcsin t = t + \frac12 \frac{t^3}{3} + \frac{1\cdot3}{2\cdot 4}
+\frac{t^5}{5} +\frac{1\cdot3\cdot5}{2\cdot4\cdot6}\frac{t^7}{7}+\cdots
++\frac{1\cdot3\cdots(2n-1)}{2\cdot4\cdots2n}\frac{t^{2n+1}}{2n+1}+\cdots
+\]
+\endanswer
+
+\problem Compute \(\displaystyle T_4 [e^{-t}\cos t]\) (See example %{{{3
+\ref{ex:taylor-multiplication}.)
+\answer %{{{3
+$T_4 [e^{-t}\cos t] = 1-t+\frac13 t^3 - \frac16 t^4$.
+\endanswer
+
+\problem \(\displaystyle T_4 [e^{-t}\sin 2t]\) %{{{3
+\answer %{{{3
+\(\displaystyle T_4 [e^{-t}\sin 2t] = t-t^2+\frac13t^3+o(t^4)\) (the
+$t^4$ terms cancel).
+\endanswer
+
+\problem \(\displaystyle \frac1{2-t-t^2} \) %{{{3
+\answer %{{{3
+PFD of $1/(2-t-t^2) = \frac1{(2+t)(1-t)} = \frac{-\frac13}{2+t} +
+\frac{\frac13}{1-t}$.  Use the geometric series.
+\endanswer
+
+\problem \(\displaystyle \sqrt[3]{1+2t+t^2} \) %{{{3
+\answer %{{{3
+$\sqrt[3]{1+2t+t^2} = \sqrt[3]{(1+t)^2} = (1+t)^{2/3}$.  This is very
+similar to problem \ref{pblm:for-the-arcsine}.  The answer follows from
+Newton's binomial formula.
+\endanswer
+
+\problem \(\displaystyle \ln (1-t^2)\) %{{{3
+
+\problem \(\displaystyle \sin t\cos t\) %{{{3
+
+
+\end{multicols}
+\noproblemfont
+
+
+\section{Differentiating and Integrating Taylor polynomials} %{{{1
+\label{sec:diff-tayl-polyn}
+If
+\[
+T_nf(x) = a_0+a_1x+a_2x^2+\cdots+a_nx^n
+\]
+is the Taylor polynomial of a function $y=f(x)$, then what is the Taylor
+polynomial of its derivative $f'(x)$?
+\begin{theorem}\label{thm:Taylor-differentiated}
+  The Taylor polynomial of degree $n-1$ of $f'(x)$ is given by
+  \[
+  T_{n-1}\{f'(x)\} = a_1+2a_2x+\cdots+na_nx^{n-1}.
+  \]
+\end{theorem}%
+In other words, ``the Taylor polynomial of the derivative is the derivative
+of the Taylor polynomial.''
+
+Written in terms of little-oh notation the theorem says that if $f$ is an $n$
+times differentiable function 
+\begin{multline*}
+  f(x) = a_0+a_1x+a_2x^2+\cdots+a_nx^n + o(x^n) \\
+  \implies 
+  f'(x) = a_1+2a_2x+\cdots+na_nx^{n-1}+o(x^{n-1}).
+\end{multline*}
+
+\begin{proof}
+  Let $g(x)=f'(x)$. Then $g^{(k)} (0)=f^{(k+1)} (0)$, so that
+  \begin{align*}
+    T_{n-1}g(x) &= g(0)+g'(0)x+g^{(2)} (0)\frac{x^2}{2!}
+    +\cdots+g^{(n-1)} (0)\frac{x^{n-1}}{(n-1)!}\\
+    &=f'(0)+f^{(2)} (0)x+f^{(3)} (0)\frac{x^2}{2!}  +\cdots+f^{(n)}
+    (0)\frac{x^{n-1}}{(n-1)!}\tag{\$}
+  \end{align*}
+  On the other hand, if $T_nf(x) = a_0+a_1x+\cdots+a_nx^n$, then
+  $a_k=f^{(k)} (0)/k!$, so that
+  \[
+  ka_k=\frac k{k!}f^{(k)} (0) = \frac{f^{(k)} (0)}{(k-1)!}.
+  \]
+  In other words,
+  \[
+  1\cdot a_1=f' (0), \; 2a_2 = f^{(2)} (0),\; 3a_3 = \frac{f^{(3)}
+  (0)}{2!},\;\text{etc.}
+  \]
+  So, continuing from (\$) you find that
+  \[
+  T_{n-1}\{f'(x)\}=T_{n-1}g(x)=a_1+2a_2x+\cdots+na_nx^{n-1}
+  \]
+  as claimed.
+\end{proof}
+\subsection{Example: Taylor polynomial of $(1-x)^{-2}$} %{{{2
+We compute the Taylor polynomial of $f (x)= 1/ (1-x)^2$ by noting that
+\[
+f(x)=F'(x), \text{ where } F(x)=\frac1{1-x}.
+\]
+Since
+\[
+T_{n+1}F(x) = 1+x+x^2+x^3+\cdots+ x^{n+1},
+\]
+theorem \ref{thm:Taylor-differentiated} implies that
+\[
+T_n \left\{\frac1{(1-x)^2}\right\} = 1+2x+3x^2+4x^3+\cdots+(n+1)x^n
+\]
+
+\subsection{Example: Taylor polynomials of $\arctan x$} %{{{2
+Since integration undoes differentiation we can use Theorem
+\ref{thm:Taylor-differentiated} to find the Taylor polynomials  of integrals of
+functions whose Taylor polynomials we already know.  The following example shows
+that there is one difference, namely, when we integrate a Taylor expansion we
+need to determine the integration constant.
+
+Let $f(x)=\arctan x$.  Then we know that
+\[
+f' (x) = \frac 1{1+x^2}.
+\]
+By substitution of $t=-x^2$ in the Taylor polynomial of $1/ (1-t)$ we had
+found
+\[
+T_{2n}\{f'(x)\} = T_{2n}\left\{\frac1{1+x^2}\right\} = 1-x^2+x^4-x^6+\cdots+
+(-1)^nx^{2n}.
+\]
+This Taylor polynomial must be the derivative of $T_{2n+1}f(x)$, so we have
+\[
+T_{2n+1}\left\{\arctan x\right\} = C+x-\frac{x^3}3+\frac{x^5}5+\cdots+
+(-1)^n\frac{x^{2n+1}} {2n+1},
+\]
+where $C$ is the integration constant.  Normally we would write the integration
+constant at the end, but here we have written it at the beginning of the sum.
+This makes no difference to the sum of course, but it makes sense to do this
+because $C$ is a constant, and in Taylor polynomials we habitually write the
+constant term first.  This shows us that to find $C$ we merely have to set
+$x$ equal to zero:
+\[
+  C = \arctan(0) = 0.
+\]
+Therefore we get
+\[
+T_{2n+1}\left\{\arctan x\right\} = x-\frac{x^3}3+\frac{x^5}5+\cdots+
+(-1)^n\frac{x^{2n+1}} {2n+1}.
+\]
+
+
+
+\section{Problems on Integrals and Taylor Expansions} %{{{1
+\problemfont %{{{3
+\begin{multicols}{2}
+\problem \subprob Compute $T_2\{\sin t\}$ and give an upper bound for $R_2\{\sin %{{{3
+t\}$ for $0\leq t\leq 0.5$
+
+\subprob Use part \textbf{(a)} to approximate 
+\[
+  \int_0^{0.5}\sin(x^2)\,dx,
+\]
+and give an upper bound for the error in your approximation.
+\answer The Taylor series is %{{{3
+\[
+\sin(t)=t-t^3/6+\cdots
+\]
+and  the order one and two Taylor polynomial is 
+the same $p(t)=t$.
+For any $t$ there is a $\zeta$ between
+$0$ and $t$ with 
+$$\sin(t)-p(t)=\frac{f^{(3)}(\zeta)}{3!}t^3$$
+When $f(t)=\sin(t)$,
+$|f^{(n)}(\zeta)|\leq 1$
+for any $n$ and $\zeta$.
+Consequently, $$|\sin(t)-p(t)|\leq \frac{t^3}{3!}$$
+for nonnegative $t$.
+Hence
+$$|\int_0^{\frac12} \sin(x^2)\;dx - \int_0^{\frac12} p(x^2)\;dx|\leq 
+\int_0^{\frac12} |\sin(x^2)-p(x^2)|\;dx \leq 
+\int_0^{\frac12} \frac{x^6}{3!} \; dx = 
+\frac{(\frac12)^7}{3!\; 7}=\epsilon $$
+Since $\int_0^{\frac12} p(x^2)\;dx = \frac{\;(\frac12)^3}{3}=A$
+(the approximate value)
+we have that 
+$$ A-\epsilon\leq  \int_0^{\frac12} \sin(x^2)\;dx 
+\leq A+\epsilon$$
+\endanswer
+
+\problem \subprob Find the second degree Taylor polynomial for the function $e^t$.   %{{{3
+
+\subprob Use it to give an estimate for the integral
+\[
+  \int_0^1 e^{x^2}\;dx
+\]
+
+\subprob Suppose instead we used the 5th degree Taylor polynomial $p(t) =
+T_5\{e^t\}$ for
+$e^t$ to give an estimate for the integral:
+\[
+  \int_0^1 e^{x^2}\;dx
+\]
+Give an upper bound for the error:
+\[
+  \left|\;\int_0^1 e^{x^2}\;dx-\int_0^1 p(x^2)\;dx\;\right|
+\]
+Note: You need not find $p(t)$ or the integral
+$\int_0^1 p(x^2)\;dx$.
+
+\answer (b) $\frac{43}{30}$ (c) $\frac{3}{6!\cdot 13}$  %{{{3
+\endanswer
+
+\problem Approximate $\DS\int_0^{0.1}\arctan x\,dx$ and estimate the %{{{3
+error in your approximation by analyzing $T_2f(t)$ and $R_2f(t)$ where
+$f(t) = \arctan t$.
+
+\problem Approximate $\DS\int_0^{0.1}x^2e^{-x^2}\,dx$ and estimate the %{{{3
+error in your approximation by analyzing $T_3f(t)$ and $R_3f(t)$ where
+$f(t) = te^{-t}$.
+
+\problem Estimate $\DS\int_0^{0.5}\sqrt{1+x^4}\,dx$ with an error of less %{{{3
+than $10^{-4}$.
+
+\problem Estimate $\DS\int_0^{0.1} \arctan x\,dx$ with an error of less %{{{3
+than 0.001.
+
+\end{multicols}
+\noproblemfont
+
+
+\section{Proof of Theorem \ref{thm:fisg-to-order-n}} %{{{1
+\label{sec:proof-theorem-}
+
+\begin{lemma}\label{lem:Hopital-k-times}
+  If $h(x)$ is a $k$ times differentiable function on some interval
+  containing $0$, and if for some integer $k<n$ one has
+  $h(0)=h'(0)=\cdots=h^{(k-1)}(0)=0$, then
+  \begin{equation}
+    \label{eq:Hopital-k-times}
+    \lim_{x\to0} \frac{h(x)}{x^k} = \frac{h^{(k)} (0)}{k!}.
+  \end{equation}
+\end{lemma}
+\begin{proof}
+  Just apply l'Hopital's rule $k$ times. You get
+  \begin{multline*}
+    \lim_{x\to0} \frac{h(x)}{x^k} \stackrel{=\frac00}{=} \lim_{x\to0}
+    \frac{h'(x)}{kx^{k-1}} \stackrel{=\frac00}{=} \lim_{x\to0}
+    \frac{h^{(2)}(x)}{k (k-1) x^{k-2}} \stackrel{=\frac00}{=}
+    \cdots\\[1ex]
+    \cdots = \lim_{x\to0} \frac{h^{(k-1)}(x)}{k (k-1)\cdots 2 x^1}
+    \stackrel{=\frac00}{=} \frac{h^{(k)}(0)}{k (k-1)\cdots 2 \cdot1}
+  \end{multline*}
+\end{proof}
+
+First define the function $h(x)=f(x)-g(x)$. If $f (x)$ and $g (x)$ are $n$
+times differentiable, then so is $h(x)$.
+
+The condition $T_nf(x) = T_ng(x)$ means that
+\[
+f(0)=g(0),\quad f'(0)=g'(0),\quad \ldots,\quad f^{(n)} (0) = g^{(n)} (0),
+\]
+which says, in terms of $h(x)$,
+\[
+h(0) = h'(0) = h''(0)= \cdots = h^{(n)}(0) = 0,\leqno{(\dag)}
+\]
+i.e.
+\[
+T_nh(x)=0.
+\]
+We now prove the first part of the theorem: suppose $f (x)$ and $g (x)$ have
+the same $n$th degree Taylor polynomial. Then we have just argued that
+$T_nh(x)=0$, and Lemma~\ref{lem:Hopital-k-times} (with $k=n$) says that
+$\lim_{x\to0}h(x)/x^n=0$, as claimed.
+
+To conclude we show the converse also holds. So suppose that
+$\lim_{x\to0}h(x)/x^n=0$. We'll show that (\dag) follows. If (\dag) were
+not true then there would be a smallest integer $k\leq n$ such that
+\[
+h(0) = h'(0) = h''(0)= \cdots = h^{(k-1)}(0) = 0, \text{ but }h^{(k)}
+(0)\neq0.
+\]
+This runs into the following contradiction with
+Lemma~\ref{lem:Hopital-k-times}
+\[
+0\neq \frac{h^{(k)} (0)}{k!}  = \lim_{x\to0}\frac{h(x)}{x^k} =
+\lim_{x\to0}\frac{h(x)}{x^n}\cdot\frac{x^n}{x^k} =
+0\cdot\underbrace{\lim_{x\to0} x^{n-k}}_{(*)} =0.
+\]
+Here the limit $(*)$ exists because $n\geq k$.
+
+
+\section{Proof of Lagrange's formula for the remainder} %{{{1
+\label{sec:proof-lagr-form}
+
+For simplicity assume $x>0$. Consider the function
+\[
+g(t) = f (0) + f' (0) t +\frac{f'' (0)}{2} t^2 +\cdots
++\frac{f^{(n)}{(0)}}{n!} t^n +Kt^{n+1}-f(t),
+\]
+where
+\begin{equation}
+  \label{eq:lagrange-K-def}
+  K\isdef  -\frac{f (0) + f' (0) x +\cdots
+  +\frac{f^{(n)}{(0)}}{n!} x^n-f(x)}{x^{n+1}}
+\end{equation}
+We have chosen this particular $K$ to be sure that
+\[
+g (x) = 0.
+\]
+Just by computing the derivatives we also find that
+\[
+g (0) = g' (0)=g'' (0) = \cdots = g^{(n)} (0) =0,
+\]
+while
+\begin{equation}
+  \label{eq:lagrange-gn+1}
+  g^{(n+1)}{(t)} = (n+1)!K - f^{(n+1)} (t).
+\end{equation}
+We now apply \textit{Rolle's Theorem} $n$ times:
+\begin{itemize}
+\item since $g(t)$ vanishes at $t=0$ and at $t=x$ there exists an $ x_1$
+  with $0<x_1<x$ such that $g'(x_1)=0$
+
+\item since $g'(t)$ vanishes at $t=0$ and at $t=x_1$ there exists an $ x_2$
+  with $0<x_2<x_1$ such that $g'(x_2)=0$
+
+\item since $g''(t)$ vanishes at $t=0$ and at $t=x_2$ there exists an $
+  x_3$ with $0<x_3<x_2$ such that $g''(x_3)=0$
+
+  \( \vdots \)
+
+\item since $g^{(n)}(t)$ vanishes at $t=0$ and at $t=x_n$ there exists an $
+  x_{n+1}$ with $0<x_{n+1}<x_n$ such that $g^{(n)}(x_{n+1})=0$.
+\end{itemize}
+We now set $\xi=x_{n+1}$, and observe that we have shown that $g^{(n+1)}
+(\xi)=0$, so by (\ref{eq:lagrange-gn+1}) we get
+\[
+K = \frac{f^{(n+1)} (\xi)}{(n+1)!}.
+\]
+Apply that to (\ref{eq:lagrange-K-def}) and we finally get
+\[
+f(x) = f (0) + f' (0) x +\cdots +\frac{f^{(n)}{(0)}}{n!} x^n +
+\frac{f^{(n+1)} (\xi)}{(n+1)!}x^{n+1}.
+\]
+
+
+
+%%% Local Variables: 
+%%% mode: latex
+%%% TeX-master: "free222"
+%%% End: 
+

@@ -1,0 +1,966 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="990"
+   height="765"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.2 r9819"
+   sodipodi:docname="trigidentities-simple.pdf">
+  <defs
+     id="defs4">
+    <marker
+       inkscape:stockid="Arrow1Mstart"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Mstart"
+       style="overflow:visible">
+      <path
+         id="path3970"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt;marker-start:none"
+         transform="scale(0.4) translate(10,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Mend"
+       style="overflow:visible;">
+      <path
+         id="path3973"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt;marker-start:none;"
+         transform="scale(0.4) rotate(180) translate(10,0)" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.75163399"
+     inkscape:cx="495"
+     inkscape:cy="382.5"
+     inkscape:document-units="px"
+     inkscape:current-layer="g4060"
+     showgrid="false"
+     showguides="false"
+     inkscape:guide-bbox="true"
+     inkscape:window-width="1276"
+     inkscape:window-height="756"
+     inkscape:window-x="4"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1">
+    <sodipodi:guide
+       orientation="1,0"
+       position="500.02551,839.43677"
+       id="guide2985" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="66.670068,380.82751"
+       id="guide2987" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="162.12948,544.9773"
+       id="guide2989" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="160.19295,308.96685"
+       id="guide2991" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="236.3757,571.24126"
+       id="guide3767" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="371.6085,92.65743"
+       id="guide3899" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="256.90106,265.80357"
+       id="guide3057" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="796.19075,235.75337"
+       id="guide3151" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="647.68856,235.75337"
+       id="guide3161" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="796.19075,235.75337"
+       id="guide3163" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="682.51304,727.74782"
+       id="guide3234" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-287.36218)">
+    <g
+       id="g4060"
+       transform="translate(0,26)">
+      <text
+         transform="translate(0,287.36218)"
+         sodipodi:linespacing="125%"
+         id="text3869"
+         y="362.65982"
+         x="657.03259"
+         style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:black;fill-opacity:1;stroke:none;font-family:Arial Unicode MS;-inkscape-font-specification:Arial Unicode MS"
+         xml:space="preserve"><tspan
+           y="362.65982"
+           x="657.03259"
+           id="tspan3871"
+           sodipodi:role="line" /></text>
+      <text
+         transform="translate(0,287.36218)"
+         sodipodi:linespacing="125%"
+         id="text3947"
+         y="503.37979"
+         x="356.84995"
+         style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:black;fill-opacity:1;stroke:none;font-family:Arial Unicode MS;-inkscape-font-specification:Arial Unicode MS"
+         xml:space="preserve"><tspan
+           y="503.37979"
+           x="356.84995"
+           id="tspan3949"
+           sodipodi:role="line" /></text>
+      <path
+         sodipodi:type="arc"
+         style="color:black;fill:none;stroke:black;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         id="path3821"
+         sodipodi:cx="162.12949"
+         sodipodi:cy="220.02271"
+         sodipodi:rx="90"
+         sodipodi:ry="90"
+         d="m 252.12949,220.02271 a 90,90 0 1 1 -180.000004,0 90,90 0 1 1 180.000004,0 z"
+         transform="translate(572,251.36218)" />
+      <path
+         style="fill:none;stroke:black;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 615.43656,471.38488 234.86047,0"
+         id="path3823"
+         inkscape:connector-curvature="0" />
+      <path
+         sodipodi:nodetypes="cc"
+         style="fill:none;stroke:black;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 734.12948,578.46105 0,-220.21325"
+         id="path3825"
+         inkscape:connector-curvature="0" />
+      <path
+         style="fill:none;stroke:black;stroke-width:0.30000001;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         d="m 734.12948,471.38488 74.24622,-50.50763 0,101.13518 z"
+         id="path3827"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cccc" />
+      <path
+         sodipodi:type="arc"
+         style="color:black;fill:none;stroke:black;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         id="path3829"
+         sodipodi:cx="161.70715"
+         sodipodi:cy="220.10561"
+         sodipodi:rx="41.627583"
+         sodipodi:ry="41.627583"
+         d="m 196.40332,197.10491 a 41.627583,41.627583 0 0 1 6.92341,22.1844"
+         transform="translate(572,251.36218)"
+         sodipodi:start="5.6977828"
+         sodipodi:end="6.2635745"
+         sodipodi:open="true" />
+      <path
+         sodipodi:type="arc"
+         style="color:black;fill:none;stroke:black;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         id="path3831"
+         sodipodi:cx="161.70715"
+         sodipodi:cy="219.83876"
+         sodipodi:rx="24.282757"
+         sodipodi:ry="24.282757"
+         d="m 185.98448,220.35218 a 24.282757,24.282757 0 0 1 -3.86909,12.64546"
+         transform="translate(572,251.36218)"
+         sodipodi:start="0.021145068"
+         sodipodi:end="0.57269889"
+         sodipodi:open="true" />
+      <text
+         xml:space="preserve"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:black;fill-opacity:1;stroke:none;font-family:Linux Biolinum O;-inkscape-font-specification:Linux Biolinum O"
+         x="812.95966"
+         y="417.83224"
+         id="text3833"
+         sodipodi:linespacing="125%"><tspan
+           dx="0 0 0 0 0 0 0 0 0 0 0 0.97426659"
+           sodipodi:role="line"
+           id="tspan3835"
+           x="812.95966"
+           y="417.83224"
+           style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Linux Biolinum O;-inkscape-font-specification:Linux Biolinum O">(cos<tspan
+   id="tspan4008"
+   style="font-style:italic">θ</tspan>, sin<tspan
+   id="tspan4010"
+   style="font-style:italic">θ</tspan>)</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3837"
+         y="528.30542"
+         x="810.55811"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:black;fill-opacity:1;stroke:none;font-family:Linux Biolinum O;-inkscape-font-specification:Linux Biolinum O"
+         xml:space="preserve"><tspan
+           dx="0 0 0 0 0 0 0 1.3304348 0 0 0 0 0 0 0 0 1.3304348"
+           style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Linux Biolinum O;-inkscape-font-specification:Linux Biolinum O"
+           y="528.30542"
+           x="810.55811"
+           id="tspan3839"
+           sodipodi:role="line"><tspan
+   id="tspan4058"
+   style="font-size:16px">(</tspan>cos(-<tspan
+   id="tspan4012"
+   style="font-style:italic">θ</tspan>), sin(-<tspan
+   id="tspan4014"
+   style="font-style:italic">θ</tspan>)<tspan
+   id="tspan4056"
+   style="font-size:16px">)</tspan></tspan></text>
+      <path
+         sodipodi:type="arc"
+         style="color:black;fill:white;stroke:black;stroke-width:0.69999999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         id="path3841"
+         sodipodi:cx="236.3757"
+         sodipodi:cy="169.43358"
+         sodipodi:rx="1.1085352"
+         sodipodi:ry="1.1085352"
+         d="m 237.48424,169.43358 a 1.1085352,1.1085352 0 1 1 -2.21707,0 1.1085352,1.1085352 0 1 1 2.21707,0 z"
+         transform="translate(572,251.36218)" />
+      <path
+         transform="translate(572,352.74643)"
+         d="m 237.48424,169.43358 a 1.1085352,1.1085352 0 1 1 -2.21707,0 1.1085352,1.1085352 0 1 1 2.21707,0 z"
+         sodipodi:ry="1.1085352"
+         sodipodi:rx="1.1085352"
+         sodipodi:cy="169.43358"
+         sodipodi:cx="236.3757"
+         id="path3843"
+         style="color:black;fill:white;stroke:black;stroke-width:0.69999999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         sodipodi:type="arc" />
+      <text
+         xml:space="preserve"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:black;fill-opacity:1;stroke:none;font-family:Linux Biolinum O;-inkscape-font-specification:Linux Biolinum O"
+         x="758.57745"
+         y="483.13501"
+         id="text3845"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan3847"
+           x="758.57745"
+           y="483.13501"
+           style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Linux Biolinum O;-inkscape-font-specification:Linux Biolinum O">-<tspan
+   id="tspan4006"
+   style="font-style:italic">θ</tspan></tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3849"
+         y="461.13501"
+         x="776.57745"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:black;fill-opacity:1;stroke:none;font-family:Linux Biolinum O;-inkscape-font-specification:Linux Biolinum O"
+         xml:space="preserve"><tspan
+           style="font-size:14px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Linux Biolinum O;-inkscape-font-specification:Linux Biolinum O"
+           y="461.13501"
+           x="776.57745"
+           id="tspan3851"
+           sodipodi:role="line">θ</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#04a;fill-opacity:1;stroke:none;font-family:Linux Biolinum O;-inkscape-font-specification:Linux Biolinum O"
+         x="658.55811"
+         y="592.30542"
+         id="text3889"
+         sodipodi:linespacing="125%"><tspan
+           dx="0 0 0 0 0 0 1.3304348 0 0 0 0 0 0 0 2.6608696 0 0 0 0 0 0 0 0 0 0.6652174 0 0 0 0 0.32383317 0 0 0 0"
+           sodipodi:role="line"
+           id="tspan3891"
+           x="658.55811"
+           y="592.30542"
+           style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#04a;font-family:Linux Biolinum O;-inkscape-font-specification:Linux Biolinum O">cos(-<tspan
+   id="tspan4004"
+   style="font-style:italic">θ</tspan>) = cos<tspan
+   id="tspan4002"
+   style="font-style:italic">θ</tspan>;   sin(-<tspan
+   id="tspan4000"
+   style="font-style:italic">θ</tspan>) = -sin <tspan
+   dx="-1.3304348"
+   id="tspan3998"
+   style="font-style:italic">θ</tspan></tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:14px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#d40000;fill-opacity:1;stroke:none;font-family:Linux Biolinum O;-inkscape-font-specification:Linux Biolinum O Italic"
+         x="736.29321"
+         y="307.97946"
+         id="text3969"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           x="736.29321"
+           y="307.97946"
+           id="tspan3975"
+           style="font-weight:bold">Even and Odd:</tspan><tspan
+           sodipodi:role="line"
+           x="736.29321"
+           y="325.47946"
+           id="tspan3353">What happens when you</tspan><tspan
+           id="tspan3982"
+           sodipodi:role="line"
+           x="736.29321"
+           y="342.97946">change the sign of θ</tspan></text>
+      <path
+         sodipodi:nodetypes="cccccc"
+         inkscape:connector-curvature="0"
+         id="path3091"
+         d="m 736.81644,824.00227 74.24622,-50.50763 -0.18495,50.29487 -148.50219,0.48337 0.12067,-51.04668 z"
+         style="fill:#ccc;stroke:black;stroke-width:0.30000001;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <path
+         transform="translate(574.68696,603.97957)"
+         d="m 252.12949,220.02271 a 90,90 0 1 1 -180.000004,0 90,90 0 1 1 180.000004,0 z"
+         sodipodi:ry="90"
+         sodipodi:rx="90"
+         sodipodi:cy="220.02271"
+         sodipodi:cx="162.12949"
+         id="path3085"
+         style="color:black;fill:none;stroke:black;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         sodipodi:type="arc" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path3087"
+         d="m 618.12352,824.00227 234.86047,0"
+         style="fill:none;stroke:black;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         sodipodi:nodetypes="cccc"
+         inkscape:connector-curvature="0"
+         id="path3089"
+         d="m 736.81644,931.07844 0,-124.70514 m 0,-20.94849 0,-74.55962"
+         style="fill:none;stroke:black;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         sodipodi:open="true"
+         sodipodi:end="6.2635745"
+         sodipodi:start="5.6977828"
+         transform="translate(574.68696,603.97957)"
+         d="m 196.40332,197.10491 a 41.627583,41.627583 0 0 1 6.92341,22.1844"
+         sodipodi:ry="41.627583"
+         sodipodi:rx="41.627583"
+         sodipodi:cy="220.10561"
+         sodipodi:cx="161.70715"
+         id="path3093"
+         style="color:black;fill:none;stroke:black;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         sodipodi:type="arc" />
+      <path
+         sodipodi:open="true"
+         sodipodi:end="6.2724289"
+         sodipodi:start="3.7584396"
+         transform="translate(574.68696,603.97957)"
+         d="m 141.89955,205.79201 a 24.282757,24.282757 0 0 1 44.08896,13.78556"
+         sodipodi:ry="24.282757"
+         sodipodi:rx="24.282757"
+         sodipodi:cy="219.83876"
+         sodipodi:cx="161.70715"
+         id="path3095"
+         style="color:black;fill:none;stroke:black;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         sodipodi:type="arc" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text3097"
+         y="770.44965"
+         x="815.64661"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:black;fill-opacity:1;stroke:none;font-family:Linux Biolinum O;-inkscape-font-specification:Linux Biolinum O"
+         xml:space="preserve"><tspan
+           dx="0 0 0 0 0 0 0 0 0 0 0 0.93104428"
+           style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Linux Biolinum O;-inkscape-font-specification:Linux Biolinum O"
+           y="770.44965"
+           x="815.64661"
+           id="tspan3099"
+           sodipodi:role="line">(cos<tspan
+   id="tspan3194"
+   style="font-style:italic">θ</tspan>, sin<tspan
+   id="tspan3196"
+   style="font-style:italic">θ</tspan>)</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:black;fill-opacity:1;stroke:none;font-family:Linux Biolinum O;-inkscape-font-specification:Linux Biolinum O"
+         x="555.24506"
+         y="768.92279"
+         id="text3101"
+         sodipodi:linespacing="125%"><tspan
+           dx="0 0 0 0 0 0 0 0 0.93104428 0 0 0 0 0 0 0 0 0 0.93104428"
+           sodipodi:role="line"
+           id="tspan3103"
+           x="555.24506"
+           y="768.92279"
+           style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Linux Biolinum O;-inkscape-font-specification:Linux Biolinum O"><tspan
+   id="tspan3212"
+   style="font-size:16px">(</tspan>cos(<tspan
+   dx="-0.93104428"
+   id="tspan3186"
+   style="font-style:italic">π</tspan>-<tspan
+   id="tspan3188"
+   style="font-style:italic">θ</tspan>), sin(<tspan
+   dx="-0.93104428"
+   id="tspan3190"
+   style="font-style:italic">π</tspan>-<tspan
+   id="tspan3192"
+   style="font-style:italic">θ</tspan>)<tspan
+   id="tspan3210"
+   style="font-size:16px">)</tspan></tspan></text>
+      <path
+         transform="translate(574.68696,603.97957)"
+         d="m 237.48424,169.43358 a 1.1085352,1.1085352 0 1 1 -2.21707,0 1.1085352,1.1085352 0 1 1 2.21707,0 z"
+         sodipodi:ry="1.1085352"
+         sodipodi:rx="1.1085352"
+         sodipodi:cy="169.43358"
+         sodipodi:cx="236.3757"
+         id="path3105"
+         style="color:black;fill:white;stroke:black;stroke-width:0.69999999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         sodipodi:type="arc" />
+      <path
+         sodipodi:type="arc"
+         style="color:black;fill:white;stroke:black;stroke-width:0.69999999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         id="path3107"
+         sodipodi:cx="236.3757"
+         sodipodi:cy="169.43358"
+         sodipodi:rx="1.1085352"
+         sodipodi:ry="1.1085352"
+         d="m 237.48424,169.43358 a 1.1085352,1.1085352 0 1 1 -2.21707,0 1.1085352,1.1085352 0 1 1 2.21707,0 z"
+         transform="translate(426.13041,603.79262)" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text3109"
+         y="797.75238"
+         x="727.2644"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:black;fill-opacity:1;stroke:none;font-family:Linux Biolinum O;-inkscape-font-specification:Linux Biolinum O"
+         xml:space="preserve"><tspan
+           style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Linux Biolinum O;-inkscape-font-specification:Linux Biolinum O"
+           y="797.75238"
+           x="727.2644"
+           id="tspan3111"
+           sodipodi:role="line"><tspan
+   id="tspan3216"
+   style="font-style:italic">π</tspan>-<tspan
+   id="tspan3214"
+   style="font-style:italic">θ</tspan></tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:black;fill-opacity:1;stroke:none;font-family:Linux Biolinum O;-inkscape-font-specification:Linux Biolinum O"
+         x="777.2644"
+         y="813.75238"
+         id="text3113"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan3115"
+           x="777.2644"
+           y="813.75238"
+           style="font-size:14px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Linux Biolinum O;-inkscape-font-specification:Linux Biolinum O">θ</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3117"
+         y="958.92279"
+         x="647.24506"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#04a;fill-opacity:1;stroke:none;font-family:Linux Biolinum O;-inkscape-font-specification:Linux Biolinum O"
+         xml:space="preserve"><tspan
+           dx="0 0 0 0 0 0 0 0.93104428 0 0 0 0 0 0 0 0 0 0.93104428 0 0 0 0 0 0 0 0 0 0 0 0.46552214 0 0 0 0 0 0 0 0 0.93104428"
+           style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#04a;font-family:Linux Biolinum O;-inkscape-font-specification:Linux Biolinum O"
+           y="958.92279"
+           x="647.24506"
+           id="tspan3119"
+           sodipodi:role="line">cos(<tspan
+   dx="-0.46552214"
+   id="tspan3200"
+   style="font-style:italic">π</tspan>-<tspan
+   id="tspan3198"
+   style="font-style:italic">θ</tspan>) = -cos(<tspan
+   dx="-0.93104428"
+   id="tspan3202"
+   style="font-style:italic">θ</tspan>);   sin(<tspan
+   dx="-0.46552214"
+   id="tspan3204"
+   style="font-style:italic">π</tspan>-<tspan
+   id="tspan3206"
+   style="font-style:italic">θ</tspan>) = sin(<tspan
+   dx="-0.46552214"
+   id="tspan3208"
+   style="font-style:italic">θ</tspan>)</tspan></text>
+      <rect
+         y="853.2179"
+         x="726.54163"
+         height="21.88328"
+         width="18.646858"
+         id="rect3121"
+         style="color:black;fill:white;stroke:none;stroke-width:0.30000001;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text3123"
+         y="866.81421"
+         x="737.14954"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#d40000;fill-opacity:1;stroke:none;font-family:Linux Biolinum O;-inkscape-font-specification:Linux Biolinum O"
+         xml:space="preserve"><tspan
+           style="font-style:italic;text-align:center;text-anchor:middle"
+           y="866.81421"
+           x="737.14954"
+           sodipodi:role="line"
+           id="tspan3127">Supplementary angles</tspan></text>
+      <path
+         sodipodi:type="arc"
+         style="color:black;fill:none;stroke:black;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         id="path3155"
+         sodipodi:cx="161.70715"
+         sodipodi:cy="220.10561"
+         sodipodi:rx="41.627583"
+         sodipodi:ry="41.627583"
+         d="m 120.08013,219.88898 a 41.627583,41.627583 0 0 1 7.32508,-23.36795"
+         transform="translate(574.68696,603.97957)"
+         sodipodi:start="3.1467966"
+         sodipodi:end="3.7439195"
+         sodipodi:open="true" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text3157"
+         y="813.75238"
+         x="687.2644"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:black;fill-opacity:1;stroke:none;font-family:Linux Biolinum O;-inkscape-font-specification:Linux Biolinum O"
+         xml:space="preserve"><tspan
+           style="font-size:14px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Linux Biolinum O;-inkscape-font-specification:Linux Biolinum O"
+           y="813.75238"
+           x="687.2644"
+           id="tspan3159"
+           sodipodi:role="line">θ</tspan></text>
+      <g
+         id="g3236"
+         transform="translate(0,-36)">
+        <path
+           sodipodi:type="arc"
+           style="color:black;fill:none;stroke:black;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           id="path2993"
+           sodipodi:cx="162.12949"
+           sodipodi:cy="220.02271"
+           sodipodi:rx="90"
+           sodipodi:ry="90"
+           d="m 252.12949,220.02271 c 0,49.70562 -40.29438,90 -90,90 -49.70563,0 -90.000004,-40.29438 -90.000004,-90 0,-49.70563 40.294374,-90 90.000004,-90 49.70562,0 90,40.29437 90,90 z"
+           transform="translate(96,287.36218)" />
+        <path
+           style="fill:none;stroke:black;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 139.43656,507.38488 234.86047,0"
+           id="path3763"
+           inkscape:connector-curvature="0" />
+        <path
+           style="fill:none;stroke:black;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 258.12948,614.46105 0,-220.21325"
+           id="path3765"
+           inkscape:connector-curvature="0" />
+        <path
+           style="fill:none;stroke:black;stroke-width:0.30000001;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+           d="m 258.12948,507.38488 74.24622,-50.50763 0,50.50763 z"
+           id="path3769"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="cccc" />
+        <path
+           sodipodi:type="arc"
+           style="color:black;fill:none;stroke:black;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           id="path3771"
+           sodipodi:cx="161.70715"
+           sodipodi:cy="220.10561"
+           sodipodi:rx="41.627583"
+           sodipodi:ry="41.627583"
+           d="m 196.40332,197.10491 c 4.36703,6.5876 6.76842,14.28229 6.92341,22.1844"
+           transform="translate(96,287.36218)"
+           sodipodi:start="5.6977828"
+           sodipodi:end="6.2635745"
+           sodipodi:open="true" />
+        <text
+           xml:space="preserve"
+           style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:black;fill-opacity:1;stroke:none;font-family:Linux Biolinum O;-inkscape-font-specification:Linux Biolinum O"
+           x="336.95966"
+           y="453.83224"
+           id="text3775"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan3777"
+             x="336.95966"
+             y="453.83224"
+             style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Linux Biolinum O;-inkscape-font-specification:Linux Biolinum O"
+             dx="0 0 0 0 0 0 0 0 0 0 0 0.93104428">(cos<tspan
+   style="font-style:italic"
+   id="tspan4020">θ</tspan>, sin<tspan
+   style="font-style:italic"
+   id="tspan4022">θ</tspan>)</tspan></text>
+        <path
+           sodipodi:type="arc"
+           style="color:black;fill:white;stroke:black;stroke-width:0.69999999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           id="path3789"
+           sodipodi:cx="236.3757"
+           sodipodi:cy="169.43358"
+           sodipodi:rx="1.1085352"
+           sodipodi:ry="1.1085352"
+           d="m 237.48424,169.43358 c 0,0.61223 -0.49631,1.10853 -1.10854,1.10853 -0.61223,0 -1.10853,-0.4963 -1.10853,-1.10853 0,-0.61223 0.4963,-1.10854 1.10853,-1.10854 0.61223,0 1.10854,0.49631 1.10854,1.10854 z"
+           transform="translate(96,287.36218)" />
+        <text
+           sodipodi:linespacing="125%"
+           id="text3797"
+           y="497.13501"
+           x="300.57745"
+           style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:black;fill-opacity:1;stroke:none;font-family:Linux Biolinum O;-inkscape-font-specification:Linux Biolinum O"
+           xml:space="preserve"><tspan
+             style="font-size:14px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Linux Biolinum O;-inkscape-font-specification:Linux Biolinum O"
+             y="497.13501"
+             x="300.57745"
+             id="tspan3799"
+             sodipodi:role="line">θ</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:12px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#d40000;fill-opacity:1;stroke:none;font-family:Linux Biolinum O;-inkscape-font-specification:Linux Biolinum O Italic"
+           x="261.3168"
+           y="345.43442"
+           id="text3957"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan3959"
+             x="261.3168"
+             y="345.43442"
+             style="font-size:12px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:Linux Biolinum O;-inkscape-font-specification:Linux Biolinum O Italic">This figure defines sine and cosine.</tspan><tspan
+             sodipodi:role="line"
+             x="261.3168"
+             y="360.43442"
+             id="tspan3967"
+             style="font-size:12px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:Linux Biolinum O;-inkscape-font-specification:Linux Biolinum O Italic">It helps you remember when</tspan><tspan
+             sodipodi:role="line"
+             x="261.3168"
+             y="375.43442"
+             id="tspan3961"
+             style="font-size:12px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:Linux Biolinum O;-inkscape-font-specification:Linux Biolinum O Italic">they are positive or negative</tspan></text>
+        <path
+           sodipodi:type="spiral"
+           style="fill:none;stroke:black;stroke-width:0.40000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#Arrow1Mstart);marker-end:none"
+           id="path3191"
+           sodipodi:cx="257.86902"
+           sodipodi:cy="220.02271"
+           sodipodi:expansion="1"
+           sodipodi:revolution="2.8735611"
+           sodipodi:radius="28.593586"
+           sodipodi:argument="-18.064157"
+           sodipodi:t0="0.62238336"
+           d="m 273.09837,210.81561 c 6.21355,8.47701 3.63857,20.56581 -4.73524,26.56528 -9.64173,6.90789 -23.27497,3.95287 -29.98114,-5.57705 -7.60365,-10.8053 -4.26786,-25.98522 6.41888,-33.397 11.96806,-8.30044 28.69627,-4.58339 36.81286,7.2607 2.84849,4.15665 4.52372,9.07045 4.84771,14.09667"
+           transform="translate(0,287.36218)" />
+        <text
+           xml:space="preserve"
+           style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:black;fill-opacity:1;stroke:none;font-family:Linux Biolinum O;-inkscape-font-specification:Linux Biolinum O"
+           x="220.57745"
+           y="477.13501"
+           id="text4773"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan4775"
+             x="220.57745"
+             y="477.13501"
+             style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Linux Biolinum O;-inkscape-font-specification:Linux Biolinum O"><tspan
+   style="font-style:italic"
+   id="tspan4018">θ</tspan>+2<tspan
+   style="font-style:italic"
+   id="tspan4016">π</tspan></tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#04a;fill-opacity:1;stroke:none;font-family:Linux Biolinum O;-inkscape-font-specification:Linux Biolinum O"
+           x="308.5676"
+           y="596.82397"
+           id="text4779"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan4781"
+             x="308.5676"
+             y="596.82397"
+             style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#04a;font-family:Linux Biolinum O;-inkscape-font-specification:Linux Biolinum O"
+             dx="0 0 0 0 0.39243031 0.6652174">sin(<tspan
+   style="font-style:italic"
+   id="tspan4024">θ</tspan>+2<tspan
+   style="font-style:italic"
+   id="tspan4026">π</tspan>) = sin<tspan
+   style="font-style:italic"
+   id="tspan4028">θ</tspan></tspan></text>
+        <text
+           sodipodi:linespacing="125%"
+           id="text4783"
+           y="616.82397"
+           x="308.5676"
+           style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#04a;fill-opacity:1;stroke:none;font-family:Linux Biolinum O;-inkscape-font-specification:Linux Biolinum O"
+           xml:space="preserve"><tspan
+             dx="0 0 0 0 0 0 0 0 0.6652174"
+             style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#04a;font-family:Linux Biolinum O;-inkscape-font-specification:Linux Biolinum O"
+             y="616.82397"
+             x="308.5676"
+             id="tspan4785"
+             sodipodi:role="line">cos(<tspan
+   style="font-style:italic"
+   id="tspan4034">θ</tspan>+2<tspan
+   style="font-style:italic"
+   id="tspan4032">π</tspan>) = cos<tspan
+   style="font-style:italic"
+   id="tspan4030">θ</tspan></tspan></text>
+      </g>
+      <path
+         style="fill:#ccc;stroke:black;stroke-width:0.30000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         d="m 160.19295,933.70475 92.9928,-173.14614 -92.9928,0 z"
+         id="path3911"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cccc" />
+      <path
+         sodipodi:type="arc"
+         style="color:black;fill:#ccc;stroke:black;stroke-width:0.69999999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         id="path3913"
+         sodipodi:cx="160.19295"
+         sodipodi:cy="672.34259"
+         sodipodi:rx="69.493073"
+         sodipodi:ry="69.493073"
+         d="m 221.67511,639.95076 a 69.493073,69.493073 0 0 1 8.01062,32.19141"
+         transform="matrix(0,-1,-1,0,832.53552,1093.8977)"
+         sodipodi:start="5.7982898"
+         sodipodi:end="6.2803012"
+         sodipodi:open="true" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path3893"
+         d="m 160.51921,711.84893 0,268.83705"
+         style="fill:none;stroke:black;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path3895"
+         d="m 90.04736,933.70475 296.24277,0"
+         style="fill:none;stroke:black;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         sodipodi:open="true"
+         sodipodi:end="6.2894713"
+         sodipodi:start="4.7179257"
+         transform="translate(0,261.36218)"
+         d="M 160.29801,475.28541 A 195.75513,195.75513 0 0 1 354.96543,672.26804"
+         sodipodi:ry="195.75513"
+         sodipodi:rx="195.75513"
+         sodipodi:cy="671.03754"
+         sodipodi:cx="159.21417"
+         id="path3897"
+         style="color:black;fill:none;stroke:black;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         sodipodi:type="arc" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path3901"
+         d="m 160.19295,933.70475 172.26452,-92.00491 0,92.00491 z"
+         style="fill:#ccc;stroke:black;stroke-width:0.30000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <path
+         sodipodi:open="true"
+         sodipodi:end="6.2803012"
+         sodipodi:start="5.7982898"
+         transform="translate(0,261.36218)"
+         d="m 221.67511,639.95076 a 69.493073,69.493073 0 0 1 8.01062,32.19141"
+         sodipodi:ry="69.493073"
+         sodipodi:rx="69.493073"
+         sodipodi:cy="672.34259"
+         sodipodi:cx="160.19295"
+         id="path3903"
+         style="color:black;fill:none;stroke:black;stroke-width:0.69999999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         sodipodi:type="arc" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text3919"
+         y="919.55908"
+         x="232.53638"
+         style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:black;fill-opacity:1;stroke:none;font-family:Arial Unicode MS;-inkscape-font-specification:Arial Unicode MS"
+         xml:space="preserve"><tspan
+           style="font-size:14px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Linux Libertine;-inkscape-font-specification:Linux Libertine"
+           y="919.55908"
+           x="232.53638"
+           id="tspan3921"
+           sodipodi:role="line">θ</tspan></text>
+      <path
+         sodipodi:type="arc"
+         style="color:black;fill:none;stroke:black;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         id="path3925"
+         sodipodi:cx="160.19295"
+         sodipodi:cy="672.34259"
+         sodipodi:rx="40"
+         sodipodi:ry="40"
+         d="m 179.17496,637.13346 a 40,40 0 0 1 21.01782,35.09377"
+         transform="translate(0,261.36218)"
+         sodipodi:start="5.2068422"
+         sodipodi:end="6.2803012"
+         sodipodi:open="true" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text3931"
+         y="901.37646"
+         x="185.31393"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:black;fill-opacity:1;stroke:none;font-family:Linux Biolinum O;-inkscape-font-specification:Linux Biolinum O"
+         xml:space="preserve"><tspan
+           dx="0 0.6652174 -0.6652174 0.52324039 0.39243031"
+           style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Linux Biolinum O;-inkscape-font-specification:Linux Biolinum O"
+           y="901.37646"
+           x="185.31393"
+           id="tspan3933"
+           sodipodi:role="line"><tspan
+   id="tspan4052"
+   style="font-style:italic">π</tspan>/2-<tspan
+   id="tspan4054"
+   style="font-style:italic">θ</tspan></tspan></text>
+      <g
+         id="g3429"
+         transform="translate(18,-24)">
+        <text
+           sodipodi:linespacing="125%"
+           id="text3939"
+           y="770.82397"
+           x="308.5676"
+           style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#04a;fill-opacity:1;stroke:none;font-family:Linux Biolinum O;-inkscape-font-specification:Linux Biolinum O"
+           xml:space="preserve"><tspan
+             dx="0 0 0 0 0 0.6652174 0 0.52324039 0.39243031 0.6652174"
+             style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#04a;font-family:Linux Biolinum O;-inkscape-font-specification:Linux Biolinum O"
+             y="770.82397"
+             x="308.5676"
+             id="tspan3941"
+             sodipodi:role="line">sin(<tspan
+   style="font-style:italic"
+   id="tspan4036">π</tspan>/2-<tspan
+   style="font-style:italic"
+   id="tspan4038">θ</tspan>) = cos<tspan
+   style="font-style:italic"
+   id="tspan4040">θ</tspan></tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#04a;fill-opacity:1;stroke:none;font-family:Linux Biolinum O;-inkscape-font-specification:Linux Biolinum O"
+           x="308.5676"
+           y="790.82397"
+           id="text3943"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan3945"
+             x="308.5676"
+             y="790.82397"
+             style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#04a;font-family:Linux Biolinum O;-inkscape-font-specification:Linux Biolinum O"
+             dx="0 0 0 0 0 0.6652174 0 0.52324039 0.39243031 0.6652174">cos(<tspan
+   style="font-style:italic"
+   id="tspan4042">π</tspan>/2-<tspan
+   style="font-style:italic"
+   id="tspan4044">θ</tspan>) = sin<tspan
+   style="font-style:italic"
+   id="tspan4046">θ</tspan></tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#d40000;fill-opacity:1;stroke:none;font-family:Linux Biolinum O;-inkscape-font-specification:Linux Biolinum O"
+           x="290.5415"
+           y="750.84869"
+           id="text3999"
+           sodipodi:linespacing="125%"><tspan
+             style="font-style:italic"
+             id="tspan4003"
+             sodipodi:role="line"
+             x="290.5415"
+             y="750.84869">Complementary angles</tspan></text>
+      </g>
+      <path
+         sodipodi:type="arc"
+         style="color:black;fill:white;stroke:black;stroke-width:0.69999999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         id="path3053"
+         sodipodi:cx="236.3757"
+         sodipodi:cy="169.43358"
+         sodipodi:rx="1.1085352"
+         sodipodi:ry="1.1085352"
+         d="m 237.48424,169.43358 a 1.1085352,1.1085352 0 1 1 -2.21707,0 1.1085352,1.1085352 0 1 1 2.21707,0 z"
+         transform="translate(96.04496,672.03665)" />
+      <path
+         transform="translate(16.779671,591.18583)"
+         d="m 237.48424,169.43358 a 1.1085352,1.1085352 0 1 1 -2.21707,0 1.1085352,1.1085352 0 1 1 2.21707,0 z"
+         sodipodi:ry="1.1085352"
+         sodipodi:rx="1.1085352"
+         sodipodi:cy="169.43358"
+         sodipodi:cx="236.3757"
+         id="path3055"
+         style="color:black;fill:white;stroke:black;stroke-width:0.69999999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         sodipodi:type="arc" />
+      <text
+         xml:space="preserve"
+         style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:black;fill-opacity:1;stroke:none;font-family:Arial Unicode MS;-inkscape-font-specification:Arial Unicode MS"
+         x="174.53638"
+         y="859.55908"
+         id="text4048"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan4050"
+           x="174.53638"
+           y="859.55908"
+           style="font-size:14px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Linux Libertine;-inkscape-font-specification:Linux Libertine">θ</tspan></text>
+      <path
+         style="fill:none;stroke:black;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 43.904348,376.51305 263.426082,0 m 377.84348,0 272.73913,0"
+         id="path3153"
+         inkscape:connector-curvature="0"
+         transform="translate(0,261.36218)"
+         sodipodi:nodetypes="cccc" />
+      <path
+         style="fill:none;stroke:black;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 493.5913,25.278264 0,332.608696 m 0,37.25217 0,337.93044"
+         id="path3156"
+         inkscape:connector-curvature="0"
+         transform="translate(0,261.36218)"
+         sodipodi:nodetypes="cccc" />
+      <text
+         xml:space="preserve"
+         style="font-size:12px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:black;fill-opacity:1;stroke:none;font-family:Linux Libertine O;-inkscape-font-specification:Linux Libertine O Italic"
+         x="312.64346"
+         y="644.5274"
+         id="text3301"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan3303"
+           x="312.64346"
+           y="644.5274"
+           style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Linux Libertine O;-inkscape-font-specification:Linux Libertine O"><tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Linux Libertine Initials O;-inkscape-font-specification:Linux Libertine Initials O"
+   id="tspan3305">B</tspan>asic Trigonometric Identitities</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:12px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:black;fill-opacity:1;stroke:none;font-family:Linux Libertine O;-inkscape-font-specification:Linux Libertine O Italic"
+         x="-41.243477"
+         y="361.87827"
+         id="text3317"
+         sodipodi:linespacing="125%"
+         transform="translate(0,261.36218)"><tspan
+           sodipodi:role="line"
+           id="tspan3319"
+           x="-41.243477"
+           y="361.87827" /></text>
+      <text
+         xml:space="preserve"
+         style="font-size:12px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:black;fill-opacity:1;stroke:none;font-family:Linux Libertine O;-inkscape-font-specification:Linux Libertine O Italic"
+         x="-90.469566"
+         y="179.6087"
+         id="text3355"
+         sodipodi:linespacing="125%"
+         transform="translate(0,261.36218)"><tspan
+           sodipodi:role="line"
+           id="tspan3357"
+           x="-90.469566"
+           y="179.6087" /></text>
+    </g>
+  </g>
+</svg>

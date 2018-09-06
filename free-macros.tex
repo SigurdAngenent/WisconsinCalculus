@@ -1,0 +1,234 @@
+\ifdefined\willusechapters
+\renewcommand{\thechapter}{\Roman{chapter}}
+\fi
+%%
+%% Previous version used a home-brew chapter style
+%%
+%% \newcounter{chapter}
+%% \renewcommand{\chapter}[1]{
+%% \refstepcounter{chapter}
+%% \setcounter{section}{0}
+%% \newpage
+%% \begin{center}
+%%   \large\bfseries\color{badgerred}Chapter \thechapter \\[2ex]
+%%   \huge\bfseries\sffamily#1
+%% \end{center}
+%% \bigskip
+%% \addtocontents{toc}{{#1}}
+%% }
+\renewcommand{\thesection}{\arabic{section}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\sidenote}[1]{\marginpar{%
+\fcolorbox{darkbluegreen}{darkgreen}{\sffamily\footnotesize\color[rgb]{0.7,1.0,0.7}#1
+}} }
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%       FONTS 
+\def\dfnt{\sffamily\itshape\color{darkbluegreen}} % font for text in pdf_tex figures
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%       ENVIRONMENTS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newenvironment{definition}[1][Definition]
+{\subsection{#1}\itshape}
+{\upshape}
+\newenvironment{theorem}[1][Theorem]
+{\subsection{#1}\itshape}
+{\upshape}
+\newenvironment{lemma}[1][Lemma]
+{\subsection{#1}\itshape}
+{\upshape}
+\newenvironment{example}[1][Example]
+{\subsection{#1}}{\medskip}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%      MACROS for PROBLEMS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newcommand{\problemfont}{\sffamily\small%
+\setlength{\parskip}{3pt plus3pt}%
+\setlength{\parindent}{1pc}}
+%
+\newcommand{\noproblemfont}
+  {\rmfamily\normalsize\setlength{\parskip}{0.0pt}}
+%
+\newcounter{PROB}[section]
+%  if we're using amsbook then include this:
+%\renewcommand{\thePROB}{{\rmfamily\Roman{chapter}}.\arabic{section}.\arabic{PROB}}
+%\renewcommand{\thesection}{{\rmfamily\Roman{chapter}}.\arabic{section}}
+%  otherwise:
+\renewcommand{\thePROB}{\arabic{section}.\arabic{PROB}}
+%\renewcommand{\thePROB}{\arabic{PROB}}
+\newcommand{\prob}{\refstepcounter{PROB}%
+\noindent\hspace{1em}\makebox[0pt][r]{\textcolor{badgerred}{\textbf{\arabic{PROB}.~}} }
+\ignorespaces}
+
+\newcommand{\problem}{\par\smallskip
+
+\noindent\prob}
+
+\newcounter{SUBPROB}[PROB]
+\newcommand{\subprob}
+ {\refstepcounter{SUBPROB}\noindent{\bfseries\color{badgerred}(\alph{SUBPROB})}~~}
+\newcommand{\tsubprob}{\text{\subprob}}
+
+\newcommand\groupproblem{{\bfseries\sffamily [Group Problem] }}
+%\newcommand\groupproblem{}
+\newcommand{\carefulnow}{{\tiny\textdbend}}
+\newcommand{\marginwarning}{\hbox to0pt{\kern-3em \color{red}\small\textdbend}}%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     MACROS for PROJECTS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcounter{PROJECT}
+\newcommand{\project}[1]{\newpage
+\refstepcounter{PROJECT}
+\addcontentsline{toc}{chapter}{\textbf{Project: }\textsc{#1}}
+\setcounter{section}{0}
+\null
+\vspace{0.5in}
+\begin{center}
+  \textsc{math 221 project} \\
+  \huge\bfseries\color{badgerred} #1
+\end{center}
+\bigskip
+
+}
+%%%%%%%%%%%%%   Various abbreviations  %%%%%%%%%%%
+\newcommand{\setA}{\mathcal{A}}
+\newcommand{\setB}{\mathcal{B}}
+\newcommand{\setC}{\mathcal{C}}
+\newcommand{\setD}{\mathcal{D}}
+\newcommand{\setE}{\mathcal{E}}
+\newcommand{\setF}{\mathcal{F}}
+\newcommand{\setG}{\mathcal{G}}
+\newcommand{\setH}{\mathcal{H}}
+\newcommand{\setI}{\mathcal{I}}
+\newcommand{\setJ}{\mathcal{J}}
+\newcommand{\setK}{\mathcal{K}}
+\newcommand{\setL}{\mathcal{L}}
+\newcommand{\setM}{\mathcal{M}}
+\newcommand{\setN}{\mathcal{N}}
+\newcommand{\setO}{\mathcal{O}}
+\newcommand{\setP}{\mathcal{P}}
+\newcommand{\setQ}{\mathcal{Q}}
+\newcommand{\setR}{\mathcal{R}}
+\newcommand{\setS}{\mathcal{S}}
+\newcommand{\setT}{\mathcal{T}}
+\newcommand{\setU}{\mathcal{U}}
+\newcommand{\setV}{\mathcal{V}}
+\newcommand{\setW}{\mathcal{W}}
+\newcommand{\setX}{\mathcal{X}}
+\newcommand{\setY}{\mathcal{Y}}
+\newcommand{\setZ}{\mathcal{Z}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% GENERAL MACROS
+\newcommand{\DS}{\displaystyle}
+%% TAYLOR MACROS
+\newcommand{\limntoi}{\lim_{n\to\infty}}
+\newcommand{\Ti}{T_{\infty}}
+%% VECTOR MACROS, used in 222 and 234.
+\newcommand{\vvv}[1]{{\protect\vecteur{\boldsymbol #1} }}  % Use for lower case
+\newcommand{\VVV}[1]{{\protect\vecteur{\boldsymbol #1} }}     % Use for uppercase
+%%%% JOEL'S vector and matrix macros
+\newcommand{\mat}{\begin{pmatrix}}
+\newcommand{\rix}{\end{pmatrix}}
+\newcommand{\tmat}{\left(\begin{smallmatrix}}
+\newcommand{\trix}{\end{smallmatrix}\right)}
+\newcommand{\vek}{\mat}
+\newcommand{\tor}{\rix}
+\newcommand{\tvek}{\tmat}
+\newcommand{\ttor}{\trix}
+\newcommand{\deter}{\left|\;\begin{matrix}}
+\newcommand{\minant}{\end{matrix}\;\right|}
+\newcommand{\tpv}[2]{\protect\vecteur{{#1#2}} } % Two Point Vector
+\newcommand{\va}{{\vvv a}}
+\newcommand{\vb}{{\vvv b}}
+\newcommand{\vc}{{\vvv c}}
+\newcommand{\vd}{{\vvv d}}
+\newcommand{\ve}{{\vvv e}}
+\newcommand{\vf}{{\vvv f}}
+\newcommand{\vg}{{\vvv g}}
+\newcommand{\vp}{{\vvv p}}
+\newcommand{\vi}{{\vvv \imath}}
+\newcommand{\vj}{{\vvv \jmath}}
+\newcommand{\vk}{{\vvv k}}
+\newcommand{\vm}{{\vvv m}}
+\newcommand{\vn}{{\vvv n}}
+\newcommand{\vq}{{\vvv q}}
+\newcommand{\vr}{{\vvv r}}
+\newcommand{\vs}{{\vvv s}}
+\newcommand{\vt}{{\vvv t}}
+\newcommand{\vu}{{\vvv u}}
+\newcommand{\vv}{{\vvv v}}
+\newcommand{\vw}{{\vvv w}}
+\newcommand{\vx}{{\vvv x}}
+\newcommand{\vy}{{\vvv y}}
+\newcommand{\vz}{{\vvv z}}
+\newcommand{\vB}{{\VVV B}}
+\newcommand{\vE}{{\VVV E}}
+\newcommand{\vF}{{\VVV F}}
+\newcommand{\vG}{{\VVV G}}
+\newcommand{\vK}{{\VVV K}}
+\newcommand{\vL}{{\VVV L}}
+\newcommand{\vN}{{\VVV N}}
+\newcommand{\vT}{{\VVV T}}
+\newcommand{\vX}{{\VVV X}}
+% vector with subscript macros  
+\def\ves#1{\ve_{\kern-2pt\relax#1}}
+\def\vfs#1{\vf_{\kern-2pt\relax#1}}
+
+%  miscellaneous other macros
+\newcommand{\dpp}{{\boldsymbol\cdot}}  % dot product
+\newcommand{\cp}{{\boldsymbol\times}}  % cross product
+\newcommand{\parppd}[8]{%     parallelpiped
+{#1#2#3#4 \atop #5#6#7#8}
+}
+\newcommand{\nm}[1]{\left\|\smash{#1}\right\|}
+\newcommand{\Nm}[1]{\left\|{#1}\right\|}
+
+
+\newcommand{\odiff}[2]{\frac{\dd #1}{\dd #2}}
+\newcommand{\pdd}[2]{\frac{\partial #1}{\partial #2}}
+\newcommand{\isdef}{\stackrel{\mathrm{def}}{=}}
+\newcommand{\pll}{{/\!\!/}}
+
+\renewcommand{\emph}[1]{{\bfseries\itshape #1}}
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\R}{\mathbb{R}}
+%\renewcommand{\C}{\mathbb{C}}
+\newcommand{\cB}{\mathcal{B}} 
+\newcommand{\cC}{\mathcal{C}} 
+\newcommand{\cL}{\mathcal{L}} % used for differential operators
+\newcommand{\cP}{\mathcal{P}} % used for planes in Euclidean space
+\newcommand{\cD}{\mathcal{D}} % used for open subsets, domains, regions, etc.
+\newcommand{\cO}{\mathcal{O}} 
+\newcommand{\cR}{\mathcal{R}} 
+\newcommand{\cS}{\mathcal{S}} 
+\newcommand{\pd}{\partial}    % partial differentials
+\newcommand{\nab}{{\vvv\nabla}}
+\renewcommand{\div}{\mathop{\rm div}}
+\newcommand{\grad}{\mathop{\bf grad}}
+\newcommand{\curl}{\mathop{\bf curl}}
+\newcommand{\rot}{\mathop{\bf rot}}
+\newcommand{\lint}{\int\limits}
+\newcommand{\liint}{\iint\limits}
+\newcommand{\liiint}{\iiint\limits}
+\newcommand{\dd}{\mathrm{d}}
+\newcommand{\ds}{\dd s}
+\newcommand{\dA}{\dd A}
+\newcommand{\dV}{\dd V}
+
+\newcommand{\hC}{{\hat C}}
+\newcommand{\toi}{\to\infty}
+
+\newcommand{\tsum}{{\textstyle\sum}}
+\newcommand{\cis}[1]{\cos#1+i\sin#1}
+\newcommand{\artanh}{\mathop{\mathrm{artanh} }}
+\newcommand{\erf}{{\mathrm{erf\,}} }
+\newcommand{\mn}{\mathrm{min}}
+\newcommand{\mx}{\mathrm{max}}
+\newcommand{\micron}{\mu\mathrm{m}}
+\newcommand{\second}{\mathrm{sec}}
+%\newcommand{\pt}{\partial}
+\newcommand{\fibo}{\bm{\phi}} % Fibonacci number
+\newcommand{\sign}{\mathop{\mathrm{sign}} }
+\newcommand\ind[1]{1_{\{#1\}} }   % indicator function, used in David's projects

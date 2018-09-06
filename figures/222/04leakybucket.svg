@@ -1,0 +1,494 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Creator: fig2dev Version 3.2 Patchlevel 5 -->
+<!-- CreationDate: Tue Dec 16 17:13:40 2008 -->
+<!-- Magnification: 1.000 -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1.3in"
+   height="1.4in"
+   viewBox="-687 -1212 1594 1637"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.46"
+   sodipodi:docname="04leakybucket.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape">
+  <metadata
+     id="metadata85">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs83">
+    <pattern
+       inkscape:stockid="Polka dots, large"
+       id="Polkadots-large"
+       patternTransform="translate(0,0) scale(10,10)"
+       height="10"
+       width="10"
+       patternUnits="userSpaceOnUse"
+       inkscape:collect="always">
+      <circle
+         id="circle4469"
+         r="0.45"
+         cy="0.810"
+         cx="2.567"
+         style="fill:black;stroke:none" />
+      <circle
+         id="circle4471"
+         r="0.45"
+         cy="2.33"
+         cx="3.048"
+         style="fill:black;stroke:none" />
+      <circle
+         id="circle4473"
+         r="0.45"
+         cy="2.415"
+         cx="4.418"
+         style="fill:black;stroke:none" />
+      <circle
+         id="circle4475"
+         r="0.45"
+         cy="3.029"
+         cx="1.844"
+         style="fill:black;stroke:none" />
+      <circle
+         id="circle4477"
+         r="0.45"
+         cy="1.363"
+         cx="6.08"
+         style="fill:black;stroke:none" />
+      <circle
+         id="circle4479"
+         r="0.45"
+         cy="4.413"
+         cx="5.819"
+         style="fill:black;stroke:none" />
+      <circle
+         id="circle4481"
+         r="0.45"
+         cy="4.048"
+         cx="4.305"
+         style="fill:black;stroke:none" />
+      <circle
+         id="circle4483"
+         r="0.45"
+         cy="3.045"
+         cx="5.541"
+         style="fill:black;stroke:none" />
+      <circle
+         id="circle4485"
+         r="0.45"
+         cy="5.527"
+         cx="4.785"
+         style="fill:black;stroke:none" />
+      <circle
+         id="circle4487"
+         r="0.45"
+         cy="5.184"
+         cx="2.667"
+         style="fill:black;stroke:none" />
+      <circle
+         id="circle4489"
+         r="0.45"
+         cy="1.448"
+         cx="7.965"
+         style="fill:black;stroke:none" />
+      <circle
+         id="circle4491"
+         r="0.45"
+         cy="5.049"
+         cx="7.047"
+         style="fill:black;stroke:none" />
+      <circle
+         id="circle4493"
+         r="0.45"
+         cy="0.895"
+         cx="4.340"
+         style="fill:black;stroke:none" />
+      <circle
+         id="circle4495"
+         r="0.45"
+         cy="0.340"
+         cx="7.125"
+         style="fill:black;stroke:none" />
+      <circle
+         id="circle4497"
+         r="0.45"
+         cy="1.049"
+         cx="9.553"
+         style="fill:black;stroke:none" />
+      <circle
+         id="circle4499"
+         r="0.45"
+         cy="2.689"
+         cx="7.006"
+         style="fill:black;stroke:none" />
+      <circle
+         id="circle4501"
+         r="0.45"
+         cy="2.689"
+         cx="8.909"
+         style="fill:black;stroke:none" />
+      <circle
+         id="circle4503"
+         r="0.45"
+         cy="4.407"
+         cx="9.315"
+         style="fill:black;stroke:none" />
+      <circle
+         id="circle4505"
+         r="0.45"
+         cy="3.870"
+         cx="7.820"
+         style="fill:black;stroke:none" />
+      <circle
+         id="circle4507"
+         r="0.45"
+         cy="5.948"
+         cx="8.270"
+         style="fill:black;stroke:none" />
+      <circle
+         id="circle4509"
+         r="0.45"
+         cy="7.428"
+         cx="7.973"
+         style="fill:black;stroke:none" />
+      <circle
+         id="circle4511"
+         r="0.45"
+         cy="8.072"
+         cx="9.342"
+         style="fill:black;stroke:none" />
+      <circle
+         id="circle4513"
+         r="0.45"
+         cy="9.315"
+         cx="8.206"
+         style="fill:black;stroke:none" />
+      <circle
+         id="circle4515"
+         r="0.45"
+         cy="9.475"
+         cx="9.682"
+         style="fill:black;stroke:none" />
+      <circle
+         id="circle4517"
+         r="0.45"
+         cy="6.186"
+         cx="9.688"
+         style="fill:black;stroke:none" />
+      <circle
+         id="circle4519"
+         r="0.45"
+         cy="6.296"
+         cx="3.379"
+         style="fill:black;stroke:none" />
+      <circle
+         id="circle4521"
+         r="0.45"
+         cy="8.204"
+         cx="2.871"
+         style="fill:black;stroke:none" />
+      <circle
+         id="circle4523"
+         r="0.45"
+         cy="8.719"
+         cx="4.59"
+         style="fill:black;stroke:none" />
+      <circle
+         id="circle4525"
+         r="0.45"
+         cy="9.671"
+         cx="3.181"
+         style="fill:black;stroke:none" />
+      <circle
+         id="circle4527"
+         r="0.45"
+         cy="7.315"
+         cx="5.734"
+         style="fill:black;stroke:none" />
+      <circle
+         id="circle4529"
+         r="0.45"
+         cy="6.513"
+         cx="6.707"
+         style="fill:black;stroke:none" />
+      <circle
+         id="circle4531"
+         r="0.45"
+         cy="9.670"
+         cx="5.730"
+         style="fill:black;stroke:none" />
+      <circle
+         id="circle4533"
+         r="0.45"
+         cy="8.373"
+         cx="6.535"
+         style="fill:black;stroke:none" />
+      <circle
+         id="circle4535"
+         r="0.45"
+         cy="7.154"
+         cx="4.37"
+         style="fill:black;stroke:none" />
+      <circle
+         id="circle4537"
+         r="0.45"
+         cy="7.25"
+         cx="0.622"
+         style="fill:black;stroke:none" />
+      <circle
+         id="circle4539"
+         r="0.45"
+         cy="5.679"
+         cx="0.831"
+         style="fill:black;stroke:none" />
+      <circle
+         id="circle4541"
+         r="0.45"
+         cy="8.519"
+         cx="1.257"
+         style="fill:black;stroke:none" />
+      <circle
+         id="circle4543"
+         r="0.45"
+         cy="6.877"
+         cx="1.989"
+         style="fill:black;stroke:none" />
+      <circle
+         id="circle4545"
+         r="0.45"
+         cy="3.181"
+         cx="0.374"
+         style="fill:black;stroke:none" />
+      <circle
+         id="circle4547"
+         r="0.45"
+         cy="1.664"
+         cx="1.166"
+         style="fill:black;stroke:none" />
+      <circle
+         id="circle4549"
+         r="0.45"
+         cy="0.093"
+         cx="1.151"
+         style="fill:black;stroke:none" />
+      <circle
+         id="circle4551"
+         r="0.45"
+         cy="10.093"
+         cx="1.151"
+         style="fill:black;stroke:none" />
+      <circle
+         id="circle4553"
+         r="0.45"
+         cy="4.451"
+         cx="1.302"
+         style="fill:black;stroke:none" />
+      <circle
+         id="circle4555"
+         r="0.45"
+         cy="3.763"
+         cx="3.047"
+         style="fill:black;stroke:none" />
+    </pattern>
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 63 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="116.99999 : 63 : 1"
+       inkscape:persp3d-origin="58.499996 : 42 : 1"
+       id="perspective87" />
+  </defs>
+  <sodipodi:namedview
+     inkscape:window-height="756"
+     inkscape:window-width="1232"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     guidetolerance="10.0"
+     gridtolerance="10.0"
+     objecttolerance="10.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base"
+     showgrid="false"
+     inkscape:zoom="3.952381"
+     inkscape:cx="54.072286"
+     inkscape:cy="63"
+     inkscape:window-x="0"
+     inkscape:window-y="22"
+     inkscape:current-layer="svg2" />
+  <text
+     style="font-size:122.61539261px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr;text-anchor:start;fill:#000000;stroke:#000000;stroke-width:0.02500000000000000in;font-family:Times;-inkscape-font-specification:Times Italic"
+     id="text6"
+     font-size="120"
+     font-weight="normal"
+     font-style="italic"
+     y="-525"
+     x="572.75214"
+     xml:space="preserve"
+     sodipodi:linespacing="125%">h(t)</text>
+  <polyline
+     id="polyline8"
+     style="fill:#ffffff;stroke:#000000;stroke-width:7;stroke-linecap:butt;stroke-linejoin:miter"
+     points="-600,-1200 -675,-1200 -675,-225 -225,-225 -225,-300 -600,-300 -600,-1200 " />
+  <g
+     id="g10"
+     style="stroke:#000000;stroke-width:7">
+    <defs
+       id="defs12">
+      <pattern
+         patternUnits="userSpaceOnUse"
+         height="200"
+         width="200"
+         y="0"
+         x="0"
+         id="tile1">
+        <path
+           id="path15"
+           d="M 200 -100 0  20" />
+        <path
+           id="path17"
+           d="M 200  -60 0  60" />
+        <path
+           id="path19"
+           d="M 200  -20 0 100" />
+        <path
+           id="path21"
+           d="M 200   20 0 140" />
+        <path
+           id="path23"
+           d="M 200   60 0 180" />
+        <path
+           id="path25"
+           d="M 200  100 0 220" />
+        <path
+           id="path27"
+           d="M 200  140 0 260" />
+        <path
+           id="path29"
+           d="M 200  180 0 300" />
+      </pattern>
+    </defs>
+  </g>
+  <polyline
+     id="polyline31"
+     style="fill:url(#Polkadots-large);stroke:#000000;stroke-width:7;stroke-linecap:butt;stroke-linejoin:miter;fill-opacity:1.0"
+     points="-600,-1200 -675,-1200 -675,-225 -225,-225 -225,-300 -600,-300 -600,-1200 " />
+  <polyline
+     id="polyline33"
+     style="fill:#87cfff;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter"
+     points="-600,-825 300,-825 300,-300 -75,-300 -75,-225 -225,-225 -225,-300 -600,-300 -600,-825 " />
+  <polyline
+     id="polyline35"
+     style="stroke:#000000;stroke-width:7;stroke-linecap:butt;stroke-linejoin:round"
+     points="525,-765 525,-360 " />
+  <polygon
+     id="polygon37"
+     style="fill:#000000;stroke:#000000;stroke-width:2.99726515000000004;fill-opacity:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-linejoin:round"
+     points="502,-366 525,-291 547,-366 525,-351 502,-366 " />
+  <polygon
+     id="polygon39"
+     style="fill:#000000;stroke:#000000;stroke-width:2.99726515000000004;stroke-miterlimit:4;stroke-dasharray:none;stroke-linejoin:round;fill-opacity:1"
+     points="547,-757 525,-832 502,-757 525,-772 547,-757 " />
+  <polyline
+     id="polyline41"
+     style="fill:#ffffff;stroke:#000000;stroke-width:7;stroke-linecap:butt;stroke-linejoin:miter"
+     points="-75,-300 -75,-225 375,-225 375,-1200 300,-1200 300,-300 -75,-300 " />
+  <g
+     id="g43"
+     style="stroke:#000000;stroke-width:7">
+    <defs
+       id="defs45">
+      <pattern
+         patternUnits="userSpaceOnUse"
+         height="200"
+         width="200"
+         y="0"
+         x="0"
+         id="tile2">
+        <path
+           id="path48"
+           d="M 0 -100 200 20" />
+        <path
+           id="path50"
+           d="M 0  -60 200 60" />
+        <path
+           id="path52"
+           d="M 0  -20 200 100" />
+        <path
+           id="path54"
+           d="M 0   20 200 140" />
+        <path
+           id="path56"
+           d="M 0   60 200 180" />
+        <path
+           id="path58"
+           d="M 0  100 200 220" />
+        <path
+           id="path60"
+           d="M 0  140 200 260" />
+        <path
+           id="path62"
+           d="M 0  180 200 300" />
+      </pattern>
+    </defs>
+  </g>
+  <polyline
+     id="polyline64"
+     style="fill:url(#Polkadots-large);stroke:#000000;stroke-width:7;stroke-linecap:butt;stroke-linejoin:miter;fill-opacity:1.0"
+     points="-75,-300 -75,-225 375,-225 375,-1200 300,-1200 300,-300 -75,-300 " />
+  <polyline
+     id="polyline66"
+     style="stroke:#000000;stroke-width:7;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:40, 40"
+     points="375,-825 675,-825 " />
+  <polyline
+     id="polyline68"
+     style="stroke:#000000;stroke-width:7;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:40, 40;fill:#000000;fill-opacity:1"
+     points="375,-300 675,-300 " />
+  <polygon
+     id="polygon70"
+     style="fill:#87cfff;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:bevel"
+     points="-75,-225 -75,-224 -75,-220 -75,-211 -75,-195 -75,-174 -76,-151 -76,-127 -76,-104 -77,-83 -77,-63 -78,-46 -78,-30 -79,-15 -80,0 -81,15 -82,29 -84,42 -85,54 -86,65 -88,77 -89,88 -91,100 -93,115 -95,131 -98,151 -100,173 -103,199 -106,225 -109,259 -110,285 -111,306 -111,323 -111,336 -110,347 -110,355 -109,360 -109,362 -108,363 -105,371 -100,384 -95,398 -91,411 -89,421 -90,424 -94,422 -99,416 -104,410 -106,406 -107,405 -108,406 -111,410 -117,415 -120,419 -121,420 -122,419 -125,412 -131,403 -134,396 -135,395 -136,394 -138,392 -143,387 -145,385 -146,384 -147,384 -152,386 -160,389 -165,391 -166,391 -165,389 -162,385 -159,379 -155,371 -151,361 -147,349 -145,333 -144,313 -145,288 -148,265 -151,245 -155,229 -158,218 -162,210 -165,203 -168,197 -172,189 -175,177 -180,162 -184,142 -189,119 -193,95 -195,78 -196,69 -196,66 -195,67 -194,67 -193,65 -193,57 -194,41 -195,18 -196,-3 -198,-21 -198,-34 -199,-44 -199,-51 -199,-57 -200,-62 -200,-69 -201,-78 -202,-92 -204,-110 -206,-130 -210,-157 -213,-175 -215,-185 -216,-190 -218,-194 -220,-201 -222,-212 -225,-225 -225,-227 -226,-229 -226,-231 -227,-233 -227,-234 -227,-235 -227,-236 -227,-237 -227,-236 -227,-235 -227,-234 -227,-233 -226,-232 -226,-231 -226,-230 -226,-229 -226,-228 -225,-227 -225,-226 -225,-225 -224,-225 -220,-225 -211,-225 -196,-225 -174,-225 -150,-225 -126,-225 -104,-225 -89,-225 -80,-225 -76,-225 -75,-225 " />
+  <text
+     style="font-size:136.23932512px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr;text-anchor:start;fill:#000000;stroke:#000000;stroke-width:0.02500000000000000in;font-family:Times;-inkscape-font-specification:Times Italic"
+     id="text72"
+     font-size="120"
+     font-weight="normal"
+     font-style="italic"
+     y="-416.34106"
+     x="-181.87086"
+     xml:space="preserve"
+     sodipodi:linespacing="125%">v</text>
+  <text
+     style="font-size:122.61539261px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr;text-anchor:start;fill:#000000;stroke:#000000;stroke-width:0.02500000000000000in;font-family:Times New Roman;-inkscape-font-specification:Times New Roman Italic"
+     id="text74"
+     font-size="120"
+     font-weight="normal"
+     font-style="italic"
+     y="-981.74359"
+     x="-341.00854"
+     xml:space="preserve"
+     sodipodi:linespacing="125%">area = A</text>
+  <polyline
+     id="polyline78"
+     style="stroke:#000000;stroke-width:7;stroke-linecap:round;stroke-linejoin:miter"
+     points="-150,-375 -150,-150 " />
+  <polygon
+     id="polygon80"
+     style="fill:#000000;stroke:#000000;stroke-width:7;stroke-linejoin:round"
+     points="-179,-165 -149,-72 -119,-165 -149,-147 -179,-165 " />
+</svg>

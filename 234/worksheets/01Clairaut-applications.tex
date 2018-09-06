@@ -1,0 +1,47 @@
+\begin{center}
+    \bfseries\sffamily
+    Double roots in linear constant coefficient diffeqs\\
+    \ttfamily worksheets/01Clairaut-applications.tex
+\end{center}
+\begin{multicols}{2}
+Remember that to solve a differential equation of the form
+\begin{equation}
+    y''(x) + a y'(x) + b y(x) = 0
+    \label{eq:cont-coeff-diffeq}
+\end{equation}
+you first try to find solutions of the form $y=e^{rx}$.  If you
+substitute
+$y=e^{rx}$ then you get
+\begin{equation}\label{eq:characteristic-polynomial-appears}
+    \frac{d^2y}{dx^2} + a\frac{dy}{dx}+by = (r^2+ar+b) e^{rx}.
+\end{equation}
+The polynomial $P(r) = r^2+ar+b$ is called the \textit{characteristic
+polynomial} of the equation.  The solutions of $P(r) = 0$ were called
+the
+characteristic roots.  When the two characteristic roots are different
+you get two solutions, $e^{r_1x}$ and $e^{r_2x}$, but if $r_1=r_2$
+then you only
+get one solution namely, $y=e^{r_1x}$.  In math 222 we said that 
+in this case $xe^{rx}$ is also a solution.  We can now give a short
+explanation
+
+$\bullet$ Treating $y= e^{rx}$ as a function of two variables $r$ and $x$, differentiate
+both sides of equation \eqref{eq:characteristic-polynomial-appears} with respect
+to $r$.  Call $\frac{\pd y}{\pd r} = z$.  What differential equation does
+$z$ satisfy?
+
+$\bullet$ The function $y(r, t) = \cos rt$ satisfies
+\[
+\frac{d^2 y}{dt^2} + 4 y = (4-r^2)\cos rt.
+\]
+By differentiating this equation with respect to $r$ 
+you can find a particular solution for the equation 
+\[
+\frac{d^2 y}{dt^2} + 4 y = \sin2t
+\]
+Do this.
+
+\end{multicols}
+
+
+

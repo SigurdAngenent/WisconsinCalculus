@@ -1,0 +1,62 @@
+%% Creator: Inkscape inkscape 0.48.1, www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file '06polar-tangent-drdtheta.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+
+\begingroup
+  \makeatletter
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}
+    \renewcommand\color[2][]{}%
+  }
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}
+    \renewcommand\transparent[1]{}%
+  }
+  \providecommand\rotatebox[2]{#2}
+  \ifx\svgwidth\undefined
+    \setlength{\unitlength}{399.24421387pt}
+  \else
+    \setlength{\unitlength}{\svgwidth}
+  \fi
+  \global\let\svgwidth\undefined
+  \makeatother
+  \begin{picture}(1,0.37694303)%
+    \put(0,0){\includegraphics[width=\unitlength]{06polar-tangent-drdtheta.pdf}}%
+    \put(0.68781377,0.33865418){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\vx(\theta) = f(\theta)\vu(\theta)$}}}%
+    \put(0.5552927,0.1026191){\color[rgb]{0,0,0}\rotatebox{29.55552943}{\makebox(0,0)[lb]{\smash{$f(\theta)$}}}}%
+    \put(0.49175935,0.1163618){\color[rgb]{0,0,0}\rotatebox{40.37037664}{\makebox(0,0)[lb]{\smash{$f(\theta + \Delta \theta)$}}}}%
+    \put(0.56398348,0.1405358){\color[rgb]{0,0,0}\rotatebox{33.13855997}{\makebox(0,0)[lb]{\smash{$\Delta\theta$}}}}%
+    \put(0.86943304,0.23145356){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\varphi$}}}%
+    \put(0.82546829,0.25989989){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\Delta r$}}}%
+    \put(0.80599181,0.20099792){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$r\Delta\theta$}}}%
+    \put(0.1377864,0.14595256){\color[rgb]{0,0,0}\rotatebox{30.60217302}{\makebox(0,0)[lb]{\smash{$r=f(\theta)$}}}}%
+    \put(0.21574106,0.22749978){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\varphi$}}}%
+    \put(0.62791645,0.22001415){\color[rgb]{0,0,0}\rotatebox{-57.14862548}{\makebox(0,0)[lb]{\smash{$r\Delta\theta$}}}}%
+    \put(0.82991081,0.11717584){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\tan\varphi \approx \dfrac{\Delta r}{r\Delta\theta}$}}}%
+    \put(0.6371129,0.26390746){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\Delta r$}}}%
+    \put(0.90161199,0.23184692){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\Delta s$}}}%
+    \put(0.82991081,0.06908496){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$(\Delta s)^2 \approx (\Delta r)^2 + (r\Delta\theta)^2$}}}%
+  \end{picture}%
+\endgroup

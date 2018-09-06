@@ -1,0 +1,62 @@
+01gradientANDlevels.py:    print( "t=%5f xx=%5f yy=%5f grad=(%5f, %5f)"%(t, xx, yy, grx, gry) )
+02localmax.py:print( PMAT )
+03example-2nd-deriv-test-wires.py:print( PMAT )
+03helix.py:print( PMAT )
+03helix-wall.py:print( PMAT )
+03onion.py:print( P(2/sqrt(3.0)) )
+03osculating.py:print( PMAT )
+03twotangents.py:print( PMAT )
+04Doubleint-example.py:print( PMAT )
+04Doubleint-example1.py:print( PMAT )
+04Doubleint-example2.py:print( PMAT )
+04helix.py:print( theProjection() )
+04helix.py:print( theProjection() )
+04helix.py:print( pr([1,0,0],1) )
+04iteratedintegral.py:print( PMAT )
+04riemannsum.py:print( PMAT )
+04riemannsum-expo.py:print( PMAT )
+04saddle-sliced.py:print( theProjection() )
+04saddle-sliced.py:print( theProjection() )
+04saddle-sliced.py:print( pr([1,0,0],1) )
+04under_the_helix.py:print( PMAT )
+04under_the_helix.py:print( he[0] )
+05helix.py:print( he[0] )
+grapher.py:    print( """Loading grapher.py""" )
+grapher.py:        print( "Ignoring the dummy target %s"%(dummytarget) )
+grapher.py:        print( "Using target %s"%(target) )
+grapher.py:        print( "Use setTarget() to change the target" )
+grapher.py:        printstring = """\
+grapher.py:        print(printstring)
+grapher.py:        print( """........opening output file  |%s|"""%(name) )
+grapher.py:        print( "unknown target: %s"%(target)  )
+grapher.py:    print( "........closing %s.eps"%(filename) )
+grapher.py:    print( "........closing %s.tex"%(filename) )
+grapher.py:        print( "........making %s.pdf"%(filename) )
+grapher.py:        print( "........making %s.png"%(filename) )
+grapher.py:        print( "........making temp.dvi result %d"%(result) )
+grapher.py:        print( "........making %s.png result %d"%(filename, result) )
+grapher.py:    print( "....done" )
+grapher.py:                print( "%s %6.2f %6.2f %6.2f%6.2f"%(\
+grapher.py:                print( "%s %6.2f %6.2f %6.2f%6.2f"%(\
+grapher.py:    print( "plot parameter range %lf...%lf"%(tmin, tmax) )
+grapher.py:    #print texcommand
+grapher3d.py:print "........Grapher3D"
+grapher3d.py:print "........Imported grapher"
+grapher3d.py:print "........Imported numpy"
+grapher3d.py:        print "....pr\n", PMAT, q
+grapher3d.py:    print  ".,.,.,.,projection matrix:\n", PMAT
+grapher3d.py:    print  ".,.,.,.,projection matrix:\n", PMAT
+logo-helix.py:print PMAT
+old_grapher.py:    print """........opening output file  |%s|"""%(name)
+old_grapher.py:    print """........OS name is """+os.name
+old_grapher.py:    print """........current working directory is
+old_grapher.py:    print """\
+old_grapher.py:    print "........closing %s.eps"%(filename)
+old_grapher.py:    print "........closing %s.tex"%(filename)
+old_grapher.py:    print "........making %s.pdf"%(filename)
+old_grapher.py:    print "........done"
+old_grapher.py:                print "%s %6.2f %6.2f %6.2f%6.2f"%(\
+old_grapher.py:                print "%s %6.2f %6.2f %6.2f%6.2f"%(\
+old_grapher.py:    print "plot parameter range %lf...%lf"%(tmin, tmax)
+old_grapher.py:    #print texcommand
+old_grapher.py:#print __doc__

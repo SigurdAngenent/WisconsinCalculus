@@ -1,0 +1,302 @@
+\contentsline {chapter}{\tocchapter {Chapter}{1}{Vector Geometry in Three dimensional space}}{5}{chapter.1}
+\contentsline {section}{\tocsection {}{1}{Three dimensional space}}{5}{section.1.1}
+\contentsline {section}{\tocsection {}{2}{Geometric description of vectors}}{5}{section.1.2}
+\contentsline {subsection}{\tocsubsection {}{2.1}{Points and their coordinates}}{5}{subsection.1.2.1}
+\contentsline {subsection}{\tocsubsection {}{2.2}{Vectors}}{6}{subsection.1.2.2}
+\contentsline {subsubsection}{\tocsubsubsection {}{}{Informal definition of ``vectors''}}{6}{section*.2}
+\contentsline {section}{\tocsection {}{3}{Arithmetic of vectors}}{6}{section.1.3}
+\contentsline {section}{\tocsection {}{4}{Vector algebra}}{7}{section.1.4}
+\contentsline {section}{\tocsection {}{5}{Component representation of vectors}}{8}{section.1.5}
+\contentsline {subsection}{\tocsubsection {}{5.1}{Components of a vector in two dimensional space}}{8}{subsection.1.5.1}
+\contentsline {subsection}{\tocsubsection {}{5.2}{Components of a vector in three dimensional space}}{8}{subsection.1.5.2}
+\contentsline {subsection}{\tocsubsection {}{5.3}{Length of a vector whose components are given}}{9}{subsection.1.5.3}
+\contentsline {section}{\tocsection {}{6}{The dot product}}{9}{section.1.6}
+\contentsline {subsection}{\tocsubsection {}{6.1}{Geometric description of the dot product}}{9}{subsection.1.6.1}
+\contentsline {subsection}{\tocsubsection {}{6.2}{The dot product in terms of vector components}}{10}{subsection.1.6.2}
+\contentsline {subsection}{\tocsubsection {}{6.3}{Algebraic properties of the dot product}}{10}{subsection.1.6.3}
+\contentsline {section}{\tocsection {}{7}{The cross product}}{10}{section.1.7}
+\contentsline {subsection}{\tocsubsection {}{7.1}{Geometric description of the cross product}}{10}{subsection.1.7.1}
+\contentsline {subsection}{\tocsubsection {}{7.2}{Algebraic description of the cross product}}{11}{subsection.1.7.2}
+\contentsline {subsection}{\tocsubsection {}{7.3}{Algebraic properties of the cross product}}{11}{subsection.1.7.3}
+\contentsline {section}{\tocsection {}{8}{The triple product}}{12}{section.1.8}
+\contentsline {section}{\tocsection {}{9}{Determinants}}{13}{section.1.9}
+\contentsline {section}{\tocsection {}{10}{Determinants, the triple product, and the cross product}}{13}{section.1.10}
+\contentsline {section}{\tocsection {}{11}{Defining equations for lines and planes}}{14}{section.1.11}
+\contentsline {subsection}{\tocsubsection {}{11.1}{Lines}}{14}{subsection.1.11.1}
+\contentsline {subsection}{\tocsubsection {}{11.2}{Planes}}{15}{subsection.1.11.2}
+\contentsline {section}{\tocsection {}{12}{Problems}}{16}{section.1.12}
+\contentsline {chapter}{\tocchapter {Chapter}{2}{Parametric curves and vector functions}}{21}{chapter.2}
+\contentsline {section}{\tocsection {}{1}{Vector functions}}{21}{section.2.1}
+\contentsline {section}{\tocsection {}{2}{Using vector functions to describe motion}}{21}{section.2.2}
+\contentsline {section}{\tocsection {}{3}{Lines}}{22}{section.2.3}
+\contentsline {section}{\tocsection {}{4}{Circular motion}}{22}{section.2.4}
+\contentsline {section}{\tocsection {}{5}{The cycloid}}{23}{section.2.5}
+\contentsline {section}{\tocsection {}{6}{The helix}}{23}{section.2.6}
+\contentsline {section}{\tocsection {}{7}{The derivative of a vector function}}{24}{section.2.7}
+\contentsline {subsection}{\tocsubsection {}{}{Definition}}{24}{section*.21}
+\contentsline {subsection}{\tocsubsection {}{}{Example}}{25}{section*.22}
+\contentsline {section}{\tocsection {}{8}{The derivative as velocity vector}}{25}{section.2.8}
+\contentsline {section}{\tocsection {}{9}{Acceleration}}{26}{section.2.9}
+\contentsline {section}{\tocsection {}{10}{The differentiation rules}}{27}{section.2.10}
+\contentsline {subsection}{\tocsubsection {}{10.1}{The sum rule}}{27}{subsection.2.10.1}
+\contentsline {subsection}{\tocsubsection {}{10.2}{The many product rules}}{27}{subsection.2.10.2}
+\contentsline {section}{\tocsection {}{11}{Vector functions of constant length}}{27}{section.2.11}
+\contentsline {subsubsection}{\tocsubsubsection {}{}{Theorem}}{28}{section*.24}
+\contentsline {section}{\tocsection {}{12}{Two examples}}{28}{section.2.12}
+\contentsline {subsection}{\tocsubsection {}{12.1}{Motion on a straight line}}{28}{subsection.2.12.1}
+\contentsline {subsection}{\tocsubsection {}{12.2}{Circular motion}}{28}{subsection.2.12.2}
+\contentsline {section}{\tocsection {}{13}{Arc length}}{29}{section.2.13}
+\contentsline {section}{\tocsection {}{14}{Arc length derivative}}{30}{section.2.14}
+\contentsline {section}{\tocsection {}{15}{Unit Tangent and Curvature}}{31}{section.2.15}
+\contentsline {subsection}{\tocsubsection {}{15.1}{Unit tangent}}{31}{subsection.2.15.1}
+\contentsline {subsection}{\tocsubsection {}{15.2}{Example}}{31}{subsection.2.15.2}
+\contentsline {subsection}{\tocsubsection {}{15.3}{Curvature and normal}}{31}{subsection.2.15.3}
+\contentsline {subsubsection}{\tocsubsubsection {}{}{Theorem}}{32}{section*.26}
+\contentsline {section}{\tocsection {}{16}{Osculating plane}}{32}{section.2.16}
+\contentsline {section}{\tocsection {}{17}{Problems}}{32}{section.2.17}
+\contentsline {chapter}{\tocchapter {Chapter}{3}{Functions of more than one variable}}{35}{chapter.3}
+\contentsline {section}{\tocsection {}{1}{Functions of two variables and their graphs}}{35}{section.3.1}
+\contentsline {subsection}{\tocsubsection {}{1.1}{Definition}}{35}{subsection.3.1.1}
+\contentsline {subsection}{\tocsubsection {}{1.2}{Graphs}}{35}{subsection.3.1.2}
+\contentsline {subsection}{\tocsubsection {}{1.3}{Level sets}}{36}{subsection.3.1.3}
+\contentsline {subsection}{\tocsubsection {}{1.4}{An example from the ``real'' world}}{37}{subsection.3.1.4}
+\contentsline {subsection}{\tocsubsection {}{1.5}{A comment about language and set-theoretic notation}}{37}{subsection.3.1.5}
+\contentsline {subsection}{\tocsubsection {}{1.6}{Vector notation}}{37}{subsection.3.1.6}
+\contentsline {section}{\tocsection {}{2}{Linear functions}}{38}{section.3.2}
+\contentsline {section}{\tocsection {}{3}{Quadratic forms}}{38}{section.3.3}
+\contentsline {subsection}{\tocsubsection {}{3.1}{Definition}}{38}{subsection.3.3.1}
+\contentsline {subsubsection}{\tocsubsubsection {}{}{The prototypical examples}}{39}{section*.32}
+\contentsline {subsection}{\tocsubsection {}{3.2}{Classifying quadratic forms -- the general procedure}}{39}{subsection.3.3.2}
+\contentsline {subsection}{\tocsubsection {}{3.3}{Classifying quadratic forms -- two examples}}{40}{subsection.3.3.3}
+\contentsline {subsubsection}{\tocsubsubsection {}{3.3.1}{An indefinite quadratic form}}{40}{subsubsection.3.3.3.1}
+\contentsline {subsubsection}{\tocsubsubsection {}{3.3.2}{A positive definite quadratic form}}{40}{subsubsection.3.3.3.2}
+\contentsline {section}{\tocsection {}{4}{Functions in polar coordinates $r,\theta $}}{41}{section.3.4}
+\contentsline {subsection}{\tocsubsection {}{4.1}{Radially symmetric functions}}{41}{subsection.3.4.1}
+\contentsline {subsection}{\tocsubsection {}{4.2}{Functions of $\theta $ only}}{42}{subsection.3.4.2}
+\contentsline {section}{\tocsection {}{5}{Methods of visualizing the graph of a function}}{43}{section.3.5}
+\contentsline {subsection}{\tocsubsection {}{5.1}{Freezing a variable}}{43}{subsection.3.5.1}
+\contentsline {subsection}{\tocsubsection {}{5.2}{Moving graphs}}{43}{subsection.3.5.2}
+\contentsline {section}{\tocsection {}{}{Problems}}{44}{section*.40}
+\contentsline {chapter}{\tocchapter {Chapter}{4}{Derivatives}}{49}{chapter.4}
+\contentsline {section}{\tocsection {}{1}{Interior points and continuous functions}}{49}{section.4.1}
+\contentsline {section}{\tocsection {}{2}{Partial Derivatives}}{50}{section.4.2}
+\contentsline {subsection}{\tocsubsection {}{2.1}{Definition of Partial Derivatives}}{50}{subsection.4.2.1}
+\contentsline {subsection}{\tocsubsection {}{2.2}{Partial derivatives of functions of three or more variables}}{51}{subsection.4.2.2}
+\contentsline {subsection}{\tocsubsection {}{2.3}{Examples}}{51}{subsection.4.2.3}
+\contentsline {section}{\tocsection {}{3}{Problems}}{51}{section.4.3}
+\contentsline {section}{\tocsection {}{4}{The linear approximation to a function}}{52}{section.4.4}
+\contentsline {subsection}{\tocsubsection {}{4.1}{The Chain Rule and friends}}{52}{subsection.4.4.1}
+\contentsline {subsection}{\tocsubsection {}{4.2}{The linear approximation formula}}{52}{subsection.4.4.2}
+\contentsline {subsection}{\tocsubsection {}{4.3}{Linear approximation -- infinitesimal version}}{54}{subsection.4.4.3}
+\contentsline {subsection}{\tocsubsection {}{4.4}{The linear approximation formula with error term}}{55}{subsection.4.4.4}
+\contentsline {section}{\tocsection {}{5}{The tangent plane to a graph}}{55}{section.4.5}
+\contentsline {subsection}{\tocsubsection {}{5.1}{The tangent plane}}{55}{subsection.4.5.1}
+\contentsline {subsection}{\tocsubsection {}{5.2}{Example: tangent plane to the saddle surface at the origin}}{55}{subsection.4.5.2}
+\contentsline {subsection}{\tocsubsection {}{5.3}{Example: another tangent plane to the saddle surface}}{56}{subsection.4.5.3}
+\contentsline {subsection}{\tocsubsection {}{5.4}{Example: tangent plane to a sphere}}{57}{subsection.4.5.4}
+\contentsline {section}{\tocsection {}{6}{The Two Variable Chain Rule}}{58}{section.4.6}
+\contentsline {subsection}{\tocsubsection {}{6.1}{The chain rule}}{58}{subsection.4.6.1}
+\contentsline {subsection}{\tocsubsection {}{6.2}{The difference between $d$ and $\partial $}}{59}{subsection.4.6.2}
+\contentsline {subsection}{\tocsubsection {}{6.3}{An example}}{59}{subsection.4.6.3}
+\contentsline {subsubsection}{\tocsubsubsection {}{}{Answer 1 -- without using the chain rule}}{59}{section*.46}
+\contentsline {subsubsection}{\tocsubsubsection {}{}{Answer 2 -- using the chain rule}}{59}{section*.47}
+\contentsline {subsubsection}{\tocsubsubsection {}{}{The moral:}}{60}{section*.48}
+\contentsline {subsection}{\tocsubsection {}{6.4}{Another example}}{60}{subsection.4.6.4}
+\contentsline {section}{\tocsection {}{7}{Problems}}{61}{section.4.7}
+\contentsline {section}{\tocsection {}{8}{Gradients}}{62}{section.4.8}
+\contentsline {subsection}{\tocsubsection {}{8.1}{The gradient vector of a function}}{62}{subsection.4.8.1}
+\contentsline {subsection}{\tocsubsection {}{8.2}{The gradient as the ``direction of greatest increase'' for a function $f$}}{63}{subsection.4.8.2}
+\contentsline {subsection}{\tocsubsection {}{8.3}{The gradient is perpendicular to the level curve}}{64}{subsection.4.8.3}
+\contentsline {subsection}{\tocsubsection {}{8.4}{The tangent to the parabola $y=x^2$, again}}{64}{subsection.4.8.4}
+\contentsline {subsection}{\tocsubsection {}{8.5}{Example: the tangent to the zero set of $x^2-y^2+y^3$}}{65}{subsection.4.8.5}
+\contentsline {subsubsection}{\tocsubsubsection {}{}{The tangent at $(0,1)$}}{65}{section*.51}
+\contentsline {subsubsection}{\tocsubsubsection {}{}{The tangent at the origin}}{66}{section*.52}
+\contentsline {section}{\tocsection {}{9}{The chain rule and the gradient of a function of three variables}}{66}{section.4.9}
+\contentsline {subsection}{\tocsubsection {}{9.1}{The gradient, etc.}}{66}{subsection.4.9.1}
+\contentsline {subsection}{\tocsubsection {}{9.2}{Tangent plane to a level set}}{67}{subsection.4.9.2}
+\contentsline {subsection}{\tocsubsection {}{9.3}{Example: tangent plane to a sphere revisited}}{68}{subsection.4.9.3}
+\contentsline {subsection}{\tocsubsection {}{9.4}{Example}}{69}{subsection.4.9.4}
+\contentsline {section}{\tocsection {}{10}{Implicit Functions}}{70}{section.4.10}
+\contentsline {subsection}{\tocsubsection {}{10.1}{The Implicit Function Theorem}}{70}{subsection.4.10.1}
+\contentsline {subsection}{\tocsubsection {}{10.2}{The Implicit Function Theorem with more variables}}{71}{subsection.4.10.2}
+\contentsline {subsection}{\tocsubsection {}{10.3}{Example -- The saddle surface again}}{72}{subsection.4.10.3}
+\contentsline {section}{\tocsection {}{}{Problems}}{72}{section*.56}
+\contentsline {section}{\tocsection {}{11}{The Chain Rule with more Independent Variables;\\ Coordinate Transformations}}{74}{section.4.11}
+\contentsline {subsection}{\tocsubsection {}{11.1}{An example without context}}{74}{subsection.4.11.1}
+\contentsline {subsection}{\tocsubsection {}{11.2}{Example: a rotated coordinate system}}{75}{figure.caption.57}
+\contentsline {subsection}{\tocsubsection {}{11.3}{Another example -- Polar coordinates}}{76}{subsection.4.11.3}
+\contentsline {section}{\tocsection {}{12}{Problems}}{76}{section.4.12}
+\contentsline {section}{\tocsection {}{13}{Higher Partials and Clairaut's Theorem}}{78}{section.4.13}
+\contentsline {subsection}{\tocsubsection {}{13.1}{Higher partial derivatives}}{78}{subsection.4.13.1}
+\contentsline {subsection}{\tocsubsection {}{13.2}{Example}}{79}{subsection.4.13.2}
+\contentsline {subsection}{\tocsubsection {}{13.3}{Clairaut's Theorem -- mixed partials are equal}}{79}{subsection.4.13.3}
+\contentsline {subsection}{\tocsubsection {}{13.4}{Proof of Clairaut's theorem}}{79}{subsection.4.13.4}
+\contentsline {section}{\tocsection {}{14}{Finding a function from its derivatives}}{80}{section.4.14}
+\contentsline {subsection}{\tocsubsection {}{14.1}{Example}}{80}{subsection.4.14.1}
+\contentsline {subsection}{\tocsubsection {}{14.2}{Example}}{80}{subsection.4.14.2}
+\contentsline {subsection}{\tocsubsection {}{14.3}{Theorem}}{81}{subsection.4.14.3}
+\contentsline {section}{\tocsection {}{15}{Problems}}{82}{section.4.15}
+\contentsline {chapter}{\tocchapter {Chapter}{5}{Maxima and Minima}}{85}{chapter.5}
+\contentsline {section}{\tocsection {}{1}{Local and Global extrema}}{85}{section.5.1}
+\contentsline {subsection}{\tocsubsection {}{1.1}{Definition of global extrema}}{85}{subsection.5.1.1}
+\contentsline {subsection}{\tocsubsection {}{1.2}{Definition of local extrema}}{85}{subsection.5.1.2}
+\contentsline {subsection}{\tocsubsection {}{1.3}{Interior extrema}}{85}{subsection.5.1.3}
+\contentsline {section}{\tocsection {}{2}{Continuous functions on closed and bounded sets}}{86}{section.5.2}
+\contentsline {subsection}{\tocsubsection {}{2.1}{Theorem about Maxima and Minima of Continuous Functions}}{86}{subsection.5.2.1}
+\contentsline {subsection}{\tocsubsection {}{2.2}{Example -- The function $f(x, y) = x^2+y^2$}}{86}{figure.caption.58}
+\contentsline {subsection}{\tocsubsection {}{2.3}{A fishy example}}{87}{subsection.5.2.3}
+\contentsline {section}{\tocsection {}{3}{Problems}}{87}{section.5.3}
+\contentsline {section}{\tocsection {}{4}{Critical points}}{88}{section.5.4}
+\contentsline {subsection}{\tocsubsection {}{4.1}{Definition (critical point)}}{88}{subsection.5.4.1}
+\contentsline {subsection}{\tocsubsection {}{4.2}{Theorem. Local extrema are critical points}}{88}{subsection.5.4.2}
+\contentsline {subsubsection}{\tocsubsubsection {}{}{Picture proof}}{88}{section*.60}
+\contentsline {subsubsection}{\tocsubsubsection {}{}{Frozen variable proof}}{88}{section*.61}
+\contentsline {subsection}{\tocsubsection {}{4.3}{Three typical critical points}}{88}{subsection.5.4.3}
+\contentsline {subsubsection}{\tocsubsubsection {}{}{$\blacktriangleright f(x, y) = x^2+y^2$}}{89}{section*.63}
+\contentsline {subsubsection}{\tocsubsubsection {}{}{$\blacktriangleright h(x, y) = -x^2-y^2$. }}{89}{section*.64}
+\contentsline {subsubsection}{\tocsubsubsection {}{}{$\blacktriangleright g(x, y) = x^2-y^2$. }}{90}{section*.66}
+\contentsline {subsection}{\tocsubsection {}{4.4}{Critical points in the fishy example}}{90}{subsection.5.4.4}
+\contentsline {subsection}{\tocsubsection {}{4.5}{Another example -- find the critical points of $f(x,y) =x-x^3-xy^2$}}{90}{subsection.5.4.5}
+\contentsline {subsubsection}{\tocsubsubsection {}{}{Solution: }}{90}{section*.67}
+\contentsline {section}{\tocsection {}{5}{When there are more than two variables}}{91}{section.5.5}
+\contentsline {section}{\tocsection {}{6}{Problems}}{92}{section.5.6}
+\contentsline {section}{\tocsection {}{7}{A Minimization Problem: Linear Regression}}{93}{section.5.7}
+\contentsline {section}{\tocsection {}{8}{Problems}}{94}{section.5.8}
+\contentsline {section}{\tocsection {}{9}{The Second Derivative Test}}{95}{section.5.9}
+\contentsline {subsection}{\tocsubsection {}{9.1}{Review of the one-variable second derivative test and Taylor's formula}}{95}{subsection.5.9.1}
+\contentsline {subsection}{\tocsubsection {}{9.2}{Taylor's formula for a function of several variables}}{96}{subsection.5.9.2}
+\contentsline {subsection}{\tocsubsection {}{9.3}{Example -- compute the Taylor expansion of $f(x, y) = \qopname \relax o{sin}2x\qopname \relax o{cos}y$ at the point $(\frac 16\pi , \frac 16\pi )$}}{97}{subsection.5.9.3}
+\contentsline {subsection}{\tocsubsection {}{9.4}{Another example -- the Taylor expansion of $f(x, y) = x^3+y^3-3xy$ at the point $(1,1)$}}{97}{subsection.5.9.4}
+\contentsline {subsection}{\tocsubsection {}{9.5}{Example of a saddle point}}{98}{subsection.5.9.5}
+\contentsline {subsection}{\tocsubsection {}{9.6}{The two-variable second derivative test}}{98}{subsection.5.9.6}
+\contentsline {subsection}{\tocsubsection {}{}{Theorem (second derivative test)}}{99}{section*.72}
+\contentsline {subsection}{\tocsubsection {}{9.7}{Example -- apply the second derivative test to the fishy example}}{99}{subsection.5.9.7}
+\contentsline {section}{\tocsection {}{10}{Problems}}{100}{section.5.10}
+\contentsline {section}{\tocsection {}{11}{Second derivative test for more than two variables}}{101}{section.5.11}
+\contentsline {subsection}{\tocsubsection {}{11.1}{The second order Taylor expansion}}{101}{subsection.5.11.1}
+\contentsline {section}{\tocsection {}{12}{Optimization with constraints and the method of Lagrange multipliers}}{102}{section.5.12}
+\contentsline {subsection}{\tocsubsection {}{12.1}{Solution by elimination or parametrization}}{102}{subsection.5.12.1}
+\contentsline {subsection}{\tocsubsection {}{12.2}{Example -- which rectangle with perimeter 1 has the largest area?}}{103}{subsection.5.12.2}
+\contentsline {subsection}{\tocsubsection {}{12.3}{Example -- maximize $x+2y$ over the unit circle}}{103}{subsection.5.12.3}
+\contentsline {subsection}{\tocsubsection {}{12.4}{Solution by Lagrange multipliers}}{103}{subsection.5.12.4}
+\contentsline {subsection}{\tocsubsection {}{12.5}{Theorem (Lagrange multipliers)}}{104}{subsection.5.12.5}
+\contentsline {subsection}{\tocsubsection {}{12.6}{Example}}{104}{subsection.5.12.6}
+\contentsline {subsubsection}{\tocsubsubsection {}{}{What is the meaning of $\lambda $?}}{104}{section*.75}
+\contentsline {subsubsection}{\tocsubsubsection {}{}{Did we find a maximum or a minimum?}}{105}{section*.76}
+\contentsline {subsection}{\tocsubsection {}{12.7}{A three variable example}}{105}{subsection.5.12.7}
+\contentsline {section}{\tocsection {}{13}{Problems}}{105}{section.5.13}
+\contentsline {chapter}{\tocchapter {Chapter}{6}{Integrals}}{107}{chapter.6}
+\contentsline {section}{\tocsection {}{1}{Ways of Integrating}}{107}{section.6.1}
+\contentsline {subsection}{\tocsubsection {}{1.1}{The one variable integral}}{107}{subsection.6.1.1}
+\contentsline {subsubsection}{\tocsubsubsection {}{}{A note about rigor}}{108}{section*.78}
+\contentsline {subsection}{\tocsubsection {}{1.2}{Generalizing the one variable integral}}{108}{subsection.6.1.2}
+\contentsline {section}{\tocsection {}{2}{Double Integrals}}{108}{section.6.2}
+\contentsline {subsection}{\tocsubsection {}{2.1}{Definition}}{110}{subsection.6.2.1}
+\contentsline {subsection}{\tocsubsection {}{2.2}{The integral is the volume under the graph, when $f\ge 0$}}{110}{subsection.6.2.2}
+\contentsline {subsection}{\tocsubsection {}{2.3}{How to compute a double integral}}{111}{subsection.6.2.3}
+\contentsline {subsection}{\tocsubsection {}{2.4}{Theorem}}{113}{subsection.6.2.4}
+\contentsline {subsection}{\tocsubsection {}{2.5}{Example: the volume under the graph of the paraboloid $z=x^2+y^2$ above the square $Q=\{(x, y) : 0\leq x\leq 1, 0\leq y\le 1\}$}}{114}{subsection.6.2.5}
+\contentsline {subsection}{\tocsubsection {}{2.6}{Double integrals when the domain is not a rectangle}}{115}{subsection.6.2.6}
+\contentsline {subsection}{\tocsubsection {}{2.7}{An example--the parabolic office building}}{116}{subsection.6.2.7}
+\contentsline {subsection}{\tocsubsection {}{2.8}{Double integrals in Polar Coordinates}}{117}{subsection.6.2.8}
+\contentsline {subsection}{\tocsubsection {}{2.9}{Example: the volume under a quarter turn of a helicoid}}{119}{subsection.6.2.9}
+\contentsline {section}{\tocsection {}{3}{Problems}}{120}{section.6.3}
+\contentsline {section}{\tocsection {}{4}{Triple integrals}}{122}{section.6.4}
+\contentsline {subsection}{\tocsubsection {}{4.1}{Definition, and how to compute triple integrals}}{122}{subsection.6.4.1}
+\contentsline {subsection}{\tocsubsection {}{4.2}{Example -- the integral of $f(x, y, z)=x^2+y^2$ over a rectangular block}}{123}{subsection.6.4.2}
+\contentsline {subsection}{\tocsubsection {}{4.3}{Example of setting up a triple iterated integral-- the integral of $e^x$ over the unit sphere}}{124}{subsection.6.4.3}
+\contentsline {section}{\tocsection {}{5}{Why compute a Triple Integral?}}{125}{section.6.5}
+\contentsline {subsection}{\tocsubsection {}{5.1}{The 4D-volume under a graph}}{125}{subsection.6.5.1}
+\contentsline {subsection}{\tocsubsection {}{5.2}{The average of a function over a domain $D$}}{125}{subsection.6.5.2}
+\contentsline {subsubsection}{\tocsubsubsection {}{}{Why \textup {\hbox {\mathsurround \z@ \normalfont (\ignorespaces \ref {eq:04average-defined}\unskip \@@italiccorr )}} deserves to be called the average}}{125}{section*.92}
+\contentsline {subsection}{\tocsubsection {}{5.3}{Example \ref {sec:04int-of-x2y2-over-block} continued}}{127}{subsection.6.5.3}
+\contentsline {subsection}{\tocsubsection {}{5.4}{Densities}}{127}{subsection.6.5.4}
+\contentsline {subsection}{\tocsubsection {}{5.5}{Mass as integral of the density}}{127}{subsection.6.5.5}
+\contentsline {subsection}{\tocsubsection {}{5.6}{Example: air in the atmosphere.}}{128}{subsection.6.5.6}
+\contentsline {subsection}{\tocsubsection {}{5.7}{The moment of inertia of a solid about an axis of rotation}}{129}{subsection.6.5.7}
+\contentsline {subsection}{\tocsubsection {}{5.8}{Example}}{129}{subsection.6.5.8}
+\contentsline {section}{\tocsection {}{6}{Integration in special coordinate systems}}{130}{section.6.6}
+\contentsline {subsection}{\tocsubsection {}{6.1}{Cylindrical coordinates}}{130}{subsection.6.6.1}
+\contentsline {subsection}{\tocsubsection {}{6.2}{Spherical coordinates}}{130}{subsection.6.6.2}
+\contentsline {subsection}{\tocsubsection {}{6.3}{Triple integral in cylindrical coordinates}}{131}{subsection.6.6.3}
+\contentsline {subsection}{\tocsubsection {}{6.4}{Triple integral in spherical coordinates}}{132}{subsection.6.6.4}
+\contentsline {subsection}{\tocsubsection {}{6.5}{Example -- Rotational Kinetic energy of the Earth}}{132}{subsection.6.6.5}
+\contentsline {section}{\tocsection {}{7}{Problems}}{133}{section.6.7}
+\contentsline {chapter}{\tocchapter {Chapter}{7}{Vector Calculus}}{137}{chapter.7}
+\contentsline {section}{\tocsection {}{1}{Vector Fields}}{137}{section.7.1}
+\contentsline {section}{\tocsection {}{2}{Examples of vector fields}}{137}{section.7.2}
+\contentsline {subsection}{\tocsubsection {}{2.1}{Gradients as vector fields}}{137}{subsection.7.2.1}
+\contentsline {subsection}{\tocsubsection {}{2.2}{Fluid flow}}{138}{subsection.7.2.2}
+\contentsline {subsection}{\tocsubsection {}{2.3}{Force fields}}{139}{subsection.7.2.3}
+\contentsline {section}{\tocsection {}{3}{Line integrals}}{140}{section.7.3}
+\contentsline {subsection}{\tocsubsection {}{3.1}{Line integrals of functions}}{140}{subsection.7.3.1}
+\contentsline {subsection}{\tocsubsection {}{3.2}{How to calculate a line integral}}{140}{subsection.7.3.2}
+\contentsline {subsection}{\tocsubsection {}{3.3}{Example -- What is the average of $f(x, y) = x$ over the quarter unit circle in the first quadrant?}}{141}{subsection.7.3.3}
+\contentsline {section}{\tocsection {}{4}{Problems}}{142}{section.7.4}
+\contentsline {section}{\tocsection {}{5}{Line integrals of vector fields}}{142}{section.7.5}
+\contentsline {subsection}{\tocsubsection {}{5.1}{Definition}}{142}{subsection.7.5.1}
+\contentsline {subsection}{\tocsubsection {}{5.2}{Integrals over closed curves}}{142}{subsection.7.5.2}
+\contentsline {subsection}{\tocsubsection {}{5.3}{Differential form notation for line integrals}}{143}{subsection.7.5.3}
+\contentsline {subsection}{\tocsubsection {}{5.4}{The orientation of a curve}}{143}{subsection.7.5.4}
+\contentsline {subsection}{\tocsubsection {}{5.5}{Integrating over piecewise defined curves}}{144}{subsection.7.5.5}
+\contentsline {subsection}{\tocsubsection {}{5.6}{The line integral as the integral of the tangential component of a vector field}}{145}{subsection.7.5.6}
+\contentsline {subsection}{\tocsubsection {}{5.7}{Example -- work around a circle}}{145}{subsection.7.5.7}
+\contentsline {subsection}{\tocsubsection {}{5.8}{How to compute a line integral}}{146}{subsection.7.5.8}
+\contentsline {subsection}{\tocsubsection {}{5.9}{Three examples}}{146}{subsection.7.5.9}
+\contentsline {subsubsection}{\tocsubsubsection {}{}{Integral over $\EuScript {C}_1$}}{147}{section*.107}
+\contentsline {subsubsection}{\tocsubsubsection {}{}{Integral over $\EuScript {C}_2$}}{147}{section*.108}
+\contentsline {subsubsection}{\tocsubsubsection {}{}{Integral over $\EuScript {C}_3$}}{148}{section*.109}
+\contentsline {section}{\tocsection {}{6}{Another Fundamental Theorem of Calculus}}{148}{section.7.6}
+\contentsline {subsection}{\tocsubsection {}{6.1}{Theorem}}{148}{subsection.7.6.1}
+\contentsline {subsection}{\tocsubsection {}{6.2}{Line integral of a gradient does not depend on the path}}{148}{subsection.7.6.2}
+\contentsline {subsection}{\tocsubsection {}{6.3}{Line integral of a gradient around a closed curve vanishes}}{148}{subsection.7.6.3}
+\contentsline {subsection}{\tocsubsection {}{6.4}{Proof of the Fundamental Theorem}}{149}{subsection.7.6.4}
+\contentsline {section}{\tocsection {}{7}{Conservative vector fields}}{150}{section.7.7}
+\contentsline {subsection}{\tocsubsection {}{7.1}{Definition}}{150}{subsection.7.7.1}
+\contentsline {subsection}{\tocsubsection {}{7.2}{Theorem}}{150}{subsection.7.7.2}
+\contentsline {section}{\tocsection {}{8}{Problems}}{151}{section.7.8}
+\contentsline {section}{\tocsection {}{9}{Flux integrals}}{151}{section.7.9}
+\contentsline {subsection}{\tocsubsection {}{9.1}{Definition of flux}}{151}{subsection.7.9.1}
+\contentsline {subsection}{\tocsubsection {}{9.2}{Flux across a closed curve}}{151}{subsection.7.9.2}
+\contentsline {subsection}{\tocsubsection {}{9.3}{Example -- water under the bridge}}{152}{subsection.7.9.3}
+\contentsline {subsubsection}{\tocsubsubsection {}{}{Question:}}{153}{section*.114}
+\contentsline {subsubsection}{\tocsubsubsection {}{}{Solution:}}{153}{section*.115}
+\contentsline {subsection}{\tocsubsection {}{9.4}{An expanding flow}}{153}{subsection.7.9.4}
+\contentsline {subsubsection}{\tocsubsubsection {}{}{Question:}}{154}{section*.118}
+\contentsline {subsubsection}{\tocsubsubsection {}{}{Solution:}}{154}{section*.119}
+\contentsline {section}{\tocsection {}{10}{Green's Theorem}}{155}{section.7.10}
+\contentsline {subsection}{\tocsubsection {}{10.1}{Simply connected domains}}{155}{subsection.7.10.1}
+\contentsline {subsection}{\tocsubsection {}{}{Green's theorem}}{155}{section*.120}
+\contentsline {subsection}{\tocsubsection {}{}{Flux version of Green's theorem}}{156}{section*.122}
+\contentsline {subsection}{\tocsubsection {}{10.2}{Examples illustrating Green's Theorem}}{156}{subsection.7.10.2}
+\contentsline {subsubsection}{\tocsubsubsection {}{}{An example where the line integral vanishes on any closed curve}}{156}{section*.123}
+\contentsline {subsubsection}{\tocsubsubsection {}{}{The expanding gas example again}}{157}{section*.124}
+\contentsline {section}{\tocsection {}{11}{Conservative vector fields and Clairaut's theorem}}{157}{section.7.11}
+\contentsline {subsection}{\tocsubsection {}{11.1}{Theorem}}{158}{subsection.7.11.1}
+\contentsline {section}{\tocsection {}{12}{Problems}}{159}{section.7.12}
+\contentsline {section}{\tocsection {}{13}{Surfaces and Surface integrals}}{160}{section.7.13}
+\contentsline {subsection}{\tocsubsection {}{13.1}{Surfaces and surface patches}}{160}{subsection.7.13.1}
+\contentsline {subsubsection}{\tocsubsubsection {}{}{Definition}}{160}{section*.128}
+\contentsline {subsection}{\tocsubsection {}{13.2}{Example -- the graph of a function is a surface patch}}{160}{subsection.7.13.2}
+\contentsline {subsection}{\tocsubsection {}{13.3}{Example -- the sphere as a surface patch}}{161}{subsection.7.13.3}
+\contentsline {subsection}{\tocsubsection {}{13.4}{Area of a surface patch}}{162}{subsection.7.13.4}
+\contentsline {subsection}{\tocsubsection {}{13.5}{Surface integrals}}{164}{subsection.7.13.5}
+\contentsline {subsection}{\tocsubsection {}{13.6}{Unit normal to a surface patch}}{164}{subsection.7.13.6}
+\contentsline {subsubsection}{\tocsubsubsection {}{}{Definition}}{164}{section*.135}
+\contentsline {subsection}{\tocsubsection {}{13.7}{Flux across a surface patch}}{165}{subsection.7.13.7}
+\contentsline {section}{\tocsection {}{14}{Examples}}{165}{section.7.14}
+\contentsline {subsection}{\tocsubsection {}{14.1}{Area and unit normal of a sphere}}{165}{subsection.7.14.1}
+\contentsline {subsection}{\tocsubsection {}{14.2}{The flux of a vector field across the sphere}}{166}{subsection.7.14.2}
+\contentsline {section}{\tocsection {}{15}{The divergence theorem and Stokes' theorem}}{167}{section.7.15}
+\contentsline {subsection}{\tocsubsection {}{15.1}{The divergence theorem in three dimensions}}{167}{subsection.7.15.1}
+\contentsline {subsection}{\tocsubsection {}{15.2}{Stokes' Theorem}}{168}{subsection.7.15.2}
+\contentsline {subsection}{\tocsubsection {}{15.3}{Example involving the divergence theorem}}{168}{subsection.7.15.3}
+\contentsline {section}{\tocsection {}{16}{$\mathaccentV {vec}17E\nabla $ -- differentiating vector fields}}{168}{section.7.16}
+\contentsline {subsection}{\tocsubsection {}{16.1}{Example -- compute the divergence of ${{\vecteur {\bm {v}} }}(x, y, z) = {{\vecteur {\bm {x}} }}$ and ${{\vecteur {\bm {w}} }}= \rho {{\vecteur {\bm {x}} }}$}}{169}{subsection.7.16.1}
+\contentsline {subsection}{\tocsubsection {}{16.2}{Example -- compute the curl of the Poiseuille flow from \S \nonbreakingspace \ref {sec:fluid-flow}}}{170}{subsection.7.16.2}
+\contentsline {subsection}{\tocsubsection {}{16.3}{The curl of a gradient always vanishes}}{170}{subsection.7.16.3}
+\contentsline {subsection}{\tocsubsection {}{16.4}{The divergence of a curl always vanishes}}{171}{subsection.7.16.4}
+\contentsline {subsection}{\tocsubsection {}{16.5}{Other combinations of gradient, curl and divergence}}{171}{subsection.7.16.5}
+\contentsline {section}{\tocsection {}{17}{Problems}}{171}{section.7.17}
+\contentsline {chapter}{\tocchapter {Chapter}{}{Math 234 -- Answers and Hints}}{175}{chapter*.138}
+\contentsline {chapter}{\tocchapter {Chapter}{8}{GNU Free Documentation License}}{205}{chapter.8}

@@ -1,0 +1,239 @@
+% Time-stamp : Sun May 27 19:39:04 CDT 2012
+
+
+\project{Riemann Sums}
+
+\section{Purpose of this project}
+
+We will attempt to gain an understanding of the definite integral
+\begin{equation*}
+  \int_a^b f(x) dx,
+\end{equation*}
+by computing different types of Riemann sums.  We will learn that
+there is more than one such sum, but that one of them is much more
+accurate than the others.
+
+
+
+\section{Approximations}
+
+Consider the definite integral
+\begin{equation*}
+  \int_{0}^4 \sqrt{x+1} \;  dx.
+\end{equation*}
+We will use a variety of Riemann sums to approximate this integral.
+First, we discretize $[0,4]$ into $N$ equally spaced intervals,
+$[x_{k-1},x_{k}]$, with
+\[
+\Delta x = x_{k} - x_{k-1} = \frac{4}{N}.
+\]
+For example, in the case $N = 3$, we have $\{x_0,x_1,x_2,x_3\} =
+\{0,\frac43,\frac83,4\}$ with associated intervals
+\begin{equation*}
+  [x_0,x_1] = [0,\tfrac43], \quad [x_1,x_2] = [\tfrac43,\tfrac83],
+  \quad [x_2,x_3] = [\tfrac83,4].
+\end{equation*}
+Letting
+\[
+f(x) = \sqrt{x+1},
+\]
+we will now compute sums of the form
+\begin{equation*}
+  \sum_{k=1}^{N} f(c_k) \Delta x,
+\end{equation*}
+for different values of $N$, and where $c_k \in [x_{k-1},x_{k}]$ are the
+\textit{sample points}.
+
+\begin{center}
+  See the lecture notes Chapter VII, Sections 1 and 2; also see the website
+  \url{http://mathworld.wolfram.com/RiemannSum.html} for interactive pictures of
+  Riemann sums.
+\end{center}
+
+
+\section{Left  sum}
+For the ``Left sum'', we will choose $c_k = x_{k-1}$, i.e. the left endpoint of
+the interval $[x_{k-1},x_{k}]$, for all $k = 1,\dots,N$.  For example, when $N =
+3$, the left sum is
+\begin{align*}
+  f(0)\tfrac{4}{3} 
+  +f({\tfrac{4}{3}}) \tfrac{4}{3} 
+  +f({\tfrac{8}{3}}) \tfrac{4}{3} = 1\cdot
+  \tfrac{4}{3} 
+  +\sqrt{{\tfrac{7}{3}}}\; \tfrac{4}{3} 
+  +\sqrt{{\tfrac{11}{3}}}\; \tfrac{4}{3} 
+  \approx  5.9231,
+\end{align*}
+and when $N = 6$ the sum is
+\begin{equation}
+  \label{eq:righthand-sum3}
+  \sum_{k = 1}^{6} f\left( \frac{4(k-1)}{6} \right) \frac{4}{6} \approx 6.3647.
+\end{equation}
+Using your calculator, software such as Excel, or the Riemann-sum website
+\url{http://mathworld.wolfram.com/RiemannSum.html}, fill in the table below with
+the associated left sums.
+
+\begin{center}
+  \begin{tabular}{cc}
+    \toprule
+    \rule[-8pt]{0pt}{14pt}
+    $N$ & $\sum_{k = 1}^{N} f(x_{k-1})\Delta x$\\
+    \toprule
+    6 & 6.3647 \\ \midrule
+    8 & \\ \midrule
+    12 & \\ \midrule
+    15 & \\ \bottomrule
+  \end{tabular}
+\end{center}
+
+
+\section{Right sum}
+For the ``Right sum'', we will choose $c_k = x_{k}$, i.e. the right endpoint of
+the interval $[x_{k-1},x_{k}]$, for all $k = 1,\dots,N$.  For example, when $N =
+3$, the right sum is
+\begin{equation}
+  \label{eq:lefthand-sum3}
+  f({\tfrac{4}{3}}) \tfrac{4}{3} + f({\tfrac{8}{3}}) \tfrac{4}{3} +
+  f({\tfrac{12}{3}})\tfrac{4}{3} = \sqrt{\tfrac{7}{3}}\tfrac{4}{3} +
+  \sqrt{\tfrac{11}{3}}\tfrac{4}{3} + \sqrt{\tfrac{15}{3}} \tfrac{4}{3} \approx
+  7.57126.
+\end{equation}
+Using your calculator, or software, such as Excel, fill in the table below with
+the associated right sums.
+
+
+\begin{center}
+  \begin{tabular}{cc}
+    \toprule
+    \rule[-8pt]{0pt}{14pt}
+    $N$ & $\sum_{k = 1}^{N} f(x_{k})\Delta x$\\
+    \toprule
+    6 & 7.18877 \\ \midrule
+    8 & \\ \midrule
+    12 & \\ \midrule
+    15 & \\ \bottomrule
+  \end{tabular}
+\end{center}
+
+
+
+
+\section{Midpoint sum}
+
+The actual value of the integral is
+\begin{equation}
+  \label{eq:exact-value}
+  \int_0^4 \sqrt{x+1} \;  dx = \frac{2} {3}\Bigl(5\sqrt{5} - 1\Bigr) \approx 6.786893.
+\end{equation}
+In the previous sections of this project you should have found that the left
+sums always underestimated the correct solution for this problem while the right
+sum always overestimated.  This should lead you to believe that perhaps it would
+be best to choose $c_k$ to be the midpoint of $x_{k-1}$ and $x_{k}$.  That is, we
+suspect that a good approximation method would be
+\[
+\sum_{k = 1}^{N} f\left(\frac{x_{k-1} + x_k}{2}\right) \Delta x.
+\]
+For example, when $N = 3$, the sum above sum is
+\begin{align*}
+  f({\tfrac{2}{3}}) \; \tfrac{4}{3} + f({\tfrac{6}{3}})\; \tfrac{4}{3} +
+  f({\tfrac{10}{3}})\; \tfrac{4}{3} \approx 6.80628.
+\end{align*}
+
+Using your calculator, or Excel, fill in the table below with the associated
+midpoint sums.
+
+
+\begin{center}
+  \begin{tabular}{cc}
+    \toprule
+    \rule[-8pt]{0pt}{14pt}
+    $N$ & $\sum_{k = 1}^{N} f\left(\frac{x_{k-1} + x_k}{2}\right)\Delta x$\\
+    \toprule
+    6 & 6.79193 \\ \midrule
+    8 & \\ \midrule
+    12 & \\ \midrule
+    15 & \\ \bottomrule
+  \end{tabular}
+\end{center}
+% You should be able to compare the accuracy of the three methods discussed here
+% (Left, Right, and Midpoint) and decide which one is ``converging'' to the
+% correct answer much fast than the others.  In fact, if $E(1/N)$ is the error
+% induced by the different approximation methods described here, then
+% \begin{equation}\label{eq:tofind}
+%   E_N =
+%   \left| \int_a^b f(x) dx
+%     - \sum_{k = 0}^{N-1} f\left( \frac{x_{k+1} + x_k}{2}\right) \right|
+%   \approx  C \left(\frac{1}{N}\right)^p,
+% \end{equation}
+% where $C$ is some constant, and $p = 1$ for the left and right hand sums, and
+% $p= 2$ for the midpoint sum.
+
+
+
+\section{Report instructions}
+
+Your project should include
+\begin{enumerate}
+
+\item Summary of ideas in project including all computations performed and
+  conclusions reached. \textit{ Why did the left hand sum underestimate the true
+  solution for this problem, while the right hand sum overestimated?}  (Hint:
+  draw some pictures!)
+
+\item Find formulas for $x_k$ and $c_k$ in the Left-sum
+  \eqref{eq:righthand-sum3}.  What is $\frac{4(k-1)} {6}$ doing there?  Write
+  the Right-sum \eqref{eq:lefthand-sum3} with $N=3$ using summation notation in
+  the manner of Equation~\eqref{eq:righthand-sum3}.
+
+\item Do the integral that leads to the actual value stated in
+  Equation~\eqref{eq:exact-value}.
+
+\item A function that is central to the study of probability is
+  \begin{equation*}
+    f(x) = e^{-x^2/2}.
+  \end{equation*}
+  Compute the left hand, right hand, and midpoint sums for this function
+  integrated over the interval $[0,2]$ for several increasing values of $N$.
+  \textit{Do the left hand sums underestimate the integral, or do they
+    overestimate the integral?}  Stop each computation when you are confident
+  that your $N$ is large enough so that your value is accurate to two decimal
+  places.  How do you know you can stop when you did?
+  
+% \item Verify equation \eqref{eq:tofind}, for the Left, Right, and Midpoint sums
+%   using the data found in this project.  Do this by completing the following
+%   table:
+  
+\end{enumerate}
+\bigskip
+\begin{center}
+  \begin{tabular}{r*{3}{p{96pt}}}
+    \toprule\rule[-8pt]{0pt}{14pt}
+    $N$ & \hfil left sum\hfil &\hfil right sum\hfil &\hfil midpoint sum \hfil \\
+    \toprule
+    6 & \\ \midrule
+    8 & \\ \midrule
+    12 & \\ \midrule
+    15 & \\ \midrule
+    $\ldots$ & \\ \midrule
+    $\ldots$ & \\ \bottomrule
+  \end{tabular}
+\end{center}
+
+% \begin{center}
+%   \begin{tabular}{c*{6}{p{60pt}}}
+%     \toprule\rule[-8pt]{0pt}{14pt}
+%     $N$ & left sum & right sum & midpoint sum & $E_N$ & $NE_N$ & $N^2E_N$ \\
+%     \toprule
+%     6 & \\ \midrule
+%     8 & \\ \midrule
+%     12 & \\ \midrule
+%     15 & \\ \bottomrule
+%   \end{tabular}
+% \end{center}
+  
+
+
+%%% Local Variables: 
+%%% mode: latex
+%%% TeX-master: "all_projects"
+%%% End: 

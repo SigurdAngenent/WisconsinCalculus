@@ -1,0 +1,32 @@
+\documentclass{amsbook}
+\input ../preamble
+\input ../free-macros.tex
+\input ../gans.tex
+\newcommand\version{1.1}
+\newcommand\semester{Fall 2015}
+
+
+%\includeonly{03firstorderdiffeq}
+%\includeonly{05sequencesAndSeries}
+\begin{document}
+\graphicspath{
+  {../figures/234/}
+  {../figures/222/}}
+
+
+\include{00frontmatter}
+\include{01integration}
+\include{02improperintegrals}
+\include{03firstorderdiffeq}
+\include{04taylor}
+\include{05sequencesAndSeries}
+\include{06vectors}
+%\include{06parametriccurves}
+\immediate\closeout\ans
+
+\include{09Answers}
+
+%%%%%%%%%%  GNU FDL  %%%%%%%%%%%%%%%
+\input ../gfdl
+
+\end{document}

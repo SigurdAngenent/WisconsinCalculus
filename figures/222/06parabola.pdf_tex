@@ -1,0 +1,56 @@
+%% Creator: Inkscape inkscape 0.48.1, www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file '06parabola.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+
+\begingroup
+  \makeatletter
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}
+    \renewcommand\color[2][]{}%
+  }
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}
+    \renewcommand\transparent[1]{}%
+  }
+  \providecommand\rotatebox[2]{#2}
+  \ifx\svgwidth\undefined
+    \setlength{\unitlength}{279pt}
+  \else
+    \setlength{\unitlength}{\svgwidth}
+  \fi
+  \global\let\svgwidth\undefined
+  \makeatother
+  \begin{picture}(1,0.6702509)%
+    \put(0,0){\includegraphics[width=\unitlength]{06parabola.pdf}}%
+    \put(0.57692482,0.63207205){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{circle with radius 1}}}%
+    \put(0.91728209,0.54800591){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\vT$}}}%
+    \put(0.74446081,0.20236335){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$-\vT$}}}%
+    \put(0.07680945,0.38552433){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{1}}}%
+    \put(0.31201642,0.13754442){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{1}}}%
+    \put(0.56573114,0.38552433){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{1}}}%
+    \put(0.80980078,0.13754442){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{1}}}%
+    \put(0.07788162,0.63452252){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\DS\vx(t) = \vek t\\ t^2\tor$}}}%
+  \end{picture}%
+\endgroup

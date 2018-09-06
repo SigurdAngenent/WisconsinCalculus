@@ -1,0 +1,254 @@
+\documentclass{amsart}
+%% PACKAGES {{{1
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{graphicx}
+
+\usepackage{eucal}
+
+
+\newcommand\version{0.9}
+\newcommand\semester{Fall 2009}
+\input{free-macros234.tex}
+%%}}}
+
+\begin{document}
+\title{Vector calculus problems}
+\maketitle
+\problem \label{prb:05derivs-of-a-times-m-dot-x} % {{{1
+Let $\va$ and $\vm$ be two constant vectors, with components
+\[
+\va = \tvek a_1\\a_2\\a_3\ttor, \text{ and }
+\vm = \tvek m_1\\m_2\\m_3\ttor.
+\]
+Let $\vv(x, y, z)$ be the vector field $\vv = (\vm\dpp\vx)\va$.
+
+\subprob Write $\vv$ in terms of its components:
+\[
+\vv = \vek \cdots?\cdots \\ \cdots?\cdots \\ \cdots?\cdots \tor.
+\]
+\subprob Compute $\nab\dpp \vv$. % {{{3
+
+\subprob Compute $\nab \cp \vv$. % {{{3
+
+\subprob If $\vv$ is the gradient of some function $f$, % {{{3
+what can you say about the vectors $\va$ and $\vm$?
+
+\subprob If $\vv$ is the curl of some vector field $\vw$, % {{{3
+what can you say about the vectors $\va$ and $\vm$?
+
+\problem \label{prb:05derivs-of-a-exp-of-mx} % {{{1
+Let $\va$ and $\vm$ be as in the previous problem.
+Consider the vector field
+\[
+\vv(x, y, z) = e^{\vm\dpp\vx}\va = e^{m_1x+m_2y+m_3z}\tvek a_1\\a_2\\a_3\ttor.
+\]
+\subprob Show by computing the derivatives %{{{3
+that $\nab \bigl(e^{\vm\dpp\vx}\bigr) = e^{\vm\dpp\vx} \vm$.
+\answer
+$\bigl(e^{\vm\dpp\vx}\bigr)_{x_1} = m_1e^{\vm\dpp\vx}$, and the same for the $x_2$
+and $x_3$ derivatives.  Therefore
+\[
+\nab\bigl(e^{\vm\dpp\vx}\bigr) =
+\vek m_1e^{\vm\dpp\vx}\\m_2e^{\vm\dpp\vx} \\ m_3e^{\vm\dpp\vx} \tor
+=e^{\vm\dpp\vx} \tvek m_1\\m_2\\m_3\ttor.
+\]
+\endanswer
+\subprob Compute $\nab\dpp \vv$.  (Find the shortest way to write %{{{3
+the answer.)
+\answer
+After simplifying you get $\nab\dpp\vv = \vm\dpp\va e^{\vm\dpp\vx}$.
+\endanswer
+\subprob Compute $\nab\cp\vv$.\label{prb:05cross-prod-of-aexpmx} %{{{3
+Again, simplify your answer.
+\answer
+$\nab\cp\vv = \vm\cp\va e^{\vm\dpp\vx}$.
+\endanswer
+\subprob Which condition must the vectors $\va$ and $\vm$ satisfy if  %{{{3
+$\vv$ is to be ``divergence free,'' i.e.\ if $\div \vv = 0$?
+\answer
+$\va$ and $\vm$ must be perpendicular.
+\endanswer
+\subprob Suppose that $\vv = \nab \phi$ for some function. %{{{3
+What do you know about $\va$ and $\vm$?
+\answer
+If $\vv$ is the gradient of some function, then its curl must vanish.
+Therefore $\va\cp\vm=\vvv0$ in view of part \ref{prb:05cross-prod-of-aexpmx}
+of this problem.  The conclusion is that $\va$ and $\vm$ must
+be parallel.
+\endanswer
+\problem If $\vv=\tvek P\\ Q \\ R\ttor$ is a vector field and $f$ is %{{{1
+a function, then what is $\vv\dpp\nab f$?
+\answer
+$\vv\dpp\nab f = P f_x + Q f_y + R f_z$.
+\endanswer
+\problem \emph{Product rules. }\label{prb:05product-rule} %{{{1
+Let $f$ be a function of three variables, and let $\vv$ be a three
+dimensional vector field.
+
+\subprob $\nab\dpp(f\vv) = (\nab f)\dpp\vv + f \nab\dpp\vv$ %{{{3
+\answer
+By definition,
+\begin{align*}
+  \nab\dpp(f\vv) = \nab \dpp \vek fP\\fQ \\fR\tor
+  &= \pdd{fP}x + \pdd{fQ}y + \pdd{fR}z  \\
+  &= f_x P + fP_x + f_yQ + fQ_y + f_z R + fR_z\\
+  &= f_x P +f_y Q + f_z R + f\bigl(P_x+Q_y+R_z\bigr) \\
+  &= \vek f_x\\ f_y\\ f_z\tor \dpp \vek P\\Q\\R\tor + f \nab\dpp\vv \\
+  &= \nab f\dpp \vv + f\nab \dpp\vv,
+\end{align*}
+as claimed.
+\endanswer
+\subprob Guess a product rule for $\nab\cp(f\vv)$ and prove it. %{{{3
+\answer
+$\nab\cp(f\vv) = (\nab f)\cp\vv + f\nab\cp\vv$ is the rule.
+The derivation goes along the same lines as in the previous product rule.
+\endanswer
+\problem \label{prb:gradrho-and-divx} Check the following %{{{1
+formulas
+\[
+\nab \rho = \frac{\vx} {\rho}, \text{ and }
+\nab\dpp \vx = 3.
+\]
+by direct computation.
+Here $\rho = \sqrt{x^2 + y^2 + z^2}$ is the radius from spherical
+coordinates.
+
+\problem Use the product rule from Problem~\ref{prb:05product-rule} and %{{{1
+the formulas from problem \ref{prb:gradrho-and-divx} to compute the
+following quantities
+
+\subprob $\nab\dpp(\rho^2\vx)$ \qquad
+\subprob $\vx\dpp\nab\rho$ \qquad
+\subprob $\vx\dpp\nab\bigl(\|\vx\|\bigr)$ \qquad
+\subprob $\DS \div \frac{\vx} {\|\vx\|^3}$.  
+
+
+
+\problem \label{prb:x-no-curl} %{{{1
+In this problem, as in all the problems in this section,
+$\rho = \sqrt{x^2+y^2+z^2} = \|\vx\|$
+is the radius in spherical coordinates.
+
+\subprob Show that $\vx = \frac12 \nab(\rho^2)$. %{{{3
+
+\subprob Compute $\nab\cp\vx$ without doing any derivatives. %{{{3
+\answer
+Since $\vx$ is the gradient of some function its curl must vanish.
+\endanswer
+\subprob Compute $\nab\cp(\rho\vx)$ using the product rule from %{{{3
+problem \ref{prb:05product-rule}.
+\answer
+$\nab\cp(\rho\vx) = (\nab \rho)\cp \vx + \rho \nab\cp\vx = \vvv0$
+\endanswer
+\problem Compute $\nab\cp\vv$ for the vector field %{{{1
+$\vv(x, y, z) = \vk\cp\vx$.
+\answer
+$\vv(x, y, z) = \tvek -y \\x \\ 0\ttor$
+so $\nab\cp\vv = \tvek 0\\0\\2\ttor = 2\vk$.
+\endanswer
+\problem\label{prb:05div-rho-n-x} Consider the vector field
+\[
+\vv(x, y, z) = \rho^n \vx,
+\]
+where $n$ is a constant.  (Both Newton's law of gravitation
+and Coulomb's law have this vector field with $n=-3$.)
+
+\subprob Write $\vv(x, y, z)$ in the form $\tvek \cdots\\\cdots\\\cdots\ttor$, %{{{3
+using only Cartesian coordinates $x, y, z$.
+\answer
+$\vv(x, y, z) =
+\vek
+   x(x^2+y^2+z^2)^{n/2} \\ y(x^2+y^2+z^2)^{n/2} \\ z(x^2+y^2+z^2)^{n/2}
+\tor$.
+\endanswer
+
+
+\subprob Compute $\nab\dpp\vv$.  (Use one of the product %{{{3
+rules from Problem \ref{prb:05product-rule}; you already
+computed the derivatives of $\rho$ in problem \ref{prb:gradrho-and-divx}.)
+\answer
+Using the product rule, you get
+\[
+\nab(\rho^{n}\vx)
+= (\nab \rho^{n})\dpp\vx + \rho^{n}\nab\dpp\vx
+= n\rho^{n-1}(\nab\rho)\dpp\vx + \rho^{n}\nab\dpp\vx.
+\]
+Now recall (or compute again):
+\[
+\nab \rho = \frac{\vx} {\rho}, \text{ and }
+\nab\dpp\vx = 3.
+\]
+This leads to
+\[
+\nab(\rho^{n}\vx)
+= - n \rho^{n-1}\frac{\vx} {\rho}\dpp\vx + 3 \rho^{n}
+= - n \rho^{n-2}\|\vx\|^2 + 3 \rho^{n}
+= (n+3) \rho^{-n})
+\]
+\endanswer
+\subprob For which value(s) of $n$ does one have $\div \vv = 0$? %{{{3
+\answer
+$n=-3$.
+\endanswer
+\problem\label{prb:05grad-Frho} A function of three variables % {{{1
+is called \emph{radially symmetric}
+if it only depends on the radius $\rho = \sqrt{x^2+y^2+z^2}$, i.e.\
+if it can be written as $F(\rho)$ for some function $F$ of one variable.
+E.g.\ $f(x, y, z) = \rho^{-2}$, or $g(x, y, z) = e^{-\rho}$ are radially
+symmetric functions. 
+
+
+\subprob Find the gradient of a radially symmetric function $F(\rho)$. % {{{3
+
+\answer
+There are a long and a short answer. 
+The long(er) computation goes likes this:
+\[
+\nab F(\rho)
+= \vek F(\rho)_x\\ F(\rho)_y \\ F(\rho)_z\tor
+= \vek F'(\rho)\rho_x\\ F'(\rho)\rho_y \\ F'(\rho)\rho_z\tor
+= F'(\rho)\vek \rho_x\\\rho_y\\\rho_z\tor.
+\]
+Now recall problem \ref{prb:gradrho-and-divx}, and you find
+\[
+\nab F(\rho)
+=F'(\rho)\vek x/\rho\\y/\rho\\z/\rho\tor
+=\frac{1} {\rho}F'(\rho) \vx.
+\]
+The short computation is essentially the same, but you never
+write the components of the vectors:
+\[
+\nab F(\rho) = F'(\rho) \nab \rho = \frac{1} {\rho}F'(\rho)\vx.
+\]
+\endanswer
+\subprob Let $\vv = \rho^n\vx$, as in problem \ref{prb:05div-rho-n-x}. %{{{3
+Does there exist a function $f(x, y, z)$ such that $\vv = \nab f$?
+(Hint: try a radially symmetric function, and use problem
+\ref{prb:05grad-Frho}.)
+\answer
+If $f(x, y, z)= F(\rho)$, then by the previous problem
+we have $\nab f = \rho^{-1}F'(\rho) \vx$.  We want this to be equal to
+$\rho^{-n}\vx$, so $F(\rho)$ must satisfy
+\[
+\rho^{-1}F'(rho) = \rho^{n} \implies
+F'(\rho) = \rho^{1+n} \implies
+F(\rho) = \frac{\rho^{2+n}} {2+n} +C
+\]
+for some constant $C$.  We are only asked to find on function $f$,
+so we find that the given vector field is indeed the gradient of a radially
+symmetric function:
+\[
+\vv = \rho^{n}\vx = \nab \bigl(\frac{\rho^{2+n}} {2+n}\bigr).
+\]
+The exceptional case is when $n=-2$, in which case you get
+$F(\rho) = \ln \rho$.
+\endanswer
+
+\immediate\closeout\ans
+
+\begin{trivlist}
+  \input answersANDhints
+\end{trivlist}
+
+\end{document}

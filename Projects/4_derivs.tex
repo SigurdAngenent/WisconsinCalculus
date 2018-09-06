@@ -1,0 +1,342 @@
+% Time-stamp : Aug 22 15:59 4_derivs.tex
+
+\project{Derivatives}
+\centerline{(and the important topic of ants walking on
+ropes)}
+
+\section*{Purpose of this project}
+
+In this project we will explore the following problem, which we will
+solve using the rules of differentiation (and a little integration,
+which will come later in the class).
+
+\medskip
+
+\subsection*{Problem statement:}\footnote{See also the wikipedia
+  page on this problem at
+  \url{http://en.wikipedia.org/wiki/Ant_on_a_rubber_rope}} Suppose
+there is a rope that is very pliable stretched to be of size 1 meter.
+Suppose that one end of the rope is pinned down and an ant is placed
+at that end.  At that moment, the ant starts walking at a rate of $1$
+meter per hour towards the other end.  However, at the same time we
+begin stretching the rope (away from the pinned down side) so that the
+end of the rope is moving at speed $10$ meters per second.  Will the
+ant ever reach the end of the rope?
+
+\medskip
+
+While this version of the problem may seem strange, it actually has
+relevance to a very reasonable question coming from cosmology: can the
+light from a distant galaxy ever reach us if the universe is
+expanding?  At issue is when a galaxy is so far away that the relative
+speed between our galaxy and the other is greater than the speed of
+light due to the expansion of the universe.  In this scenario, it
+seems that the light from that far flung galaxy should never reach us.
+However, in an analogous manner as the ant on the rubber rope, we can
+be sure it does without having to resort to a breakdown in the laws of
+physics.
+
+\section{Solution}
+
+We will solve the problem with the numbers given in the statement of
+the problem.  The answer is ``yes, the ant does reach the end.''
+Surprisingly, the fact that the ant eventually reaches the other end
+does not depend upon the specific numbers given.  Thus, even if the
+ant were walking at 0.0001 meters per second, and you were stretching
+this rope near the speed of light, the ant will still eventually reach
+the end.  Of course, the \textit{time} at which the ant reaches the
+end depends upon the rates chosen, so it would be more accurate to say
+that an immortal ant would eventually reach the end.
+
+\bigskip
+
+Any good solution to a hard word problem requires good notation!  So,
+we begin with the following.
+\begin{enumerate}
+\item Let $D(t)$ denote the distance of the ant from its starting
+  point at time $t$.  Thus, for example, $D(0) = 0$.
+\item Note that because the end of the rope is moving at a constant
+  speed of 10 meters per second, and because the end of the rope as
+  located one meter from the pinned down edge at time zero, the
+  position of the end of the rope at time $t$ is
+  \[
+  1 + 10t.
+  \]
+\item Let $P(t)$ denote the proportion of the rope that the ant has
+  already traversed.  Note that until the ant reaches the end, $P(t)$
+  is always between 0 and 1.  For example, if $P(t) = 0$, then the ant
+  is at the beginning of the rope (which is true when $t=0$), and if
+  $P(t) = 1$, then the ant has reached the end.  Also note that we can
+  combine our knowledge of $D(t)$ and the position of the end of the
+  rope to conclude that
+  \[
+  P(t) = \frac{D(t)}{1 + 10 t}.
+  \]
+\end{enumerate}
+
+With the above notation in hand, we can start thinking about how to
+solve the problem.  It should be clear that we hope to show that
+\[
+P(t^*) = 1,
+\]
+for some finite $t^*$.  However, to get there, we need to first
+consider $D(t)$.
+
+\section{The function $D(t)$}
+
+We need to understand how the position of the ant, $D(t)$, is changing
+with respect to time. %\bigskip
+%
+%\begin{exercise}
+%  Argue that the ant is getting closer to the end of the rope when
+%	 $D'(t) > 10$ and that it is getting further away when $D'(t)
+%	 < 10$.
+%\end{exercise}
+%
+The difficult issue is that the ant is moving due to two things
+\begin{enumerate}
+\item Its own movement relative to the rope.
+\item The movement due to the pulling of the rope.
+\end{enumerate}
+
+Whenever we have more than one action forcing something else to change
+we should try to break up the overall behavior into its components.
+Therefore, we should expect to have
+
+\[
+D(t+h) = D(t) + \text{``movement due to ant only''} + \text{``movement
+  due to rope''}.
+\]
+
+\subsection{Movement due to ant}
+Since the ant is moving at a speed of $1$ m/h, and the amount of time
+that passes is $h$ hours (which we think of as very small, of course),
+we have
+\[
+D(t+h) = D(t) + 1 \cdot h + \text{``movement due to rope''}.
+\]
+
+\subsection{Movement due to rope}
+The movement due to the rope seems tricker.  However, thinking along
+the following lines will save the day:
+\begin{enumerate}
+\item We need to understand how fast a particular point on the rope is
+  moving.
+\item We should recognize that for each point on a rope, it's relative
+  position on the rope (i.e. the proportion of the rope behind (or in
+  front of) it) should not change with time.
+\end{enumerate}
+
+Thus, if $x\in [0,1]$ was a point on the rope at time zero, and $X(t)$
+denotes its position at time $t$, then
+\begin{equation}\label{eq:why?}
+  \frac{x}{1} = \frac{X(t)}{1 + 10 t},
+\end{equation}
+for all $t$.  Since it holds for all $t$, we can conclude that
+\begin{align}\label{eq:1}
+  \frac{X(t+h)}{1 + 10(t+h)} = \frac{X(t)}{1 + 10 t},
+\end{align}
+since both sides equal the same thing (namely, $x/1$).
+
+\section{Problem}
+\problemfont
+\problem
+  Explain why equation \eqref{eq:why?} should hold for \textit{all} $t
+  \ge 0$.  Show that equation \eqref{eq:1} implies that
+  \begin{equation}\label{eq:from_rope}
+    X(t + h) - X(t) = X(t) \frac{10 h}{1 + 10 t}.
+  \end{equation}
+\noproblemfont
+
+\subsection{Returning to $D(t)$}
+We return to our analysis of $D(t)$ armed with more knowledge.  Since
+the position of the ant at time $t$ is $D(t)$, equation
+\eqref{eq:from_rope} tells us that the total movement of the ant due
+to the stretching rope over a time period of size $h$ is approximately
+\[
+D(t) \frac{10h}{1 + 10 t}.
+\]
+Combining all of the above, we have
+\begin{align*}
+  D(t + h) &= D(t) + \text{``movement due to ant only''} + \text{``movement due to rope''}\\
+  &= D(t) + h + D(t) \frac{10h}{1 + 10 t}.
+\end{align*}
+Rearranging terms and dividing by $h$ gives
+\[
+\frac{D(t+h) - D(t)}{h} = 1 + D(t) \frac{10}{1 + 10 t}.
+\]
+Of course, we know that as $h \to 0$, the right hand side becomes
+$D'(t)$.  Thus, we can conclude that
+\begin{equation}\label{eq:ODE}
+  D'(t) = 1 + D(t) \frac{10}{1 + 10t},
+\end{equation}
+where we also know that $D(0) = 0$.  The above equation tells us that
+the function $D$ has the following properties:
+\begin{enumerate}
+\item It has a value of zero at time zero (we already knew that, of
+  course!).
+\item Its derivative is equal to itself multiplied by
+  \[
+  \frac{10}{1 + 10t},
+  \]
+  plus one.
+\end{enumerate}
+
+%\pagebreak
+\section{So what?!?! -- Change perspective.}
+Unfortunately, equation \eqref{eq:ODE} is a differential equation, and
+is beyond the scope of this class to solve.  That is, at this point in
+your mathematical education it is not clear at all that there should
+even be a function satisfying such an odd equation.\footnote{There is
+  one.  However, you will need more math courses to be able to solve
+  these types of equations!}  Therefore, this seems like a dead-end.
+%
+%\begin{exercise}
+%  Recall that the ant is getting closer to the end of the rope when
+%	 $D'(t) > 10$ and is getting further away when $D'(t) <
+%	 10$. Argue that if
+%  \[
+%		D(t) > \frac{9}{10}(1 + 10 t),
+%  \]
+%  which states that the ant is within 10\% of the end of the rope,
+%	 then $D'(t) > 10$.
+%\end{exercise}
+%
+%Of course, the above still does not show that the ant will get to the
+% end of the rope!
+
+However, at this point, we can remember that it was not $D(t)$ that we
+were after anyways.  Instead, it was the function giving the
+\textit{proportion} of the rope already traversed by time $t$,
+\[
+P(t) = \frac{D(t)}{1 + 10 t}.
+\]
+
+\section{Problem}
+\problemfont
+\problem Show that
+\[
+P'(t) = \frac{D'(t)}{1 + 10 t} - \frac{10 D(t)}{(1 + 10t)^2}.
+\]
+Then use \eqref{eq:ODE} to conclude that
+\begin{equation}\label{eq:solve}
+  P'(t) = \frac{1}{1 + 10 t}.
+\end{equation}
+\noproblemfont
+\bigskip
+
+It is important to note that equation \eqref{eq:solve} is much simpler
+than equation \eqref{eq:ODE} since the right hand side does not depend
+on anything except $t$.  Thus, equation \eqref{eq:solve} can be read
+in the following manner:
+\[
+\text{``Find a function $P(t)$ whose derivative is} \ \ \frac{1}{1 +
+  10 t}\text{.''}
+\]
+Note also that we require $P(0) = 0$.  Finding such a $P$ is actually
+the exact \textit{opposite} of what you have learned to do so far,
+which is how to \textit{take} a derivative.
+ 
+ 
+ 
+\section{What to do?}
+
+Later in the course, you will find an explicit representation for
+$P(t)$ (if you must know now, the solution is $P(t) = (1/10) \ln(1 +
+10 t)$, where ``$\ln$'' is the natural logarithm).  For now, it is
+sufficient to know that there is a solution, and it yields a $t^*$ at
+which
+\[
+P(t^*) = 1.
+\]
+For example, the value of $t^*$ for our specific choice of constants
+is
+\[
+t^* = \frac{e^{10} - 1}{10} \approx 2,202.5.
+\]
+
+
+\section{Problems}
+\problemfont
+\problem Redo the analysis of the project except assume that the ant
+is walking at a speed of $s$ meters per hour (as opposed to one meter
+per hour) and that the end of the rope is being pulled at a rate of
+$r$ meters per hour.  Of course, assume that $s>0$ and $r>0$.  You
+should conclude that in this (general) case
+\[
+P'(t) = \frac{s}{1 + rt}.
+\]
+
+
+\problem Assume now that the ant is walking at 1 meter per hour and
+the rope is being pulled at a rate of 2 meters per hour.  Using the
+result from the previous exercise, argue that for small $h$,
+\begin{equation}\label{eq:approx}
+  P(t + h) \approx P(t) + \frac{1}{1 + 2t} h.
+\end{equation}
+Using this approximation for $P$, fill in the following tables to
+approximate $t^*$ for which $P(t^*) = 1$:
+
+\begin{minipage}[b]{0.3\textwidth}
+  \begin{tabular}{cc}\toprule
+    $t$ & $P(t)$ ($h = \frac12$)\\ \toprule
+    0.0 & 0.00 \\ \midrule
+    0.5 & 0.50  \\ \midrule
+    1.0 & 0.75 \\ \midrule
+    1.5 & 0.92 \\ \midrule
+    2.0 & 1.04 \\ \midrule
+    2.5 & 1.14\\ \bottomrule
+  \end{tabular}
+\end{minipage}
+\begin{minipage}[b]{0.3\textwidth}
+  \begin{tabular}{cc}\toprule
+    $t$ & $P(t)$  ($h = \frac13$)\\ \toprule
+    0.00 & 0.00 \\ \midrule
+    0.333 & 0.33   \\ \midrule
+    0.666 &  0.53 \\ \midrule
+    1.000 &  \\ \midrule
+    1.333 &  \\ \midrule
+    1.666 &  \\ \midrule
+    2.000 &  \\ \midrule
+    2.666 &  \\ \midrule
+    3.000 & \\ \midrule
+    3.333 & \\ \bottomrule
+  \end{tabular} 
+\end{minipage}
+\begin{minipage}[b]{0.3\textwidth}
+  \begin{tabular}{cc}\toprule
+    $t$ & $P(t)$  ( $h = \frac14$) \\ \toprule
+    0.00 & 0.00 \\ \midrule
+    0.25 &  0.25 \\ \midrule
+    0.50 & 0.42 \\ \midrule
+    0.75 &  \\ \midrule
+    1.00 &  \\ \midrule
+    1.25 &   \\ \midrule
+    1.50 &  \\ \midrule
+    1.75 &  \\ \midrule
+    2.00 &  \\ \midrule
+    2.25 &   \\ \midrule
+    2.50 &  \\ \midrule
+    2.75 &  \\ \midrule
+    3.00 &  \\ \midrule
+    3.25 & \\ \midrule
+    3.50 & \\ \bottomrule
+  \end{tabular}
+\end{minipage}
+
+For example, the first chart giving the computation with $h = 1/2$
+yields an approximation
+\[
+t^* = 2.
+\]
+
+
+\noproblemfont
+
+
+\section*{Report Instructions}
+Using complete sentences,
+write out solutions to all of the exercises.
+
+
+

@@ -1,0 +1,261 @@
+%Time-stamp : Thu Jun 13 07:58:09 2013
+
+\project{Determining functional form from data}
+
+\section{Purpose of this project}
+
+Suppose that you are presented with some data and want to figure out
+what type of function generated this data.  For example, you may wish
+to better understand how the population of a certain region depends
+upon time, or you may wish to know how precise a particular method is
+for the numerical computation of derivatives.
+
+In this project, we will learn to differentiate between data arising
+from a power function $f(t) = ct^k$ or an exponential function $g(t) =
+ce^{kt}$.  Further, we will learn how to approximate the constants $c$
+and $k$ from the data.
+
+\section{Case Study: U.S. Census Data}
+
+The table below provides population data (in millions) from 1790 -
+1900 for the United States taken from \url{http://www.census.gov/}. It is not
+clear from the plot whether the data exhibits polynomial or
+exponential growth, or neither.  \medskip
+
+\parbox[b][][c]{0.3\textwidth}{
+\begin{tabular}{cc}
+  \toprule
+  Year & \parbox{4em}{Population\\ (millions)} \\\midrule
+  1790 & 3.9\\\midrule
+  1800 & 5.3\\\midrule
+  1810 & 7.2\\\midrule
+  1820 & 9.6 \\\midrule
+  1830 & 12.9\\\midrule
+  1840 & 17.1\\\midrule
+  1850 & 23.2\\\midrule
+  1860 & 31.4\\\midrule
+  1870 & 38.6\\\midrule
+  1880 & 50.2 \\\midrule
+  1890 & 63.0 \\\midrule
+  1900 & 76.2\\ \bottomrule
+\end{tabular}
+}
+\parbox[b][][c]{0.5\textwidth}{
+  \includegraphics[width=0.6\textwidth]{USPop_RawData.pdf}
+  }
+
+
+
+%\pagebreak
+
+We begin by generating data from a known exponential function so that
+we can learn how to ``discover'' the original form of the function.
+Next, we will apply these techniques to real data.
+
+\section{Exponential functions}
+
+Consider the function $y = 3\cdot 2^x$.  We will use this function to
+generate some data.  Fill in the table below for the indicated values
+of $x$.  Next, plot the points $(x,y)$ on the provided graph.
+
+\bigskip
+\parbox[c][][c]{0.3\textwidth}{\centering
+\begin{tabular}{cc}
+  \toprule
+  $x$ &$y$ \\ \midrule
+  0 & \hspace{.4in}\phantom{.}\\ \midrule
+  1 & \\ \midrule
+  2 & \\ \midrule
+  3 & \\ \midrule
+  4 & \\ \midrule
+  5 & \\ \bottomrule
+\end{tabular}}
+\hfill
+\parbox[c][][c]{0.6\textwidth}{
+\includegraphics[width=0.4\textwidth]{5_xy_graphPaper.pdf}}
+\bigskip
+
+\noindent%:
+Now, using the values above and a calculator, fill in the table below
+and plot the points $(x,\ln y)$.
+
+\bigskip
+\parbox[c][][c]{0.3\textwidth}{\centering
+\begin{tabular}{cc}
+  \toprule
+  $x$ &$\ln y$ \\ \midrule
+  0 & \hspace{.4in}\phantom{.}\\ \midrule
+  1 & \\ \midrule
+  2 & \\ \midrule
+  3 & \\ \midrule
+  4 & \\ \midrule
+  5 & \\ \bottomrule
+\end{tabular}}
+\hfill
+\parbox[c][][c]{0.6\textwidth}{
+\includegraphics[height=0.6\textwidth]{5_xlogy_graphPaper.pdf}}
+
+\section{What just happened?}
+
+You should notice that your second plot above appears to be a line.
+The second plot is usually called a ``semilog plot'' since it plots
+the natural logarithm of the $y$ coordinate versus time.  Should we
+have expected the semilog plot to give a line?  The answer is yes
+since taking logs of both sides of the equation $y = 3\cdot 2^x$
+yields
+\[
+\ln y = \ln 3 + \ln(2) x.
+\]
+Thus, treating $(\ln y)$ as a variable, we see that there is a linear
+relationship.  
+
+\section{More generally}
+\noindent In general, suppose that
+\begin{equation}\label{eq:gen_exp}
+  y = c \cdot e^{kx}.
+\end{equation}
+For example, if $y = 3\cdot 2^x$, then we can write $y = 3\cdot
+e^{(\ln(2) )x}.$ Taking $\ln$ of both sides of equation
+\eqref{eq:gen_exp} yields
+\[
+\ln(y) = \ln(c) + k x.
+\]
+Thus we may conclude the following.
+
+\bigskip
+\noindent\textbf{Fact: } \emph{ if $y= c\cdot e^{kx}$ for some $c$ and
+$k$, then the plot of $x$ versus $ln(y)$ will be a line.}
+\bigskip
+
+More can even be concluded!  Not only does the linearity of the
+semilog plot tell us that the function satisfies an exponential form,
+but it also gives us a method for determining $c$ and $k$ since
+\begin{enumerate}
+\item $\ln(c)$ is the vertical intercept of the semilog plot when $x =
+  0$, and
+\item $k$ is the slope of the semilog plot.
+\end{enumerate}
+
+\section{Power functions}
+Now suppose that we are dealing with a polynomial function such as
+\begin{equation*}
+  y = c\cdot {x}^k,
+\end{equation*}
+for some real numbers $c$ and $k$.  Will a similar idea work?  Taking
+$\ln$ of both sides of the above equation yields
+\begin{equation*}
+  \ln (y) = \ln(c) + k \ln(x).
+\end{equation*}
+Therefore, we see that plotting $\ln(x)$ versus $\ln(y)$ will produce
+a line.  Further, both $c$ and $k$ can be recovered by finding the
+slope and intercept of the resulting plot.  Such a plot is referred to
+as a log-log plot since now both the dependent and independent
+variables have logarithms applied to them.
+
+\section{Problem}
+\problemfont
+\problem
+Consider the function
+\[
+f(x) = e^{-x^2/2},
+\]
+which plays an important role in probability.  We will numerically
+approximate $f'(0.5)$ using three different methods:
+\begin{enumerate}
+\item The forward difference: $\displaystyle f'(0.5) \approx
+  \frac{f(0.5+h)-f(0.5)}{h}$.
+\item The backward difference: $\displaystyle f'(0.5) \approx
+  \frac{f(0.5) - f(0.5-h)}{h}$.
+\item The centered difference: $\displaystyle f'(0.5) \approx
+  \frac{f(0.5+h) - f(0.5-h)}{2h}$.
+\end{enumerate}
+Fill in the following tables with the relevant data:
+
+\begin{tabular}{cccc}
+  \toprule
+  $h$ 
+  & $\displaystyle \frac{f(0.5+h)-f(0.5)}{h}$
+  & $\displaystyle \frac{f(0.5)-f(0.5-h)}{h}$
+  & $\displaystyle \frac{f(0.5+h)-f(0.5-h)}{2h}$
+  \\    [1.5ex] \toprule  
+  1/5 & -0.498\,961 \\ \midrule
+  1/10 & \\ \midrule
+  1/50 & \\ \midrule
+  1/100 & \\ \midrule
+  1/200 & \\
+  \bottomrule
+\end{tabular}
+
+\noindent%
+The exact value of the derivative is $-0.44124845\cdots$.  In the table
+below, give the error induced by the different methods
+\[
+E(h) = \bigl|f'(0.5) - \text{approximate derivative with parameter }
+h\bigr|.
+\]
+Note the absolute values above!
+\begin{center}
+  \begin{tabular}{cccc}
+    \toprule
+    $h$ & $E(h)$ & $E(h)$ & $E(h)$ \\    [1.5ex] \toprule  
+    1/5 &\quad 0.057\,713 \quad &  \quad0.073\,746  \quad &
+    \quad0.008\,016 \quad\\ \midrule
+    1/10 &&& \\ \midrule
+    1/50 &&& \\ \midrule
+    1/100 &&& \\ \midrule
+    1/200 &&& \\
+    \bottomrule
+  \end{tabular}
+\end{center}
+
+Produce log-log plots of the data in the three tables above and
+derive the functional dependence of the error for each method as a
+function of $h$.  Can you conclude that one method is definitively
+``better'' then the others?  In what precise sense is it better?
+\label{ex:deriv}
+\noproblemfont
+
+\section{Report Instructions}
+
+Your project writeup should include:
+\begin{enumerate}
+\item Summary of ideas detailed in project above including a
+  derivation showing why the semilog or log-log plots will give a
+  linear relationship under different circumstances.
+
+\item Complete solution to Exercise \ref{ex:deriv}.
+\item Complete the following two exercises:
+
+  \begin{enumerate}
+  \item Taking the data from the US Census on the first page of this
+    project, determine if the population data exhibits exponential or
+    polynomial growth.  Drawing a line by hand through the resulting
+    linear plot (this will be either a log-log or semilog plot),
+    determine the relevant constants $c$ and $k$.  That is, find a
+    time dependent function of the population of the United States
+    that fits the data well.  What does the model predict the
+    population of the United States would be in the year 2010?
+    Explain.
+
+  \item A numerical method used to calculate integrals produced the
+    following errors, $E(h)$, where $E(h)$ is a function of a certain
+    parameter $h$:
+
+    \medskip
+
+    \begin{center}
+      \begin{tabular}{|c|c|c|c|c|c|}\hline
+        $h$ & $1/10$ & $1/20$& $1/25$& $1/40$ & $1/50$\\\hline
+        $E(h)$ & 0.071 & 0.0174 & 0.0114 &  0.00438 & 0.0027 \\\hline
+      \end{tabular}
+    \end{center}
+    \medskip
+
+    A scientist believes that $E(h)$ is well approximated by a
+    polynomial of the form $C h^k$, for some $C,k>0$, where $k$ is a
+    positive integer.  Is the scientist right?  Explain.  If the
+    scientist is right, what are the values of $k$ and $C$?
+
+  \end{enumerate}
+\end{enumerate}
+

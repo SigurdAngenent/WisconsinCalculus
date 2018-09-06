@@ -1,0 +1,1330 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%!TEX root = free221.tex
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\chapter{More Problems}
+\problemfont
+
+For graphing problems you may be asked to determine
+
+\noindent
+(a)~where $f(x)$ is defined,\\
+(b)~where $f(x)$ is continuous,\\
+(c)~where $f(x)$ is differentiable,\\
+(d)~where $f(x)$ is increasing and where it is decreasing,\\
+(e)~where $f(x)$ is concave up and where it is concave down,\\
+(f)~what the critical points of $f(x)$ are,\\
+(g)~where the points of inflection are,\\
+(h)~what  (if any) the horizontal asymptotes to $f(x)$ are, and\\
+(i)~what  (if any) the vertical asymptotes to $f(x)$ are.\\
+
+\noindent
+(A horizontal line $y=b$ is called a {\em horizontal asymptote} if
+$\ds\lim_{x\to\infty}f(x)=b$ or $\ds\lim_{x\to-\infty}f(x)=b$.  A vertical
+line $x=a$ is called a {\em vertical asymptote} if $\ds\lim_{x\to
+a+}f(x)=\pm\infty$ or $\ds\lim_{x\to a-}f(x)=\pm\infty$.)
+
+
+For proofs the question will be carefully worded to indicate what you may
+assume in your proof.  (See Problem~\ref{sinOver} for example.)  In this
+document you may use without proof any previously asserted fact. For
+example, you may use the fact that $\sin'(\theta)=\cos(\theta)$ to prove
+that $\cos'(\theta)=-\sin(\theta)$ since the former question precedes the
+latter below.  (See Problems~\ref{sineDerivative}
+and~\ref{cosineDerivative}.)  You may always use high school algebra (like
+$\cos(\theta)=\sin(\pi/2-\theta)$) in your proofs.
+
+\medskip
+\begin{multicols}{2}
+
+  \problem State and prove the Sum Rule for derivatives.  You may use
+  (without proof) the Limit Laws.
+
+
+  \problem State and prove the Product Rule for derivatives.  You may use
+  (without proof) the Limit Laws.
+
+
+  \problem State and prove the Quotient Rule for derivatives.  You may use
+  (without proof) the Limit Laws.
+
+
+  \problem State and prove the Chain Rule for derivatives.  You may use
+  (without proof) the Limit Laws.  You may assume (as the proof in the
+  Stewart text does) that the inner function has a nonzero derivative.
+
+
+  \problem State the Sandwich\footnote{Also called the Squeeze Theorem}
+  Theorem.
+
+
+  \problem Prove that $\ds \frac{d x^n }{ dx} = nx^{n-1}$, for all positive
+  integers $n$.
+
+
+  \problem Prove that $\ds \frac{d x^n }{ dx} = nx^{n-1}$, for $n=0$.
+
+
+  \problem Prove that $\ds \frac{d x^n }{ dx} = nx^{n-1}$, for all negative
+  integers $n$.
+
+
+  \problem Prove that $\ds \frac{d e^x }{ dx} = e^x$.
+
+
+  \problem\label{sinOver} Prove that
+  \[
+  \lim_{\theta\to 0} \frac{\sin(\theta)}{\theta} = 1.
+  \]
+  You may assume without proof the Sandwich Theorem, the Limit Laws, and that
+  the $\sin$ and $\cos$ are continuous.  Hint: See Problem~\ref{SectorArea}.
+
+
+  \problem Prove that
+  \[
+  \lim_{\theta\to 0} \frac{1-\cos(\theta)}{\theta} = 0.
+  \]
+
+
+  \problem\label{sineDerivative}
+  Prove that $\ds \frac{d \sin x}{ dx} = \cos x$.
+
+
+  \problem\label{cosineDerivative}
+  Prove that $\ds \frac{d \cos x }{ dx} = -\sin x$.
+
+
+  \problem Prove that $\ds\frac{d \tan x }{ dx} = \sec^2 x$.
+
+
+  \problem Prove that $\ds\frac{d \cot x }{ dx} = -\csc^2 x$.
+
+
+  \problem Prove that $\ds\frac{d \ln x }{ dx} = \frac{1}{x}$.
+
+
+  \problem Prove that $\ds \frac{d \arcsin x}{ dx} = \frac{1}{
+  \sqrt{1-x^2}}$.
+
+
+  \problem Prove that $\ds \frac{d \arccos x }{ dx} = -\frac{1}{
+  \sqrt{1-x^2}}$.
+
+
+  \problem Prove that $\ds \frac{d \arctan x }{ dx} = \frac{1}{ 1+x^2}$.
+
+
+  \problem True or false? A differentiable function must be continuous.  If
+  true, give a proof; if false, illustrate with an example.
+
+
+  \problem True or false? A continuous function must be differentiable.  If
+  true, give a proof; if false, illustrate with an example.
+
+
+  \problem Explain why $\ds \lim_{x\to 0} 1/x $ does not exist.
+
+
+  \problem Explain why $\ds \lim_{\theta\to \pi/2} \tan \theta $ does not
+  exist.
+
+
+  \problem Explain why $\ds \lim_{x\to 0} \sin(1/x)$ does not exist.
+
+
+  \problem Explain why $\ds \lim_{\theta\to \infty} \cos \theta $ does not
+  exist.
+
+
+  \problem Let $\sign(x)$ be the sign function (see
+  example~\ref{ex:sign-function-has-no-limit}) Explain why $\ds\lim_{x\to 0}
+  \sign(x) $ does not exist.
+
+
+  \problem Explain why $\ds \lim_{y\to 0} 2^{1/y}$ does not exist.
+
+
+  \problem Explain why $\ds \lim_{x\to 1} 2^{1/(x-1)} $ does not exist.
+
+
+  \problem Calculate $\ds\lim_{\Delta x\to 0} \frac{f(x+\Delta x)-f(x)}{ (x+\Delta x)-x } $ when $f(x) = \sin 2x$.
+
+
+  \problem Calculate $\ds\lim_{h\to 0} \frac{f(x+h)-f(x)}{ (x+h)-x }$ when $f(x) = \cos 2x$.
+
+
+  \problem Calculate $\ds \lim_{x\to a} \frac{f(x)-f(a)}{ x-a } $ when $f(x) = \sin(x^2)$.
+
+
+  \problem Calculate $\ds \lim_{x\to x_0} \frac{f(x)-f(x_0)}{x-x_0} $ when $f(x) = \cos(x^2)$.
+
+  \hrule
+
+  Calculate 
+  \[
+  \lim_{\Delta x\to 0} \frac{f(x+\Delta x)-f(x)}{ (x+\Delta x)-x }
+  \]
+  for the following functions :
+  \problem $f(x)= \sqrt{\sin x}$.
+
+
+  \problem  $f(x) = x \sin x$.
+
+
+  \problem  $f(x) = e^{\sqrt{x}}$.
+
+
+  \problem  $f(x) = e^{\sin x}$.
+
+
+  \problem  $f(x) = \ln (ax+b)$.
+
+
+  \problem  $f(x) = e^{\cos x}$.
+
+
+  \problem  $f(x) =x^x$.
+
+
+  \problem  $\ds f(x)= \frac{\sin x}{x}$.
+
+
+  \problem  $f(x) = \sqrt{ax+b}$.
+
+
+  \problem  $f(x) = (m x +c )^n$.
+
+  \hrule
+
+
+  \problem Use differentiation to estimate the number $\ds
+  \frac{127^{4/3}-125^{4/3}}{2}$ approximately without a calculator. Your
+  answer should have the form $p/q$ where $p$ and $q$ are integers.  Hint:
+  $5^3=125$.
+
+
+  \problem\label{CircleCircumference} What is the derivative of the area of a
+  circle with respect to its radius?
+
+
+  \problem \label{SphereArea} What is the derivative of the volume of a
+  sphere with respect to its radius?
+
+
+  \problem Find the slope of the tangent to the curve $y=x^3-x$ at $x=2$.
+
+
+  \problem Find the equations of the tangent and normal to the curve
+  $y=x^3-2x+7$ at the point $(1,6)$.
+
+
+  \problem Find the equation of the tangent line to the curve $3xy^2-2x^2y=1$
+  at the point $(1,1)$. Find $d^2y/dx^2$ at this point.
+
+
+  \problem Find the equations of the tangent and normal to the curve
+  $\ds\frac{x^2}{ a^2}+\frac{y^2}{ b^2}=1 $ at the point $(a\cos\theta,
+  b\sin\theta)$.
+
+
+  \problem Find the equations of the tangent and normal to the curve
+  $\ds\frac{x^2}{ a^2}-\frac{y^2}{ b^2}=1 $ at the point $(a\sec\theta,
+  b\tan\theta)$.
+
+
+  \problem Find the equations of the tangent and normal to the curve
+  $c^2(x^2+y^2)=x^2y^2$ at the point $(c/\cos\theta,c/\sin\theta)$.
+
+
+  \problem Find the equations of the tangent and normal to the parabola $\ds
+  y^2=4ax$ at the point $(at^2, 2at)$.
+
+
+  \problem Show that the equation of the tangent to the hyperbola
+  $\ds\frac{x^2}{ a^2}-\frac{y^2}{ b^2}=1 $ at the point $(p,q)$ is
+  $\ds\frac{xp}{ a^2}-\frac{yq}{ b^2}=1 $
+
+
+  \problem Find the equations of the tangent and normal to the curve
+  $y=x^4-6x^3+13x^2-10x+5$ at the point where $x=1$.
+
+
+  \problem Find the linear approximations to $\ds f(x)=\frac{1}{ \sqrt{4+x}}$
+  at $x=0$.
+
+
+  \problem Find the linear approximations to $f(x)=\sqrt{1+x}$ at $x=0$.
+
+
+  \problem Find the linear approximations to $\ds f(x)=\frac{1}{ (1+2x)^4}$
+  at $x=0$.
+
+
+  \problem Find the linear approximations to $f(x)=(1+x)^3$ at $x=0$.
+
+
+  \problem Find the linear approximations to $f(x)=\sec x$ at $x=0$.
+
+
+  \problem Find the linear approximations to $f(x)=x\sin x$ at $x=0$.
+
+
+  \problem Find the linear approximations to $f(x)=x^3$ at $x=1$.
+
+
+  \problem Find the linear approximations to $f(x)=x^{1/3}$ at $x=-8$.
+
+
+  \problem Find the linear approximations to $f(\theta)=\sin \theta$ at
+  $\theta={\pi/6}$.
+
+
+  \problem Find the linear approximations to $f(x)=x^{-1}$ at $x=4$.
+
+
+  \problem Find the linear approximations to $f(x)=x^3-x$ at $x=1$.
+
+
+  \problem Find the linear approximations to $f(x)=\sqrt{x}$ at $x=4$.
+
+
+  \problem Find the linear approximations to $f(x)=\sqrt{x^2+9}$ at $x=-4$.
+
+
+  \problem Use quadratic approximation to find the approximate value of
+  $\sqrt{401}$ without a calculator.  Hint: $\sqrt{400}=20$.
+
+
+  \problem Use quadratic approximation to find the approximate value of
+  $(255)^{1/4}$ without a calculator. Hint: $256^{1/4}=4$.
+
+
+  \problem Use quadratic approximation to find the approximate value of
+  $\ds\frac{1}{ (2.002)^2} $ without a calculator.
+
+
+  \problem Approximate $(1.97)^6$ without a calculator. (Leave arithmetic
+  undone.)
+
+
+  \problem Let $f$ be a function such that $f(1)=2$ and whose derivative is
+  known to be $f'(x)=\sqrt{x^3+1}$.  Use a linear approximation to estimate
+  the value of $f(1.1)$.  Use a quadratic approximation to estimate the value
+  of $f(1.1)$.
+
+
+  \problem Find the second derivative of $x^7$ with respect to $x$.
+
+
+  \problem Find the second derivative of $\ln x$ with respect to $x$.
+
+
+  \problem Find the second derivative of $5^x$ with respect to $x$.
+
+
+  \problem Find the second derivative of $\tan \theta$ with respect to
+  $\theta$.
+
+
+  \problem Find the second derivative of $x^2e^{3x}$ with respect to $x$.
+
+
+  \problem Find the second derivative of $\sin 3x\cos 5x$ with respect to
+  $x$.
+
+
+  \problem Find the third derivative of $u^4$ with respect to $u$.
+
+
+  \problem Find the third derivative of $\ln x$ with respect to $x$.
+
+
+  \problem Find the second derivative of $\tan x$ with respect to $x$.
+
+
+  \problem If $\theta=\arcsin y$ show that $\ds\frac{d^2 \theta}{ dy^2} =
+  \frac{y}{ (1-y^2)^{3/2} } $.
+
+
+  \problem If $y=e^{-t}\cos t$ show that $\ds\frac{d^2 y}{ dt^2} =
+  2e^{-t}\sin t$.
+
+
+  \problem If $u=t+\cot t$ show that $\ds \sin^2 t\cdot \frac{d^2 u}{
+  dt^2}-2u+2t=0 $.
+
+
+  \problem If $y=e^{\tan x}$ show that $\ds \cos^2 x\cdot\frac{d^2 y}{
+  dx^2}-(1+\sin 2x)\frac{dy}{dx}=0 $.
+
+
+  \problem State L'H\^opital's rule and give an example which illustrates how
+  it is used.
+
+
+  \problem Explain why L'H\^opital's rule works.  Hint: Expand the numerator
+  and the denominator in terms of $\Delta x$.
+
+
+  \problem Give three examples to illustrate that a limit problem that looks
+  like it is coming out to $0/0$ could be really getting closer and closer to
+  almost anything and must be looked at a different way.
+
+
+  \problem Give three examples to illustrate that a limit problem that looks
+  like it is coming out to $1^\infty$ could be really getting closer and
+  closer to almost anything and must be looked at a different way.
+
+
+  \problem Give three examples to illustrate that a limit problem that looks
+  like it is coming out to $0^0$ could be really getting closer and closer to
+  almost anything and must be looked at a different way.
+
+
+  \problem Give three examples to illustrate that a limit problem that looks
+  like it is coming out to $\infty-\infty$ could be really getting closer and
+  closer to almost anything and must be looked at a different way.
+
+
+  \problem Explain how limit problems that come out to $\infty/\infty$ can
+  always be converted into limit problems that come out to $0/0$ and why
+  doing such a conversion is useful.
+
+
+  \problem Explain how limit problems that come out to $\infty-\infty$ can be
+  converted into limit problems that come out to $0/0$ and why doing such a
+  conversion is useful.
+
+
+  \problem Explain how limit problems that come out to $0^0$ can be converted
+  into limit problems that come out to $0/0$ and why doing such a conversion
+  is useful.
+
+
+  \problem Explain how limit problems that come out to $1^\infty$ can be
+  converted into limit problems that come out to $0/0$ and why doing such a
+  conversion is useful.
+
+
+  \problem\label{SectorArea} Use calculus to show that the area $A$ of a
+  sector of a circle with central angle $\theta$ is $A=(\theta/2)R^2$ where
+  $R$ is the radius and $\theta$ is measured in radians.  Hint: Divide the
+  sector into $n$ equal sectors of central angle $\Delta\theta=\theta/n$ and
+  area $\Delta A$.  As in the proof (see Problem~\ref{sinOver}) that
+  \[
+  \lim_{\Delta\theta\to 0} \frac{\sin(\Delta\theta)}{\Delta\theta} = 1,
+  \]
+  the area $\Delta A$ lies between the areas of two right triangles whose
+  areas can be expressed in terms of $R$ and trig functions of
+  $\Delta\theta$.  Apply the Sandwich Theorem to $A=n\Delta A$ and use
+  l'H\^opital's rule or Problem~\ref{sinOver}.
+
+
+  \problem\label{CircleArea} Use calculus to show that the area of a circle
+  of radius $R$ is $\pi R^2$.  Hint: The area of a sector is a more general
+  problem.  (See problem~\ref{SectorArea}.)
+
+
+  \problem For which values of $x$ is the function $f(x)=x^2+3x+4$
+  continuous?  Justify your answer with limits if necessary and draw a graph
+  of the function to illustrate your answer.
+
+
+  \problem For which values of $x$ is the function
+  \[
+  f(x)=
+  \begin{cases}
+    \frac{x^2-x-6}{x-3}, & \text{if } x\ne 3, \\
+    5 &\text{if }x=3,
+  \end{cases}
+  \]
+  continuous?  Justify your answer with limits if necessary and draw a graph
+  of the function to illustrate your answer.
+
+
+  \problem For which values of $x$ is the function
+  \[
+  f(x)=
+  \begin{cases}
+    \dfrac{\sin 3x}{x}, & \text{if } x\ne 0, \\
+    1, & \text{if } x=0,
+  \end{cases}
+  \]
+  continuous?  Justify your answer with limits if necessary and draw a graph
+  of the function to illustrate your answer.
+
+
+  \problem Determine the value of $k$ for which the function
+  \[
+  f(x)=
+  \begin{cases}
+    \dfrac{\sin 2x}{5x}& \text{if } x\ne 0,\\
+    k, & \text{if } x=0,
+  \end{cases}
+  \]
+  is continuous at $x=0$.  Justify your answer with limits if necessary and
+  draw a graph of the function to illustrate your answer.
+
+
+  \problem What does it mean for a function $f(x)$ to be continuous at $x=a$?
+
+
+  \problem What does it mean for a function $f(x)$ to be differentiable at
+  $x=a$?
+
+
+  \problem What does $f'(a)$ indicate you about the graph of $y=f(x)$?
+  Explain why this is true.
+
+
+  \problem What does it mean for a function to be increasing?  Explain how to
+  use calculus to tell if a function is increasing.  Explain why this works.
+
+
+  \problem What does it mean for a function to be concave up?  Explain how to
+  use calculus to tell if a function is concave up. Explain why this works.
+
+
+  \problem What is a horizontal asymptote of a function $f(x)$?  Explain how
+  to justify that a given line $y=b$ is a horizontal asymptote of $f(x)$.
+
+
+  \problem What is a vertical asymptote of a function $f(x)$?  Explain how to
+  justify that a given line $x=a$ is an vertical asymptote of $f(x)$.
+
+
+  \problem If $f(x)=|x|$, what is $f'(-2)$?
+
+
+  \problem Find the values of $a$ and $b$ so that the function
+  \[
+  f(x)=
+  \begin{cases}
+    x^2+3x+a,& \text{if } x\le 1,\\
+    bx+2, & \text{if } x>1,
+  \end{cases}
+  \]
+  is differentiable for all values of $x$.
+
+
+  \problem Graph
+  \[
+  f(x)=
+  \begin{cases}
+    2-x,& \text{if } x\ge 1\\
+    x, & \text{if } 0\le x\le 1.
+  \end{cases}
+  \]
+
+
+  \problem Graph
+  \[
+  f(x)=
+  \begin{cases}
+    2+x, &\text{if } x\ge 0,\\
+    2-x, &\text{if } x<0.
+  \end{cases}
+  \]
+
+
+  \problem Graph
+  \[
+  f(x)=
+  \begin{cases}
+    1-x,& \text{if } x<1,\\
+    x^2-1,&\text{if } x\ge 1.
+  \end{cases}
+  \]
+
+  \problem Graph $\ds f(x) = x+1/x$.
+
+
+  \problem Graph $\ds f(x)=\frac{x^2+2x-20}{ x-4} $ for $5<x<9$.
+
+
+  \problem Graph $\ds f(x) = \frac{1}{ x^2+1} $.
+
+
+  \problem Graph $f(x)=xe^x$.
+
+
+  \problem State Rolle's theorem and draw a picture which illustrates the
+  statement of the theorem.
+
+
+  \problem State the Mean Value Theorem and draw a picture which illustrates
+  the statement of the theorem.
+
+
+  \problem Explain why Rolle's theorem is a {\it special case} of the Mean
+  Value Theorem.
+
+
+  \problem Let $f(x)=1-x^{2/3}$.  Show that $f(-1)=f(1)$ but that there is no
+  number $c$ in the interval $(-1,1)$ such that $f'(c)=0$.  Why does this not
+  contradict Rolle's theorem?
+
+
+  \problem Let $f(x)=(x-1)^{-2}$.  Show that $f(0)=f(2)$ but that there is no
+  number $c$ in the interval $(0,2)$ such that $f'(c)=0$.  Why does this not
+  contradict Rolle's theorem?
+
+
+  \problem Show that the Mean Value Theorem is not applicable to the function
+  $f(x)=|x|$ in the interval $[-1,1]$.
+
+
+  \problem Show that the Mean Value Theorem is not applicable to the function
+  $f(x)=1/x$ in the interval $[-1,1]$.
+
+
+  \problem Find a point on the curve $y=x^3$ where the tangent is parallel to
+  the chord joining $(1,1)$ and $(3,27)$.
+
+
+  \problem Show that the equation $x^5+10x+3=0$ has exactly one real root.
+
+
+  \problem Find the local maxima and minima of $f(x)=(5x-1)^2+4$ without
+  using derivatives.
+
+
+  \problem Find the local maxima and minima of $f(x)=-(x-3)^2+9$ without
+  using derivatives.
+
+
+  \problem Find the local maxima and minima of $f(x)=-|x+4|+6$ without using
+  derivatives.
+
+
+  \problem Find the local maxima and minima of $f(x)=\sin 2x+5$ without using
+  derivatives.
+
+
+  \problem Find the local maxima and minima of $f(x)=|\sin 4x + 3|$ without
+  using derivatives.
+
+
+  \problem Find the local maxima and minima of $f(x)=x^4-62x^2+120x+9$.
+
+
+  \problem Find the local maxima and minima of $f(x)=(x-1)(x+2)^2$.
+
+
+  \problem Find the local maxima and minima of $f(x)=-(x-1)^3(x+1)^2$.
+
+
+  \problem Find the local maxima and minima of $f(x)=x/2+2/x$ for $x>0$.
+
+  \problem Find the local maxima and minima of $f(x)=2x^3-24x+107$ in the
+  interval $[1,3]$.
+
+  \problem Find the local maxima and minima of $f(x)=\sin x+(1/2)\cos x$ in
+  $0\le x\le \pi/2$.
+
+
+
+
+  \problem Show that the maximum value of $\ds \left(\frac{1}{ x}\right)^x$
+  is $e^{1/e}$.
+
+
+
+
+  \problem Show that $f(x)=x+1/x$ has a local maximum and a local minimum,
+  but the value at the local maximum is less than the value at the local
+  minimum.
+
+
+
+
+  \problem Find the maximum profit that a company can make if the profit
+  function is given by $p(x)=41+24x-18x^2$.
+
+
+
+
+  \problem A train is moving along the curve $y=x^2+2$.  A girl is at the
+  point $(3,2)$.  At what point will the train be at when the girl and the
+  train are closest?  Hint: You will have to solve a cubic equation, but the
+  numbers have been chosen so there is an obvious root.
+
+
+
+
+  \problem Find the local maxima and minima of $f(x)=-x+2\sin x$ in
+  $[0,2\pi]$.
+
+
+
+
+  \problem Divide $15$ into two parts such that the square of one times the
+  cube of the other is maximum.
+
+
+
+
+  \problem Suppose the sum of two numbers is fixed.  Show that their product
+  is maximum exactly when each one of them is half of the total sum.
+
+
+
+
+  \problem Divide $a$ into two parts such that the $p$th power of one times
+  the $q$th power of the other is maximum.
+
+
+
+
+  \problem Which number between $0$ and $1$ exceeds its $p$th power by the
+  maximum amount?
+
+
+
+
+  \problem Find the dimensions of the rectangle of area $96$ cm${}^2$ which
+  has minimum perimeter.  What is this minimum perimeter?
+
+
+
+
+  \problem Show that the right circular cone with a given volume and minimum
+  surface area has altitude equal to $\sqrt{2}$ times the radius of the base.
+
+
+
+
+  \problem Show that the altitude of the right circular cone with maximum
+  volume that can be inscribed in a sphere of radius $R$ is $4R/3$.
+
+
+
+
+  \problem Show that the height of a right circular cylinder with maximum
+  volume that can be inscribed in a given right circular cone of height $h$
+  is $h/3$.
+
+
+
+
+  \problem A cylindrical can is to be made to hold 1 liter of oil.  Find the
+  dimensions of the can which will minimize the cost of the metal to make the
+  can.
+
+
+
+
+  \problem An open box is to be made out of a given quantity of cardboard of
+  area $p^2$.  Find the maximum volume of the box if its base is square.
+
+
+
+
+
+  \problem Find the dimensions of the maximum rectangular area that can be
+  fenced with a fence 300 yards long.
+
+
+
+
+  \problem Show that the triangle of the greatest area with given base and
+  vertical angle is isosceles.
+
+
+
+
+  \problem Show that a right triangle with a given perimeter has greatest
+  area when it is isosceles.
+
+
+
+  \problem What do distance, speed and acceleration have to do with calculus?
+  Explain thoroughly.
+
+
+
+
+  \problem A particle, starting from a fixed point $P$, moves in a straight
+  line.  Its position relative to $P$ after $t$ seconds is $s=11+5t+t^3$
+  meters.  Find the distance, velocity and acceleration of the particle after
+  $4$ seconds, and find the distance it travels during the $4$th second.
+
+
+
+
+  \problem The displacement of a particle at time $t$ is given by
+  $x=2t^3-5t^2+4t+3$.  Find (i)~the time when the acceleration is $8{\rm
+  cm/s}^2$, and (ii)~the velocity and displacement at that instant.
+
+
+
+
+  \problem A particle moves along a straight line according to the law
+  $s=t^3-6t^2+19t-4$.  Find (i)~its displacement and acceleration when its
+  velocity is $7$m/s, and (ii)~its displacement and velocity when its
+  acceleration is $6{\rm m/s}^2$.
+
+
+
+
+  \problem A particle moves along a straight line so that after $t$ seconds
+  its position relative to a fixed point $P$ on the line is $s$ meters, where
+  $s=t^3-4t^2+3t$.  Find (i)~when the particle is at $P$, and (ii)~its
+  velocity and acceleration at these times $t$.
+
+
+
+
+  \problem A particle moves along a straight line according to the law
+  $s=at^2-2bt+c$, where $a,b,c$ are constants.  Prove that the acceleration
+  of the particle is constant.
+
+
+
+
+  \problem The displacement of a particle moving in a straight line is
+  $x=2t^3-9t^2+12t+1$ meters at time $t$.  Find (i)~the velocity and
+  acceleration at $t=1$ second, (ii)~the time when the particle stops
+  momentarily, and (iii)~the distance between two stops.
+
+
+
+
+  \problem The distance $s$ in meters travelled by a particle in $t$ seconds
+  is given by $s=ae^t+be^{-t}$.  Show that the acceleration of the particle
+  at time $t$ is equal to the distance the particle travels in $t$ seconds.
+
+
+
+  \problem A ladder $10$ feet long rests against a vertical wall.  If the
+  bottom of the ladder slides away from the wall at a speed of $2$ ft/s, how
+  fast is the angle between the top of the ladder and the wall changing when
+  the angle is $\pi/4$ radians?
+
+
+
+
+  \problem A ladder $13$ meters long is leaning against a wall.  The bottom
+  of the ladder is pulled along the ground away from the wall at the rate of
+  $2$ m/s.  How fast is its height on the wall decreasing when the foot of
+  the ladder is $5$ m away from the wall?
+
+
+
+
+  \problem A television camera is positioned $4000$ ft from the base of a
+  rocket launching pad.  A rocket rises vertically and its speed is $600$
+  ft/s when it has risen $3000$ feet.  (a)~How fast is the distance from the
+  television camera to the rocket changing at that moment?  (b)~How fast is
+  the camera's angle of elevation changing at that same moment?  (Assume that
+  the telivision camera points toward the rocket.)
+
+
+
+
+  \problem Explain why exponential functions arise in computing radioactive
+  decay.
+
+
+
+  \problem Explain why exponential functions are used as models for
+  population growth.
+
+
+
+  \problem Radiocarbon dating works on the principle that $^{14}C$ decays
+  according to radioactive decay with a half life of $5730$ years.  A
+  parchment fragment was discovered that had about $74\%$ as much $^{14}C$ as
+  does plant material on earth today.  Estimate the age of the parchment.
+
+
+  \problem If $f'(x)=x-1/x^2$ and $f(1)=1/2$ find $f(x)$.
+
+
+  \problem $\ds \int (6x^5-2x^{-4}-7x+3/x-5+4e^x+7^x) \,dx$
+
+
+  \problem $\ds \int (x/a+a/x+x^a+a^x+ax) \,dx $
+
+
+  \problem $\ds\int \left(\sqrt{x}- \root 3\of {x^4}+\frac{7}{ {\root 3 \of
+  {x^2}}} -6e^x+1\right)\,dx $
+
+
+  \problem$\ds\int 2^x \,dx$
+
+
+  \problem$\ds\int^4_{-2} (3x-5) \,dx$
+
+
+  \problem$\ds \int^2_{1} x^{-2} \,dx$
+
+
+  \problem$\ds \int^1_{0} (1-2x-3x^2) \,dx$
+
+
+  \problem$\ds \int^2_1 (5x^2-4x+3) \,dx$
+
+
+  \problem$\ds \int^0_{-3} (5y^4-6y^2+14) \,dy$
+
+
+  \problem$\ds \int^1_{0} (y^9-2y^5+3y) \,dy$
+
+
+  \problem$\ds \int^4_0 \sqrt{x} \,dx$
+
+
+  \problem$\ds \int^1_0 x^{3/7} \,dx$
+
+
+  \problem$\ds \int^3_1 \left(\frac{1}{ t^2}-\frac{1}{ t^4}\right) \,dt$
+
+
+  \problem$\ds \int^2_1 \frac{t^6-t^2}{ t^4} \,dt$
+
+
+  \problem$\ds \int^2_1 \frac{x^2+1}{ \sqrt{x}} \,dx$
+
+
+  \problem$\ds \int^2_0 (x^3-1)^2 \,dx$
+
+
+  \problem$\ds \int^1_0 u(\sqrt{u}+{\root 3 \of u}) \,du$
+
+
+  \problem$\ds \int^2_{1} (x+1/x)^2 \,dx$
+
+
+  \problem$\ds \int^3_{3} \sqrt{x^5+2} \,dx$
+
+
+  \problem$\ds \int^{-1}_1 (x-1)(3x+2) \,dx$
+
+
+  \problem$\ds \int^{4}_1 (\sqrt{t}-2/\sqrt{t}) \,dt$
+
+
+  \problem$\ds \int^{8}_1 \left({\root 3\of r}+\frac{1}{ {\root 3 \of
+  r}}\right) \,dr$
+
+
+  \problem$\ds \int^{0}_{-1} (x+1)^3 \,dx$
+
+
+  \problem$\ds \int^{-2}_{-5} \frac{x^4-1}{ x^2+1} \,dx$
+
+
+  \problem$\ds \int^e_{1} \frac{x^2+x+1}{ x} \,dx$
+
+
+  \problem$\ds \int^9_{4} \left(\sqrt{x}+\frac{1}{ \sqrt{x}}\right)^2 \,dx$
+
+
+  \problem$\ds \int^1_{0} \left({\root 4\of {x^5}}+{\root 5\of {x^4}}\right)
+  \,dx$
+
+
+  \problem$\ds \int^8_{1} \frac{x-1}{ {\root 3\of {x^2}}} \,dx$
+
+
+  \problem$\ds \int^{\pi/3}_{\pi/4} \sin t \,dt$
+
+
+  \problem$\ds \int^{\pi/2}_0 (\cos \theta + 2\sin \theta) \,d\theta$
+
+
+  \problem$\ds \int^{\pi/2}_0 (\cos \theta + \sin 2\theta) \,d\theta$
+
+
+  \problem$\ds \int^{\pi}_{2\pi/3} \sec x\tan x \,dx$
+
+
+  \problem$\ds \int^{\pi/2}_{\pi/3} \csc x\cot x \,dx$
+
+
+  \problem$\ds \int^{\pi/3}_{\pi/6} \csc^2 \theta \,d\theta$
+
+
+  \problem$\ds \int^{\pi/3}_{\pi/4} \sec^2 \theta \,d\theta$
+
+
+  \problem$\ds \int^{\sqrt{3}}_{1} \frac{6}{ {1+x^2}} \,dx$
+
+
+  \problem$\ds \int^{0.5}_{0} \frac{dx}{ \sqrt{1-x^2}}$
+
+
+  \problem$\ds \int^{8}_{4} (1/x) \,dx$
+
+
+  \problem$\ds \int^{\ln 6}_{\ln 3} 8e^x \,dx$
+
+
+  \problem$\ds \int^{9}_{8} 2^t \,dt$
+
+
+  \problem$\ds \int^{-e}_{-e^2} \frac{3}{ x} \,dx$
+
+
+  \problem$\ds \int^3_{-2} |x^2-1| \,dx$
+
+
+  \problem$\ds \int^2_{-1} |x-x^2| \,dx$
+
+
+  \problem$\ds \int^2_{-1} (x-2|x|) \,dx$
+
+
+  \problem$\ds \int^2_{0} (x^2-|x-1|) \,dx$
+
+
+
+
+  \problem $\ds \int^2_{0} f(x) \,dx$ where
+  \[
+  f(x) =
+  \begin{cases}
+    x^4,  &\text{if } 0\le x<1,\\
+    x^5, &\text{if } 1\le x\le 2.
+  \end{cases}
+  \]
+
+
+
+
+  \problem $\ds \int^\pi_{-\pi} f(x) \,dx$ where
+  \[
+  f(x) =
+  \begin{cases}
+    x,&\text{if } -\pi\le x\le 0,\\
+    \sin x, & \text{if } 0< x\le \pi.
+  \end{cases}
+  \]
+
+
+
+
+  \problem True or false?  $\ds\int^1_{-1} \frac{3}{t^4}
+  \,dt=\left.\frac{-1}{t^3}\right|_{-1}^1=-1+1=0$.
+
+
+
+  \problem Explain what a Riemann sum is and write the definition of $\ds
+  \int_a^b f(x) dx $ as a limit of Riemann sums.
+
+
+
+
+
+  \problem State the Fundamental Theorem of Calculus.
+
+
+
+  \problem (1)~Water flows into a container at a rate of three gallons per
+  minute for two minutes, five gallons per minute for seven minutes and
+  eleven gallons per minute for two minutes.  How much water is in the
+  container?  (2)~Water flows into a container at a rate of $t^2$ gallons per
+  minute for $0\le t\le 5$.  How much water is in the container?
+
+
+
+
+  \problem Let $f(x)$ be a function which is continuous and let $A(x)$ be the
+  area under $f(x)$ from $a$ to $x$.  Compute the derivative of $A(x)$ by
+  using limits.
+
+
+
+
+  \problem Why is the Fundamental Theorem of Calculus true?  Explain
+  carefully and thoroughly.
+
+
+
+
+  \problem Give an example which illustrates the Fundamental Theorem of
+  Calculus.  In order to do this compute an area by summing up the areas of
+  narrow rectangles and then show that applying the Fundamental Theorem of
+  Calculus gives the same answer.
+
+
+
+
+
+  \problem Sketch the graph of the curve $y=\sqrt{x+1}$ and determine the
+  area of the region enclosed by the curve, the $x$-axis and the lines $x=0$,
+  $x=4$.
+
+
+  \problem Make a sketch of the graph of the function $y=4-x^2$ and determine
+  the area enclosed by the curve, the $x$-axis and the lines $x=0$, $x=2$.
+
+
+  \problem Find the area under the curve $y=\sqrt{6x+4}$ and above the
+  $x$-axis between $x=0$ and $x=2$.  Draw a sketch of the curve.
+
+
+  \problem Graph the curve $y=x^3$ and determine the area enclosed by the
+  curve and the lines $y=0$, $x=2$ and $x=4$.
+
+
+
+
+  \problem Graph the function $f(x)=9-x^2$, $0\le x\le 3$, and determine the
+  area enclosed between the curve and the $x$-axis.
+
+
+  \problem Graph the curve $y=2\sqrt{1-x^2}$, $x\in [0,1]$, and find the area
+  enclosed between the curve and the $x$-axis.
+
+
+  \problem Determine the area under the curve $y=\sqrt{a^2-x^2}$ and between
+  the lines $x=0$ and $x=a$.
+
+
+  \problem Graph the curve $y=2\sqrt{9-x^2}$ and determine the area enclosed
+  between the curve and the $x$-axis.
+
+
+  \problem Graph the area between the curve $y^2=4x$ and the line $x=3$.
+  Find the area of this region.
+
+
+  \problem Find the area bounded by the curve $y=4-x^2$ and the lines $y=0$
+  and $y=3$.
+
+
+  \problem Find the area bounded by the curve $y=x(x-3)(x-5)$, the $x$-axis
+  and the lines $x=0$ and $x=5$.
+
+
+  \problem Find the area enclosed between the curve $y=\sin 2x$, $0\le x\le
+  \pi/4$ and the axes.
+
+
+  \problem Find the area enclosed between the curve $y=\cos 2x$, $0\le x\le
+  \pi/4$ and the axes.
+
+
+  \problem Find the area enclosed between the curve $y=3\cos x$, $0\le x\le
+  \pi/2$ and the axes.
+
+
+  \problem Find the area enclosed between the curve $y=\cos 3x$, $0\le x\le
+  \pi/6$ and the axes.
+
+
+  \problem Find the area enclosed between the curve $y=\tan^2 x$, $0\le x\le
+  \pi/4$ and the axes.
+
+
+  \problem Find the area enclosed between the curve $y=\csc^2 x$, $\pi/4\le
+  x\le \pi/2$ and the axes.
+
+
+  \problem Find the area of the region bounded by $y=-1$, $y=2$, $x=y^3$, and
+  $x=0$.
+
+
+  \problem Find the area of the region bounded by the parabola $y=4x^2$,
+  $x\ge 0$, the $y$-axis, and the lines $y=1$ and $y=4$.
+
+
+  \problem Find the area of the region bounded by the curve $y=4-x^2$ and the
+  lines $y=0$ and $y=3$.
+
+
+  \problem Graph $y^2+1=x$, $x\le 2$ and find the area enclosed by the curve
+  and the line $x=2$.
+
+
+  \problem Graph the curve $y=x/\pi+2\sin^2 x$ and write a definite integral
+  whose value is the area between the $x$-axis, the curve and the lines $x=0$
+  and $x=\pi$.  {\em Do not} evaluate the integral.  {\em Do} specify the
+  limits of integration.
+
+
+
+
+  \problem Find the area bounded by $y=\sin x$ and the $x$-axis between $x=0$
+  and $x=2\pi$.  Hint: Make a careful drawing to decide what area is
+  intended.
+
+
+  \problem Find the area bounded by the curve $y=\cos x$ and the $x$-axis
+  between $x=0$ and $x=2\pi$.
+
+
+  \problem Give an example which shows that $\ds\int_a^b f(x)\, dx$ is not
+  always the true area bounded by the curves $y=f(x)$, $y=0$, $x=a$, and
+  $x=b$ even though $f(x)$ is continuous between $a$ and $b$.
+
+
+  \problem Find the area of the region bounded by the parabola $y^2=4x$ and
+  the line $y=2x$.
+
+
+  \problem Find the area bounded by the curve $y=x(2-x)$ and the line $x=2y$.
+
+
+  \problem Find the area bounded by the curve $x^2=4y$ and the line $x=4y-2$.
+
+
+  \problem Calculate the area of the region bounded by the parabolas $y=x^2$
+  and $x=y^2$.
+
+
+  \problem Find the area of the region included between the parabola $y^2=x$
+  and the line $x+y=2$.
+
+
+  \problem Find the area of the region bounded by the curves $y=\sqrt{x}$ and
+  $y=x$.
+
+
+  \problem Use integration to find the area of the triangular region bounded
+  by the lines $y=2x+1$, $y=3x+1$ and $x=4$.
+
+
+  \problem Find the area bounded by the parabola $x^2-2=y$ and the line
+  $x+y=0$.
+
+
+  \problem Graph the curve $y=(1/2)x^2+1$ and the straight line $y=x+1$ and
+  find the area between the curve and the line.
+
+
+  \problem Find the area of the region between the parabolas $y^2=x$ and
+  $x^2=16y$.
+
+
+  \problem Find the area of the region enclosed by the parabola $y^2=4ax$ and
+  the line $y=mx$.
+
+
+  \problem Find $a$ so that the curves $y=x^2$ and $y=a\cos x$ intersect at
+  the points $(x,y)=(\frac\pi4, \frac{\pi^2}{16})$. Then find the area
+  between these curves.
+
+
+  \problem Write a definite integral whose value is the area of the region
+  between the two circles $x^2+y^2=1$ and $(x-1)^2+y^2=1$.  Find this area.
+  If you cannot evaluate the integral by calculus you may use geometry to
+  find the area.  Hint: The part of a circle cut off by a line is a circular
+  sector with a triangle removed.
+
+
+  \problem Write a definite integral whose value is the area of the region
+  between the circles $x^2+y^2=4$ and $(x-2)^2+y^2=4$.  {\em Do not} evaluate
+  the integral.  {\em Do} specify the limits of integration.
+
+
+  \problem Write a definite integral whose value is the area of the region
+  between the curves $x^2+y^2=2$ and $x=y^2$ {\em Do not} evaluate the
+  integral.  {\em Do} specify the limits of integration.
+
+
+  \problem Write a definite integral whose value is the area of the region
+  between the curves $x^2+y^2=2$ and $x=y^2$.  Find this area.  If you cannot
+  evaluate the integral by calculus you may use geometry to find the area.
+  Hint: Divide the region into two parts.
+
+
+  \problem Write a definite integral whose value is the area of the part of
+  the first quadrant which is between the parabola $y^2=x$ and the circle
+  $x^2+y^2-2x=0$.  Find this area.  If you cannot evaluate the integral by
+  calculus you may use geometry to find the area.  Hint: Draw a careful
+  graph. Divide a semicircle in two.
+
+
+  \problem Find the area bounded by the curves $y=x$ and $y=x^3$.
+
+
+  \problem Graph $y=\sin x$ and $y=\cos x$ for $0\le x\le \pi/2$ and find the
+  area enclosed by them and the $x$-axis.
+
+
+  \problem Write a definite integral whose value is the area inside the
+  ellipse $\ds \frac{x^2}{ a^2}+\frac{y^2}{ b^2}=1$.  Evaluate this area.
+  Hint: After a suitable change of variable, the definite integral becomes
+  the definite integral whose value is the area of a circle.
+
+
+  \problem Using integration find the area of the triangle with vertices
+  $(-1,1)$, $(0,5)$ and $(3,2)$.
+
+
+  \problem Find the volume that results by rotating the triangle $1\le x\le
+  2$, $0\le y\le 3x-3$ around the $x$ axis.
+
+
+
+
+  \problem \label{SphereVolume} Find the volume that results by rotating the
+  semicircle $y=\sqrt{R^2-x^2}$ about the $x$-axis.
+
+
+
+  \problem A triangle is formed by drawing lines from the two endpoints of a
+  line segment of length $b$ to a vertex $V$ which is at a height $h$ above
+  the line of the line segment. Its area is then $A=\int_{y=0}^h dA$ where
+  $dA$ is the area of the strip cut out by two parallel lines separated by a
+  distance of $dz$ and at a height of $z$ above the line containing the line
+  segment. Find a formula for $dA$ in terms of $b$, $z$, and $dz$ and
+  evaluate the definite integral.
+
+
+  \problem A pyramid is formed by drawing lines from the four vertices of a
+  rectangle of area $A$ to an apex $P$ which is at a height $h$ above the
+  plane of the rectangle. Its volume is then $V=\int_{z=0}^h dV$ where $dV$
+  is the volume of the slice cut out by two planes parallel to the plane of
+  the rectangle and separated by a distance of $dz$ and at a height of $z$
+  above the plane of the rectangle. Find a formula for $dV$ in terms of $A$,
+  $z$, and $dz$ and evaluate the definite integral.
+
+
+  \problem A tetrahedron is formed by drawing lines from the three vertices
+  of a triangle of area $A$ to an apex $P$ which is at a height $h$ above the
+  plane of the triangle. Its volume is then $V=\int_{z=0}^h dV$ where $dV$ is
+  the volume of the slice cut out by two planes parallel to the plane of the
+  triangle and separated by a distance of $dz$ and at a height of $z$ above
+  the plane of the rectangle. Find a formula for $dV$ in terms of $A$, $z$,
+  and $dz$ and evaluate the definite integral.
+
+
+  \problem A cone is formed by drawing lines from the perimeter of a circle
+  of area $A$ to an apex $V$ which is at a height $h$ above the plane of the
+  circle. Its volume is then $V=\int_{z=0}^h dV$ where $dV$ is the volume of
+  the slice cut out by two planes parallel to the plane of the circle and
+  separated by a distance of $dz$ and at a height of $z$ above the plane of
+  the rectangle. Find a formula for $dV$ in terms of $A$, $z$, and $dz$ and
+  evaluate the definite integral.
+
+
+  \problem (a)~A hemispherical bowl of radius $a$ contains water to a depth
+  $h$. Find the volume of the water in the bowl.  (b)~Water runs into a
+  hemispherical bowl of radius 5 ft at the rate of 0.2 ft${}^3$/sec. How fast
+  is the water level rising when the water is 4 ft deep?
+
+
+  \problem (Alternate wording for previous problem.)  A hemispherical bowl is
+  obtained by rotating the semicircle $x^2+(y-a)^2=a^2$, $y\le a$ about the
+  $y$-axis.  It is filled with water to a depth of $h$, i.e. the water level
+  is the line $y=h$. (a)~Find the volume of the water in the bowl as a
+  function of $h$. (b)~Water runs into a hemispherical bowl of radius 5 ft at
+  the rate of 0.2 ft${}^3$/sec. How fast is the water level rising when the
+  water is 4 ft deep?  (Hint: Use the method of related rates and the
+  Fundamental Theorem.)
+
+
+  \problem A vase is constructed by rotating the curve $x^3-y^3=1$ for $0\le
+  y\le 8$ around the $y$ axis.  It is filled with water to a height $y=h$
+  where $h<8$.  (a)~Find the volume of the water in terms of $h$.  (Express
+  your answer as a definite integral.  Do not try to evaluate the integral.)
+  (b)~If the vase is filling with water at the rate of 2 cubic units per
+  second, how fast is the height of the water increasing when this height is
+  $2$ units?
+
+\end{multicols}
+\noproblemfont
+

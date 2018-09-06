@@ -1,0 +1,184 @@
+\subsection{Inverse trig review}
+
+\problem \groupproblem The \emph{inverse sine function} is the inverse
+function to the (restricted) sine function, i.e. when $-\pi/2\le
+\theta\le\pi/2$ we have
+\[
+\theta =\arcsin(y) \iff y=\sin\theta.
+\]
+The inverse sine function is sometimes called \emph{Arc Sine function}
+and denoted $\theta=\arcsin(y)$.
+We avoid the notation $\sin^{-1}(x)$ as it is ambiguous:
+it could stand for either $\arcsin x$ or for $(\sin x)^{-1} = 1/(\sin x)$.
+
+
+\subprob If $y=\sin\theta$, express $\sin\theta$, $\cos\theta$, and
+$\tan\theta$ in terms of $y$ when \(0\le\theta<\pi/2\).
+
+\subprob If $y=\sin\theta$, express $\sin\theta$, $\cos\theta$, and
+$\tan\theta$ in terms of $y$ when $\pi/2<\theta\le\pi$.
+
+\subprob If $y=\sin\theta$, express $\sin\theta$, $\cos\theta$, and
+$\tan\theta$ in terms of $y$ when $-\pi/2<\theta<0$.
+
+\subprob Evaluate $\DS\int\frac{\dd y}{\sqrt{1-y^2}}$ using the
+substitution $y=\sin\theta$, but give the final answer in terms of
+$y$.
+
+\problem \groupproblem Express in simplest form:
+\[
+\tsubprob \cos(\arcsin^{-1}(x));\qquad
+\tsubprob \tan \left\{ \arcsin\frac{\ln \frac14}{\ln 16}\right\};\qquad
+\tsubprob \sin \bigl(2\arctan a\bigr)
+\]
+
+\problem \groupproblem  Draw the graph of $y=f(x) = \arcsin\bigl (\sin (x)\bigr)$,
+for $-2\pi\leq x\leq +2\pi$. Make sure you get the same answer as your
+graphing calculator.
+
+\problem The \emph{inverse tangent function} is the inverse function to
+the (restricted) tangent function, i.e. for $\pi/2< \theta<\pi/2$ we have
+\[
+\theta =\arctan(w) \iff w=\tan\theta.
+\]
+The inverse tangent function is sometimes called \emph{Arc Tangent  function}
+and denoted $\theta=\arctan(y)$.
+As with the arc sine, we avoid the notation $\tan^{-1}(x)$ since it
+could stand for either $\arctan x$ or for $(\tan x)^{-1} = 1/(\tan x)$.
+
+\subprob If $w=\tan\theta$, express $\sin\theta$ and
+$\cos\theta$ in terms of $w$ when
+\[
+(a)\;\;  0\le\theta<\pi/2 \qquad
+(b)\;\; \pi/2<\theta\le\pi \qquad
+(c)\;\; -\pi/2<\theta<0
+\]
+
+
+\subsection{Integration by Parts and Reduction Formulae}
+
+
+\problem Evaluate $\DS \int x^n \ln x\,\dd x$ where $n\ne-1$.
+
+\answer
+$\DS \int x^n \ln x\,\dd x
+= \frac{x^{n+1}\ln x}{n+1} - \frac{x^{n+1}}{(n+1)^2}+C$.
+\endanswer
+
+\problem Evaluate $\DS \int e^{ax}\sin bx\,\dd x$ where $a^2+b^2\ne
+0$.  [Hint: Integrate by parts twice.]
+
+\answer
+$\DS\int e^{ax}\sin bx\,\dd x= \frac{e^{ax}}{a^2+b^2}(a\sin bx
+-b\cos bx)+C.$
+\endanswer
+
+\problem Evaluate $\DS\int e^{ax}\cos bx\,\dd x$ where $a^2+b^2\ne 0$.
+
+\answer
+$\DS\int e^{ax}\cos bx\,\dd x
+= \frac{e^{ax}}{a^2+b^2}(a\cos bx+b\sin bx)+C.$
+\endanswer
+
+
+
+\problem Prove the formula
+\[
+\int x^n e^x\,\dd x= x^ne^x-n\int x^{n-1}e^x\,\dd x
+\]
+and use it to evaluate $\DS\int x^2e^x\,\dd x$.
+
+\problem Prove the formula
+\[
+\int \sin^nx\,\dd x
+= -\frac1n{\cos x\sin^{n-1}x}
++\frac{n-1}{n}\int\sin^{n-2}x\,\dd x,\qquad n\ne0
+\]
+\problem Evaluate $\DS\int\sin^2x\,\dd x$.  Show that the answer
+is the same as the answer you get using the half angle formula.
+
+\problem Evaluate $\DS\int_0^\pi\sin^{14}x\,\dd x$.
+\answer
+$\int_0^{\pi} \sin^{14}x dx = \frac{13\cdot11\cdot9\cdot7\cdot5\cdot3\cdot1 }
+{14\cdot12\cdot10\cdot8\cdot6\cdot4\cdot2}\pi$
+\endanswer
+
+\problem Prove the formula
+\[
+\int \cos^nx\,\dd x
+= \frac1n{\sin x\cos^{n-1}x}
++\frac{n-1}{n}\int\cos^{n-2}x\,\dd x,\qquad n\ne0
+\]
+and use it to evaluate $\DS\int_0^{\pi/4}\cos^4x\,\dd x$.
+\answer
+$\int \cos^n x dx = \frac1n\sin x \cos^{n-1}x
++\frac{n-1}n\int\cos^{n-2}x dx$;
+$\int_0^{\pi/4}\cos^4 x dx = \frac7{16}+ \frac3{32}\pi$
+\endanswer
+
+\problem Prove the formula
+\[
+\int x^m(\ln x)^n\,\dd x= \frac{x^{m+1}(\ln
+x)^n}{m+1}-\frac{n}{m+1}\int x^m(\ln x)^{n-1}\,\dd x,
+\qquad m\ne -1,
+\]
+and use it to evaluate the following integrals:
+\answer
+Hint: first integrate $x^m$.
+\endanswer
+\problem $\DS\int \ln x\,\dd x$
+\answer
+$x\ln x-x+C$
+\endanswer
+\problem $\DS\int (\ln x)^2\,\dd x$
+\answer
+$x(\ln x)^2-2x\ln x+2x+C$
+\endanswer
+\problem $\DS\int x^3(\ln x)^2\,\dd x$
+\problem Evaluate $\DS\int x^{-1}\ln x\,\dd x$ by another
+method. [Hint: the solution is short!]
+\answer
+Substitute $u=\ln x$.
+\endanswer
+
+\problem For an integer $n > 1$ derive the formula
+\[
+\int \tan^n x\,\dd x=\frac 1{n-1}\tan^{n-1}x-\int \tan^{n-2}x\,\dd x
+\]
+Using this, find $\DS\int_0^{\pi/4} \tan^5x\,\dd x$ by doing just one
+explicit integration.
+\answer
+$\int_0^{\pi/4}\tan^5 xdx =
+\frac14(1)^4-\frac12(1)^2 + \int_0^{\pi/4}\tan x dx =
+-\frac14+\ln\frac12\surd2$
+\endanswer
+
+Use the reduction formula from
+example~\ref{ex:pt-fracs-reduction} to compute these integrals:
+\problem $\DS \int \frac{\dd x}{(1+x^2)^3}$
+\problem $\DS \int \frac{\dd x}{(1+x^2)^4}$
+\problem $\DS \int \frac{x\dd x}{(1+x^2)^4}$
+[Hint: $\int x/ (1+x^2)^n \dd x$ is easy.]
+\problem $\DS \int \frac{1+ x}{(1+x^2)^2}\,\dd x$
+
+\problem \groupproblem  The reduction formula from
+example~\ref{ex:pt-fracs-reduction} is valid for all $n\neq0$. In
+particular, $n$ does not have to be an integer, and it does not have
+to be positive.
+
+Find a relation between $\DS\int \sqrt{1+x^2}\,\dd x$ and
+$\DS\int\frac{\dd x}{\sqrt{1+x^2}}$ by setting $n=-\frac12$.
+
+\problem Apply integration by parts to \[\int \frac1x \;dx\]
+Let
+$u=\frac1x$ and $dv=dx$.  This gives us,\ $du=\frac{-1}{\;x^2}\,dx$
+and $v=x$.
+\[\int \frac1x \;dx = (\frac1x)(x) -\int x\;\frac{-1}{\;x^2}\;dx\]
+Simplifying
+\[\int \frac1x \;dx = 1 + \int \frac1x \;dx\]
+and subtracting the integral from both sides gives us $0=1$.
+How can this be?
+
+\vskip 2ex
+
+

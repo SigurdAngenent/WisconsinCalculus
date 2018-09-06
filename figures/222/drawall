@@ -1,0 +1,25 @@
+#!/bin/bash
+
+python 02AgnesiSeries.py
+python 02Taylor012-0.py
+python 02Taylor012-1.py
+python 02Taylor012-2.py
+python 02Taylor012.py
+python 02Versiera.py
+python 02et.py
+python 02geometricseries.py
+python 02nochemistry.py
+python 02powerBeatsLinear.py
+python 02powersOfx.py
+python 02sint.py
+python 02string-around-earth.py
+python 02taylorAta.py
+python 03directionfield-euler.py
+python 03directionfield-withsolutions.py
+python 03directionfield.py
+python 04leakybucket-soltn.py
+python 05rightangle_problem.py
+python 06helix.py
+python 06length-in-PC.py
+python 06neils-problem.py
+python 06sketchme-problem.py

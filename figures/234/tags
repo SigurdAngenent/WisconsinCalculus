@@ -1,0 +1,16 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+PMAT	grapher3d.py	/^PMAT = matrix([[0.0,0.0], [1.0,0.0], [0.0,1.0]])$/;"	v
+line3d	grapher3d.py	/^def line3d(P,Q): #{{{1$/;"	f
+pr	grapher3d.py	/^def pr(q, debug=0): #{{{1$/;"	f
+resetProjection	grapher3d.py	/^def resetProjection(): #{{{1$/;"	f
+rotatex	grapher3d.py	/^def rotatex(angle,pro): #{{{1$/;"	f
+rotatey	grapher3d.py	/^def rotatey(angle,pro): #{{{1$/;"	f
+rotatez	grapher3d.py	/^def rotatez(angle,pro): #{{{1$/;"	f
+setProjection	grapher3d.py	/^def setProjection(pm): #{{{1$/;"	f
+shadowline3d	grapher3d.py	/^def shadowline3d(A, B,widths=[1,0.25], colors=['white','black']): #{{{1$/;"	f
+theProjection	grapher3d.py	/^def theProjection(): #{{{1$/;"	f

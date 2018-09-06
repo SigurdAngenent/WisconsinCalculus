@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Creator: fig2dev Version 3.2 Patchlevel 5 -->
+
+<!-- CreationDate: Wed Dec 17 18:49:45 2008 -->
+
+<!-- Magnification: 1.000 -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1.3in"
+   height="2.1in"
+   viewBox="-537 -737 1524 2474"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.48.1 r9760"
+   sodipodi:docname="04spring-with-friction.pdf"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape"
+   version="1.1">
+  <metadata
+     id="metadata59">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs57">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 94.499992 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="116.99999 : 94.499992 : 1"
+       inkscape:persp3d-origin="58.499996 : 62.999995 : 1"
+       id="perspective61" />
+  </defs>
+  <sodipodi:namedview
+     inkscape:window-height="756"
+     inkscape:window-width="1232"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     guidetolerance="10.0"
+     gridtolerance="10.0"
+     objecttolerance="10.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base"
+     showgrid="false"
+     inkscape:zoom="2.6349208"
+     inkscape:cx="-4.1204807"
+     inkscape:cy="94.499992"
+     inkscape:window-x="0"
+     inkscape:window-y="22"
+     inkscape:current-layer="svg2"
+     inkscape:window-maximized="0" />
+  <polyline
+     id="polyline6"
+     style="fill:#c3e7ff;stroke:#000000;stroke-width:7;stroke-linecap:butt;stroke-linejoin:bevel"
+     points="-525,750 -525,753 -525,759 -525,770 -525,788 -525,811 -525,841 -525,876 -525,916 -525,958 -525,1002 -525,1046 -525,1090 -525,1132 -525,1173 -525,1211 -525,1246 -525,1278 -525,1308 -525,1336 -525,1361 -525,1384 -525,1406 -525,1426 -525,1445 -525,1463 -525,1486 -525,1509 -525,1530 -524,1550 -523,1569 -521,1586 -519,1602 -516,1617 -513,1631 -508,1643 -503,1654 -497,1664 -489,1672 -481,1680 -472,1686 -462,1691 -450,1696 -438,1700 -425,1703 -411,1706 -396,1709 -379,1711 -361,1714 -341,1716 -320,1717 -298,1719 -275,1720 -250,1722 -225,1722 -200,1723 -174,1724 -149,1724 -123,1725 -98,1725 -73,1725 -48,1725 -24,1725 0,1725 24,1725 48,1725 73,1725 98,1725 123,1725 149,1724 174,1724 200,1723 225,1722 250,1722 275,1720 298,1719 320,1717 341,1716 361,1714 379,1711 396,1709 411,1706 425,1703 438,1700 450,1696 462,1691 472,1686 481,1680 489,1672 497,1664 503,1654 508,1643 513,1631 516,1617 519,1602 521,1586 523,1569 524,1550 525,1530 525,1509 525,1486 525,1463 525,1445 525,1426 525,1406 525,1384 525,1361 525,1336 525,1308 525,1278 525,1246 525,1211 525,1173 525,1132 525,1090 525,1046 525,1002 525,958 525,916 525,876 525,841 525,811 525,788 525,770 525,759 525,753 525,750 " />
+  <polyline
+     id="polyline8"
+     style="stroke:#000000;stroke-width:7;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:20, 20"
+     points="0,1050 975,1050 " />
+  <polyline
+     id="polyline10"
+     style="stroke:#000000;stroke-width:7;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:20, 20"
+     points="0,-450 975,-450 " />
+  <text
+     style="font-size:78.53968888px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;stroke:#000000;stroke-width:0.02500000000000000in;font-family:Times;-inkscape-font-specification:Times"
+     id="text12"
+     font-size="120"
+     font-weight="normal"
+     font-style="italic"
+     y="1095"
+     x="-247"
+     xml:space="preserve"
+     sodipodi:linespacing="125%">$m$</text>
+  <polyline
+     id="polyline14"
+     style="fill:#7f7f7f;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:bevel"
+     points="-450,-450 -448,-450 -444,-450 -436,-450 -423,-450 -405,-450 -381,-450 -351,-450 -315,-450 -273,-450 -226,-450 -174,-450 -118,-450 -60,-450 0,-450 60,-450 118,-450 174,-450 226,-450 273,-450 315,-450 351,-450 381,-450 405,-450 423,-450 436,-450 444,-450 448,-450 450,-450 448,-453 445,-459 438,-470 429,-486 417,-505 403,-527 388,-549 372,-572 356,-594 340,-613 324,-631 309,-647 293,-660 277,-672 261,-683 243,-692 225,-700 207,-707 188,-712 168,-718 147,-722 125,-727 101,-730 77,-733 52,-735 26,-736 0,-736 -26,-736 -52,-735 -77,-733 -101,-730 -125,-727 -147,-722 -168,-718 -188,-712 -207,-707 -225,-700 -243,-692 -261,-683 -277,-672 -293,-660 -309,-647 -324,-631 -340,-613 -356,-594 -372,-572 -388,-549 -403,-527 -417,-505 -429,-486 -438,-470 -445,-459 -448,-453 -450,-450 " />
+  <polyline
+     id="polyline16"
+     style="stroke:#000000;stroke-width:7;stroke-linecap:butt;stroke-linejoin:miter"
+     points="-450,-450 450,-450 " />
+  <polyline
+     id="polyline18"
+     style="stroke:#000000;stroke-width:7.00312225999999960;stroke-linecap:butt;stroke-linejoin:round;fill:none;stroke-miterlimit:4;stroke-dasharray:none"
+     points="0,-450 0,-300 -150,-225 150,-150 -150,-75 150,0 -150,75 150,150 -150,225 150,300 -150,375 150,450 0,525 0,1050 " />
+  <text
+     style="font-size:78.53968888px;font-style:normal;font-weight:500;text-anchor:start;fill:#000000;stroke:#000000;stroke-width:0.02500000000000000in;font-family:Times;-inkscape-font-specification:Times"
+     id="text20"
+     font-size="108"
+     font-weight="bold"
+     font-style="italic"
+     y="1288.2803"
+     x="20.28042"
+     xml:space="preserve">$F_{\rm gravity}$</text>
+  <text
+     style="font-size:78.53968888px;font-style:normal;font-weight:500;text-anchor:start;fill:#000000;stroke:#000000;stroke-width:0.02500000000000000in;font-family:Times;-inkscape-font-specification:Times"
+     id="text22"
+     font-size="108"
+     font-weight="bold"
+     font-style="italic"
+     y="675"
+     x="150"
+     xml:space="preserve">$F_{\rm spring}$</text>
+  <text
+     style="font-size:78.53968888px;font-style:normal;font-weight:500;text-anchor:start;fill:#000000;stroke:#000000;stroke-width:0.02500000000000000in;font-family:Times;-inkscape-font-specification:Times"
+     id="text26"
+     font-size="108"
+     font-weight="bold"
+     font-style="italic"
+     y="750"
+     x="-375"
+     xml:space="preserve" />
+  <text
+     style="font-size:78.53968888px;font-style:normal;font-weight:500;text-anchor:start;fill:#000000;stroke:#000000;stroke-width:0.02500000000000000in;font-family:Times;-inkscape-font-specification:Times"
+     id="text28"
+     font-size="108"
+     font-weight="bold"
+     font-style="italic"
+     y="635.25702"
+     x="-435.09634"
+     xml:space="preserve">$F_{\rm drag}$</text>
+  <text
+     style="font-size:78.53968888px;font-style:normal;font-weight:500;text-anchor:start;fill:#000000;stroke:#000000;stroke-width:0.02500000000000000in;font-family:Helvetica;-inkscape-font-specification:Times"
+     id="text30"
+     font-size="108"
+     font-weight="bold"
+     font-style="italic"
+     y="300"
+     x="622.64026"
+     xml:space="preserve"><tspan
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;stroke-width:2.25000000000000000;font-family:Sans;-inkscape-font-specification:Times;font-size:78.53968888px"
+       id="tspan3007">$y(t)$</tspan></text>
+  <polyline
+     id="polyline32"
+     style="stroke:#000000;stroke-width:7;stroke-linecap:round;stroke-linejoin:miter;stroke-dasharray:60, 60"
+     points="904,-357 904,963 " />
+  <polygon
+     id="polygon34"
+     style="fill:#ffffff;stroke:#000000;stroke-width:7;stroke-linejoin:round"
+     points="859,945 904,1058 949,945 904,968 859,945 " />
+  <polygon
+     id="polygon36"
+     style="fill:#ffffff;stroke:#000000;stroke-width:7;stroke-linejoin:round"
+     points="949,-338 904,-451 859,-338 904,-361 949,-338 " />
+  <polyline
+     id="polyline38"
+     style="stroke:#000000;stroke-width:15;stroke-linecap:butt;stroke-linejoin:miter"
+     points="75,1050 75,839 " />
+  <polygon
+     id="polygon40"
+     style="fill:#000000;stroke:#000000;stroke-width:7;stroke-linejoin:round"
+     points="120,842 75,730 30,842 75,820 120,842 "
+     transform="translate(0,26.179896)" />
+  <polyline
+     id="polyline42"
+     style="stroke:#000000;stroke-width:15;stroke-linecap:butt;stroke-linejoin:miter"
+     points="-75,1050 -75,764 " />
+  <polygon
+     id="polygon44"
+     style="fill:#000000;stroke:#000000;stroke-width:7;stroke-linejoin:round"
+     points="-29,767 -74,655 -119,767 -74,745 -29,767 "
+     transform="translate(0,26.179896)" />
+  <polyline
+     id="polyline46"
+     style="stroke:#000000;stroke-width:15;stroke-linecap:butt;stroke-linejoin:miter"
+     points="0,1050 0,1410 " />
+  <polygon
+     id="polygon48"
+     style="fill:#000000;stroke:#000000;stroke-width:7;stroke-linejoin:round"
+     points="-45,1407 0,1520 45,1407 0,1430 -45,1407 "
+     transform="translate(0,-26.179896)" />
+  <text
+     style="font-size:78.53968888px;font-style:normal;font-weight:500;text-anchor:start;fill:#000000;stroke:#000000;stroke-width:0.02500000000000000in;font-family:Times;-inkscape-font-specification:Times"
+     id="text50"
+     font-size="108"
+     font-weight="bold"
+     font-style="italic"
+     y="1650"
+     x="-300"
+     xml:space="preserve">canola oil</text>
+  <circle
+     sodipodi:ry="48"
+     sodipodi:rx="48"
+     sodipodi:cy="1050"
+     sodipodi:cx="0"
+     id="circle54"
+     style="fill:#8f0000;stroke:#000000;stroke-width:0"
+     r="48"
+     cy="1050"
+     cx="0" />
+</svg>

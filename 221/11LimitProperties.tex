@@ -1,0 +1,73 @@
+%!TEX TS-program = xelatex
+%Time-stamp: Aug  8 20:20 free221.tex
+\documentclass{amsproc}
+\input ../preamble
+%\input ../gans.tex
+\newcommand\version{1.0}
+\newcommand\semester{Fall 2012}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\includeonly{09intapps}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+\graphicspath{{figures/}}
+\centerline{\bfseries MATH 221 -- The Limit properties}
+
+\noindent\rule{\textwidth}{1pt}
+
+\section{Special Limits}
+\begin{align}
+  \lim_{x\to a} c &= c\\
+  \lim_{x\to a} x &= a\\
+  \lim_{x\to a} \frac{\sin x}{x} &= 1
+\end{align}
+
+\noindent\rule{\textwidth}{1pt}
+
+\section{Sums, Products and Quotients}
+If $\lim_{x\to a} f(x) = A$ and $\lim_{x\to a}g(x)=B$ both exist, then
+\begin{align}
+  &\lim_{x\to a} f(x) +g(x) \text{ exists, and }&\lim_{x\to a} f(x) +g(x) &=A+B \\
+  &\lim_{x\to a} f(x) -g(x) \text{ exists, and }&\lim_{x\to a} f(x) -g(x) &=A-B \\
+  &\lim_{x\to a} f(x) g(x) \text{ exists, and }&\lim_{x\to a} f(x) g(x) &=AB \\
+  &\lim_{x\to a} \frac{f(x) }{g(x)} \text{ exists, and }&\lim_{x\to a} \frac{f(x) }{g(x)}
+  &=\frac{A}{B} \text{ provided }B\neq0.
+\end{align}
+
+\noindent\rule{\textwidth}{1pt}
+
+\section{Inequalities}
+If $\lim_{x\to a} f(x) = A$ and $\lim_{x\to a}g(x)=B$ both exist, and if $f(x)
+\leq g(x)$ for all $x\neq a$,  then $A\leq B$, i.e.
+\begin{equation}
+  \lim_{x\to a} f(x) \leq \lim_{x\to a}g(x).
+\end{equation}
+
+If $\lim_{x\to a} f(x) $ and $\lim_{x\to a}g(x)$ both exist \emph{and are
+equal}, and if there is a third function $h$ for which you know that
+\[
+  f(x) \leq h(x) \leq g(x) \text{ for all } x\neq a, 
+\]
+then, first of all, the limit $\lim_{x\to a} h(x)$ exists, and
+\[
+  \lim_{x\to a} f(x) = \lim_{x\to a} h(x) = \lim_{x\to a} g(x).
+\]
+
+\noindent\rule{\textwidth}{1pt}
+
+\section{Substitution}
+If $\lim_{x\to a} f(x) = A$ exists, and if the function $g(u)$ is continuous at
+$u=A$ then
+\[
+  \lim_{x\to a} g\bigl(f(x)\bigr) = \lim_{u\to A} g(u) = g(A),
+\]
+or, written differently,
+\begin{equation}
+  \lim_{x\to a} g\bigl(f(x)\bigr) = g\bigl(\lim_{x\to a} f(x)\bigr).
+\end{equation}
+
+
+
+%\newpage
+%%%%%%%%%%%%  GNU FDL  %%%%%%%%%%%%%%%
+%%\input ../gfdl
+\end{document}

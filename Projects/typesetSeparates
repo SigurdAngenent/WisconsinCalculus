@@ -1,0 +1,14 @@
+#!/bin/bash
+xelatex separate1_functions.tex
+xelatex separate2_PopulationModels.tex
+xelatex separate3_Limits.tex
+xelatex separate4_derivs.tex
+xelatex separate5_LogLogCh6.tex
+xelatex separate6_RiemannSums.tex
+mv separate1_functions.pdf  1_functions.pdf
+mv separate2_PopulationModels.pdf  2_PopulationModels.pdf
+mv separate3_Limits.pdf  3_Limits.pdf
+mv separate4_derivs.pdf  4_derivs.pdf
+mv separate5_LogLogCh6.pdf  5_LogLogCh6.pdf
+mv separate6_RiemannSums.pdf  6_RiemannSums.pdf
+

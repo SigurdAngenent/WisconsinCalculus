@@ -1,0 +1,67 @@
+%% Creator: Inkscape inkscape 0.48.2, www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file '03sine-derivative.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{108bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,1.87407407)%
+    \put(0,0){\includegraphics[width=\unitlength]{03sine-derivative.pdf}}%
+    \put(0.66909982,0.81830602){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\Delta\theta$}}}%
+    \put(-0.10296456,0.71637776){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\sin\theta$}}}%
+    \put(-0.37032884,0.86738823){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\sin(\theta+\Delta\theta)$}}}%
+    \put(0.73764483,0.24815656){\color[rgb]{0,0,0}\rotatebox{-30.00000011}{\makebox(0,0)[lb]{\smash{$\cos\theta$}}}}%
+    \put(0.55017727,0.23698675){\color[rgb]{0,0,0}\rotatebox{-30.00000011}{\makebox(0,0)[lb]{\smash{$\cos(\theta+\Delta\theta)$}}}}%
+    \put(0.43041172,0.36940691){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\theta$}}}%
+    \put(0.32835907,1.52941713){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\Delta\theta$}}}%
+    \put(0.10214018,1.31405616){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[lb]{\smash{$\Delta(\sin\theta)$}}}}%
+    \put(0.1505813,1.18867639){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$-\Delta(\cos\theta)$}}}%
+    \put(0.18021093,1.47015787){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\theta$}}}%
+    \put(0.77280352,1.30719491){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\theta$}}}%
+    \put(0.75376446,0.73962097){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$P$}}}%
+    \put(0.59134097,0.91683078){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$Q$}}}%
+  \end{picture}%
+\endgroup%

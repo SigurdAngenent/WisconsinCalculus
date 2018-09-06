@@ -1,0 +1,31 @@
+
+\chardef\other=12
+\newwrite\ans
+\immediate\openout\ans=answersANDhints % file for answers to exercises
+\immediate\write\ans{\string\relax}
+\immediate\write\ans{\string\tolerance10000}
+\long\def\answer{%\par\medbreak
+\hfill\parbox{0pt}{\textcolor{limegreen}{$\bullet$}}%\\
+\immediate\write\ans{}
+  \immediate\write\ans{%
+  \string\item[{\string\bfseries  
+  \ifcase\theSUBPROB(\Roman{chapter}\arabic{section}.\arabic{PROB})%
+  \else(\Roman{chapter}\arabic{section}.\arabic{PROB}\alph{SUBPROB})\fi }]}
+  \copytoendofanswer}
+
+\def\copytoendofanswer{\begingroup\setupcopy\copyans}
+
+\def\setupcopy{
+\def\do##1{\catcode`##1=\other}\dospecials\catcode`\^=12
+  \catcode`\|=\other \obeylines}
+
+{\catcode`\|=0\catcode`\\=\other
+|gdef|closeanswer{\endanswer}}
+
+{\obeylines \gdef\copyans#1
+  {\def\next{#1}%
+  \ifx\next\closeanswer\immediate\write\ans{\string\bigskip}\let\next=\endgroup 
+  \else\immediate\write\ans{\next}\let\next=\copyans\fi\next}}
+
+%\def\uncatcodespecials{\def\do##1{\catcode`##1=12 }\dospecials}
+

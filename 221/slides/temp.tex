@@ -1,0 +1,29 @@
+
+\documentclass{amsart}
+\usepackage{color}
+\usepackage{graphicx}
+\usepackage{nopageno}
+\begin{document}
+\setlength{\parindent}{0pt}
+\pagestyle{empty}
+\hrule
+\begin{minipage}[b]{185pt}
+  \input 03epsAndDelta073.tex
+\end{minipage}
+\begin{minipage}[b]{160pt}
+  \sffamily%
+  \color{blue}Conclusion:\\ this $L$ is not the limit of $f(x)$ as $x\to a$. 
+  
+  \rule{0pt}{18pt}
+ \end{minipage}
+\hrule
+\begin{center}
+    \sffamily\color[rgb]{0.75,0.0,0.0}The definition of ``$\lim_{x\to a} f(x) = L$'':\\
+    \sffamily\color[rgb]{0.0,0.25,0.5} 
+    For every $\varepsilon>0$ there is a $\delta>0$ such that \\
+    for all $x\neq a$ with $a-\delta < x < a+\delta$ one has\\
+    $L-\varepsilon < f(x) < L+\varepsilon$
+\end{center}
+\hrule
+\end{document}
+        

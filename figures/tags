@@ -1,0 +1,2 @@
+open	grapher.py	/^    outfile=open(filename+".eps","w")$/
+rgbcolor	grapher.py	/^        rgb = rgbcolor(rgb)$/

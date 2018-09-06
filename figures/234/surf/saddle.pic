@@ -1,0 +1,33 @@
+
+//  image size
+
+width=600;
+height=600;
+
+//  constants
+
+double  Pi=2*arccos(0);
+poly fish = z - x^2 + (x^3)/4 - y^2;
+
+rot_x=0.6;                      // a nice rotation
+rot_y=0.35;
+illumination=ambient_light +     // specify illumination 
+  diffuse_light +     // model
+  reflected_light +
+  transmitted_light;
+transparence=35;                 // set transparence for surface no 1
+transparence2=0;                // set transparence for surface no 2
+surface=fish;          // first surface: a sphere
+surface2_red=255;                // second surface: a red steiner surface
+surface2_green=0;
+surface2_blue=0;
+surface2=z;
+clear_screen;
+draw_surface;                    // draw the surface
+
+
+
+//surface=fish;
+
+
+

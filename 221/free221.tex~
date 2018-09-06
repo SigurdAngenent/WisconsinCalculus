@@ -1,0 +1,37 @@
+\documentclass[openany,reqno]{amsbook}
+\input ../preamble
+\input ../free-macros
+\input ../gans.tex
+%\newcommand\version{1.1}  \newcommand\semester{Spring 2013}
+%\newcommand\version{1.2}   \newcommand\semester{Fall 2013}
+%\newcommand\version{1.3}   \newcommand\semester{Fall 2015}
+\newcommand\version{1.4}   \newcommand\semester{Fall 2017}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\includeonly{09intapps}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+\graphicspath{{../figures/221/}}
+\include{00frontmatter}
+\include{01things}
+\include{02derivs}
+\include{03limits}
+\include{04derivs}
+\include{05graphsketching}
+\include{07expANDlog}
+\include{08integration}
+\include{09intapps}
+\immediate\closeout\ans  %  closes the answers and hints file
+                         %  so it can but "input" below
+\chapter*{Answers and Hints}
+\begin{trivlist}\problemfont
+  \footnotesize
+  \setlength{\parindent}{0pt}
+  \setlength{\parskip}{0.5ex plus0.5ex}
+  \raggedright
+  \input answersANDhints
+\end{trivlist}
+\noproblemfont
+\newpage
+%%%%%%%%%%%%  GNU FDL  %%%%%%%%%%%%%%%
+\input ../gfdl
+\end{document}

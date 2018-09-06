@@ -1,0 +1,159 @@
+%%%%%%%%%%%%  Self made chapter headings %%%%%%%%%%
+%  Section numbering does NOT get reset 
+%  in every new chapter.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%\newcommand{\chapter}[1]{\newpage
+%%~
+%%\vspace{24pt}
+%%\begin{center}
+%%    \large\sffamily\bfseries#1
+%%\end{center}
+%%\vspace{24pt}
+%%\addcontentsline{toc}{part}{#1}
+%%\setcounter{secno}{0}
+%%}
+%\newcommand{\chapter}[1]{\bigskip
+%
+%  \begin{center}
+%    \LARGE\sffamily\bfseries#1
+%  \end{center}\bigskip
+%
+%}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%       ENVIRONMENTS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newenvironment{definition}[1][Definition]
+{\subsection{#1}\itshape}
+{\upshape}
+\newenvironment{theorem}[1][Theorem]
+{\subsection{#1}\itshape}
+{\upshape}
+\newenvironment{lemma}[1][Lemma]
+{\subsection{#1}\itshape}
+{\upshape}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%      MACROS for PROBLEMS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\problemstyle}{\sffamily\small}
+\newcommand{\noproblemstyle}{\rmfamily\normalsize}
+
+\newcounter{PROB}
+\newcommand{\prob}{\refstepcounter{PROB}%
+\noindent\hspace{1em}\makebox[0pt][r]{\textbf{\thePROB.~}}
+\ignorespaces}
+
+\newcommand{\problem}{\par\smallskip
+
+\noindent\prob}
+
+\newcounter{SUBPROB}[PROB]
+\newcommand{\subprob}
+ {\refstepcounter{SUBPROB}\noindent(\textbf{\slshape\roman{SUBPROB}})~~}
+%
+\input gans.tex
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% GENERAL MACROS
+\newcommand{\DS}{\displaystyle}
+%% TAYLOR MACROS
+\newcommand{\limntoi}{\lim_{n\to\infty}}
+\newcommand{\Ti}{T_{\infty}}
+%% COMPLEX NUMBER MACROS
+\renewcommand{\Re}{\mathfrak{Re}}
+\renewcommand{\Im}{\mathfrak{Im}}
+%% VECTOR MACROS, used in 222 and 234.
+\newcommand{\vvv}[1]{{\vec{\boldsymbol #1}}}  % Use for lower case
+\newcommand{\VVV}[1]{{\vec{\mathbf{#1}}}}     % Use for uppercase
+% if \boldsymbol gives problems use this :
+% \newcommand{\vvv}[1]{\smash{{{\vec{\text{\bfseries\itshape{#1}}}}\,}}}
+%%%% JOEL'S vector and matrix macros
+\newcommand{\mat}{\begin{pmatrix}}
+\newcommand{\rix}{\end{pmatrix}}
+\newcommand{\tmat}{\left(\begin{smallmatrix}}
+\newcommand{\trix}{\end{smallmatrix}\right)}
+\newcommand{\vek}{\mat}
+\newcommand{\tor}{\rix}
+\newcommand{\tvek}{\tmat}
+\newcommand{\ttor}{\trix}
+\newcommand{\tpv}[2]{\overrightarrow{#1 #2}} % Two Point Vector, e.g. $\tpv AB$
+                                             % gives the vector from A to B.
+\newcommand{\va}{{\vvv a}}
+\newcommand{\vb}{{\vvv b}}
+\newcommand{\vc}{{\vvv c}}
+\newcommand{\vd}{{\vvv d}}
+\newcommand{\ve}{{\vvv e}}
+\newcommand{\vf}{{\vvv f}}
+\newcommand{\vg}{{\vvv g}}
+\newcommand{\vp}{{\vvv p}}
+\newcommand{\vi}{{\vvv \imath}}
+\newcommand{\vj}{{\vvv \jmath}}
+\newcommand{\vk}{{\vvv k}}
+\newcommand{\vm}{{\vvv m}}
+\newcommand{\vn}{{\vvv n}}
+\newcommand{\vq}{{\vvv q}}
+\newcommand{\vr}{{\vvv r}}
+\newcommand{\vs}{{\vvv s}}
+\newcommand{\vt}{{\vvv t}}
+\newcommand{\vu}{{\vvv u}}
+\newcommand{\vv}{{\vvv v}}
+\newcommand{\vw}{{\vvv w}}
+\newcommand{\vx}{{\vvv x}}
+\newcommand{\vy}{{\vvv y}}
+\newcommand{\vz}{{\vvv z}}
+\newcommand{\vB}{{\VVV B}}
+\newcommand{\vE}{{\VVV E}}
+\newcommand{\vF}{{\VVV F}}
+\newcommand{\vL}{{\VVV L}}
+\newcommand{\vN}{{\VVV N}}
+\newcommand{\vT}{{\VVV T}}
+\newcommand{\dpp}{\pmb{\cdot}}        % dot product
+\newcommand{\cp}{\pmb{\times}}        % cross product
+\newcommand{\parppd}[8]{%               parallelepiped
+  {#1#2#3#4 \atop #5#6#7#8}
+}
+\newcommand{\nm}[1]{\left\|\smash{#1}\right\|}
+\newcommand{\Nm}[1]{\left\|{#1}\right\|}
+
+
+\newcommand{\odiff}[2]{\frac{\dd #1}{\dd #2}}
+\newcommand{\pdd}[2]{\frac{\partial #1}{\partial #2}}
+\newcommand{\isdef}{\stackrel{\mathrm{def}}{=}}
+\newcommand{\pll}{\|}
+
+\renewcommand{\emph}[1]{{\bfseries\itshape #1}}
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\C}{\mathbb{C}}
+\newcommand{\cC}{\mathcal{C}} 
+\newcommand{\cL}{\mathcal{L}} % used for differential operators in 222
+\newcommand{\cP}{\mathcal{P}} % used for planes in Euclidean space
+\newcommand{\cD}{\mathcal{D}} % used for open subsets, domains, regions, etc.
+\newcommand{\cO}{\mathcal{O}} 
+\newcommand{\cR}{\mathcal{R}} 
+\newcommand{\pd}{\partial}    % partial differentials
+\newcommand{\nab}{\vvv\nabla}
+\renewcommand{\div}{\mathop{\rm div}}
+\newcommand{\grad}{\mathop{\bf grad}}
+\newcommand{\curl}{\mathop{\bf curl}}
+\newcommand{\rot}{\mathop{\bf rot}}
+\newcommand{\lint}{\int\limits}
+\newcommand{\liint}{\iint\limits}
+\newcommand{\liiint}{\iiint\limits}
+
+\newcommand{\hC}{{\hat C}}
+\newcommand{\toi}{\to\infty}
+
+\newcommand{\ssum}[3]{\sum_{#1=#2}^{#3}}
+\newcommand{\tsum}{{\textstyle\sum}}
+\renewcommand{\r}{\right}
+\renewcommand{\l}{\left}
+\newcommand{\cis}[1]{\cos#1+i\sin#1}
+\newcommand{\artanh}{\mathop{\mathrm{artanh}}}
+\newcommand{\dV}{\mathrm{d}V}
+
+%%% Local Variables: 
+%%% mode: latex
+%%% TeX-master: "free234"
+%%% End: 

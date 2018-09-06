@@ -1,0 +1,7 @@
+#!/bin/bash
+pdflatex  free234
+# The pdf file produced by pdflatex looks fine in Preview.app, SumatraPDf, and a
+# various other pdf viewers, but it did once crash Adobe Reader, throwing "error
+# 131".  The following is necessary (??) to produce a pdf file that doesn't crash Adobe
+# Reader.  It also compresses the file somewhat.
+gs -dSAFER -dBATCH -dNOPAUSE  -sDEVICE=pdfwrite -sOutputFile=free234_AdobeReader.pdf free234.pdf 
